@@ -1,0 +1,112 @@
+\documentclass[a4paper,12pt]{article}
+
+% --------------------------------------------------
+% 1) General packages (BEFORE xepersian)
+% --------------------------------------------------
+\usepackage{geometry}
+\geometry{left=30mm,right=25mm,top=30mm,bottom=30mm}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% --- Useful for thesis ---
+\usepackage{amsmath,amssymb}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+
+% --------------------------------------------------
+% 2) Hyperlink style (NO BOX, colored text only)
+% --------------------------------------------------
+\definecolor{LinkBlue}{RGB}{0,70,140}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=LinkBlue,
+	citecolor=LinkBlue,
+	urlcolor=LinkBlue
+}
+
+% --------------------------------------------------
+% 3) Bibliography (Numbers in brackets: [1], [2], ...)
+% --------------------------------------------------
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=none,
+doi=false,
+isbn=false,
+url=false,
+eprint=false
+]{biblatex}
+
+\addbibresource{references.bib}
+
+
+% --------------------------------------------------
+% 4) Custom report template
+% --------------------------------------------------
+\usepackage{ProjectReportTemplate}
+
+% --------------------------------------------------
+% 5) Persian support
+% --------------------------------------------------
+\usepackage{xepersian}
+\SetReportFonts
+\SetReportLineSpread{1.35}
+
+% --------------------------------------------------
+\begin{document}
+	
+	% ======================
+	% Title Page (Modular)
+	% ======================
+	\input{frontmatter/title.tex}
+	
+	% ======================
+	% (Optional) Abstracts later
+	% ======================
+	 \input{Abstract/abstract-fa}
+	 \input{Abstract/abstract-en}
+	
+	% ======================
+	% Front Matter (ToC, LoF, LoT, ...)
+	% ======================
+	\MakeFrontMatter
+	
+	% ======================
+	% Acknowledgements (Modular)
+	% ======================
+	\input{frontmatter/acknowledgment.tex}
+	\newpage
+	
+	% ======================
+	% Chapters later (Modular)
+	% ======================
+	 \input{Chapters/chapter1-introduction}
+	
+	 \input{Chapters/chapter2-background}
+	 
+	 
+	% ======================
+	% References (Print at end)
+	% ======================
+	\newpage
+	\section*{مراجع}
+	
+	\begin{LTR}
+		\begin{latin}  
+			\small  
+			\begin{multicols}{2}
+				\printbibliography[heading=none]
+			\end{multicols}
+		\end{latin}
+	\end{LTR}
+	
+	
+	
+\end{document}

@@ -1,0 +1,18 @@
+\contentsline {section}{چکیده}{1}{section*.1}%
+\contentsline {section}{Abstract}{1}{section*.2}%
+\contentsline {section}{فهرست شکل‌ها}{4}{section*.4}%
+\contentsline {section}{فهرست جدول‌ها}{5}{section*.5}%
+\contentsline {section}{تقدیر و تشکر}{6}{section*.6}%
+\contentsline {section}{\numberline {1}مقدمه}{7}{section.1}%
+\contentsline {subsection}{\numberline {1.1}معرفی بیماری دیستروفی عضلانی دوشن}{7}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}اهمیت ارزیابی عملکرد حرکتی و چالش‌های ارزیابی بالینی}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}بیان مسئله}{8}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}اهداف پژوهش}{8}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}نوآوری‌های پژوهش}{9}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}ساختار پایان‌نامه}{9}{subsection.1.6}%
+\contentsline {section}{\numberline {2}مبانی نظری}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}بیماری دیستروفی عضلانی دوشن}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}مقیاس NSAA و اصول امتیازدهی}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}حسگرهای اینرسیایی و کاربرد آن‌ها در تحلیل حرکت}{11}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}پردازش سیگنال در تحلیل حرکت}{11}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}کاربرد یادگیری ماشین در تحلیل حرکت}{12}{subsection.2.5}%

@@ -1,0 +1,178 @@
+\ProvidesPackage{ProjectReportTemplate}[2026/02/09 Robust Persian Project/Article Report Template v2]
+
+% -------------------------------------------------------
+% IMPORTANT DESIGN NOTE (for bidi/xepersian robustness):
+% This style file intentionally avoids loading packages
+% that are sensitive to xepersian/bidi load order.
+% Load your common packages in main .tex BEFORE xepersian.
+% Then load this package, then xepersian, then fonts.
+% -------------------------------------------------------
+
+\RequirePackage{xparse}
+
+% ---------- Utility: empty check ----------
+\newcommand{\PRTIfEmptyTF}[3]{%
+	\if\relax\detokenize{#1}\relax #2\else #3\fi
+}
+
+% ---------- Persian names ----------
+\renewcommand{\figurename}{شکل}
+\renewcommand{\tablename}{جدول}
+
+% ---------- Quick references ----------
+\newcommand{\figref}[1]{شکل~\ref{#1}}
+\newcommand{\tabref}[1]{جدول~\ref{#1}}
+\newcommand{\secref}[1]{بخش~\ref{#1}}
+\newcommand{\eqnref}[1]{رابطه~(\ref{#1})}
+\newcommand{\appref}[1]{پیوست~\ref{#1}}
+
+% ---------- Line spacing (call in document preamble) ----------
+% Example: \SetReportLineSpread{1.35}
+\NewDocumentCommand{\SetReportLineSpread}{m}{\linespread{#1}}
+
+% ---------- Abstract / Keywords ----------
+\newenvironment{PersianAbstract}{
+	\section*{چکیده}
+	\addcontentsline{toc}{section}{چکیده}
+}{}
+
+% ---------- English Abstract (LTR, left-aligned) ----------
+\newenvironment{EnglishAbstract}{
+	%\clearpage
+	\begin{latin}
+		\section*{Abstract}
+		\addcontentsline{toc}{section}{Abstract}
+	}{
+	\end{latin}
+}
+
+
+\newcommand{\keywords}[1]{%
+	\vspace{0.6em}\noindent\textbf{واژگان کلیدی:} #1
+}
+
+\newcommand{\enkeywords}[1]{%
+	\vspace{0.6em}\noindent\textbf{\lr{Keywords:}} #1
+}
+
+% ---------- Acknowledgements ----------
+\newenvironment{Acknowledgements}{
+	\section*{تقدیر و تشکر}
+	\addcontentsline{toc}{section}{تقدیر و تشکر}
+}{}
+
+% ---------- Acronyms / Abbreviations (simple) ----------
+% Usage:
+% \begin{Acronyms}
+	%   \acro{IoT}{Internet of Things}
+	% \end{Acronyms}
+\newenvironment{PersianAcronyms}{
+	\section*{اختصارات فارسی}
+	\addcontentsline{toc}{section}{اختصارات فارسی}
+	\begin{description}
+	}{\end{description}}
+
+\newenvironment{EnglishAcronyms}{
+	\section*{اختصارات انگلیسی}
+	\addcontentsline{toc}{section}{اختصارات انگلیسی}
+	\begin{latin}
+		\begin{description}
+	}{\end{description}
+	\end{latin}}
+	
+
+\newcommand{\acro}[2]{\item[\textbf{#1}] #2}
+
+% ---------- Simple boxed-like environments (robust, no extra packages) ----------
+% Note/Result/Definition/Example with consistent headings
+\newcommand{\PRTBlockTitle}[1]{\par\medskip\noindent\textbf{#1.}\ }
+\NewDocumentEnvironment{Note}{O{نکته}}{\PRTBlockTitle{#1}}{\par\medskip}
+\NewDocumentEnvironment{Result}{O{نتیجه}}{\PRTBlockTitle{#1}}{\par\medskip}
+\NewDocumentEnvironment{Definition}{O{تعریف}}{\PRTBlockTitle{#1}}{\par\medskip}
+\NewDocumentEnvironment{Example}{O{مثال}}{\PRTBlockTitle{#1}}{\par\medskip}
+
+% ---------- Appendices helper ----------
+% Starts appendices section with ToC entry
+\newcommand{\StartAppendices}{%
+	\appendix
+	\section*{پیوست‌ها}
+	\addcontentsline{toc}{section}{پیوست‌ها}
+}
+
+% ---------- Front matter generator ----------
+% Usage:
+% \MakeFrontMatter
+% (it prints TOC + List of Figures + List of Tables with page breaks)
+\newcommand{\MakeFrontMatter}{%
+	\newpage
+	\tableofcontents
+	\newpage
+	\listoffigures
+	\addcontentsline{toc}{section}{فهرست شکل‌ها}
+	\newpage
+	\listoftables
+	\addcontentsline{toc}{section}{فهرست جدول‌ها}
+	\newpage
+}
+
+% ---------- Title Page (logo OPTIONAL, safe) ----------
+% Usage:
+% \ReportTitlePage[<logo-path>]{university}{title}{course}{instructor}{name}{student-id}{date}
+\NewDocumentCommand{\ReportTitlePage}{O{} m m m m m m m}{%
+	\begin{titlepage}
+		\centering
+		
+		\vspace*{1cm}
+		{\Large \textbf{#2}}\\[1.2cm]
+		
+		{\Huge \textbf{#3}}\\[1.2cm]
+		
+		{\Large #4}\\[0.4cm]
+		{\Large #5}\\[1.0cm]
+		
+		\PRTIfEmptyTF{#1}{}{%
+			\IfFileExists{#1}{\includegraphics[width=5cm]{#1}\\[0.8cm]}{}%
+		}
+		
+		\begin{flushright}
+			\textbf{نام دانشجو:} #6\\
+			\textbf{شماره دانشجویی:} #7
+		\end{flushright}
+		
+		\vfill
+		{\large #8}
+		
+	\end{titlepage}
+}
+
+% ---------- Font helpers (call AFTER xepersian) ----------
+% You asked: B Nazanin + Times New Roman
+% These commands try multiple common font names and fall back safely.
+\NewDocumentCommand{\UseBNazanin}{}{%
+	\IfFontExistsTF{Sharif 1.2 Regular}{\settextfont{Sharif 1.2 Regular}}{%
+		\IfFontExistsTF{B Nazanin}{\settextfont{B Nazanin}}{%
+			\IfFontExistsTF{IRNazanin}{\settextfont{IRNazanin}}{%
+				\settextfont{DejaVu Sans}%
+			}%
+		}%
+	}%
+}
+
+\NewDocumentCommand{\UseTimesNewRoman}{}{%
+	\IfFontExistsTF{Times New Roman}{%
+		\setlatintextfont{Times New Roman}%
+		\setdigitfont{Times New Roman}%
+	}{%
+		\IfFontExistsTF{TeX Gyre Termes}{%
+			\setlatintextfont{TeX Gyre Termes}%
+			\setdigitfont{TeX Gyre Termes}%
+		}{}%
+	}%
+}
+
+% Convenience: set both at once
+% Persian: B Nazanin (or fallback), Latin: Times New Roman (or fallback)
+\NewDocumentCommand{\SetReportFonts}{}{%
+	\UseBNazanin
+	\UseTimesNewRoman
+}
