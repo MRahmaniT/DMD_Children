@@ -2375,18 +2375,17 @@
     <bcf:citekey order="1" intorder="1">Emery2002DMD</bcf:citekey>
     <bcf:citekey order="2" intorder="1">Hoffman1987Dystrophin</bcf:citekey>
     <bcf:citekey order="3" intorder="1">Bushby2010Diagnosis</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">Eagle2002Survival</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">Eagle2002Survival</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Bushby2010Diagnosis</bcf:citekey>
     <bcf:citekey order="5" intorder="1">Bushby2010Diagnosis</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Scott2009NSAA</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Mayhew2013Reliability</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">Sabatini2011IMU</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Madgwick2011SensorFusion</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">MuroDeLaHerran2014Wearable</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Winter2009Biomechanics</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Winter2009Biomechanics</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Bulling2014HumanActivity</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Bishop2006PatternRecognition</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Lara2013Survey</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Winter2009Biomechanics</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Scott2009NSAA</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">Mayhew2013Reliability</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">MuroDeLaHerran2014Wearable</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Patel2012Wearable</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">Bonato2010Wearable</bcf:citekey>
+    <bcf:citekey order="9" intorder="3">Lara2013Survey</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Sabatini2011IMU</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

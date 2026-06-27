@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  14 MAY 2026 13:03
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  28 JUN 2026 02:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1265,139 +1265,177 @@ the North Star Ambulatory Assessment (NSAA),[]
 
 [1])
 
-[2] (./DMD_Thesis_Sharif_Template.toc)
+[2] (./DMD_Thesis_Sharif_Template.toc
+
+[3])
 \tf@toc=\write5
 \openout5 = `DMD_Thesis_Sharif_Template.toc'.
 
 
 
-[3] (./DMD_Thesis_Sharif_Template.lof)
+[4] (./DMD_Thesis_Sharif_Template.lof)
 \tf@lof=\write6
 \openout6 = `DMD_Thesis_Sharif_Template.lof'.
 
 
 
-[4] (./DMD_Thesis_Sharif_Template.lot)
+[5] (./DMD_Thesis_Sharif_Template.lot)
 \tf@lot=\write7
 \openout7 = `DMD_Thesis_Sharif_Template.lot'.
 
 
 
-[5] (./frontmatter/acknowledgment.tex)
+[6] (./frontmatter/acknowledgment.tex)
 
-[6] (./Chapters/chapter1-introduction.tex
-
-[7]
-Overfull \hbox (2.04086pt too wide) in paragraph at lines 44--45
-[]\TU/Sharif1.2Regular(0)/m/n/12 طراحی و پیاده‌سازی سامانه‌ای مبتنی بر حسگرهای 
-اینرسیایی به‌منظور استخراج شاخص‌های کمی حرکتی و پیش‌بینی نمره فعالیت‌های منتخب[
-]
- []
-
-
+[7] (./Chapters/Chapter1_Introduction.tex
 
 [8]
-Overfull \hbox (2.5285pt too wide) in paragraph at lines 88--89
-[]\TU/Sharif1.2Regular(0)/m/n/12 حسگرهای اینرسیایی و مفاهیم پایه پردازش سیگنال 
-و یادگیری ماشین بیان می‌شود. این فصل چارچوب تئوریک لازم برای درک روش پیشنهادی[]
 
- []
-
-
-Overfull \hbox (9.16pt too wide) in paragraph at lines 92--93
-[][]\TU/Sharif1.2Regular(0)/m/n/12 در فصل چهارم، طراحی و پیاده‌سازی سامانه پیشن
-هادی شامل ساختار سخت‌افزار، نحوه نصب حسگرها، فرآیند جمع‌آوری داده، پیش‌پردازش[]
-
- []
-
-
-
-[9]) (./Chapters/chapter2-background.tex
-Overfull \hbox (3.0604pt too wide) in paragraph at lines 5--6
-[]\TU/Sharif1.2Regular(0)/m/n/12 نقش مهمی در پایداری مکانیکی غشای سلول‌های عضلا
-نی دارد و اختلال در آن موجب آسیب‌پذیری فیبرهای عضلانی در برابر تنش‌های مکانیکی[
-]
- []
-
+[9]
+File: Images/1_FlowChartChoosingNSAA.png Graphic file (type bmp)
+<Images/1_FlowChartChoosingNSAA.png>
 
 
 [10]
-Overfull \hbox (0.52655pt too wide) in paragraph at lines 30--31
-[]\TU/Sharif1.2Regular(0)/m/n/12 سرعت اجرای حرکت—می‌توانند با تغییر در پارامتره
-ای سینماتیکی قابل‌اندازه‌گیری همراه باشند. بنابراین، کمی‌سازی این شاخص‌ها با اس
-تفاده[]
- []
+Overfull \hbox (5.10532pt too wide) in paragraph at lines 83--84
+[][]\TU/Sharif1.2Regular(0)/m/n/12 در روش‌های رایج، بخش عمده‌ای از ارزیابی عملک
+رد بیماران توسط پزشک یا درمانگر و بر اساس مشاهده مستقیم نحوه انجام فعالیت‌های[]
 
-
-Overfull \hbox (4.34946pt too wide) in paragraph at lines 38--39
-[][]\TU/Sharif1.2Regular(0)/m/n/12 در سال‌های اخیر، استفاده از IMUها در تحلیل ح
-رکت انسان به‌طور گسترده‌ای افزایش یافته است، زیرا این حسگرها نسبت به سیستم‌های[
-]
- []
-
-
-Overfull \hbox (3.10336pt too wide) in paragraph at lines 38--39
-[]\TU/Sharif1.2Regular(0)/m/n/12 موشن‌کپچر اپتیکال دارای مزایایی نظیر هزینه کمت
-ر، قابلیت حمل، عدم وابستگی به شرایط نوری و امکان استفاده در محیط‌های غیرآزمایشگ
-اهی[]
  []
 
 
 
-[11])
+[11]
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[12]) (./Chapters/Chapter2_SystemDesign.tex
+
+[13]
+
+LaTeX Warning: Reference `fig:SystemArchitecture' on page 14 undefined on input
+ line 41.
+
+File: Images/2_FlowChartSystemDesign.png Graphic file (type bmp)
+<Images/2_FlowChartSystemDesign.png>
+
+
+[14]
+File: Images/3_SensorsPlacement.png Graphic file (type bmp)
+<Images/3_SensorsPlacement.png>
+
+
+[15]
+Overfull \hbox (7.65414pt too wide) in paragraph at lines 97--98
+[][]\TU/Sharif1.2Regular(0)/m/n/12 در صورتی که تعداد حسگرها بیش از حد افزایش یا
+بد، علاوه بر افزایش زمان آماده‌سازی بیمار، احتمال جابه‌جایی حسگرها، ایجاد محدود
+یت[]
+ []
+
+
+
+[16]
+File: Images/4_ArduinoCode.png Graphic file (type bmp)
+<Images/4_ArduinoCode.png>
+
+
+[17]
+File: Images/5_MatlabDataCollector.png Graphic file (type bmp)
+<Images/5_MatlabDataCollector.png>
+
+
+[18]
+File: Images/6_FlowChartDataCollecting.png Graphic file (type bmp)
+<Images/6_FlowChartDataCollecting.png>
+
+
+[19]
+
+[20]
+
+[21]
+File: Images/7_FlowChartFeatureExtraction.png Graphic file (type bmp)
+<Images/7_FlowChartFeatureExtraction.png>
+
+
+[22]
+Overfull \hbox (1.97334pt too wide) in paragraph at lines 288--289
+[][]\TU/Sharif1.2Regular(0)/m/n/12 برای این منظور، از روش تحلیل مؤلفه‌های اصلی 
+(Principal Component Analysis یا PCA) استفاده شد. این روش با تبدیل ویژگی‌های[]
+ []
+
+
+Overfull \hbox (12.44257pt too wide) in paragraph at lines 292--293
+[][]\TU/Sharif1.2Regular(0)/m/n/12 در این پژوهش دو رویکرد مستقل مورد بررسی قرار
+ گرفت. در رویکرد اول، مدل‌های یادگیری ماشین مستقیماً بر روی ویژگی‌های استخراج‌ش
+ده[]
+ []
+
+
+
+[23]
+
+[24]
+File: Images/8_FlowChartPipline.png Graphic file (type bmp)
+<Images/8_FlowChartPipline.png>
+
+
+[25])
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 [][]\TU/TimesNewRoman(0)/m/n/12 A.M. Sabatini. “Estimating three-[]
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 105--105
+Underfull \hbox (badness 6625) in paragraph at lines 107--107
 []\TU/TimesNewRoman(0)/m/n/12 entation filter for inertial and in-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []\TU/TimesNewRoman(0)/m/n/12 ertial/magnetic sensor arrays”. In:[]
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 105--105
+Underfull \hbox (badness 5036) in paragraph at lines 107--107
 [][]\TU/TimesNewRoman(0)/m/n/12 Andreas Bulling, Ulf Blanke, and[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 [][]\TU/TimesNewRoman(0)/m/n/12 Christopher M. Bishop. \TU/TimesNewRoman(0)/m/i
 t/12 Pattern[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[][]\TU/TimesNewRoman(0)/m/n/12 Oscar D. Lara and Miguel A.[]
- []
 
-
-
-[13] (./DMD_Thesis_Sharif_Template.aux)
+[27] (./DMD_Thesis_Sharif_Template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `DMD_Thesis_Sharif_Template.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: C7071F7AE30FEAB8AF4336F63C5902F8;3826.
+(rerunfilecheck)             Checksum: 74BD4D7844E22DA4D82D2132C38C8FE1;9767.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                DMD_Thesis_Sharif_Template
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'DMD_Thesis_Sharif_Template.run.xml'.
 \openout1 = `DMD_Thesis_Sharif_Template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24884 strings out of 473832
- 516166 string characters out of 5729482
- 1372791 words of memory out of 5000000
- 47521 multiletter control sequences out of 15000+600000
- 566125 words of font info for 136 fonts, out of 8000000 for 9000
+ 25061 strings out of 473832
+ 522560 string characters out of 5729482
+ 1380563 words of memory out of 5000000
+ 47690 multiletter control sequences out of 15000+600000
+ 566117 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,8n,95p,2423b,4917s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,11n,95p,2423b,4919s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis_Sharif_Template.pdf (14 pages).
+Output written on DMD_Thesis_Sharif_Template.pdf (28 pages).
