@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  28 JUN 2026 02:58
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 JUN 2026 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,9 +1378,74 @@ File: Images/8_FlowChartPipline.png Graphic file (type bmp)
 <Images/8_FlowChartPipline.png>
 
 
-[25])
+[25]) (./Chapters/generated_plot_figures.tex
+File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
+<Images/Generated/Chapter2/ch2_signal_sample.png>
+
 
 [26]
+File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
+mp)
+<Images/Generated/Chapter2/ch2_class_distribution.png>
+File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
+e (type bmp)
+<Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
+
+
+[27]
+File: Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png Graphic file (typ
+e bmp)
+<Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png>
+
+
+[28]
+File: Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png Graphic file 
+(type bmp)
+<Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png>
+File: Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png Graphic file (
+type bmp)
+<Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png>
+
+
+[29]
+File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
+mp)
+<Images/Generated/Chapter3/ch3_pca_variance_curve.png>
+File: Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png Graphic file (type 
+bmp)
+<Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
+
+
+[30]
+File: Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png Graphic file (t
+ype bmp)
+<Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png>
+File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
+(type bmp)
+<Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
+
+
+[31]
+File: Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png Graphic file (t
+ype bmp)
+<Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png>
+File: Images/Generated/Chapter4/ch4_per_class_recall_pca95.png Graphic file (ty
+pe bmp)
+<Images/Generated/Chapter4/ch4_per_class_recall_pca95.png>
+
+
+[32]
+File: Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png Graphic file (typ
+e bmp)
+<Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
+File: Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png Graphic 
+file (type bmp)
+<Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
+
+
+[33])
+
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 107--107
 [][]\TU/TimesNewRoman(0)/m/n/12 A.M. Sabatini. “Estimating three-[]
  []
@@ -1408,7 +1473,7 @@ t/12 Pattern[]
 
 
 
-[27] (./DMD_Thesis_Sharif_Template.aux)
+[35] (./DMD_Thesis_Sharif_Template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1430,12 +1495,12 @@ Package logreq Info: Writing requests to 'DMD_Thesis_Sharif_Template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25061 strings out of 473832
- 522560 string characters out of 5729482
- 1380563 words of memory out of 5000000
- 47690 multiletter control sequences out of 15000+600000
+ 25212 strings out of 473832
+ 530691 string characters out of 5729482
+ 1381694 words of memory out of 5000000
+ 47821 multiletter control sequences out of 15000+600000
  566117 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,11n,95p,2423b,4919s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis_Sharif_Template.pdf (28 pages).
+Output written on DMD_Thesis_Sharif_Template.pdf (36 pages).
