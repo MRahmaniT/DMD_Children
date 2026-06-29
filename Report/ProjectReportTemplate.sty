@@ -149,7 +149,7 @@
 % You asked: B Nazanin + Times New Roman
 % These commands try multiple common font names and fall back safely.
 \NewDocumentCommand{\UseBNazanin}{}{%
-	\IfFontExistsTF{Sharif 1.2 Regular}{\settextfont{Sharif 1.2 Regular}}{%
+	\IfFontExistsTF{Sharif 1.2 Regular}{\settextfont[Scale=1.2]{B Nazanin}}{%
 		\IfFontExistsTF{B Nazanin}{\settextfont{B Nazanin}}{%
 			\IfFontExistsTF{IRNazanin}{\settextfont{IRNazanin}}{%
 				\settextfont{DejaVu Sans}%
