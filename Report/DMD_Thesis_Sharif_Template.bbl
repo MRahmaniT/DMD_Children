@@ -19,6 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{Bushby2010Diagnosis}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=77359112b6f6e9900e873da47b1a0a8f}{%
+           family={Bushby},
+           familyi={B\bibinitperiod},
+           given={K.\bibnamedelimi et\bibnamedelima al.},
+           giveni={K\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{fullhash}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{fullhashraw}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{bibnamehash}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{authorbibnamehash}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{authornamehash}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{authorfullhash}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{authorfullhashraw}{77359112b6f6e9900e873da47b1a0a8f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet Neurology}
+      \field{title}{Diagnosis and management of Duchenne muscular dystrophy}
+      \field{year}{2010}
+    \endentry
+    \entry{Winter2009Biomechanics}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a497c58b2e1b17b6784bc31c46233685}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{fullhash}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{fullhashraw}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{bibnamehash}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{authorbibnamehash}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{authornamehash}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{authorfullhash}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{authorfullhashraw}{a497c58b2e1b17b6784bc31c46233685}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Biomechanics and Motor Control of Human Movement}
+      \field{year}{2009}
+    \endentry
     \entry{Emery2002DMD}{article}{}{}
       \name{author}{1}{}{%
         {{hash=220fc9728b03243c7f7439ae721b6190}{%
@@ -35,8 +86,8 @@
       \strng{authornamehash}{220fc9728b03243c7f7439ae721b6190}
       \strng{authorfullhash}{220fc9728b03243c7f7439ae721b6190}
       \strng{authorfullhashraw}{220fc9728b03243c7f7439ae721b6190}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Lancet}
@@ -69,37 +120,13 @@
       \strng{authornamehash}{cde3c24d28cc3b7d6608ea13d4565e2c}
       \strng{authorfullhash}{cde3c24d28cc3b7d6608ea13d4565e2c}
       \strng{authorfullhashraw}{cde3c24d28cc3b7d6608ea13d4565e2c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cell}
       \field{title}{Dystrophin: the protein product of the Duchenne muscular dystrophy locus}
       \field{year}{1987}
-    \endentry
-    \entry{Bushby2010Diagnosis}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=77359112b6f6e9900e873da47b1a0a8f}{%
-           family={Bushby},
-           familyi={B\bibinitperiod},
-           given={K.\bibnamedelimi et\bibnamedelima al.},
-           giveni={K\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
-      }
-      \strng{namehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{fullhash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{fullhashraw}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{bibnamehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authorbibnamehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authornamehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authorfullhash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authorfullhashraw}{77359112b6f6e9900e873da47b1a0a8f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Lancet Neurology}
-      \field{title}{Diagnosis and management of Duchenne muscular dystrophy}
-      \field{year}{2010}
     \endentry
     \entry{Eagle2002Survival}{article}{}{}
       \name{author}{1}{}{%
@@ -117,40 +144,325 @@
       \strng{authornamehash}{c7313dd55014512885be15fdc03e7f9a}
       \strng{authorfullhash}{c7313dd55014512885be15fdc03e7f9a}
       \strng{authorfullhashraw}{c7313dd55014512885be15fdc03e7f9a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Neuromuscular Disorders}
       \field{title}{Survival in Duchenne muscular dystrophy}
       \field{year}{2002}
     \endentry
-    \entry{Winter2009Biomechanics}{book}{}{}
+    \entry{Scott2009NSAA}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=a497c58b2e1b17b6784bc31c46233685}{%
-           family={Winter},
-           familyi={W\bibinitperiod},
-           given={David\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d2b7f0e8cf8d5544c58583293c8d7737}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi et\bibnamedelima al.},
+           giveni={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons}%
-      }
-      \strng{namehash}{a497c58b2e1b17b6784bc31c46233685}
-      \strng{fullhash}{a497c58b2e1b17b6784bc31c46233685}
-      \strng{fullhashraw}{a497c58b2e1b17b6784bc31c46233685}
-      \strng{bibnamehash}{a497c58b2e1b17b6784bc31c46233685}
-      \strng{authorbibnamehash}{a497c58b2e1b17b6784bc31c46233685}
-      \strng{authornamehash}{a497c58b2e1b17b6784bc31c46233685}
-      \strng{authorfullhash}{a497c58b2e1b17b6784bc31c46233685}
-      \strng{authorfullhashraw}{a497c58b2e1b17b6784bc31c46233685}
+      \strng{namehash}{d2b7f0e8cf8d5544c58583293c8d7737}
+      \strng{fullhash}{d2b7f0e8cf8d5544c58583293c8d7737}
+      \strng{fullhashraw}{d2b7f0e8cf8d5544c58583293c8d7737}
+      \strng{bibnamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
+      \strng{authorbibnamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
+      \strng{authornamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
+      \strng{authorfullhash}{d2b7f0e8cf8d5544c58583293c8d7737}
+      \strng{authorfullhashraw}{d2b7f0e8cf8d5544c58583293c8d7737}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{4}
-      \field{title}{Biomechanics and Motor Control of Human Movement}
+      \field{journaltitle}{Neuromuscular Disorders}
+      \field{title}{North Star Ambulatory Assessment for Duchenne muscular dystrophy}
       \field{year}{2009}
+    \endentry
+    \entry{Sabatini2011IMU}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=60b67109f49f0840e108e8d0388591b3}{%
+           family={Sabatini},
+           familyi={S\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{60b67109f49f0840e108e8d0388591b3}
+      \strng{fullhash}{60b67109f49f0840e108e8d0388591b3}
+      \strng{fullhashraw}{60b67109f49f0840e108e8d0388591b3}
+      \strng{bibnamehash}{60b67109f49f0840e108e8d0388591b3}
+      \strng{authorbibnamehash}{60b67109f49f0840e108e8d0388591b3}
+      \strng{authornamehash}{60b67109f49f0840e108e8d0388591b3}
+      \strng{authorfullhash}{60b67109f49f0840e108e8d0388591b3}
+      \strng{authorfullhashraw}{60b67109f49f0840e108e8d0388591b3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{title}{Estimating three-dimensional orientation of human body parts by inertial/magnetic sensing}
+      \field{year}{2011}
+    \endentry
+    \entry{Madgwick2011SensorFusion}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=309b16b55802aeb77c0e4e69256e86fb}{%
+           family={Madgwick},
+           familyi={M\bibinitperiod},
+           given={S.O.H.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{309b16b55802aeb77c0e4e69256e86fb}
+      \strng{fullhash}{309b16b55802aeb77c0e4e69256e86fb}
+      \strng{fullhashraw}{309b16b55802aeb77c0e4e69256e86fb}
+      \strng{bibnamehash}{309b16b55802aeb77c0e4e69256e86fb}
+      \strng{authorbibnamehash}{309b16b55802aeb77c0e4e69256e86fb}
+      \strng{authornamehash}{309b16b55802aeb77c0e4e69256e86fb}
+      \strng{authorfullhash}{309b16b55802aeb77c0e4e69256e86fb}
+      \strng{authorfullhashraw}{309b16b55802aeb77c0e4e69256e86fb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An efficient orientation filter for inertial and inertial/magnetic sensor arrays}
+      \field{year}{2011}
+    \endentry
+    \entry{Bulling2014HumanActivity}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5153be8c2167a45315a4a73b5f626ab7}{%
+           family={Bulling},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1a5f8509d8811e25f41d3fe9873ffc3}{%
+           family={Blanke},
+           familyi={B\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod}}}%
+        {{hash=457dd3049a60059cf69e775a47f0c154}{%
+           family={Schiele},
+           familyi={S\bibinitperiod},
+           given={Bernt},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb318301917012e76d807ead568b6baa}
+      \strng{fullhash}{eb318301917012e76d807ead568b6baa}
+      \strng{fullhashraw}{eb318301917012e76d807ead568b6baa}
+      \strng{bibnamehash}{eb318301917012e76d807ead568b6baa}
+      \strng{authorbibnamehash}{eb318301917012e76d807ead568b6baa}
+      \strng{authornamehash}{eb318301917012e76d807ead568b6baa}
+      \strng{authorfullhash}{eb318301917012e76d807ead568b6baa}
+      \strng{authorfullhashraw}{eb318301917012e76d807ead568b6baa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{3}
+      \field{title}{A Tutorial on Human Activity Recognition Using Body-Worn Inertial Sensors}
+      \field{volume}{46}
+      \field{year}{2014}
+      \field{pages}{33}
+      \range{pages}{1}
+    \endentry
+    \entry{Jolliffe2002PCA}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=2d87c65d6bc93daaaf4c9f1e98b5e53a}{%
+           family={Jolliffe},
+           familyi={J\bibinitperiod},
+           given={Ian\bibnamedelima T.},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \strng{fullhash}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \strng{fullhashraw}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \strng{bibnamehash}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \strng{authorbibnamehash}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \strng{authornamehash}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \strng{authorfullhash}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \strng{authorfullhashraw}{2d87c65d6bc93daaaf4c9f1e98b5e53a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principal Component Analysis}
+      \field{year}{2002}
+    \endentry
+    \entry{Bishop2006PatternRecognition}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9dfd0135a5e80aa6d81cea2c10fb7f73}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{fullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{fullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{bibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorbibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authornamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorfullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorfullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pattern Recognition and Machine Learning}
+      \field{year}{2006}
+    \endentry
+    \entry{Lara2013Survey}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f5f64733ce28dfa84ec4d5c04c8eb50e}{%
+           family={Lara},
+           familyi={L\bibinitperiod},
+           given={Oscar\bibnamedelima D.},
+           giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=284d85cc0b950d4717053ba0be160f0f}{%
+           family={Labrador},
+           familyi={L\bibinitperiod},
+           given={Miguel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d65b36936e7747ba9b9752def8c1c52b}
+      \strng{fullhash}{d65b36936e7747ba9b9752def8c1c52b}
+      \strng{fullhashraw}{d65b36936e7747ba9b9752def8c1c52b}
+      \strng{bibnamehash}{d65b36936e7747ba9b9752def8c1c52b}
+      \strng{authorbibnamehash}{d65b36936e7747ba9b9752def8c1c52b}
+      \strng{authornamehash}{d65b36936e7747ba9b9752def8c1c52b}
+      \strng{authorfullhash}{d65b36936e7747ba9b9752def8c1c52b}
+      \strng{authorfullhashraw}{d65b36936e7747ba9b9752def8c1c52b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Surveys \& Tutorials}
+      \field{number}{3}
+      \field{title}{A Survey on Human Activity Recognition using Wearable Sensors}
+      \field{volume}{15}
+      \field{year}{2013}
+      \field{pages}{1192\bibrangedash 1209}
+      \range{pages}{18}
+    \endentry
+    \entry{Cortes1995SVM}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=17acda211a651e90e228f1776ee07818}{%
+           family={Cortes},
+           familyi={C\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c2b3e05872463585b4be6aab10d10d63}{%
+           family={Vapnik},
+           familyi={V\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c67d5268f413e83454c8adc14ab43c3}
+      \strng{fullhash}{4c67d5268f413e83454c8adc14ab43c3}
+      \strng{fullhashraw}{4c67d5268f413e83454c8adc14ab43c3}
+      \strng{bibnamehash}{4c67d5268f413e83454c8adc14ab43c3}
+      \strng{authorbibnamehash}{4c67d5268f413e83454c8adc14ab43c3}
+      \strng{authornamehash}{4c67d5268f413e83454c8adc14ab43c3}
+      \strng{authorfullhash}{4c67d5268f413e83454c8adc14ab43c3}
+      \strng{authorfullhashraw}{4c67d5268f413e83454c8adc14ab43c3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{3}
+      \field{title}{Support-vector networks}
+      \field{volume}{20}
+      \field{year}{1995}
+      \field{pages}{273\bibrangedash 297}
+      \range{pages}{25}
+    \endentry
+    \entry{Cover1967KNN}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a3f15729585b7b2e933595818ac72f13}{%
+           family={Cover},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5f7d498e6ea16510d746ba3d22fd28db}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{fullhash}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{fullhashraw}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{bibnamehash}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{authorbibnamehash}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{authornamehash}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{authorfullhash}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{authorfullhashraw}{009363c68fe9e8fdbf90620bf270d3f5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Theory}
+      \field{number}{1}
+      \field{title}{Nearest Neighbor Pattern Classification}
+      \field{volume}{13}
+      \field{year}{1967}
+      \field{pages}{21\bibrangedash 27}
+      \range{pages}{7}
+    \endentry
+    \entry{Breiman2001RandomForest}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{1}
+      \field{title}{Random Forests}
+      \field{volume}{45}
+      \field{year}{2001}
+      \field{pages}{5\bibrangedash 32}
+      \range{pages}{28}
+    \endentry
+    \entry{Mayhew2013Reliability}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4bfc2265bb27b08cf230005b4fb7658c}{%
+           family={Mayhew},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi et\bibnamedelima al.},
+           giveni={A\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bfc2265bb27b08cf230005b4fb7658c}
+      \strng{fullhash}{4bfc2265bb27b08cf230005b4fb7658c}
+      \strng{fullhashraw}{4bfc2265bb27b08cf230005b4fb7658c}
+      \strng{bibnamehash}{4bfc2265bb27b08cf230005b4fb7658c}
+      \strng{authorbibnamehash}{4bfc2265bb27b08cf230005b4fb7658c}
+      \strng{authornamehash}{4bfc2265bb27b08cf230005b4fb7658c}
+      \strng{authorfullhash}{4bfc2265bb27b08cf230005b4fb7658c}
+      \strng{authorfullhashraw}{4bfc2265bb27b08cf230005b4fb7658c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS One}
+      \field{title}{Reliability of the NSAA in Duchenne muscular dystrophy}
+      \field{year}{2013}
     \endentry
     \entry{MuroDeLaHerran2014Wearable}{article}{}{}
       \name{author}{1}{}{%
@@ -168,8 +480,8 @@
       \strng{authornamehash}{a88a4cd8f14a2f3f59426e5af5e9aced}
       \strng{authorfullhash}{a88a4cd8f14a2f3f59426e5af5e9aced}
       \strng{authorfullhashraw}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
@@ -212,8 +524,8 @@
       \strng{authornamehash}{983476f10ebcb40c1f74223afcfb3ee4}
       \strng{authorfullhash}{8eef61e6b131c3f7d4572580c7c71f28}
       \strng{authorfullhashraw}{8eef61e6b131c3f7d4572580c7c71f28}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of NeuroEngineering and Rehabilitation}
@@ -241,8 +553,8 @@
       \strng{authornamehash}{221deeeb7b4e28fc403d52016a1feec2}
       \strng{authorfullhash}{221deeeb7b4e28fc403d52016a1feec2}
       \strng{authorfullhashraw}{221deeeb7b4e28fc403d52016a1feec2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Engineering in Medicine and Biology Magazine}
@@ -255,198 +567,6 @@
       \verb{doi}
       \verb 10.1109/MEMB.2010.936554
       \endverb
-    \endentry
-    \entry{Lara2013Survey}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=f5f64733ce28dfa84ec4d5c04c8eb50e}{%
-           family={Lara},
-           familyi={L\bibinitperiod},
-           given={Oscar\bibnamedelima D.},
-           giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=284d85cc0b950d4717053ba0be160f0f}{%
-           family={Labrador},
-           familyi={L\bibinitperiod},
-           given={Miguel\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{d65b36936e7747ba9b9752def8c1c52b}
-      \strng{fullhash}{d65b36936e7747ba9b9752def8c1c52b}
-      \strng{fullhashraw}{d65b36936e7747ba9b9752def8c1c52b}
-      \strng{bibnamehash}{d65b36936e7747ba9b9752def8c1c52b}
-      \strng{authorbibnamehash}{d65b36936e7747ba9b9752def8c1c52b}
-      \strng{authornamehash}{d65b36936e7747ba9b9752def8c1c52b}
-      \strng{authorfullhash}{d65b36936e7747ba9b9752def8c1c52b}
-      \strng{authorfullhashraw}{d65b36936e7747ba9b9752def8c1c52b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Communications Surveys \& Tutorials}
-      \field{number}{3}
-      \field{title}{A Survey on Human Activity Recognition using Wearable Sensors}
-      \field{volume}{15}
-      \field{year}{2013}
-      \field{pages}{1192\bibrangedash 1209}
-      \range{pages}{18}
-    \endentry
-    \entry{Sabatini2011IMU}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=60b67109f49f0840e108e8d0388591b3}{%
-           family={Sabatini},
-           familyi={S\bibinitperiod},
-           given={A.M.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{fullhash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{fullhashraw}{60b67109f49f0840e108e8d0388591b3}
-      \strng{bibnamehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authorbibnamehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authornamehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authorfullhash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authorfullhashraw}{60b67109f49f0840e108e8d0388591b3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sensors}
-      \field{title}{Estimating three-dimensional orientation of human body parts by inertial/magnetic sensing}
-      \field{year}{2011}
-    \endentry
-    \entry{Scott2009NSAA}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=d2b7f0e8cf8d5544c58583293c8d7737}{%
-           family={Scott},
-           familyi={S\bibinitperiod},
-           given={E.\bibnamedelimi et\bibnamedelima al.},
-           giveni={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
-      }
-      \strng{namehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{fullhash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{fullhashraw}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{bibnamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authorbibnamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authornamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authorfullhash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authorfullhashraw}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Neuromuscular Disorders}
-      \field{title}{North Star Ambulatory Assessment for Duchenne muscular dystrophy}
-      \field{year}{2009}
-    \endentry
-    \entry{Mayhew2013Reliability}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4bfc2265bb27b08cf230005b4fb7658c}{%
-           family={Mayhew},
-           familyi={M\bibinitperiod},
-           given={A.\bibnamedelimi et\bibnamedelima al.},
-           giveni={A\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
-      }
-      \strng{namehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{fullhash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{fullhashraw}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{bibnamehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authorbibnamehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authornamehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authorfullhash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authorfullhashraw}{4bfc2265bb27b08cf230005b4fb7658c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{PLoS One}
-      \field{title}{Reliability of the NSAA in Duchenne muscular dystrophy}
-      \field{year}{2013}
-    \endentry
-    \entry{Madgwick2011SensorFusion}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=309b16b55802aeb77c0e4e69256e86fb}{%
-           family={Madgwick},
-           familyi={M\bibinitperiod},
-           given={S.O.H.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{fullhash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{fullhashraw}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{bibnamehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authorbibnamehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authornamehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authorfullhash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authorfullhashraw}{309b16b55802aeb77c0e4e69256e86fb}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{An efficient orientation filter for inertial and inertial/magnetic sensor arrays}
-      \field{year}{2011}
-    \endentry
-    \entry{Bulling2014HumanActivity}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=5153be8c2167a45315a4a73b5f626ab7}{%
-           family={Bulling},
-           familyi={B\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e1a5f8509d8811e25f41d3fe9873ffc3}{%
-           family={Blanke},
-           familyi={B\bibinitperiod},
-           given={Ulf},
-           giveni={U\bibinitperiod}}}%
-        {{hash=457dd3049a60059cf69e775a47f0c154}{%
-           family={Schiele},
-           familyi={S\bibinitperiod},
-           given={Bernt},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{eb318301917012e76d807ead568b6baa}
-      \strng{fullhash}{eb318301917012e76d807ead568b6baa}
-      \strng{fullhashraw}{eb318301917012e76d807ead568b6baa}
-      \strng{bibnamehash}{eb318301917012e76d807ead568b6baa}
-      \strng{authorbibnamehash}{eb318301917012e76d807ead568b6baa}
-      \strng{authornamehash}{eb318301917012e76d807ead568b6baa}
-      \strng{authorfullhash}{eb318301917012e76d807ead568b6baa}
-      \strng{authorfullhashraw}{eb318301917012e76d807ead568b6baa}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ACM Computing Surveys}
-      \field{number}{3}
-      \field{title}{A Tutorial on Human Activity Recognition Using Body-Worn Inertial Sensors}
-      \field{volume}{46}
-      \field{year}{2014}
-      \field{pages}{33}
-      \range{pages}{1}
-    \endentry
-    \entry{Bishop2006PatternRecognition}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=9dfd0135a5e80aa6d81cea2c10fb7f73}{%
-           family={Bishop},
-           familyi={B\bibinitperiod},
-           given={Christopher\bibnamedelima M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{fullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{fullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{bibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authorbibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authornamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authorfullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authorfullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Pattern Recognition and Machine Learning}
-      \field{year}{2006}
     \endentry
   \enddatalist
 \endrefsection

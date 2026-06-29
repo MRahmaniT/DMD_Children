@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 JUN 2026 16:31
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 JUN 2026 21:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1033,7 +1033,7 @@ apping=tex-text;"
 
 
 Package fontspec Info: 
-(fontspec)             B Nazanin scale = 1.2.
+(fontspec)             B Nazanin scale = 1.1.
 
 
 Package fontspec Info: 
@@ -1042,93 +1042,157 @@ Package fontspec Info:
 
 
 Package fontspec Info: 
-(fontspec)             B Nazanin scale = 1.2.
+(fontspec)             B Nazanin scale = 1.1.
 
 
 Package fontspec Info: 
-(fontspec)             B Nazanin/B scale = 1.2.
+(fontspec)             B Nazanin/B scale = 1.1.
 
 
 Package fontspec Info: 
-(fontspec)             B Nazanin/BI scale = 1.2.
+(fontspec)             B Nazanin/BI scale = 1.1.
 
 
 Package fontspec Info: 
 (fontspec)             Font family 'BNazanin(0)' created for font 'B Nazanin'
 (fontspec)             with options
-(fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.2
+(fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.1
 ].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"B
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.1]"B
 (fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex
 -text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"B
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.1]"B
 (fontspec)             Nazanin/B/OT:language=dflt;script=arab;mapping=persian-t
 ex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.2]"B
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.1]"B
 (fontspec)             Nazanin/BI/OT:language=dflt;script=arab;mapping=persian-
 tex-text;"
 
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 59.
+(Font)              scaled to size 13.20007pt on input line 59.
+
+Package fontspec Info: 
+(fontspec)             Times New Roman scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/B scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/I scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/BI scale = 0.9.
+
 
 Package fontspec Info: 
 (fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
-(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)             New Roman' with options [Ligatures=TeX,Scale=0.9].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
 
 LaTeX Info: Redefining \latinfont on input line 59.
 
 Package fontspec Info: 
+(fontspec)             Times New Roman scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/B scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/I scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/BI scale = 0.9.
+
+
+Package fontspec Info: 
 (fontspec)             Font family 'TimesNewRoman(1)' created for font 'Times
-(fontspec)             New Roman' with options [Ligatures=PersianTeX].
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=PersianTeX,Scale=0.9].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/OT:script=latn;language=dflt;mapping=persian-tex-t
 ext;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=persian-tex
 -text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=persian-tex
 -text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=persian-te
 x-text;"
 
 
 Package fontspec Info: 
+(fontspec)             Times New Roman scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/B scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/I scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Times New Roman/BI scale = 0.9.
+
+
+Package fontspec Info: 
 (fontspec)             Font family 'TimesNewRoman(2)' created for font 'Times
-(fontspec)             New Roman' with options [].
+(fontspec)             New Roman' with options [Scale=0.9].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[0.9]"Times New
 (fontspec)             Roman/I/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;"
 
 Package unicode-persianmath Info: DefiningthedefaultPersianmathdigitsfontas'Tim
@@ -1227,132 +1291,129 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DMD_Thesis_Sharif_Template.bbl' found.
 
-(./DMD_Thesis_Sharif_Template.bbl)
+(./DMD_Thesis_Sharif_Template.bbl
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 45.
+)
 Package biblatex Info: Reference section=0 on input line 63.
 Package biblatex Info: Reference segment=0 on input line 63.
  (./frontmatter/title.tex
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 20.73593pt on input line 12.
+(Font)              scaled to size 19.0081pt on input line 12.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 20.73593pt on input line 12.
+(Font)              scaled to size 19.0081pt on input line 12.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 29.85593pt on input line 12.
+(Font)              scaled to size 27.36815pt on input line 12.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 29.85593pt on input line 12.
+(Font)              scaled to size 27.36815pt on input line 12.
 File: /Users/mohammad/University/Latex/Media/Sharif_logo.png Graphic file (type
  bmp)
 </Users/mohammad/University/Latex/Media/Sharif_logo.png>
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 14.39996pt on input line 12.
+(Font)              scaled to size 13.20007pt on input line 12.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 12.
-
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+(Font)              scaled to size 15.84007pt on input line 12.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 12.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 12.
 
 
 [1
 
 ]) (./Abstract/abstract-fa.tex
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 5.39996pt on input line 4.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(2)/b/n' tried instead on input
- line 5.
+ line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 4.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/bx/n' in size <8> not avail
 able
 (Font)              Font shape `TU/TimesNewRoman(2)/b/n' tried instead on input
- line 5.
+ line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 4.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/bx/n' in size <6> not avail
 able
 (Font)              Font shape `TU/TimesNewRoman(2)/b/n' tried instead on input
- line 5.
+ line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 5.39996pt on input line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 7.19995pt on input line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 5.39996pt on input line 4.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 5.
+(Font)              scaled to size 8.80005pt on input line 4.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 4.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 7.
+(Font)              scaled to size 11.00006pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 6.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(2)/b/n' tried instead on input
- line 7.
+ line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 6.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/bx/n' in size <7> not avail
 able
 (Font)              Font shape `TU/TimesNewRoman(2)/b/n' tried instead on input
- line 7.
+ line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 6.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/bx/n' in size <5> not avail
 able
 (Font)              Font shape `TU/TimesNewRoman(2)/b/n' tried instead on input
- line 7.
+ line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 4.49997pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 8.99994pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 6.29996pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 4.49997pt on input line 6.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 8.39998pt on input line 7.
+(Font)              scaled to size 7.70004pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 8.
+)
 
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-) (./Abstract/abstract-en.tex
-Overfull \hbox (4.5643pt too wide) in paragraph at lines 3--4
-[]\TU/TimesNewRoman(0)/m/n/12 used clinical tools for functional evaluation is 
-the North Star Ambulatory Assessment (NSAA),[]
- []
+[1] (./DMD_Thesis_Sharif_Template.toc
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 1.
 
 
-
-[1])
-
-[2] (./DMD_Thesis_Sharif_Template.toc
+[2]
 Missing character: There is no A (U+0041) in font B Nazanin Bold/OT:language=df
 lt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no b (U+0062) in font B Nazanin Bold/OT:language=df
@@ -1369,96 +1430,13 @@ Missing character: There is no c (U+0063) in font B Nazanin Bold/OT:language=df
 lt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no t (U+0074) in font B Nazanin Bold/OT:language=df
 lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
-
-[3]
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 )
 \tf@toc=\write5
 \openout5 = `DMD_Thesis_Sharif_Template.toc'.
 
 
 
-[4] (./DMD_Thesis_Sharif_Template.lof
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+[3] (./DMD_Thesis_Sharif_Template.lof
 Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
@@ -1489,1755 +1467,170 @@ ript=arab;mapping=persian-tex-text;!
 
 
 
-[5] (./DMD_Thesis_Sharif_Template.lot)
+[4] (./DMD_Thesis_Sharif_Template.lot)
 \tf@lot=\write7
 \openout7 = `DMD_Thesis_Sharif_Template.lot'.
 
 
 
-[6] (./frontmatter/acknowledgment.tex)
+[5] (./frontmatter/acknowledgment.tex)
 
-[7] (./Chapters/Chapter1_Introduction.tex
+[6] (./Chapters/Chapter1_Introduction.tex
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 17.27994pt on input line 3.
+(Font)              scaled to size 15.84007pt on input line 3.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 3.
 
-Missing character: There is no X (U+0058) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 
-Overfull \hbox (8.17503pt too wide) in paragraph at lines 17--18
-[][]\TU/BNazanin(0)/m/n/12 اگرچه در سال‌های اخیر پیشرفت‌های قابل توجهی در زمینه
- درمان‌های دارویی، ژن‌درمانی و مراقبت‌های[]
+[7]
+Overfull \hbox (0.71857pt too wide) in paragraph at lines 36--37
+[]\TU/BNazanin(0)/m/n/12 دوشن، استخراج ویژگی‌های مناسب از سیگنال‌های ثبت‌شده و 
+پیش‌بینی نمرات عملکردی با استفاده از الگوریتم‌های[]
  []
 
 
 
 [8]
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+)
 
-[9]
-Missing character: There is no I (U+0049) in font B Nazanin/OT:language=dflt;sc
+[9] (./Chapters/Chapter2_BasicConcepts.tex
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 24.
+
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-Missing character: There is no U (U+0055) in font B Nazanin/OT:language=dflt;sc
+Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-File: Images/1_FlowChartChoosingNSAA.png Graphic file (type bmp)
-<Images/1_FlowChartChoosingNSAA.png>
 
 
 [10]
-Missing character: There is no N (U+004E) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
 
 [11]
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no I (U+0049) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no U (U+0055) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no I (U+0049) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no U (U+0055) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
 
 [12]
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
 
 [13]
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-) (./Chapters/Chapter2_SystemDesign.tex
+Overfull \hbox (9.8283pt too wide) in paragraph at lines 172--173
+[][]\TU/BNazanin(0)/m/n/12 در این روش، هر درخت تصمیم با استفاده از زیرمجموعه‌ای
+ تصادفی از داده‌های آموزشی و همچنین زیرمجموعه‌ای[]
+ []
 
-[14]
+)
+
+[14] (./Chapters/Chapter3_SystemDesign.tex
 Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 
 
 [15]
-Missing character: There is no E (U+0045) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+File: Images/1_FlowChartChoosingNSAA.png Graphic file (type bmp)
+<Images/1_FlowChartChoosingNSAA.png>
 
-LaTeX Warning: Reference `fig:SystemArchitecture' on page 16 undefined on input
- line 41.
 
+[16]
+
+[17]
+
+[18]
 File: Images/2_FlowChartSystemDesign.png Graphic file (type bmp)
 <Images/2_FlowChartSystemDesign.png>
 
 
-[16]
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no G (U+0047) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no O (U+004F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no W (U+0057) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no E (U+0045) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+[19]
+
+[20]
 File: Images/3_SensorsPlacement.png Graphic file (type bmp)
 <Images/3_SensorsPlacement.png>
 
 
-[17]
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
-
-[18]
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+[21]
 File: Images/4_ArduinoCode.png Graphic file (type bmp)
 <Images/4_ArduinoCode.png>
-Missing character: There is no M (U+004D) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
-
-[19]
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-File: Images/5_MatlabDataCollector.png Graphic file (type bmp)
-<Images/5_MatlabDataCollector.png>
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
-
-[20]
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
-
-[21]
-File: Images/6_FlowChartDataCollecting.png Graphic file (type bmp)
-<Images/6_FlowChartDataCollecting.png>
-
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 
 
 [22]
-Overfull \hbox (1.58438pt too wide) in paragraph at lines 200--201
-[][]\TU/BNazanin(0)/m/n/12 اعمال این فیلتر موجب حذف بخش عمده نویزهای فرکانس بال
-ا شده و سیگنال‌های نرم‌تر و مناسب‌تری[]
- []
-
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no w (U+0077) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 203.
+File: Images/5_MatlabDataCollector.png Graphic file (type bmp)
+<Images/5_MatlabDataCollector.png>
 
 
 [23]
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+File: Images/6_FlowChartDataCollecting.png Graphic file (type bmp)
+<Images/6_FlowChartDataCollecting.png>
 
 
 [24]
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no v (U+0076) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no V (U+0056) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no x (U+0078) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no g (U+0067) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no Q (U+0051) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no Q (U+0051) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no I (U+0049) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no q (U+0071) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no g (U+0067) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no b (U+0062) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no V (U+0056) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no q (U+0071) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no k (U+006B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no w (U+0077) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no K (U+004B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no E (U+0045) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no g (U+0067) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no E (U+0045) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no Z (U+005A) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no g (U+0067) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-File: Images/7_FlowChartFeatureExtraction.png Graphic file (type bmp)
-<Images/7_FlowChartFeatureExtraction.png>
-
 
 [25]
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no z (U+007A) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
 
 [26]
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no f (U+0066) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no K (U+004B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no V (U+0056) in font B Nazanin/OT:language=dflt;sc
+Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-Missing character: There is no K (U+004B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no K (U+004B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
+Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 
 
 [27]
-Missing character: There is no K (U+004B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no k (U+006B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no g (U+0067) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no f (U+0066) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no f (U+0066) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no x (U+0078) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no F (U+0046) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no f (U+0066) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+File: Images/7_FlowChartFeatureExtraction.png Graphic file (type bmp)
+<Images/7_FlowChartFeatureExtraction.png>
 
 
 [28]
-Overfull \hbox (1.11565pt too wide) in paragraph at lines 356--357
-[][]\TU/BNazanin(0)/m/n/12 برای هر یک از این دو حالت، دو روش مختلف ارزیابی شامل
- تقسیم‌بندی تصادفی داده‌ها و اعتبارسنجی[]
- []
-
-Missing character: There is no P (U+0050) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-File: Images/8_FlowChartPipline.png Graphic file (type bmp)
-<Images/8_FlowChartPipline.png>
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
 
 [29]
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no I (U+0049) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no E (U+0045) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no T (U+0054) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no L (U+004C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no B (U+0042) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no h (U+0068) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no N (U+004E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no u (U+0075) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no m (U+006D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no y (U+0079) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no d (U+0064) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no k (U+006B) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no p (U+0070) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no b (U+0062) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 
-Overfull \hbox (5.98825pt too wide) in paragraph at lines 397--398
-[][]\TU/BNazanin(0)/m/n/12 در بخش یادگیری ماشین از کتابخانه‌های NumPy، Pandas، 
-Scikit-learn و Matplotlib[]
- []
+[30]
 
-) (./Chapters/generated_plot_figures.tex
+[31]
+File: Images/8_FlowChartPipline.png Graphic file (type bmp)
+<Images/8_FlowChartPipline.png>
+
+
+[32])
+
+[33] (./Chapters/generated_plot_figures.tex
 File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
 <Images/Generated/Chapter2/ch2_signal_sample.png>
 File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
 mp)
 <Images/Generated/Chapter2/ch2_class_distribution.png>
-
-
-[30]
 File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
 e (type bmp)
 <Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
 
 
-[31]
+[34]
 File: Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png Graphic file (typ
 e bmp)
 <Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png>
 
 
-[32]
+[35]
 File: Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png>
@@ -3246,7 +1639,7 @@ type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png>
 
 
-[33]
+[36]
 File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
 mp)
 <Images/Generated/Chapter3/ch3_pca_variance_curve.png>
@@ -3262,7 +1655,7 @@ bmp)
 <Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
 
 
-[34]
+[37]
 Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
@@ -3274,7 +1667,7 @@ ype bmp)
 <Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png>
 
 
-[35]
+[38]
 File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
@@ -3308,7 +1701,7 @@ Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 
 
-[36]
+[39]
 File: Images/Generated/Chapter4/ch4_per_class_recall_pca95.png Graphic file (ty
 pe bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_pca95.png>
@@ -3342,85 +1735,51 @@ e bmp)
 <Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
 
 
-[37]
+[40]
 File: Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png Graphic 
 file (type bmp)
 <Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
 )
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[][]\TU/TimesNewRoman(0)/m/n/12 Oscar D. Lara and Miguel A.[]
- []
+[41]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 110.
 
-
-Underfull \hbox (badness 6268) in paragraph at lines 107--107
-[]\TU/TimesNewRoman(0)/m/n/12 tivity Recognition using Wearable[]
- []
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 107--107
-[]\TU/TimesNewRoman(0)/m/it/12 Surveys & Tutorials \TU/TimesNewRoman(0)/m/n/12 
-15.3 (2013),[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[][]\TU/TimesNewRoman(0)/m/n/12 A.M. Sabatini. “Estimating three-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[]\TU/TimesNewRoman(0)/m/n/12 dimensional orientation of human[]
- []
-
-
-Underfull \hbox (badness 7814) in paragraph at lines 107--107
-[]\TU/TimesNewRoman(0)/m/n/12 ertial/magnetic sensor arrays”. In:[]
- []
-
-
-Underfull \hbox (badness 6792) in paragraph at lines 107--107
-[]\TU/TimesNewRoman(0)/m/n/12 Worn Inertial Sensors”. In: \TU/TimesNewRoman(0)/
-m/it/12 ACM[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[][]\TU/TimesNewRoman(0)/m/n/12 Christopher M. Bishop. \TU/TimesNewRoman(0)/m/i
-t/12 Pattern[]
+Overfull \hbox (10.79538pt too wide) in paragraph at lines 110--110
+[][]\TU/TimesNewRoman(0)/m/n/12 A.M. Sabatini. “Estimating three-dimensional or
+ientation of human body parts by inertial/magnetic[]
  []
 
 
 
-[39] (./DMD_Thesis_Sharif_Template.aux)
+[42]
+
+[43] (./Abstract/abstract-en.tex
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 15.55188pt on input line 1.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 1.
+)
+
+[44] (./DMD_Thesis_Sharif_Template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `DMD_Thesis_Sharif_Template.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 74BD4D7844E22DA4D82D2132C38C8FE1;9767.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DMD_Thesis_Sharif_Template
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: E3DE3F554AABD8A545BD12B32C8086DF;11785.
 Package logreq Info: Writing requests to 'DMD_Thesis_Sharif_Template.run.xml'.
 \openout1 = `DMD_Thesis_Sharif_Template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25230 strings out of 473832
- 530295 string characters out of 5729482
- 1381700 words of memory out of 5000000
- 47838 multiletter control sequences out of 15000+600000
- 566117 words of font info for 135 fonts, out of 8000000 for 9000
+ 25335 strings out of 473832
+ 532476 string characters out of 5729482
+ 1381970 words of memory out of 5000000
+ 47939 multiletter control sequences out of 15000+600000
+ 566125 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,11n,95p,2423b,4919s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,11n,95p,2423b,4969s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis_Sharif_Template.pdf (40 pages).
+Output written on DMD_Thesis_Sharif_Template.pdf (45 pages).

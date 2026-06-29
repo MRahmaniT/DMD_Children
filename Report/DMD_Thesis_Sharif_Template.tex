@@ -71,7 +71,6 @@ eprint=false
 	% (Optional) Abstracts later
 	% ======================
 	 \input{Abstract/abstract-fa}
-	 \input{Abstract/abstract-en}
 	
 	% ======================
 	% Front Matter (ToC, LoF, LoT, ...)
@@ -88,10 +87,16 @@ eprint=false
 	% Chapters later (Modular)
 	% ======================
 	 \input{Chapters/Chapter1_Introduction}
-	 \input{Chapters/Chapter2_SystemDesign}
+	 
+	 \newpage
+	 \input{Chapters/Chapter2_BasicConcepts}
+	 
+	 \newpage
+	 \input{Chapters/Chapter3_SystemDesign}
+	 
+	 \newpage
 	 \input{Chapters/generated_plot_figures}
 	 %\input{Chapters/chapter1-introduction}
-	 %\input{Chapters/chapter2-background}
 	 
 	 
 	% ======================
@@ -102,13 +107,16 @@ eprint=false
 	
 	\begin{LTR}
 		\begin{latin}  
-			\small  
-			\begin{multicols}{2}
-				\printbibliography[heading=none]
-			\end{multicols}
+			\printbibliography[heading=none]
+			%\small  
+			%\begin{multicols}{2}
+			%	\printbibliography[heading=none]
+			%\end{multicols}
 		\end{latin}
 	\end{LTR}
 	
+	\newpage
+	 \input{Abstract/abstract-en}
 	
 	
 \end{document}

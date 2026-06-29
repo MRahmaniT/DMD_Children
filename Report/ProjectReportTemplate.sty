@@ -149,9 +149,18 @@
 % You asked: B Nazanin + Times New Roman
 % These commands try multiple common font names and fall back safely.
 \NewDocumentCommand{\UseBNazanin}{}{%
-	\IfFontExistsTF{Sharif 1.2 Regular}{\settextfont[Scale=1.2]{B Nazanin}}{%
-		\IfFontExistsTF{B Nazanin}{\settextfont{B Nazanin}}{%
-			\IfFontExistsTF{IRNazanin}{\settextfont{IRNazanin}}{%
+	\IfFontExistsTF{Sharif 1.2 Regular}{
+		\settextfont[Scale=1.1]{B Nazanin}
+		%\setdigitfont[Scale=1]{Nazli}
+		}{%
+		\IfFontExistsTF{B Nazanin}{
+			\settextfont{B Nazanin}
+			%\setdigitfont[Scale=1]{B Nazanin}
+			}{%
+			\IfFontExistsTF{IRNazanin}{
+				\settextfont{IRNazanin}
+				%\setdigitfont[Scale=1]{B Nazanin}
+				}{%
 				\settextfont{DejaVu Sans}%
 			}%
 		}%
@@ -160,8 +169,8 @@
 
 \NewDocumentCommand{\UseTimesNewRoman}{}{%
 	\IfFontExistsTF{Times New Roman}{%
-		\setlatintextfont{Times New Roman}%
-		\setdigitfont{Times New Roman}%
+		\setlatintextfont[Scale=0.9]{Times New Roman}%
+		\setdigitfont[Scale=0.9]{Times New Roman}%
 	}{%
 		\IfFontExistsTF{TeX Gyre Termes}{%
 			\setlatintextfont{TeX Gyre Termes}%
