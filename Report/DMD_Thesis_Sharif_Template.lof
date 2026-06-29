@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {16}{\ignorespaces پراکندگی نمونه ها در فضای \lr {PC1} و \lr {PC2}}}{38}{figure.caption.26}%
 \contentsline {figure}{\numberline {17}{\ignorespaces رتبه بندی مدل ها بر اساس \lr {F1} در حالت بدون \lr {PCA}}}{38}{figure.caption.27}%
 \contentsline {figure}{\numberline {18}{\ignorespaces 20 ویژگی برتر بر اساس اهمیت در مدل \lr {Random Forest}}}{39}{figure.caption.29}%
-\contentsline {figure}{\numberline {19}{\ignorespaces مقایسه Recall هر کلاس بین مدل ها \lr {no pca}}}{40}{figure.caption.30}%
-\contentsline {figure}{\numberline {20}{\ignorespaces مقایسه Recall هر کلاس بین مدل ها \lr {pca95}}}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {19}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {no pca}}}{40}{figure.caption.30}%
+\contentsline {figure}{\numberline {20}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {pca95}}}{40}{figure.caption.31}%
 \contentsline {figure}{\numberline {21}{\ignorespaces تغییر \lr {F1} هر مدل پس از اعمال \lr {PCA95}}}{41}{figure.caption.32}%
 \contentsline {figure}{\numberline {22}{\ignorespaces میانگین نرمال شده ویژگی های برتر برای هر کلاس}}{41}{figure.caption.33}%

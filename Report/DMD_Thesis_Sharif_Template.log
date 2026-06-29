@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 JUN 2026 21:27
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 JUN 2026 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1413,55 +1413,13 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 1.
 
 
-[2]
-Missing character: There is no A (U+0041) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no b (U+0062) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no s (U+0073) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no r (U+0072) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no t (U+0074) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-)
+[2])
 \tf@toc=\write5
 \openout5 = `DMD_Thesis_Sharif_Template.toc'.
 
 
 
-[3] (./DMD_Thesis_Sharif_Template.lof
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-)
+[3] (./DMD_Thesis_Sharif_Template.lof)
 \tf@lof=\write6
 \openout6 = `DMD_Thesis_Sharif_Template.lof'.
 
@@ -1613,7 +1571,7 @@ File: Images/8_FlowChartPipline.png Graphic file (type bmp)
 
 [32])
 
-[33] (./Chapters/generated_plot_figures.tex
+[33] (./Chapters/Chapter4_ResultAndDiscussion.tex
 File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
 <Images/Generated/Chapter2/ch2_signal_sample.png>
 File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
@@ -1675,61 +1633,11 @@ File: Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png Graphic file (t
 ype bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png>
 
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-
 
 [39]
 File: Images/Generated/Chapter4/ch4_per_class_recall_pca95.png Graphic file (ty
 pe bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_pca95.png>
-
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no c (U+0063) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no l (U+006C) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 File: Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png Graphic file (typ
 e bmp)
 <Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
@@ -1741,45 +1649,49 @@ file (type bmp)
 <Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
 )
 
-[41]
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 110.
+[41] (./Chapters/Chapter5_Conclusion.tex)
 
-Overfull \hbox (10.79538pt too wide) in paragraph at lines 110--110
+[42] (./Chapters/Chapter6_Appendix.tex)
+
+[43]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 117.
+
+Overfull \hbox (10.79538pt too wide) in paragraph at lines 117--117
 [][]\TU/TimesNewRoman(0)/m/n/12 A.M. Sabatini. “Estimating three-dimensional or
 ientation of human body parts by inertial/magnetic[]
  []
 
 
 
-[42]
+[44]
 
-[43] (./Abstract/abstract-en.tex
+[45] (./Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[44] (./DMD_Thesis_Sharif_Template.aux)
+[46] (./DMD_Thesis_Sharif_Template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DMD_Thesis_Sharif_Template.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: E3DE3F554AABD8A545BD12B32C8086DF;11785.
+(rerunfilecheck)             Checksum: 0DE2B07CC0D23B059AA454A64CC4747A;11543.
 Package logreq Info: Writing requests to 'DMD_Thesis_Sharif_Template.run.xml'.
 \openout1 = `DMD_Thesis_Sharif_Template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25335 strings out of 473832
- 532476 string characters out of 5729482
- 1381970 words of memory out of 5000000
- 47939 multiletter control sequences out of 15000+600000
+ 25351 strings out of 473832
+ 533082 string characters out of 5729482
+ 1384574 words of memory out of 5000000
+ 47949 multiletter control sequences out of 15000+600000
  566125 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,11n,95p,2423b,4969s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,11n,95p,2423b,4967s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis_Sharif_Template.pdf (45 pages).
+Output written on DMD_Thesis_Sharif_Template.pdf (47 pages).

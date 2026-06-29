@@ -1,7 +1,3 @@
-\contentsline {section}{چکیده}{1}{section*.1}%
-\contentsline {section}{فهرست شکل‌ها}{4}{section*.3}%
-\contentsline {section}{فهرست جدول‌ها}{5}{section*.4}%
-\contentsline {section}{تقدیر و تشکر}{6}{section*.5}%
 \contentsline {section}{\numberline {1}مقدمه}{7}{section.1}%
 \contentsline {subsection}{\numberline {1.1}تاثیر دیستروفی عضلانی دوشن بر عملکرد حرکتی}{7}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}ارزیابی عملکرد حرکتی بیماران و چالش‌های موجود}{7}{subsection.1.2}%
@@ -49,4 +45,7 @@
 \contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{31}{subsection.3.12}%
 \contentsline {subsubsection}{\numberline {3.12.1}مراحل اجرای \lr {Pipeline}}{32}{subsubsection.3.12.1}%
 \contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{33}{subsection.3.13}%
-\contentsline {section}{Abstract}{44}{section*.35}%
+\contentsline {section}{\numberline {4}نتایج}{34}{section.4}%
+\contentsline {section}{\numberline {5}جمع بندی}{42}{section.5}%
+\contentsline {section}{\numberline {6}پیوست}{43}{section.6}%
+\contentsline {section}{\numberline {7}مراجع}{44}{section.7}%
