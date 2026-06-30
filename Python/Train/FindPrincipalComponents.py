@@ -2,6 +2,7 @@ import os
 import glob
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
 
@@ -35,13 +36,15 @@ RANDOM_SEED = 42
 RF_TREES = 500
 KNN_NEIGHBORS = 5
 
-if USE_PCA:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand_PCA" + str(int(PCA*100)) + ".xlsx"
-    OUTPUT_EXCEL = "Results/Results_Comparison_PCA" + str(int(PCA*100)) + ".xlsx"
-else:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand.xlsx"
-    OUTPUT_EXCEL = "Results/Results_Comparison.xlsx"
+MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand_PCA" + str(int(PCA*100)) + ".xlsx"
+RESULTS_FOLDER = r"/Users/mohammad/University/Bachelor Project/Python/Results/FindPrincipalComponents"
 
+os.makedirs(RESULTS_FOLDER, exist_ok=True)
+
+OUTPUT_EXCEL = os.path.join(
+    RESULTS_FOLDER,
+    f"PCA_Dimension_Search_{int(PCA*100)}.xlsx"
+)
 
 # =====================================================
 # LOAD FEATURES
@@ -156,162 +159,171 @@ def multiclass_specificity(y_true, y_pred):
 # =====================================================
 # MAIN EVALUATION
 # =====================================================
-def run_stratified_Kfold():
+def evaluate_pca_dimensions():
 
     X, y = load_features(MASTER_PATH)
 
-    models = get_models(RANDOM_SEED)
+    total_components = X.shape[1]
 
-    summary = []
-    all_runs = []
+    print(f"Total PCA components = {total_components}")
 
-    # skf = StratifiedKFold(
-    #     n_splits=5,
-    #     shuffle=True,
-    #     random_state=RANDOM_SEED
-    # )
-    
-    skf = RepeatedStratifiedKFold(
-        n_splits=N_SPLITS,
-        n_repeats=REPEATS,
-        random_state=RANDOM_SEED
+    skf = StratifiedKFold(
+        n_splits=5,
+        shuffle=True,
+        random_state=42
     )
 
-    for model_name in models:
+    results = []
 
-        accs = []
-        precs = []
-        recalls = []
-        specs = []
-        f1s = []
+    for n_components in range(total_components, 0, -1):
 
-        print(f"\nRunning {model_name}")
+        print(f"Testing first {n_components} components")
 
-        fold = 1
+        X_current = X[:, :n_components]
 
-        for tr, te in skf.split(X, y):
+        fold_acc = []
+        fold_prec = []
+        fold_rec = []
+        fold_spec = []
+        fold_f1 = []
+                
 
-            Xtr = X[tr]
-            ytr = y[tr]
+        for train_idx, test_idx in skf.split(X_current, y):
 
-            Xte = X[te]
-            yte = y[te]
+            X_train = X_current[train_idx]
+            X_test = X_current[test_idx]
 
-            model = get_models(RANDOM_SEED)[model_name]
+            y_train = y[train_idx]
+            y_test = y[test_idx]
 
-            model.fit(Xtr, ytr)
+            model = SVC(kernel="rbf")
 
-            pred = model.predict(Xte)
+            model.fit(X_train, y_train)
 
-            acc = accuracy_score(yte, pred)
+            pred = model.predict(X_test)
+
+            acc = accuracy_score(y_test, pred)
 
             prec = precision_score(
-                yte,
+                y_test,
                 pred,
                 average="macro",
                 zero_division=0
             )
 
             rec = recall_score(
-                yte,
+                y_test,
                 pred,
                 average="macro",
                 zero_division=0
             )
 
             spec = multiclass_specificity(
-                yte,
+                y_test,
                 pred
             )
 
             f1 = f1_score(
-                yte,
+                y_test,
                 pred,
                 average="macro",
                 zero_division=0
             )
 
-            accs.append(acc)
-            precs.append(prec)
-            recalls.append(rec)
-            specs.append(spec)
-            f1s.append(f1)
+            fold_acc.append(acc)
+            fold_prec.append(prec)
+            fold_rec.append(rec)
+            fold_spec.append(spec)
+            fold_f1.append(f1)
 
-            all_runs.append({
-                "Model": model_name,
-                "Fold": fold,
-                "Accuracy": acc * 100,
-                "Precision": prec * 100,
-                "Recall": rec * 100,
-                "Specificity": spec * 100,
-                "F1": f1 * 100
-            })
+        results.append({
 
-            fold += 1
+            "Components": n_components,
 
-        summary.append({
-            "Model": model_name,
-            "Accuracy": np.mean(accs) * 100,
-            "Precision": np.mean(precs) * 100,
-            "Recall": np.mean(recalls) * 100,
-            "Specificity": np.mean(specs) * 100,
-            "F1": np.mean(f1s) * 100
+            "Accuracy": np.mean(fold_acc) * 100,
+            "Precision": np.mean(fold_prec) * 100,
+            "Recall": np.mean(fold_rec) * 100,
+            "Specificity": np.mean(fold_spec) * 100,
+            "F1": np.mean(fold_f1) * 100,
+
+            "Accuracy Std": np.std(fold_acc) * 100,
+            "Precision Std": np.std(fold_prec) * 100,
+            "Recall Std": np.std(fold_rec) * 100,
+            "Specificity Std": np.std(fold_spec) * 100,
+            "F1 Std": np.std(fold_f1) * 100,
         })
 
-    summary_df = pd.DataFrame(summary)
+    results_df = pd.DataFrame(results)
 
-    summary_df = summary_df.sort_values(
-        "F1",
-        ascending=False
+    # =====================================================
+    # PLOT ACCURACY VS PCA COMPONENTS
+    # =====================================================
+
+    metrics = [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "Specificity",
+        "F1"
+    ]
+
+    for metric in metrics:
+
+        plt.figure(figsize=(9,6))
+
+        plt.plot(
+            results_df["Components"],
+            results_df[metric],
+            linewidth=2.5,
+            marker="o",
+            markersize=5
+        )
+
+        plt.gca().invert_xaxis()
+
+        plt.xlabel("Number of Principal Components", fontsize=12)
+        plt.ylabel(metric + " (%)", fontsize=12)
+
+        plt.title(
+            f"SVM Performance vs Number of PCA Components ({metric})",
+            fontsize=14,
+            weight="bold"
+        )
+
+        plt.grid(True, linestyle="--", alpha=0.4)
+
+        plt.xlim(
+            results_df["Components"].max(),
+            results_df["Components"].min()
+        )
+
+        plt.tight_layout()
+
+        plt.savefig(
+            os.path.join(
+                RESULTS_FOLDER,
+                metric.replace(" ", "_") + "_vs_PCA.png"
+            ),
+            dpi=600,
+            bbox_inches="tight"
+        )
+
+        plt.close()
+    
+    results_df.to_excel(
+        OUTPUT_EXCEL,
+        index=False
     )
 
-    ranking_df = summary_df.copy()
+    print(results_df)
 
-    ranking_df.insert(
-        0,
-        "Rank",
-        range(1, len(ranking_df) + 1)
-    )
+    return results_df
 
-    all_runs_df = pd.DataFrame(all_runs)
-
-    with pd.ExcelWriter(
-            OUTPUT_EXCEL,
-            engine="openpyxl") as writer:
-
-        summary_df.to_excel(
-            writer,
-            sheet_name="Summary",
-            index=False
-        )
-
-        ranking_df.to_excel(
-            writer,
-            sheet_name="Ranking",
-            index=False
-        )
-
-        all_runs_df.to_excel(
-            writer,
-            sheet_name="All_Folds",
-            index=False
-        )
-
-    print("\n")
-    print("=" * 70)
-    print("FINAL SUMMARY")
-    print("=" * 70)
-
-    print(summary_df.round(3))
-
-    print("\nSaved:")
-    print(os.path.abspath(OUTPUT_EXCEL))
 
 # =====================================================
 # RUN
 # =====================================================
 
 if __name__ == "__main__":
-
-    run_stratified_Kfold()
     
+    evaluate_pca_dimensions()

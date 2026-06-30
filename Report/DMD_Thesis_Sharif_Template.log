@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 JUN 2026 21:43
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  30 JUN 2026 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1577,18 +1577,21 @@ File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
 File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
 mp)
 <Images/Generated/Chapter2/ch2_class_distribution.png>
+
+
+[34]
 File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
 e (type bmp)
 <Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
 
 
-[34]
+[35]
 File: Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png Graphic file (typ
 e bmp)
 <Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png>
 
 
-[35]
+[36]
 File: Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png>
@@ -1597,35 +1600,34 @@ type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png>
 
 
-[36]
-File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
-mp)
-<Images/Generated/Chapter3/ch3_pca_variance_curve.png>
-
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-File: Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png Graphic file (type 
-bmp)
-<Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
-
-
 [37]
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 File: Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png Graphic file (t
 ype bmp)
 <Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png>
 
 
 [38]
+File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
+mp)
+<Images/Generated/Chapter3/ch3_pca_variance_curve.png>
+File: Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png Graphic file (type 
+bmp)
+<Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
+
+
+[39]
+Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png Graphic file (typ
+e bmp)
+<Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
+
+
+[40]
 File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
@@ -1634,26 +1636,22 @@ ype bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png>
 
 
-[39]
+[41]
 File: Images/Generated/Chapter4/ch4_per_class_recall_pca95.png Graphic file (ty
 pe bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_pca95.png>
-File: Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png Graphic file (typ
-e bmp)
-<Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
-
-
-[40]
 File: Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png Graphic 
 file (type bmp)
 <Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
-)
 
-[41] (./Chapters/Chapter5_Conclusion.tex)
 
-[42] (./Chapters/Chapter6_Appendix.tex)
+[42])
 
-[43]
+[43] (./Chapters/Chapter5_Conclusion.tex)
+
+[44] (./Chapters/Chapter6_Appendix.tex)
+
+[45]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 117.
 
@@ -1664,34 +1662,34 @@ ientation of human body parts by inertial/magnetic[]
 
 
 
-[44]
+[46]
 
-[45] (./Abstract/abstract-en.tex
+[47] (./Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[46] (./DMD_Thesis_Sharif_Template.aux)
+[48] (./DMD_Thesis_Sharif_Template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DMD_Thesis_Sharif_Template.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 0DE2B07CC0D23B059AA454A64CC4747A;11543.
+(rerunfilecheck)             Checksum: BB7A5F7FF3DD2CE1909798E6A5559CE1;13334.
 Package logreq Info: Writing requests to 'DMD_Thesis_Sharif_Template.run.xml'.
 \openout1 = `DMD_Thesis_Sharif_Template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25351 strings out of 473832
- 533082 string characters out of 5729482
- 1384574 words of memory out of 5000000
- 47949 multiletter control sequences out of 15000+600000
+ 25353 strings out of 473832
+ 533112 string characters out of 5729482
+ 1386514 words of memory out of 5000000
+ 47951 multiletter control sequences out of 15000+600000
  566125 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,11n,95p,2423b,4967s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis_Sharif_Template.pdf (47 pages).
+Output written on DMD_Thesis_Sharif_Template.pdf (49 pages).
