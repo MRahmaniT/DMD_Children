@@ -1,59 +1,60 @@
 \contentsline {section}{\numberline {1}مقدمه}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}تاثیر دیستروفی عضلانی دوشن بر عملکرد حرکتی}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}ارزیابی عملکرد حرکتی بیماران و چالش‌های موجود}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.1}تأثیر دیستروفی عضلانی دوشن بر عملکرد حرکتی}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}ارزیابی عملکرد حرکتی و چالش‌های موجود}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}بیان مسئله}{2}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}اهداف پژوهش}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.4}اهداف پژوهش}{2}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}خروجی‌های مورد انتظار}{3}{subsection.1.5}%
-\contentsline {section}{\numberline {2}مبانی نظری}{4}{section.2}%
+\contentsline {section}{\numberline {2}مفاهیم پایه}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}دیستروفی عضلانی دوشن}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}مقیاس \lr {NSAA}}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}مقیاس \lr {NSAA}}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}حسگرهای اینرسیایی}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}پیش پردازش سیگنال}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}استخراج ویژگی}{6}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}کاهش بعد داده‌ها}{6}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}یادگیری ماشین}{7}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}معیارهای ارزیابی مدل}{7}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}ماشین بردار پشتیبان}{7}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}الگوریتم نزدیک‌ترین همسایه}{8}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}جنگل تصادفی}{8}{subsection.2.11}%
-\contentsline {section}{\numberline {3}طراحی و پیاده‌سازی سامانه پیشنهادی}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}مقدمه}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}روند انتخاب روش ارزیابی در پژوهش حاضر}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}انتخاب مقیاس \lr {NSAA} به عنوان معیار ارزیابی}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}انتخاب حسگرهای اینرسیایی برای ثبت حرکات}{12}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}طراحی سامانه پیشنهادی}{13}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}پیاده‌سازی سامانه داده‌برداری}{14}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}چیدمان سامانه اندازه‌گیری}{14}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}دلایل انتخاب چیدمان حسگرها}{15}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}نرم‌افزار تعبیه‌شده روی بردهای حسگر}{16}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}نرم‌افزار توسعه‌یافته در محیط \lr {MATLAB}}{17}{subsubsection.3.6.4}%
-\contentsline {subsubsection}{\numberline {3.6.5}فرآیند انجام آزمون‌ها و ثبت داده‌ها}{18}{subsubsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.7}پیش‌پردازش داده‌ها}{19}{subsection.3.7}%
-\contentsline {subsubsection}{\numberline {3.7.1}دریافت فایل‌های خام}{19}{subsubsection.3.7.1}%
-\contentsline {subsubsection}{\numberline {3.7.2}فیلترگذاری سیگنال‌ها}{20}{subsubsection.3.7.2}%
-\contentsline {subsubsection}{\numberline {3.7.3}جداسازی فعالیت‌ها}{20}{subsubsection.3.7.3}%
-\contentsline {subsubsection}{\numberline {3.7.4}آماده‌سازی داده‌ها برای تحلیل}{20}{subsubsection.3.7.4}%
-\contentsline {subsection}{\numberline {3.8}استخراج ویژگی‌ها}{21}{subsection.3.8}%
-\contentsline {subsubsection}{\numberline {3.8.1}ویژگی‌های استخراج‌شده}{21}{subsubsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.9}کاهش بعد ویژگی‌ها}{23}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}آموزش مدل‌های یادگیری ماشین}{24}{subsection.3.10}%
-\contentsline {subsubsection}{\numberline {3.10.1}تقسیم‌بندی تصادفی با تعداد نمونه ثابت}{24}{subsubsection.3.10.1}%
-\contentsline {subsubsection}{\numberline {3.10.2}اعتبارسنجی متقاطع}{24}{subsubsection.3.10.2}%
-\contentsline {subsubsection}{\numberline {3.10.3}مدل‌های مورد استفاده}{24}{subsubsection.3.10.3}%
-\contentsline {subsubsection}{\numberline {3.10.4}\lr {Pipeline} پردازش داده}{25}{subsubsection.3.10.4}%
-\contentsline {subsection}{\numberline {3.11}معیارهای ارزیابی}{25}{subsection.3.11}%
-\contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{25}{subsection.3.12}%
-\contentsline {subsubsection}{\numberline {3.12.1}مراحل اجرای \lr {Pipeline}}{26}{subsubsection.3.12.1}%
-\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{27}{subsection.3.13}%
-\contentsline {section}{\numberline {4}نتایج و بحث}{28}{section.4}%
-\contentsline {subsection}{\numberline {4.1}مقدمه}{28}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}بررسی داده‌های ثبت‌شده}{28}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}نتایج پیش‌پردازش داده‌ها}{29}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}نتایج استخراج ویژگی}{30}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}نتایج مدل‌های یادگیری ماشین}{30}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}تأثیر کاهش بعد با استفاده از \lr {PCA}}{33}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}تحلیل ویژگی‌های مؤثر}{35}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}جمع‌بندی فصل}{37}{subsection.4.8}%
-\contentsline {section}{\numberline {5}جمع بندی}{38}{section.5}%
-\contentsline {section}{\numberline {6}پیوست}{39}{section.6}%
-\contentsline {section}{\numberline {7}مراجع}{40}{section.7}%
+\contentsline {subsection}{\numberline {2.4}پیش‌پردازش سیگنال}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}استخراج ویژگی}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}کاهش بعد داده‌ها}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}یادگیری ماشین}{8}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}معیارهای ارزیابی مدل}{9}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}ماشین بردار پشتیبان}{9}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}نزدیک‌ترین همسایه}{10}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}جنگل تصادفی}{11}{subsection.2.11}%
+\contentsline {section}{\numberline {3}طراحی و پیاده‌سازی سامانه پیشنهادی}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}مقدمه}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}روند انتخاب روش ارزیابی در پژوهش حاضر}{12}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}انتخاب مقیاس \lr {NSAA} به عنوان معیار ارزیابی}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}انتخاب حسگرهای اینرسیایی برای ثبت حرکات}{15}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}طراحی سامانه پیشنهادی}{16}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}پیاده‌سازی سامانه داده‌برداری}{17}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}چیدمان سامانه اندازه‌گیری}{17}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}دلایل انتخاب چیدمان حسگرها}{18}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}نرم‌افزار تعبیه‌شده روی بردهای حسگر}{19}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}نرم‌افزار توسعه‌یافته در محیط \lr {MATLAB}}{20}{subsubsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.6.5}فرآیند انجام آزمون‌ها و ثبت داده‌ها}{21}{subsubsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.7}پیش‌پردازش داده‌ها}{22}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}دریافت فایل‌های خام}{22}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}فیلترگذاری سیگنال‌ها}{23}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3}جداسازی فعالیت‌ها}{23}{subsubsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.4}آماده‌سازی داده‌ها برای تحلیل}{23}{subsubsection.3.7.4}%
+\contentsline {subsection}{\numberline {3.8}استخراج ویژگی‌ها}{24}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}ویژگی‌های استخراج‌شده}{24}{subsubsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.9}کاهش بعد ویژگی‌ها}{26}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}آموزش مدل‌های یادگیری ماشین}{27}{subsection.3.10}%
+\contentsline {subsubsection}{\numberline {3.10.1}تقسیم‌بندی تصادفی با تعداد نمونه ثابت}{27}{subsubsection.3.10.1}%
+\contentsline {subsubsection}{\numberline {3.10.2}اعتبارسنجی متقاطع}{27}{subsubsection.3.10.2}%
+\contentsline {subsubsection}{\numberline {3.10.3}مدل‌های مورد استفاده}{27}{subsubsection.3.10.3}%
+\contentsline {subsubsection}{\numberline {3.10.4}\lr {Pipeline} پردازش داده}{28}{subsubsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.11}معیارهای ارزیابی}{28}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{28}{subsection.3.12}%
+\contentsline {subsubsection}{\numberline {3.12.1}مراحل اجرای \lr {Pipeline}}{29}{subsubsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{30}{subsection.3.13}%
+\contentsline {section}{\numberline {4}نتایج و بحث}{31}{section.4}%
+\contentsline {subsection}{\numberline {4.1}مقدمه}{31}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}بررسی داده‌های ثبت‌شده}{31}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}نتایج پیش‌پردازش داده‌ها}{32}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}نتایج استخراج ویژگی}{33}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}نتایج مدل‌های یادگیری ماشین}{33}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}تأثیر کاهش بعد با استفاده از \lr {PCA}}{36}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}تحلیل ویژگی‌های مؤثر}{38}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}جمع‌بندی فصل}{40}{subsection.4.8}%
+\contentsline {section}{\numberline {5}جمع بندی}{41}{section.5}%
+\contentsline {section}{\numberline {6}پیوست}{42}{section.6}%
+\contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{42}{subsection.6.1}%
+\contentsline {section}{\numberline {7}مراجع}{45}{section.7}%

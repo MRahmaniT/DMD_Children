@@ -67,13 +67,15 @@ eprint=false
 	\fancyhf{}
 	
 	%Section In Header
-	\fancyhead[R]{\nouppercase{\leftmark}}
+	\fancyhead[L]{\nouppercase{\leftmark}}
 	
 	%Your Name In Header 
-	\fancyhead[L]{\StudentNameInHeader}
+	%\fancyhead[R]{\StudentNameInHeader}
 	
 	%Page Number
-	\fancyfoot[C]{\thepage}
+	%\fancyfoot[C]{\thepage}
+	\fancyhead[R]{\thepage}
+	
 	
 	\renewcommand{\headrulewidth}{0.4pt}
 	\renewcommand{\footrulewidth}{0pt}
@@ -142,28 +144,24 @@ eprint=false
 	 \newpage
 	\input{Chapters/Chapter5_Conclusion}
 
+
+	% ======================
+	% Appendix
+	% ======================
 	 \newpage
-	\input{Chapters/Chapter6_Appendix}
-	
-	 \newpage
-	 
-	 
+	\input{Appendix/Appendix}
+
+
 	% ======================
 	% References (Print at end)
 	% ======================
 	\newpage
-	\section{مراجع}
-	%\addcontentsline{toc}{section}{مراجع}
-	\begin{LTR}
-		\begin{latin}  
-			\printbibliography[heading=none]
-			%\small  
-			%\begin{multicols}{2}
-			%	\printbibliography[heading=none]
-			%\end{multicols}
-		\end{latin}
-	\end{LTR}
+	\input{Refrences/Refrences}
 	
+	
+	% ======================
+	% Title Page (Modular)
+	% ======================
 	\newpage
 	\pagestyle{empty}
 	\input{Front/Abstract/abstract-en}
