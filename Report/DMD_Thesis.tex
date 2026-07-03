@@ -4,7 +4,7 @@
 % 1) General packages (BEFORE xepersian)
 % --------------------------------------------------
 \usepackage{geometry}
-\geometry{left=30mm,right=25mm,top=30mm,bottom=30mm}
+\geometry{left=25mm,right=25mm,top=20mm,bottom=25mm}
 
 \usepackage{graphicx}
 \usepackage{float}
@@ -13,6 +13,7 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
+\usepackage{transparent}
 
 % --- Useful for thesis ---
 \usepackage{amsmath,amssymb}
@@ -66,15 +67,29 @@ eprint=false
 \fancypagestyle{mainmatterstyle}{%
 	\fancyhf{}
 	
+	%Header Height
+	\setlength{\headheight}{10mm}
+
 	%Section In Header
-	\fancyhead[L]{\nouppercase{\leftmark}}
+	\fancyhead[C]{
+		\nouppercase{
+			\begin{small}
+				\leftmark
+			\end{small}
+			\vspace{2.5mm}
+			}
+		}
 	
-	%Your Name In Header 
-	%\fancyhead[R]{\StudentNameInHeader}
+	
+	%Logo In Header
+	%\fancyhead[R]{\includegraphics[scale=0.1]{Front/Images/logo} \vspace{0.5mm}}
+	
+	%Thesis Name In Header 
+	%\fancyhead[C]{\ThesisTitle \vspace{1mm}}
 	
 	%Page Number
-	%\fancyfoot[C]{\thepage}
-	\fancyhead[R]{\thepage}
+	\fancyfoot[C]{\thepage}
+	%\fancyhead[R]{\thepage}
 	
 	
 	\renewcommand{\headrulewidth}{0.4pt}

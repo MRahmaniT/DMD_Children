@@ -2373,6 +2373,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">Bushby2010Diagnosis</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">Bushby2010ManagementPart2</bcf:citekey>
     <bcf:citekey order="2" intorder="1">Winter2009Biomechanics</bcf:citekey>
     <bcf:citekey order="3" intorder="1">Bushby2010Diagnosis</bcf:citekey>
     <bcf:citekey order="4" intorder="1">Bushby2010Diagnosis</bcf:citekey>
@@ -2380,7 +2381,9 @@
     <bcf:citekey order="6" intorder="1">Hoffman1987Dystrophin</bcf:citekey>
     <bcf:citekey order="7" intorder="1">Bushby2010Diagnosis</bcf:citekey>
     <bcf:citekey order="8" intorder="1">Eagle2002Survival</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Scott2009NSAA</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">Bushby2010ManagementPart2</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Mazzone2009NSAAReliability</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">Mayhew2011NSAARasch</bcf:citekey>
     <bcf:citekey order="10" intorder="1">Sabatini2011IMU</bcf:citekey>
     <bcf:citekey order="11" intorder="1">Madgwick2011SensorFusion</bcf:citekey>
     <bcf:citekey order="12" intorder="1">Winter2009Biomechanics</bcf:citekey>
@@ -2393,9 +2396,9 @@
     <bcf:citekey order="19" intorder="1">Cortes1995SVM</bcf:citekey>
     <bcf:citekey order="20" intorder="1">Cover1967KNN</bcf:citekey>
     <bcf:citekey order="21" intorder="1">Breiman2001RandomForest</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Mayhew2013Reliability</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Scott2009NSAA</bcf:citekey>
-    <bcf:citekey order="23" intorder="2">Mayhew2013Reliability</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Mayhew2011NSAARasch</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Mazzone2009NSAAReliability</bcf:citekey>
+    <bcf:citekey order="23" intorder="2">Mayhew2011NSAARasch</bcf:citekey>
     <bcf:citekey order="24" intorder="1">MuroDeLaHerran2014Wearable</bcf:citekey>
     <bcf:citekey order="25" intorder="1">MuroDeLaHerran2014Wearable</bcf:citekey>
     <bcf:citekey order="26" intorder="1">Patel2012Wearable</bcf:citekey>

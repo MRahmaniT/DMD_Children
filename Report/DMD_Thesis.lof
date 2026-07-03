@@ -1,27 +1,27 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces نمای شماتیک پروتئین دیستروفین در غشای فیبر عضلانی}}{4}{figure.caption.6}%
 \contentsline {figure}{\numberline {2}{\ignorespaces محورهای اندازه‌گیری در یک حسگر اینرسیایی}}{6}{figure.caption.7}%
 \contentsline {figure}{\numberline {3}{\ignorespaces نمونه سیگنال پیش و پس از اعمال فیلتر پایین‌گذر}}{7}{figure.caption.8}%
-\contentsline {figure}{\numberline {4}{\ignorespaces شماتیک عملکرد الگوریتم ماشین بردار پشتیبان}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {4}{\ignorespaces شماتیک عملکرد الگوریتم ماشین بردار پشتیبان}}{9}{figure.caption.9}%
 \contentsline {figure}{\numberline {5}{\ignorespaces شماتیک عملکرد الگوریتم نزدیک‌ترین همسایه}}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces روند تصمیم‌گیری برای انتخاب روش ارزیابی عملکرد}}{14}{figure.caption.11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces معماری کلی سامانه پیشنهادی و جریان داده از مرحله ثبت اطلاعات تا پیش‌بینی نمره عملکردی}}{17}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces محل نصب پنج حسگر اینرسیایی بر روی بدن آزمودنی}}{18}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces فلوچارت عملکرد نرم‌افزار اجراشده روی هر واحد حسگر}}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {10}{\ignorespaces رابط کاربری نرم‌افزار توسعه‌یافته در محیط \lr {MATLAB} برای دریافت و ذخیره‌سازی هم‌زمان داده‌های حسگرها}}{21}{figure.caption.16}%
-\contentsline {figure}{\numberline {11}{\ignorespaces مراحل انجام فرآیند داده‌برداری در پژوهش حاضر}}{22}{figure.caption.17}%
-\contentsline {figure}{\numberline {12}{\ignorespaces استخراج ویژگی}}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {13}{\ignorespaces روند اجرای هر آزمایش در \lr {Pipeline} طراحی‌شده}}{29}{figure.caption.20}%
-\contentsline {figure}{\numberline {14}{\ignorespaces نمونه سیگنال های ثبت شده از حسگرها در فعالیت ایستادن}}{31}{figure.caption.22}%
-\contentsline {figure}{\numberline {15}{\ignorespaces توزیع تعداد نمونه ها در کلاس های برچسب گذاری شده}}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {16}{\ignorespaces نقشه همبستگی 20 ویژگی با بیشترین واریانس}}{33}{figure.caption.24}%
-\contentsline {figure}{\numberline {17}{\ignorespaces مقایسه معیارهای عملکرد مدل ها در دو حالت بدون \lr {PCA} و با \lr {PCA95}}}{34}{figure.caption.25}%
-\contentsline {figure}{\numberline {18}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {no pca}}}{34}{figure.caption.26}%
-\contentsline {figure}{\numberline {19}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {pca95}}}{35}{figure.caption.27}%
-\contentsline {figure}{\numberline {20}{\ignorespaces رتبه بندی مدل ها بر اساس \lr {F1} در حالت بدون \lr {PCA}}}{35}{figure.caption.28}%
-\contentsline {figure}{\numberline {21}{\ignorespaces درصد واریانس توضیح داده شده و تجمعی مولفه های اصلی}}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {22}{\ignorespaces پراکندگی نمونه ها در فضای \lr {PC1} و \lr {PC2}}}{37}{figure.caption.31}%
-\contentsline {figure}{\numberline {23}{\ignorespaces تغییر \lr {F1} هر مدل پس از اعمال \lr {PCA95}}}{37}{figure.caption.32}%
-\contentsline {figure}{\numberline {24}{\ignorespaces 20 ویژگی برتر بر اساس اهمیت در مدل \lr {Random Forest}}}{38}{figure.caption.33}%
-\contentsline {figure}{\numberline {25}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {no pca}}}{39}{figure.caption.34}%
-\contentsline {figure}{\numberline {26}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {pca95}}}{39}{figure.caption.35}%
-\contentsline {figure}{\numberline {27}{\ignorespaces میانگین نرمال شده ویژگی های برتر برای هر کلاس}}{40}{figure.caption.36}%
+\contentsline {figure}{\numberline {6}{\ignorespaces روند تصمیم‌گیری برای انتخاب روش ارزیابی عملکرد}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces معماری کلی سامانه پیشنهادی و جریان داده از مرحله ثبت اطلاعات تا پیش‌بینی نمره عملکردی}}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces محل نصب پنج حسگر اینرسیایی بر روی بدن آزمودنی}}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces فلوچارت عملکرد نرم‌افزار اجراشده روی هر واحد حسگر}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {10}{\ignorespaces رابط کاربری نرم‌افزار توسعه‌یافته در محیط \lr {MATLAB} برای دریافت و ذخیره‌سازی هم‌زمان داده‌های حسگرها}}{19}{figure.caption.16}%
+\contentsline {figure}{\numberline {11}{\ignorespaces مراحل انجام فرآیند داده‌برداری در پژوهش حاضر}}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {12}{\ignorespaces استخراج ویژگی}}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {13}{\ignorespaces روند اجرای هر آزمایش در \lr {Pipeline} طراحی‌شده}}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {14}{\ignorespaces نمونه سیگنال های ثبت شده از حسگرها در فعالیت ایستادن}}{29}{figure.caption.22}%
+\contentsline {figure}{\numberline {15}{\ignorespaces توزیع تعداد نمونه ها در کلاس های برچسب گذاری شده}}{30}{figure.caption.23}%
+\contentsline {figure}{\numberline {16}{\ignorespaces نقشه همبستگی 20 ویژگی با بیشترین واریانس}}{31}{figure.caption.24}%
+\contentsline {figure}{\numberline {17}{\ignorespaces مقایسه معیارهای عملکرد مدل ها در دو حالت بدون \lr {PCA} و با \lr {PCA95}}}{32}{figure.caption.25}%
+\contentsline {figure}{\numberline {18}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {no pca}}}{32}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {pca95}}}{33}{figure.caption.27}%
+\contentsline {figure}{\numberline {20}{\ignorespaces رتبه بندی مدل ها بر اساس \lr {F1} در حالت بدون \lr {PCA}}}{33}{figure.caption.28}%
+\contentsline {figure}{\numberline {21}{\ignorespaces درصد واریانس توضیح داده شده و تجمعی مولفه های اصلی}}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {22}{\ignorespaces پراکندگی نمونه ها در فضای \lr {PC1} و \lr {PC2}}}{35}{figure.caption.31}%
+\contentsline {figure}{\numberline {23}{\ignorespaces تغییر \lr {F1} هر مدل پس از اعمال \lr {PCA95}}}{35}{figure.caption.32}%
+\contentsline {figure}{\numberline {24}{\ignorespaces 20 ویژگی برتر بر اساس اهمیت در مدل \lr {Random Forest}}}{36}{figure.caption.33}%
+\contentsline {figure}{\numberline {25}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {no pca}}}{37}{figure.caption.34}%
+\contentsline {figure}{\numberline {26}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {pca95}}}{37}{figure.caption.35}%
+\contentsline {figure}{\numberline {27}{\ignorespaces میانگین نرمال شده ویژگی های برتر برای هر کلاس}}{38}{figure.caption.36}%

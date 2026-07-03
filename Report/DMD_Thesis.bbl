@@ -20,28 +20,72 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
     \entry{Bushby2010Diagnosis}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
-        {{hash=77359112b6f6e9900e873da47b1a0a8f}{%
+        {{hash=bb5dd404cf23654f612511069cd92c69}{%
            family={Bushby},
            familyi={B\bibinitperiod},
-           given={K.\bibnamedelimi et\bibnamedelima al.},
-           giveni={K\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+           given={Katharine},
+           giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{fullhash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{fullhashraw}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{bibnamehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authorbibnamehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authornamehash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authorfullhash}{77359112b6f6e9900e873da47b1a0a8f}
-      \strng{authorfullhashraw}{77359112b6f6e9900e873da47b1a0a8f}
+      \strng{namehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{fullhash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{fullhashraw}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{bibnamehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authorbibnamehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authornamehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authorfullhash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authorfullhashraw}{e71c9ffabd9f8a92b75a975b73febf29}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Lancet Neurology}
-      \field{title}{Diagnosis and management of Duchenne muscular dystrophy}
+      \field{number}{1}
+      \field{title}{Diagnosis and management of Duchenne muscular dystrophy, part 1: diagnosis, and pharmacological and psychosocial management}
+      \field{volume}{9}
       \field{year}{2010}
+      \field{pages}{77\bibrangedash 93}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/S1474-4422(09)70271-6
+      \endverb
+    \endentry
+    \entry{Bushby2010ManagementPart2}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=bb5dd404cf23654f612511069cd92c69}{%
+           family={Bushby},
+           familyi={B\bibinitperiod},
+           given={Katharine},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{fullhash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{fullhashraw}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{bibnamehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authorbibnamehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authornamehash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authorfullhash}{e71c9ffabd9f8a92b75a975b73febf29}
+      \strng{authorfullhashraw}{e71c9ffabd9f8a92b75a975b73febf29}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet Neurology}
+      \field{number}{2}
+      \field{title}{Diagnosis and management of Duchenne muscular dystrophy, part 2: implementation of multidisciplinary care}
+      \field{volume}{9}
+      \field{year}{2010}
+      \field{pages}{177\bibrangedash 189}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S1474-4422(09)70272-8
+      \endverb
     \endentry
     \entry{Winter2009Biomechanics}{book}{}{}
       \name{author}{1}{}{%
@@ -62,8 +106,8 @@
       \strng{authornamehash}{a497c58b2e1b17b6784bc31c46233685}
       \strng{authorfullhash}{a497c58b2e1b17b6784bc31c46233685}
       \strng{authorfullhashraw}{a497c58b2e1b17b6784bc31c46233685}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -75,8 +119,8 @@
         {{hash=220fc9728b03243c7f7439ae721b6190}{%
            family={Emery},
            familyi={E\bibinitperiod},
-           given={Alan\bibnamedelima EH},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+           given={Alan\bibnamedelimb E.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
       \strng{namehash}{220fc9728b03243c7f7439ae721b6190}
       \strng{fullhash}{220fc9728b03243c7f7439ae721b6190}
@@ -86,13 +130,20 @@
       \strng{authornamehash}{220fc9728b03243c7f7439ae721b6190}
       \strng{authorfullhash}{220fc9728b03243c7f7439ae721b6190}
       \strng{authorfullhashraw}{220fc9728b03243c7f7439ae721b6190}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Lancet}
+      \field{number}{9307}
       \field{title}{The muscular dystrophies}
+      \field{volume}{359}
       \field{year}{2002}
+      \field{pages}{687\bibrangedash 695}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/S0140-6736(02)07815-7
+      \endverb
     \endentry
     \entry{Hoffman1987Dystrophin}{article}{}{}
       \name{author}{3}{}{%
@@ -120,107 +171,224 @@
       \strng{authornamehash}{cde3c24d28cc3b7d6608ea13d4565e2c}
       \strng{authorfullhash}{cde3c24d28cc3b7d6608ea13d4565e2c}
       \strng{authorfullhashraw}{cde3c24d28cc3b7d6608ea13d4565e2c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{number}{6}
+      \field{title}{Dystrophin: the protein product of the Duchenne muscular dystrophy locus}
+      \field{volume}{51}
+      \field{year}{1987}
+      \field{pages}{919\bibrangedash 928}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0092-8674(87)90579-4
+      \endverb
+    \endentry
+    \entry{Eagle2002Survival}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=6159da6dda5b391f4acb946069cac981}{%
+           family={Eagle},
+           familyi={E\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b0e2f8f2adb4930471e439429402491}{%
+           family={Baudouin},
+           familyi={B\bibinitperiod},
+           given={Simon\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0859f716049a09067ef34e834d491496}{%
+           family={Chandler},
+           familyi={C\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a9e0aadc110dcb4c7dcab176b751694f}{%
+           family={Giddings},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ff388e5bd02a60149d47e39ae2cded16}{%
+           family={Bullock},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=997132a6a39c11ed28d1b36b938bf590}{%
+           family={Bushby},
+           familyi={B\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2694910e399daebc94faf6ac3896ed30}
+      \strng{fullhash}{ea61ddb3e7325f611340c07cf03457a5}
+      \strng{fullhashraw}{ea61ddb3e7325f611340c07cf03457a5}
+      \strng{bibnamehash}{2694910e399daebc94faf6ac3896ed30}
+      \strng{authorbibnamehash}{2694910e399daebc94faf6ac3896ed30}
+      \strng{authornamehash}{2694910e399daebc94faf6ac3896ed30}
+      \strng{authorfullhash}{ea61ddb3e7325f611340c07cf03457a5}
+      \strng{authorfullhashraw}{ea61ddb3e7325f611340c07cf03457a5}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Cell}
-      \field{title}{Dystrophin: the protein product of the Duchenne muscular dystrophy locus}
-      \field{year}{1987}
+      \field{journaltitle}{Neuromuscular Disorders}
+      \field{number}{10}
+      \field{title}{Survival in Duchenne muscular dystrophy: improvements in life expectancy since 1967 and the impact of home nocturnal ventilation}
+      \field{volume}{12}
+      \field{year}{2002}
+      \field{pages}{926\bibrangedash 929}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/S0960-8966(02)00140-2
+      \endverb
     \endentry
-    \entry{Eagle2002Survival}{article}{}{}
+    \entry{Mazzone2009NSAAReliability}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
-        {{hash=c7313dd55014512885be15fdc03e7f9a}{%
-           family={Eagle},
-           familyi={E\bibinitperiod},
-           given={M.\bibnamedelimi et\bibnamedelima al.},
-           giveni={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+        {{hash=240d8ac7b6017a2b1b2fc2c3eb211542}{%
+           family={Mazzone},
+           familyi={M\bibinitperiod},
+           given={Elena\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{c7313dd55014512885be15fdc03e7f9a}
-      \strng{fullhash}{c7313dd55014512885be15fdc03e7f9a}
-      \strng{fullhashraw}{c7313dd55014512885be15fdc03e7f9a}
-      \strng{bibnamehash}{c7313dd55014512885be15fdc03e7f9a}
-      \strng{authorbibnamehash}{c7313dd55014512885be15fdc03e7f9a}
-      \strng{authornamehash}{c7313dd55014512885be15fdc03e7f9a}
-      \strng{authorfullhash}{c7313dd55014512885be15fdc03e7f9a}
-      \strng{authorfullhashraw}{c7313dd55014512885be15fdc03e7f9a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \strng{fullhash}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \strng{fullhashraw}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \strng{bibnamehash}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \strng{authorbibnamehash}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \strng{authornamehash}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \strng{authorfullhash}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \strng{authorfullhashraw}{d4d8576099866054f6d1d4c1f2f0f02b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Neuromuscular Disorders}
-      \field{title}{Survival in Duchenne muscular dystrophy}
-      \field{year}{2002}
+      \field{number}{7}
+      \field{title}{Reliability of the North Star Ambulatory Assessment in a multicentric setting}
+      \field{volume}{19}
+      \field{year}{2009}
+      \field{pages}{458\bibrangedash 461}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.nmd.2009.06.368
+      \endverb
     \endentry
-    \entry{Scott2009NSAA}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=d2b7f0e8cf8d5544c58583293c8d7737}{%
+    \entry{Mayhew2011NSAARasch}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=37b1d0fe3835349e827dfe1ec1596983}{%
+           family={Mayhew},
+           familyi={M\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=32087be817fecfd0f3d85afba0a88656}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=530468b07ade3389a9b00a251711cd73}{%
            family={Scott},
            familyi={S\bibinitperiod},
-           given={E.\bibnamedelimi et\bibnamedelima al.},
-           giveni={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+           given={Elaine},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6159da6dda5b391f4acb946069cac981}{%
+           family={Eagle},
+           familyi={E\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=997132a6a39c11ed28d1b36b938bf590}{%
+           family={Bushby},
+           familyi={B\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+        {{hash=534b2227ab6c91c3daa6db5fd1500b5e}{%
+           family={Muntoni},
+           familyi={M\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
       }
-      \strng{namehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{fullhash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{fullhashraw}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{bibnamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authorbibnamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authornamehash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authorfullhash}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \strng{authorfullhashraw}{d2b7f0e8cf8d5544c58583293c8d7737}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{3376fd604467ffa3026df25e28ad5bbc}
+      \strng{fullhash}{9b1a76a7d7cc85b3adeb0d02b091a3be}
+      \strng{fullhashraw}{9b1a76a7d7cc85b3adeb0d02b091a3be}
+      \strng{bibnamehash}{3376fd604467ffa3026df25e28ad5bbc}
+      \strng{authorbibnamehash}{3376fd604467ffa3026df25e28ad5bbc}
+      \strng{authornamehash}{3376fd604467ffa3026df25e28ad5bbc}
+      \strng{authorfullhash}{9b1a76a7d7cc85b3adeb0d02b091a3be}
+      \strng{authorfullhashraw}{9b1a76a7d7cc85b3adeb0d02b091a3be}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Neuromuscular Disorders}
-      \field{title}{North Star Ambulatory Assessment for Duchenne muscular dystrophy}
-      \field{year}{2009}
+      \field{journaltitle}{Developmental Medicine \& Child Neurology}
+      \field{number}{6}
+      \field{title}{Moving towards meaningful measurement: Rasch analysis of the North Star Ambulatory Assessment in Duchenne muscular dystrophy}
+      \field{volume}{53}
+      \field{year}{2011}
+      \field{pages}{535\bibrangedash 542}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1469-8749.2011.03939.x
+      \endverb
     \endentry
     \entry{Sabatini2011IMU}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=60b67109f49f0840e108e8d0388591b3}{%
+        {{hash=376085daa787333f753902fa1f401ec3}{%
            family={Sabatini},
            familyi={S\bibinitperiod},
-           given={A.M.},
-           giveni={A\bibinitperiod}}}%
+           given={Angelo\bibnamedelima Maria},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{fullhash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{fullhashraw}{60b67109f49f0840e108e8d0388591b3}
-      \strng{bibnamehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authorbibnamehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authornamehash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authorfullhash}{60b67109f49f0840e108e8d0388591b3}
-      \strng{authorfullhashraw}{60b67109f49f0840e108e8d0388591b3}
+      \strng{namehash}{376085daa787333f753902fa1f401ec3}
+      \strng{fullhash}{376085daa787333f753902fa1f401ec3}
+      \strng{fullhashraw}{376085daa787333f753902fa1f401ec3}
+      \strng{bibnamehash}{376085daa787333f753902fa1f401ec3}
+      \strng{authorbibnamehash}{376085daa787333f753902fa1f401ec3}
+      \strng{authornamehash}{376085daa787333f753902fa1f401ec3}
+      \strng{authorfullhash}{376085daa787333f753902fa1f401ec3}
+      \strng{authorfullhashraw}{376085daa787333f753902fa1f401ec3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
+      \field{number}{2}
       \field{title}{Estimating three-dimensional orientation of human body parts by inertial/magnetic sensing}
+      \field{volume}{11}
       \field{year}{2011}
+      \field{pages}{1489\bibrangedash 1525}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.3390/s110201489
+      \endverb
     \endentry
-    \entry{Madgwick2011SensorFusion}{article}{}{}
+    \entry{Madgwick2011SensorFusion}{report}{}{}
       \name{author}{1}{}{%
-        {{hash=309b16b55802aeb77c0e4e69256e86fb}{%
+        {{hash=907c1fecd31054023a0459215498ad74}{%
            family={Madgwick},
            familyi={M\bibinitperiod},
-           given={S.O.H.},
-           giveni={S\bibinitperiod}}}%
+           given={Sebastian\bibnamedelimb O.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{fullhash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{fullhashraw}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{bibnamehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authorbibnamehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authornamehash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authorfullhash}{309b16b55802aeb77c0e4e69256e86fb}
-      \strng{authorfullhashraw}{309b16b55802aeb77c0e4e69256e86fb}
+      \list{institution}{1}{%
+        {University of Bristol}%
+      }
+      \strng{namehash}{907c1fecd31054023a0459215498ad74}
+      \strng{fullhash}{907c1fecd31054023a0459215498ad74}
+      \strng{fullhashraw}{907c1fecd31054023a0459215498ad74}
+      \strng{bibnamehash}{907c1fecd31054023a0459215498ad74}
+      \strng{authorbibnamehash}{907c1fecd31054023a0459215498ad74}
+      \strng{authornamehash}{907c1fecd31054023a0459215498ad74}
+      \strng{authorfullhash}{907c1fecd31054023a0459215498ad74}
+      \strng{authorfullhashraw}{907c1fecd31054023a0459215498ad74}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{An efficient orientation filter for inertial and inertial/magnetic sensor arrays}
+      \field{type}{techreport}
       \field{year}{2011}
     \endentry
     \entry{Bulling2014HumanActivity}{article}{}{}
@@ -258,8 +426,11 @@
       \field{title}{A Tutorial on Human Activity Recognition Using Body-Worn Inertial Sensors}
       \field{volume}{46}
       \field{year}{2014}
-      \field{pages}{33}
-      \range{pages}{1}
+      \field{pages}{33:1\bibrangedash 33:33}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/2499621
+      \endverb
     \endentry
     \entry{Jolliffe2002PCA}{book}{}{}
       \name{author}{1}{}{%
@@ -268,6 +439,9 @@
            familyi={J\bibinitperiod},
            given={Ian\bibnamedelima T.},
            giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
       }
       \list{publisher}{1}{%
         {Springer}%
@@ -284,6 +458,8 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-0-387-95442-4}
       \field{title}{Principal Component Analysis}
       \field{year}{2002}
     \endentry
@@ -294,6 +470,9 @@
            familyi={B\bibinitperiod},
            given={Christopher\bibnamedelima M.},
            giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
       }
       \list{publisher}{1}{%
         {Springer}%
@@ -310,6 +489,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{isbn}{978-0-387-31073-2}
       \field{title}{Pattern Recognition and Machine Learning}
       \field{year}{2006}
     \endentry
@@ -334,8 +514,8 @@
       \strng{authornamehash}{d65b36936e7747ba9b9752def8c1c52b}
       \strng{authorfullhash}{d65b36936e7747ba9b9752def8c1c52b}
       \strng{authorfullhashraw}{d65b36936e7747ba9b9752def8c1c52b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Communications Surveys \& Tutorials}
@@ -345,6 +525,9 @@
       \field{year}{2013}
       \field{pages}{1192\bibrangedash 1209}
       \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/SURV.2012.110112.00192
+      \endverb
     \endentry
     \entry{Cortes1995SVM}{article}{}{}
       \name{author}{2}{}{%
@@ -367,8 +550,8 @@
       \strng{authornamehash}{4c67d5268f413e83454c8adc14ab43c3}
       \strng{authorfullhash}{4c67d5268f413e83454c8adc14ab43c3}
       \strng{authorfullhashraw}{4c67d5268f413e83454c8adc14ab43c3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Machine Learning}
@@ -378,28 +561,31 @@
       \field{year}{1995}
       \field{pages}{273\bibrangedash 297}
       \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/BF00994018
+      \endverb
     \endentry
     \entry{Cover1967KNN}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=a3f15729585b7b2e933595818ac72f13}{%
+        {{hash=fe5b7bbda12c7502f55ddb9eeded8622}{%
            family={Cover},
            familyi={C\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=5f7d498e6ea16510d746ba3d22fd28db}{%
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a9ce6ce2ae6a0f1ac64e4efe810d622c}{%
            family={Hart},
            familyi={H\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
+           given={Peter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
-      \strng{namehash}{009363c68fe9e8fdbf90620bf270d3f5}
-      \strng{fullhash}{009363c68fe9e8fdbf90620bf270d3f5}
-      \strng{fullhashraw}{009363c68fe9e8fdbf90620bf270d3f5}
-      \strng{bibnamehash}{009363c68fe9e8fdbf90620bf270d3f5}
-      \strng{authorbibnamehash}{009363c68fe9e8fdbf90620bf270d3f5}
-      \strng{authornamehash}{009363c68fe9e8fdbf90620bf270d3f5}
-      \strng{authorfullhash}{009363c68fe9e8fdbf90620bf270d3f5}
-      \strng{authorfullhashraw}{009363c68fe9e8fdbf90620bf270d3f5}
+      \strng{namehash}{23114947d26593da935ecf9f7d8a62f2}
+      \strng{fullhash}{23114947d26593da935ecf9f7d8a62f2}
+      \strng{fullhashraw}{23114947d26593da935ecf9f7d8a62f2}
+      \strng{bibnamehash}{23114947d26593da935ecf9f7d8a62f2}
+      \strng{authorbibnamehash}{23114947d26593da935ecf9f7d8a62f2}
+      \strng{authornamehash}{23114947d26593da935ecf9f7d8a62f2}
+      \strng{authorfullhash}{23114947d26593da935ecf9f7d8a62f2}
+      \strng{authorfullhashraw}{23114947d26593da935ecf9f7d8a62f2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -411,6 +597,9 @@
       \field{year}{1967}
       \field{pages}{21\bibrangedash 27}
       \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TIT.1967.1053964
+      \endverb
     \endentry
     \entry{Breiman2001RandomForest}{article}{}{}
       \name{author}{1}{}{%
@@ -439,54 +628,50 @@
       \field{year}{2001}
       \field{pages}{5\bibrangedash 32}
       \range{pages}{28}
-    \endentry
-    \entry{Mayhew2013Reliability}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4bfc2265bb27b08cf230005b4fb7658c}{%
-           family={Mayhew},
-           familyi={M\bibinitperiod},
-           given={A.\bibnamedelimi et\bibnamedelima al.},
-           giveni={A\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
-      }
-      \strng{namehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{fullhash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{fullhashraw}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{bibnamehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authorbibnamehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authornamehash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authorfullhash}{4bfc2265bb27b08cf230005b4fb7658c}
-      \strng{authorfullhashraw}{4bfc2265bb27b08cf230005b4fb7658c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{PLoS One}
-      \field{title}{Reliability of the NSAA in Duchenne muscular dystrophy}
-      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1023/A:1010933404324
+      \endverb
     \endentry
     \entry{MuroDeLaHerran2014Wearable}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=a88a4cd8f14a2f3f59426e5af5e9aced}{%
+      \name{author}{3}{}{%
+        {{hash=637e69e2a6ee027ea202887aacfbe9dc}{%
            family={Muro-de-la-Herran},
            familyi={M\bibinithyphendelim H\bibinitperiod},
-           given={A.\bibnamedelimi et\bibnamedelima al.},
-           giveni={A\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+           given={Alvaro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=171226176acc5bcb401eb3dd8a607ff5}{%
+           family={Garcia-Zapirain},
+           familyi={G\bibinithyphendelim Z\bibinitperiod},
+           given={Begonya},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6fd692a112078eae39d56107c1832630}{%
+           family={Mendez-Zorrilla},
+           familyi={M\bibinithyphendelim Z\bibinitperiod},
+           given={Amaia},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \strng{fullhash}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \strng{fullhashraw}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \strng{bibnamehash}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \strng{authorbibnamehash}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \strng{authornamehash}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \strng{authorfullhash}{a88a4cd8f14a2f3f59426e5af5e9aced}
-      \strng{authorfullhashraw}{a88a4cd8f14a2f3f59426e5af5e9aced}
+      \strng{namehash}{bfad90e2590dfa32d6e1e035c17650c7}
+      \strng{fullhash}{bfad90e2590dfa32d6e1e035c17650c7}
+      \strng{fullhashraw}{bfad90e2590dfa32d6e1e035c17650c7}
+      \strng{bibnamehash}{bfad90e2590dfa32d6e1e035c17650c7}
+      \strng{authorbibnamehash}{bfad90e2590dfa32d6e1e035c17650c7}
+      \strng{authornamehash}{bfad90e2590dfa32d6e1e035c17650c7}
+      \strng{authorfullhash}{bfad90e2590dfa32d6e1e035c17650c7}
+      \strng{authorfullhashraw}{bfad90e2590dfa32d6e1e035c17650c7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
-      \field{title}{Gait analysis methods: An overview of wearable and non-wearable systems}
+      \field{number}{2}
+      \field{title}{Gait analysis methods: An overview of wearable and non-wearable systems, highlighting clinical applications}
+      \field{volume}{14}
       \field{year}{2014}
+      \field{pages}{3362\bibrangedash 3394}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.3390/s140203362
+      \endverb
     \endentry
     \entry{Patel2012Wearable}{article}{}{}
       \name{author}{5}{}{%
@@ -529,10 +714,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of NeuroEngineering and Rehabilitation}
-      \field{number}{21}
       \field{title}{A review of wearable sensors and systems with application in rehabilitation}
       \field{volume}{9}
       \field{year}{2012}
+      \field{pages}{21}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.1186/1743-0003-9-21
       \endverb
