@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[oneside,a4paper,12pt]{article}
 
 % --------------------------------------------------
 % 1) General packages (BEFORE xepersian)
@@ -12,6 +12,7 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{fancyhdr}
 
 % --- Useful for thesis ---
 \usepackage{amsmath,amssymb}
@@ -59,29 +60,70 @@ eprint=false
 \SetReportFonts
 \SetReportLineSpread{1.35}
 
+%Your Name In Header
+\newcommand{\StudentNameInHeader}{محمد رحمانی‌طلب}
+
+\fancypagestyle{mainmatterstyle}{%
+	\fancyhf{}
+	
+	%Section In Header
+	\fancyhead[R]{\nouppercase{\leftmark}}
+	
+	%Your Name In Header 
+	\fancyhead[L]{\StudentNameInHeader}
+	
+	%Page Number
+	\fancyfoot[C]{\thepage}
+	
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\footrulewidth}{0pt}
+}
+
+\renewcommand{\sectionmark}[1]{%
+	\markboth{#1}{}%
+}
+\renewcommand{\subsectionmark}[1]{}
+
 % --------------------------------------------------
 \begin{document}
 	
 	% ======================
 	% Title Page (Modular)
 	% ======================
-	\input{frontmatter/title.tex}
+	\include{Front/Title/info}
+	\pagestyle{empty}
+	\include{Front/Title/title}
+	
 	
 	% ======================
-	% (Optional) Abstracts later
+	% Page Style
 	% ======================
-	 \input{Abstract/abstract-fa}
+	\pagestyle{plain}
+	\pagenumbering{tartibi}
 	
-	% ======================
-	% Front Matter (ToC, LoF, LoT, ...)
-	% ======================
-	\MakeFrontMatter
-	
+
 	% ======================
 	% Acknowledgements (Modular)
 	% ======================
-	\input{frontmatter/acknowledgment.tex}
+	\input{Front/Acknowledgment/acknowledgment.tex}
 	\newpage
+
+	% ======================
+	% (Optional) Abstracts later
+	% ======================
+	 \input{Front/Abstract/abstract-fa}
+	
+		% ======================
+	% Front Matter (ToC, LoF, LoT, ...)
+	% ======================
+	\MakeFrontMatter
+	\newpage
+	
+	\clearpage
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	\pagestyle{mainmatterstyle}
+	\markright{مقدمه}
 	
 	% ======================
 	% Chapters later (Modular)
@@ -123,7 +165,9 @@ eprint=false
 	\end{LTR}
 	
 	\newpage
-	 \input{Abstract/abstract-en}
+	\pagestyle{empty}
+	\input{Front/Abstract/abstract-en}
+	\include{Front/Title/title-eng}
 	
 	
 \end{document}

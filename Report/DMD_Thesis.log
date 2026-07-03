@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  30 JUN 2026 14:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  3 JUL 2026 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**DMD_Thesis_Sharif_Template.tex
-(./DMD_Thesis_Sharif_Template.tex
+**DMD_Thesis.tex
+(./DMD_Thesis.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -266,9 +266,28 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip52
+\f@nch@offset@elh=\skip53
+\f@nch@offset@erh=\skip54
+\f@nch@offset@olh=\skip55
+\f@nch@offset@orh=\skip56
+\f@nch@offset@elf=\skip57
+\f@nch@offset@erf=\skip58
+\f@nch@offset@olf=\skip59
+\f@nch@offset@orf=\skip60
+\f@nch@height=\skip61
+\f@nch@footalignment=\skip62
+\f@nch@widthL=\skip63
+\f@nch@widthC=\skip64
+\f@nch@widthR=\skip65
+\@temptokenb=\toks21
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -276,7 +295,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen177
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -316,21 +335,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip18
 \c@parentequation=\count297
 \dspbrk@lvl=\count298
-\tag@help=\toks22
+\tag@help=\toks23
 \row@=\count299
 \column@=\count300
 \maxfields@=\count301
-\andhelp@=\toks23
+\andhelp@=\toks24
 \eqnshift@=\dimen180
 \alignsep@=\dimen181
 \tagshift@=\dimen182
 \tagwidth@=\dimen183
 \totwidth@=\dimen184
 \lineht@=\dimen185
-\@envbody=\toks24
-\multlinegap=\skip53
-\multlinetaggap=\skip54
-\mathdisplay@stack=\toks25
+\@envbody=\toks25
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -347,10 +366,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
 \LTchunksize=\count302
 \LTcapwidth=\dimen186
 \LT@head=\box57
@@ -362,23 +381,23 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LT@rows=\count304
 \c@LT@tables=\count305
 \c@LT@chunks=\count306
-\LT@p@ftn=\toks26
+\LT@p@ftn=\toks27
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen187
 \ar@mcellbox=\box62
 \extrarowheight=\dimen188
-\NC@list=\toks27
-\extratabsurround=\skip59
-\backup@length=\skip60
+\NC@list=\toks28
+\extratabsurround=\skip73
+\backup@length=\skip74
 \ar@cellbox=\box63
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip61
+\multirow@colwidth=\skip75
 \multirow@cntb=\count307
-\multirow@dima=\skip62
+\multirow@dima=\skip76
 \bigstrutjot=\dimen189
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
@@ -395,8 +414,8 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \page@free=\dimen192
 \premulticols=\dimen193
 \postmulticols=\dimen194
-\multicolsep=\skip63
-\multicolbaselineskip=\skip64
+\multicolsep=\skip77
+\multicolbaselineskip=\skip78
 \partial@page=\box65
 \last@line=\box66
 \mc@boxedresult=\box67
@@ -451,7 +470,7 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \colbreak@box=\box109
 \mc@col@check@num=\count317
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
@@ -509,14 +528,14 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorderinternal@0=\count359
 \blx@entrysetcounter=\count360
 \blx@biblioinstance=\count361
-\labelnumberwidth=\skip65
-\labelalphawidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
+\labelnumberwidth=\skip79
+\labelalphawidth=\skip80
+\biblabelsep=\skip81
+\bibitemsep=\skip82
+\bibnamesep=\skip83
+\bibinitsep=\skip84
+\bibparsep=\skip85
+\bibhang=\skip86
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language90
@@ -601,20 +620,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count430
 \c@pageref=\count431
 \c@savedpageref=\count432
-\shorthandwidth=\skip73
-\shortjournalwidth=\skip74
-\shortserieswidth=\skip75
-\shorttitlewidth=\skip76
-\shortauthorwidth=\skip77
-\shorteditorwidth=\skip78
-\locallabelnumberwidth=\skip79
-\locallabelalphawidth=\skip80
-\localshorthandwidth=\skip81
-\localshortjournalwidth=\skip82
-\localshortserieswidth=\skip83
-\localshorttitlewidth=\skip84
-\localshortauthorwidth=\skip85
-\localshorteditorwidth=\skip86
+\shorthandwidth=\skip87
+\shortjournalwidth=\skip88
+\shortserieswidth=\skip89
+\shorttitlewidth=\skip90
+\shortauthorwidth=\skip91
+\shorteditorwidth=\skip92
+\locallabelnumberwidth=\skip93
+\locallabelalphawidth=\skip94
+\localshorthandwidth=\skip95
+\localshortjournalwidth=\skip96
+\localshortserieswidth=\skip97
+\localshorttitlewidth=\skip98
+\localshortauthorwidth=\skip99
+\localshorteditorwidth=\skip100
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -840,18 +859,18 @@ setting in plain TeX and LaTeX
 ****************************************************
 (/usr/local/texlive/2025/texmf-dist/tex/xelatex/bidi/biditools.sty
 Package: biditools 2025/02/02 v2.7 Programming tools for bidi package
-\@bidi@envbody=\toks28
-\@bidi@emptytoks=\toks29
+\@bidi@envbody=\toks29
+\@bidi@emptytoks=\toks30
 \bidi@poscount=\count495
 \bidi@tempcountb=\count496
-\bidi@temptoksa=\toks30
-\bidi@temptoksb=\toks31
+\bidi@temptoksa=\toks31
+\bidi@temptoksb=\toks32
 \bidi@dummies=\count497
-\bidi@are@these@correct=\toks32
-\bidi@toks@lista=\toks33
-\bidi@toks@listb=\toks34
+\bidi@are@these@correct=\toks33
+\bidi@toks@lista=\toks34
+\bidi@toks@listb=\toks35
 \bidi@stack@length=\count498
-\bidi@empty@stack=\toks35
+\bidi@empty@stack=\toks36
 \bidi@looprepeat@depth=\count499
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-abspage.sty
@@ -880,7 +899,7 @@ Package zref Info: New property: abspage on input line 67.
 (/usr/local/texlive/2025/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
 File: latex-xetex-bidi.def 2025/01/03 v1.5.2 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks36
+\bidi@n@everypar=\toks37
 LaTeX Info: Redefining \centerline on input line 316.
 LaTeX Info: Redefining \leftline on input line 325.
 LaTeX Info: Redefining \rightline on input line 326.
@@ -891,7 +910,7 @@ LaTeX Info: Redefining \underline on input line 334.
 File: footnote-xetex-bidi.def 2024/12/14 v1.3 bidi footnote macros for XeTeX en
 gine
 \c@footdir@label=\count504
-\footdir@toks=\toks37
+\footdir@toks=\toks38
 )
 (/usr/local/texlive/2025/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
 File: article-xetex-bidi.def 2025/01/05 v0.9 bidi adaptations for standard arti
@@ -922,7 +941,23 @@ File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
 or XeTeX engine
 LaTeX Info: Redefining \color on input line 49.
 )
-(/usr/local/texlive/2025/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/bidi/fancyhdr-xetex-bidi.def
+File: fancyhdr-xetex-bidi.def 2025/01/07 v0.9 bidi adaptations for fancyhdr pac
+kage for XeTeX engine
+
+
+Package bidi Warning: Oops! patching `\f@nch@hfbox@center' failed.
+
+
+Package bidi Warning: Oops! patching `\f@nch@hfbox@center' failed.
+
+
+Package bidi Warning: Oops! patching `\f@nch@hfbox@fit' failed.
+
+
+Package bidi Warning: Oops! patching `\f@nch@hfbox@fit' failed.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
 )
@@ -980,7 +1015,7 @@ ef
 File: url-xetex-xepersian.def 2022/02/18 v0.1 xepersian adaptations for url pac
 kage for XeTeX engine
 )
-\xepersian@toks=\toks38
+\xepersian@toks=\toks39
 )
 
 Package fontspec Info: 
@@ -1073,7 +1108,7 @@ ex-text;"
 tex-text;"
 
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 13.20007pt on input line 59.
+(Font)              scaled to size 13.20007pt on input line 60.
 
 Package fontspec Info: 
 (fontspec)             Times New Roman scale = 0.9.
@@ -1113,7 +1148,7 @@ Package fontspec Info:
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
 
-LaTeX Info: Redefining \latinfont on input line 59.
+LaTeX Info: Redefining \latinfont on input line 60.
 
 Package fontspec Info: 
 (fontspec)             Times New Roman scale = 0.9.
@@ -1196,7 +1231,7 @@ Package fontspec Info:
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;"
 
 Package unicode-persianmath Info: DefiningthedefaultPersianmathdigitsfontas'Tim
-es New Roman' on input line 60.
+es New Roman' on input line 61.
 \sympersianoperators=\mathgroup6
 \sympersianoperatorsbf=\mathgroup7
 \sympersianoperatorsit=\mathgroup8
@@ -1205,29 +1240,30 @@ es New Roman' on input line 60.
  (/usr/local/texlive/2025/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
-) (./DMD_Thesis_Sharif_Template.aux)
-\openout1 = `DMD_Thesis_Sharif_Template.aux'.
+) (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
+(./Front/Title/title-eng.aux))
+\openout1 = `DMD_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1270,11 +1306,11 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 63.
+Package hyperref Info: Link coloring ON on input line 88.
 
-(./DMD_Thesis_Sharif_Template.out) (./DMD_Thesis_Sharif_Template.out)
+(./DMD_Thesis.out) (./DMD_Thesis.out)
 \@outlinefile=\write4
-\openout4 = `DMD_Thesis_Sharif_Template.out'.
+\openout4 = `DMD_Thesis.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1286,42 +1322,58 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `DMD_Thesis_Sharif_Template.bcf'.
+\openout3 = `DMD_Thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'DMD_Thesis_Sharif_Template.bbl' found.
+Package biblatex Info: ... file 'DMD_Thesis.bbl' found.
 
-(./DMD_Thesis_Sharif_Template.bbl
+(./DMD_Thesis.bbl
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 45.
 )
-Package biblatex Info: Reference section=0 on input line 63.
-Package biblatex Info: Reference segment=0 on input line 63.
- (./frontmatter/title.tex
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 19.0081pt on input line 12.
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 19.0081pt on input line 12.
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 27.36815pt on input line 12.
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 27.36815pt on input line 12.
-File: /Users/mohammad/University/Latex/Media/Sharif_logo.png Graphic file (type
- bmp)
-</Users/mohammad/University/Latex/Media/Sharif_logo.png>
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 13.20007pt on input line 12.
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 15.84007pt on input line 12.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 12.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 12.
+Package biblatex Info: Reference section=0 on input line 88.
+Package biblatex Info: Reference segment=0 on input line 88.
+\openout2 = `Front/Title/info.aux'.
 
+ (./Front/Title/info.tex)
+\openout2 = `Front/Title/title.aux'.
+
+ (./Front/Title/title.tex
+File: Front/Images/logo.pdf Graphic file (type pdf)
+<use Front/Images/logo.pdf>
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
+(Font)              scaled to size 15.84007pt on input line 11.
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
+(Font)              scaled to size 22.81412pt on input line 20.
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
+(Font)              scaled to size 22.81412pt on input line 20.
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
+(Font)              scaled to size 15.84007pt on input line 25.
+)
 
 [1
 
-]) (./Abstract/abstract-fa.tex
+
+
+
+
+] (./Front/Acknowledgment/acknowledgment.tex
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
+(Font)              scaled to size 19.0081pt on input line 2.
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
+(Font)              scaled to size 19.0081pt on input line 2.
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
+(Font)              scaled to size 13.20007pt on input line 3.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 5.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 5.
+)
+
+[1
+
+
+] (./Front/Abstract/abstract-fa.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1404,70 +1456,63 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
 (Font)              scaled to size 6.29996pt on input line 6.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 6.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 8.
 )
 
-[1] (./DMD_Thesis_Sharif_Template.toc
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 1.
+[2] (./DMD_Thesis.toc
 
-
-[2])
+[3])
 \tf@toc=\write5
-\openout5 = `DMD_Thesis_Sharif_Template.toc'.
+\openout5 = `DMD_Thesis.toc'.
 
 
 
-[3] (./DMD_Thesis_Sharif_Template.lof)
+[4] (./DMD_Thesis.lof)
 \tf@lof=\write6
-\openout6 = `DMD_Thesis_Sharif_Template.lof'.
+\openout6 = `DMD_Thesis.lof'.
 
 
 
-[4] (./DMD_Thesis_Sharif_Template.lot)
+[5] (./DMD_Thesis.lot)
 \tf@lot=\write7
-\openout7 = `DMD_Thesis_Sharif_Template.lot'.
+\openout7 = `DMD_Thesis.lot'.
 
 
-
-[5] (./frontmatter/acknowledgment.tex)
 
 [6] (./Chapters/Chapter1_Introduction.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
-(Font)              scaled to size 15.84007pt on input line 3.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 3.
 
 
-[7]
-Overfull \hbox (0.71857pt too wide) in paragraph at lines 36--37
-[]\TU/BNazanin(0)/m/n/12 دوشن، استخراج ویژگی‌های مناسب از سیگنال‌های ثبت‌شده و 
-پیش‌بینی نمرات عملکردی با استفاده از الگوریتم‌های[]
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1
+
+]
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-)
+[2])
 
-[9] (./Chapters/Chapter2_BasicConcepts.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3] (./Chapters/Chapter2_BasicConcepts.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 24.
 
@@ -1479,13 +1524,41 @@ Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;s
 ript=arab;mapping=persian-tex-text;!
 
 
-[10]
 
-[11]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
+[4]
 
-[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
 Overfull \hbox (9.8283pt too wide) in paragraph at lines 172--173
 [][]\TU/BNazanin(0)/m/n/12 در این روش، هر درخت تصمیم با استفاده از زیرمجموعه‌ای
  تصادفی از داده‌های آموزشی و همچنین زیرمجموعه‌ای[]
@@ -1493,7 +1566,14 @@ Overfull \hbox (9.8283pt too wide) in paragraph at lines 172--173
 
 )
 
-[14] (./Chapters/Chapter3_SystemDesign.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8] (./Chapters/Chapter3_SystemDesign.tex
 Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;sc
@@ -1502,49 +1582,133 @@ Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;s
 ript=arab;mapping=persian-tex-text;!
 
 
-[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
 File: Images/1_FlowChartChoosingNSAA.png Graphic file (type bmp)
 <Images/1_FlowChartChoosingNSAA.png>
 
 
-[16]
 
-[17]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[10]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
 File: Images/2_FlowChartSystemDesign.png Graphic file (type bmp)
 <Images/2_FlowChartSystemDesign.png>
 
 
-[19]
 
-[20]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
 File: Images/3_SensorsPlacement.png Graphic file (type bmp)
 <Images/3_SensorsPlacement.png>
 
 
-[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
 File: Images/4_ArduinoCode.png Graphic file (type bmp)
 <Images/4_ArduinoCode.png>
 
 
-[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 203.
 File: Images/5_MatlabDataCollector.png Graphic file (type bmp)
 <Images/5_MatlabDataCollector.png>
 
 
-[23]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
 File: Images/6_FlowChartDataCollecting.png Graphic file (type bmp)
 <Images/6_FlowChartDataCollecting.png>
 
 
-[24]
 
-[25]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[18]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
 Missing character: There is no R (U+0052) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no M (U+004D) in font B Nazanin/OT:language=dflt;sc
@@ -1553,25 +1717,74 @@ Missing character: There is no S (U+0053) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 
 
-[27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
 File: Images/7_FlowChartFeatureExtraction.png Graphic file (type bmp)
 <Images/7_FlowChartFeatureExtraction.png>
 
 
-[28]
 
-[29]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
+[22]
 
-[31]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
 File: Images/8_FlowChartPipline.png Graphic file (type bmp)
 <Images/8_FlowChartPipline.png>
 
 
-[32])
 
-[33] (./Chapters/Chapter4_ResultAndDiscussion.tex
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27] (./Chapters/Chapter4_ResultAndDiscussion.tex
 File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
 <Images/Generated/Chapter2/ch2_signal_sample.png>
 File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
@@ -1579,19 +1792,40 @@ mp)
 <Images/Generated/Chapter2/ch2_class_distribution.png>
 
 
-[34]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]
 File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
 e (type bmp)
 <Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
 
 
-[35]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
 File: Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png Graphic file (typ
 e bmp)
 <Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png>
 
 
-[36]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
 File: Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png>
@@ -1600,13 +1834,27 @@ type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png>
 
 
-[37]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
 File: Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png Graphic file (t
 ype bmp)
 <Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png>
 
 
-[38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
 File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
 mp)
 <Images/Generated/Chapter3/ch3_pca_variance_curve.png>
@@ -1615,7 +1863,14 @@ bmp)
 <Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
 
 
-[39]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
 Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
@@ -1627,7 +1882,14 @@ e bmp)
 <Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
 
 
-[40]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
 File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
@@ -1636,7 +1898,14 @@ ype bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png>
 
 
-[41]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
 File: Images/Generated/Chapter4/ch4_per_class_recall_pca95.png Graphic file (ty
 pe bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_pca95.png>
@@ -1645,51 +1914,105 @@ file (type bmp)
 <Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
 
 
-[42])
 
-[43] (./Chapters/Chapter5_Conclusion.tex)
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44] (./Chapters/Chapter6_Appendix.tex)
+[36])
 
-[45]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37] (./Chapters/Chapter5_Conclusion.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38] (./Chapters/Chapter6_Appendix.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 117.
+(Font)              scaled to size 10.79993pt on input line 159.
 
-Overfull \hbox (10.79538pt too wide) in paragraph at lines 117--117
+Overfull \hbox (10.79538pt too wide) in paragraph at lines 159--159
 [][]\TU/TimesNewRoman(0)/m/n/12 A.M. Sabatini. “Estimating three-dimensional or
 ientation of human body parts by inertial/magnetic[]
  []
 
 
 
-[46]
 
-[47] (./Abstract/abstract-en.tex
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[48] (./DMD_Thesis_Sharif_Template.aux)
+[42]
+\openout2 = `Front/Title/title-eng.aux'.
+
+ (./Front/Title/title-eng.tex
+File: Front/Images/logo.pdf Graphic file (type pdf)
+<use Front/Images/logo.pdf>
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 15.
+)
+
+[43
+
+] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
+(./Front/Title/title-eng.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `DMD_Thesis_Sharif_Template.out' has not chan
-ged.
+Package rerunfilecheck Info: File `DMD_Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: BB7A5F7FF3DD2CE1909798E6A5559CE1;13334.
-Package logreq Info: Writing requests to 'DMD_Thesis_Sharif_Template.run.xml'.
-\openout1 = `DMD_Thesis_Sharif_Template.run.xml'.
+Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
+\openout1 = `DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25353 strings out of 473832
- 533112 string characters out of 5729482
- 1386514 words of memory out of 5000000
- 47951 multiletter control sequences out of 15000+600000
- 566125 words of font info for 136 fonts, out of 8000000 for 9000
+ 25802 strings out of 473832
+ 541295 string characters out of 5729482
+ 1401290 words of memory out of 5000000
+ 48375 multiletter control sequences out of 15000+600000
+ 566117 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,11n,95p,2423b,4967s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,12n,95p,2407b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis_Sharif_Template.pdf (49 pages).
+Output written on DMD_Thesis.pdf (50 pages).
