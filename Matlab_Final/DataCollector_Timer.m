@@ -2,7 +2,7 @@ function DataCollector_Timer()
 % ===================== MAIN: constants + actions ======================
 CFG.devices.Head       = "TTGO-06";
 CFG.devices.Right_Hand = "TTGO-11";
-CFG.devices.Left_Hand  = "TTGO-12";
+CFG.devices.Left_Hand  = "TTGO-10";
 CFG.devices.Right_Foot = "TTGO-18";
 CFG.devices.Left_Foot  = "TTGO-19";
 CFG.btChannel = 1;
@@ -13,11 +13,11 @@ CFG.tickPeriod   = 0.011;    % 100 Hz nominal timer tick
 % protocol
 CFG.acquireDur_s = 510;       % record 5 seconds per segment
 CFG.keepDur_s = 499;       % keep last 5 sec
-CFG.cooldown_s   = 4;       % wait 3 seconds after saving
+CFG.cooldown_s   = 4;       % wait 4 seconds after saving
 CFG.maxSegments  = 30;      % 30 files in Start protocol
 
 % ------------- UI -------------
-UI = buildFigure();
+UI = buildFigure(CFG);
 
 % ------------- State -------------
 STATE.isRunning   = false;
@@ -330,7 +330,7 @@ end
 end
 
 % ===================== 2) FIGURE / UI ====================================
-function UI = buildFigure()
+function UI = buildFigure(CFG)
 UI.fig = figure('Name','Five Sensor Collector','NumberTitle','off', ...
                 'Position',[200,200,760,420]);
 
@@ -350,11 +350,16 @@ UI.btnReconnect = uicontrol('Style','pushbutton','String','Reconnect', ...
 
 % ---------- status dots ----------
 y0=250; dy=28; x1=20; x2=160;
-[~, UI.dot.Head] = statusRow('Head',       x1,y0,     x2,y0);
-[~, UI.dot.RH]   = statusRow('Right Hand', x1,y0-dy,  x2,y0-dy);
-[~, UI.dot.LH]   = statusRow('Left Hand',  x1,y0-2*dy,x2,y0-2*dy);
-[~, UI.dot.RF]   = statusRow('Right Foot', x1,y0-3*dy,x2,y0-3*dy);
-[~, UI.dot.LF]   = statusRow('Left Foot',  x1,y0-4*dy,x2,y0-4*dy);
+[~, UI.dot.Head] = statusRow('Head (' + CFG.devices.Head + ')', ...
+    x1,y0,     x2,y0);
+[~, UI.dot.RH]   = statusRow('Right Hand (' + CFG.devices.Right_Hand + ')', ...
+    x1,y0-dy,  x2,y0-dy);
+[~, UI.dot.LH]   = statusRow('Left Hand (' + CFG.devices.Left_Hand + ')', ...
+    x1,y0-2*dy,x2,y0-2*dy);
+[~, UI.dot.RF]   = statusRow('Right Foot (' + CFG.devices.Right_Foot + ')', ...
+    x1,y0-3*dy,x2,y0-3*dy);
+[~, UI.dot.LF]   = statusRow('Left Foot (' + CFG.devices.Left_Foot + ')', ...
+    x1,y0-4*dy,x2,y0-4*dy);
 
 UI.txtCount = uicontrol('Style','text','String','Samples: 0', ...
                         'Position',[340,250,300,20],'HorizontalAlignment','left');

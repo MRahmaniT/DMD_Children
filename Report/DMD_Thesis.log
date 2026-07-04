@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 JUL 2026 00:22
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 JUL 2026 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1566,8 +1566,10 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 
 
 [18]
-File: Images/3_MatlabDataCollector.png Graphic file (type bmp)
-<Images/3_MatlabDataCollector.png>
+File: Images/3_Matlab.png Graphic file (type bmp)
+<Images/3_Matlab.png>
+File: Images/3_MatlabDataCollector.jpg Graphic file (type bmp)
+<Images/3_MatlabDataCollector.jpg>
 
 
 [19]
@@ -1580,24 +1582,26 @@ File: Images/3_FlowChartDataCollecting.png Graphic file (type bmp)
 [21]
 
 [22]
+
+[23]
 File: Images/3_FlowChartFeatureExtraction.png Graphic file (type bmp)
 <Images/3_FlowChartFeatureExtraction.png>
 
-
-[23]
 
 [24]
 
 [25]
 
 [26]
+
+[27]
 File: Images/3_FlowChartPipline.png Graphic file (type bmp)
 <Images/3_FlowChartPipline.png>
 
 
-[27])
+[28])
 
-[28] (./Chapters/Chapter4_ResultAndDiscussion.tex
+[29] (./Chapters/Chapter4_ResultAndDiscussion.tex
 File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
 <Images/Generated/Chapter2/ch2_signal_sample.png>
 File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
@@ -1605,19 +1609,19 @@ mp)
 <Images/Generated/Chapter2/ch2_class_distribution.png>
 
 
-[29]
+[30]
 File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
 e (type bmp)
 <Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
 
 
-[30]
+[31]
 File: Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png Graphic file (typ
 e bmp)
 <Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png>
 
 
-[31]
+[32]
 File: Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png>
@@ -1626,13 +1630,13 @@ type bmp)
 <Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png>
 
 
-[32]
+[33]
 File: Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png Graphic file (t
 ype bmp)
 <Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png>
 
 
-[33]
+[34]
 File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
 mp)
 <Images/Generated/Chapter3/ch3_pca_variance_curve.png>
@@ -1641,7 +1645,7 @@ bmp)
 <Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
 
 
-[34]
+[35]
 Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
@@ -1653,7 +1657,7 @@ e bmp)
 <Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
 
 
-[35]
+[36]
 File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
@@ -1662,7 +1666,7 @@ ype bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png>
 
 
-[36]
+[37]
 File: Images/Generated/Chapter4/ch4_per_class_recall_pca95.png Graphic file (ty
 pe bmp)
 <Images/Generated/Chapter4/ch4_per_class_recall_pca95.png>
@@ -1671,11 +1675,11 @@ file (type bmp)
 <Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
 
 
-[37])
+[38])
 
-[38] (./Chapters/Chapter5_Conclusion.tex)
+[39] (./Chapters/Chapter5_Conclusion.tex)
 
-[39] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
+[40] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
 Overfull \hbox (2.24437pt too wide) in paragraph at lines 17--17
 [][]|\TU/BNazanin(0)/b/n/12 ردیف| []
  []
@@ -1945,9 +1949,9 @@ Underfull \hbox (badness 1466) in paragraph at lines 144--148
 []\TU/BNazanin(0)/m/n/12 شامل راه‌رفتن سریع، نبود[]
  []
 
-[40] [41]))
+[41] [42]))
 
-[42] (./Refrences/Refrences.tex
+[43] (./Refrences/Refrences.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 5.
 
@@ -1959,16 +1963,16 @@ oman(0)/m/n/12 20.3 (1995),[]
 
 
 
-[43])
+[44])
 
-[44] (./Front/Abstract/abstract-en.tex
+[45] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[45]
+[46]
 \openout2 = `Front/Title/title-eng.aux'.
 
  (./Front/Title/title-eng.tex
@@ -1978,7 +1982,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 15.
 )
 
-[46
+[47
 
 ] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
 (./Front/Title/title-eng.aux))
@@ -1993,12 +1997,12 @@ Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25997 strings out of 473832
- 546553 string characters out of 5729482
- 1424786 words of memory out of 5000000
- 48547 multiletter control sequences out of 15000+600000
+ 26021 strings out of 473832
+ 547168 string characters out of 5729482
+ 1424919 words of memory out of 5000000
+ 48570 multiletter control sequences out of 15000+600000
  566125 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,12n,95p,2407b,4980s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis.pdf (53 pages).
+Output written on DMD_Thesis.pdf (54 pages).

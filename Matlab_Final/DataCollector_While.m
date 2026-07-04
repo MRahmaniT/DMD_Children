@@ -16,7 +16,7 @@ CFG.tickPeriod = 0.01;   % ~90 Hz
 % protocol
 CFG.acquireDur_s = 510;  % NOTE: your code treats this as "samples", not seconds
 CFG.keepDur_s = 499;       % keep last 5 sec
-CFG.cooldown_s   = 3;
+CFG.cooldown_s   = 4;
 CFG.maxSegments  = 30;
 
 % ------------- UI -------------
