@@ -25,6 +25,9 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
+# Stand / Sit_To_x / ...
+TASK = "Stand" 
+
 # If there is a PCA version of the dataset, set to its number like 0.95 , otherwise 0
 USE_PCA = True
 PCA = 0.95
@@ -36,8 +39,8 @@ RANDOM_SEED = 42
 RF_TREES = 500
 KNN_NEIGHBORS = 5
 
-MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand_PCA" + str(int(PCA*100)) + ".xlsx"
-RESULTS_FOLDER = r"/Users/mohammad/University/Bachelor Project/Python/Results/FindPrincipalComponents"
+MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA*100)) + ".xlsx"
+RESULTS_FOLDER = "Results/" + TASK + "/FindPrincipalComponents_" + TASK + ".xlsx"
 
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 

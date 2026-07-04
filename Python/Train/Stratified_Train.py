@@ -24,6 +24,9 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
+# Stand / Sit_To_Stand / ...
+TASK = "Stand" 
+
 # If there is a PCA version of the dataset, set to its number like 0.95 , otherwise 0
 USE_PCA = True
 PCA = 0.95
@@ -35,12 +38,14 @@ RANDOM_SEED = 42
 RF_TREES = 500
 KNN_NEIGHBORS = 5
 
+OUTPUT_PATH = "Results/" + TASK 
+
 if USE_PCA:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand_PCA" + str(int(PCA*100)) + ".xlsx"
-    OUTPUT_EXCEL = "Results/Results_Comparison_PCA" + str(int(PCA*100)) + ".xlsx"
+    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA*100)) + ".xlsx"
+    OUTPUT_EXCEL = "Results/" + TASK + "/Results_Comparison_Fixed_PCA" + str(int(PCA*100)) + "_" + TASK + ".xlsx"
 else:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand.xlsx"
-    OUTPUT_EXCEL = "Results/Results_Comparison.xlsx"
+    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+    OUTPUT_EXCEL = "Results/" + TASK + "/Results_Comparison_" + TASK + ".xlsx"
 
 
 # =====================================================
@@ -274,6 +279,15 @@ def run_stratified_Kfold():
     )
 
     all_runs_df = pd.DataFrame(all_runs)
+
+    os.makedirs(
+        os.path.dirname(OUTPUT_PATH),
+        exist_ok=True
+    )
+    os.makedirs(
+        os.path.dirname(OUTPUT_EXCEL),
+        exist_ok=True
+    )
 
     with pd.ExcelWriter(
             OUTPUT_EXCEL,

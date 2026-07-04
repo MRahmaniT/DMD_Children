@@ -24,11 +24,15 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
+# Stand / Sit_To_x / ...
+TASK = "Stand" 
+
 # If there is a PCA version of the dataset, set to its number like 0.95 , otherwise 0
 USE_PCA = True
 PCA = 0.95
 
-N_Components = 5
+N_Components_Min = 1
+N_Components_Max = 10
 
 N_SPLITS = 5
 REPEATS = 5
@@ -37,8 +41,8 @@ RANDOM_SEED = 42
 RF_TREES = 500
 KNN_NEIGHBORS = 5
 
-MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand_PCA" + str(int(PCA*100)) + ".xlsx"
-RESULTS_FOLDER = r"/Users/mohammad/University/Bachelor Project/Python/Results/CompareNumberOfPrincipalComponents"
+MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA*100)) + ".xlsx"
+RESULTS_FOLDER = "/Users/mohammad/University/Bachelor Project/Results/" + TASK + "/CompareNumberOfPrincipalComponents_" + TASK + ".xlsx"
 
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 
@@ -181,7 +185,7 @@ def run_stratified_Kfold():
         n_repeats=REPEATS,
         random_state=RANDOM_SEED
     )
-    for n_components in range(1, N_Components + 1):
+    for n_components in range(N_Components_Min, N_Components_Max + 1):
 
         print(f"\n========== {n_components} Components ==========")
 

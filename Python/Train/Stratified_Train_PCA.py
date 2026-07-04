@@ -19,7 +19,10 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # SETTINGS
 # =====================================================
 
-USE_PCA = True        # Toggle PCA on/off here
+# Stand / Sit_To_Stand / ...
+TASK = "Stand" 
+    
+USE_PCA = False        # Toggle PCA on/off here
 PCA_VARIANCE = 0.95
 
 N_SPLITS = 5
@@ -29,12 +32,13 @@ RANDOM_SEED = 42
 RF_TREES = 500
 KNN_NEIGHBORS = 5
 
-MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand.xlsx"
+MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+OUTPUT_PATH = "Results/" + TASK 
 
 if USE_PCA:
-    OUTPUT_EXCEL = "Results/Results_Comparison_Fixed_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
+    OUTPUT_EXCEL = "Results/" + TASK + "/Results_Comparison_Pipeline_PCA" + str(int(PCA_VARIANCE*100)) + "_" + TASK + ".xlsx"
 else:
-    OUTPUT_EXCEL = "Results/Results_Comparison.xlsx"
+    OUTPUT_EXCEL = "Results/" + TASK + "/Results_Comparison_" + TASK + ".xlsx"
     
 
 
@@ -244,6 +248,10 @@ def run_stratified_Kfold():
 
     all_runs_df = pd.DataFrame(all_runs)
 
+    os.makedirs(
+        os.path.dirname(OUTPUT_PATH),
+        exist_ok=True
+    )
     os.makedirs(
         os.path.dirname(OUTPUT_EXCEL),
         exist_ok=True

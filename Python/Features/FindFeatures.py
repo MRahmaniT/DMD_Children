@@ -170,6 +170,7 @@ def find_file(input_dir: str, prefix: str, label: int, idx: int) -> str | None:
 def process_dataset(
     input_dir: str,
     output_dir: str,
+    master_dir: str,
     prefix: str,
     idx_range=range(2, 27),
     labels=(0, 1, 2),
@@ -177,6 +178,7 @@ def process_dataset(
     save_master: bool = True
 ):
     os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(master_dir, exist_ok=True)
     master_rows = []
     missing = []
 
@@ -216,21 +218,25 @@ def process_dataset(
         feature_cols = [c for c in master_df.columns if c not in meta_cols + ["label"]]
         master_df = master_df[meta_cols + feature_cols + ["label"]]
 
-        master_path = os.path.join(output_dir, f"MASTER_Features_{prefix}.xlsx")
+        master_path = os.path.join(master_dir, f"MASTER_Features_{prefix}.xlsx")
         master_df.to_excel(master_path, index=False)
 
     return {"processed": len(master_rows), "missing": missing, "output_dir": output_dir}
 
 
 if __name__ == "__main__":
-    INPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand"  
-    OUTPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Features" 
-
-    PREFIX = "Stand"           # مثلا Stand / Walk / Sit / ...
+    
+    # مثلا Stand / Sit_To_Stand / ...
+    PREFIX = "Sit_To_Stand"           
+    
+    INPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + PREFIX
+    OUTPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + PREFIX + "/Features" 
+    MASTER_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + PREFIX + "/Master Features" 
 
     result = process_dataset(
         input_dir=INPUT_DIR,
         output_dir=OUTPUT_DIR,
+        master_dir=MASTER_DIR,
         prefix=PREFIX,
         idx_range=range(2, 27),    # 2..26
         labels=(0, 1, 2),

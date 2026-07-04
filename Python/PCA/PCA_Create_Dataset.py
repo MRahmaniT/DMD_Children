@@ -7,10 +7,12 @@ from sklearn.decomposition import PCA
 # =====================================================
 # SETTINGS
 # =====================================================
+# Stand / Sit_To_Stand / ...
+TASK = "Sit_To_Stand"
 
-INPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand.xlsx"
+INPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
 
-OUTPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/Stand/Master Features/MASTER_Features_Stand_PCA95.xlsx"
+OUTPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA95.xlsx"
 
 PCA_VARIANCE = 0.95
 
