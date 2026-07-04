@@ -3,6 +3,42 @@ import glob
 import numpy as np
 import pandas as pd
 
+# =====================================================
+# SETTINGS
+# =====================================================
+
+# 1. Choose task : Stand / Sit_To_Stand / Jump / ...
+TASK = "Sit_To_Stand" 
+    
+# 2. Did you use action detector on your data or not
+DETECTED = False
+
+# 3. Choose range of indexes for above task (Choose the upper limit one more)
+INDEX_RANGE = range(2, 27) # 2..26
+
+# 4. Coose Labels
+LABELS = (0, 1, 2)
+
+# 5. If your excels have no headers or wrong headers, enable this:
+FORCE_HEADERS = False
+
+# 6. Enable to save all of features in one master file
+SAVE_MASTER = True
+
+# 7. Path
+if DETECTED :
+    INPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK
+    OUTPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Features" 
+    MASTER_DIR = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features" 
+else:
+    INPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK
+    OUTPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Features" 
+    MASTER_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features" 
+        
+INDEX_RANGE = range(2, 27),    # 2..26
+labels=(0, 1, 2),
+force_headers=False,
+save_master=True
 # -----------------------------
 # 1) Your headers (ground truth)
 # -----------------------------
@@ -151,9 +187,12 @@ def extract_features(df: pd.DataFrame) -> dict:
 # 4) File finder (robust)
 # -----------------------------
 def find_file(input_dir: str, prefix: str, label: int, idx: int) -> str | None:
+    KIND = "Filtered"
+    if DETECTED:
+        KIND = "DetectedAction_Filtered"
     patterns = [
-        os.path.join(input_dir, f"Filtered.{prefix}_{label}.{idx:02d}.xlsx"),
-        os.path.join(input_dir, f"Filtered.{prefix}_{label}.{idx}.xlsx"),
+        os.path.join(input_dir, f"KIND.{prefix}_{label}.{idx:02d}.xlsx"),
+        os.path.join(input_dir, f"KIND.{prefix}_{label}.{idx}.xlsx"),
         os.path.join(input_dir, f"*{prefix}*_{label}.{idx:02d}*.xlsx"),
         os.path.join(input_dir, f"*{prefix}*_{label}.{idx}*.xlsx"),
     ]
@@ -172,10 +211,10 @@ def process_dataset(
     output_dir: str,
     master_dir: str,
     prefix: str,
-    idx_range=range(2, 27),
-    labels=(0, 1, 2),
-    force_headers: bool = False,
-    save_master: bool = True
+    idx_range = INDEX_RANGE,
+    labels = LABELS,
+    force_headers: bool =FORCE_HEADERS,
+    save_master: bool = SAVE_MASTER
 ):
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(master_dir, exist_ok=True)
@@ -191,7 +230,6 @@ def process_dataset(
 
             df = pd.read_excel(fpath)
 
-            # If your excels have no headers or wrong headers, enable this:
             if force_headers:
                 df.columns = VARNAMES[:len(df.columns)]
 
@@ -224,24 +262,17 @@ def process_dataset(
     return {"processed": len(master_rows), "missing": missing, "output_dir": output_dir}
 
 
-if __name__ == "__main__":
-    
-    # مثلا Stand / Sit_To_Stand / ...
-    PREFIX = "Sit_To_Stand"           
-    
-    INPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + PREFIX
-    OUTPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + PREFIX + "/Features" 
-    MASTER_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + PREFIX + "/Master Features" 
+if __name__ == "__main__":    
 
     result = process_dataset(
-        input_dir=INPUT_DIR,
-        output_dir=OUTPUT_DIR,
-        master_dir=MASTER_DIR,
-        prefix=PREFIX,
-        idx_range=range(2, 27),    # 2..26
-        labels=(0, 1, 2),
-        force_headers=False,
-        save_master=True
+        input_dir = INPUT_DIR,
+        output_dir = OUTPUT_DIR,
+        master_dir = MASTER_DIR,
+        prefix = TASK,
+        idx_range = INDEX_RANGE,
+        labels = LABELS,
+        force_headers = FORCE_HEADERS,
+        save_master = SAVE_MASTER
     )
 
     print("Processed:", result["processed"])

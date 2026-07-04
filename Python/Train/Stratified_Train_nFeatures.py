@@ -24,31 +24,45 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
-# Stand / Sit_To_x / ...
-TASK = "Stand" 
+# 1. Choose task : Stand / Sit_To_Stand / Jump / ...
+TASK = "Sit_To_Stand" 
+    
+# 2. Did you use action detector on your data or not
+DETECTED = False
 
-# If there is a PCA version of the dataset, set to its number like 0.95 , otherwise 0
-USE_PCA = True
-PCA = 0.95
+# 3. Choose one or none of PCAs True (If you make both true it will use Pipeline PCA)
+USE_FIXED_PCA = True
+USE_PIPELINE_PCA = False        
 
-N_Components_Min = 1
-N_Components_Max = 10
+# 4. Choose PCA cariance
+PCA_VARIANCE = 0.95
 
+# 5. Choose K-fold cross validation Splits, Tepeats and Seed
 N_SPLITS = 5
 REPEATS = 5
 RANDOM_SEED = 42
 
+# 6. Choose parameters of models
 RF_TREES = 500
 KNN_NEIGHBORS = 5
 
-MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA*100)) + ".xlsx"
-RESULTS_FOLDER = "/Users/mohammad/University/Bachelor Project/Results/" + TASK + "/CompareNumberOfPrincipalComponents_" + TASK + ".xlsx"
+# 7. Choose range of comparison
+N_COMPONENTS_MIN = 5
+N_COMPONENTS_MAX = 20
+
+# 8. Path
+if DETECTED:
+    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
+    RESULTS_FOLDER = "/Users/mohammad/University/Bachelor Project/Results/" + TASK + "/DetectedAction/CompareNumberOfPrincipalComponents_" + TASK + ".xlsx"
+else:
+    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
+    RESULTS_FOLDER = "/Users/mohammad/University/Bachelor Project/Results/" + TASK + "/Normal/CompareNumberOfPrincipalComponents_" + TASK + ".xlsx"
 
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 
 OUTPUT_EXCEL = os.path.join(
     RESULTS_FOLDER,
-    f"Results_All_PCA_Components_{int(PCA*100)}.xlsx"
+    f"Results_All_PCA_Components_{int(PCA_VARIANCE*100)}.xlsx"
 )
 
 
@@ -99,7 +113,7 @@ def load_features(master_path):
 
 def get_models(seed):
     
-    if USE_PCA:
+    if USE_FIXED_PCA:
         knn_steps = [
             ("clf",    KNeighborsClassifier(n_neighbors=KNN_NEIGHBORS))
         ]
@@ -185,7 +199,7 @@ def run_stratified_Kfold():
         n_repeats=REPEATS,
         random_state=RANDOM_SEED
     )
-    for n_components in range(N_Components_Min, N_Components_Max + 1):
+    for n_components in range(N_COMPONENTS_MIN, N_COMPONENTS_MAX + 1):
 
         print(f"\n========== {n_components} Components ==========")
 

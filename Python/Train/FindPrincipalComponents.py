@@ -25,28 +25,29 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
-# Stand / Sit_To_x / ...
-TASK = "Stand" 
+# 1. Choose task : Stand / Sit_To_Stand / Jump / ...
+TASK = "Sit_To_Stand" 
+    
+# 2. Did you use action detector on your data or not
+DETECTED = False
 
-# If there is a PCA version of the dataset, set to its number like 0.95 , otherwise 0
-USE_PCA = True
-PCA = 0.95
+# 3. Choose PCA cariance
+PCA_VARIANCE = 0.95
 
-N_SPLITS = 5
-REPEATS = 5
-RANDOM_SEED = 42
+# 4. Path
+if DETECTED:
+    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
+    RESULTS_FOLDER = "Results/" + TASK + "/DetectedAction/FindPrincipalComponents_" + TASK + ".xlsx"
+else:
+    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
+    RESULTS_FOLDER = "Results/" + TASK + "/Normal/FindPrincipalComponents_" + TASK + ".xlsx"
 
-RF_TREES = 500
-KNN_NEIGHBORS = 5
-
-MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA*100)) + ".xlsx"
-RESULTS_FOLDER = "Results/" + TASK + "/FindPrincipalComponents_" + TASK + ".xlsx"
 
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 
 OUTPUT_EXCEL = os.path.join(
     RESULTS_FOLDER,
-    f"PCA_Dimension_Search_{int(PCA*100)}.xlsx"
+    f"PCA_Dimension_Search_{int(PCA_VARIANCE*100)}.xlsx"
 )
 
 # =====================================================
@@ -89,43 +90,6 @@ def load_features(master_path):
     )
 
     return X.to_numpy(dtype=float), y
-
-# =====================================================
-# MODELS
-# =====================================================
-
-def get_models(seed):
-    
-    if USE_PCA:
-        knn_steps = [
-            ("clf",    KNeighborsClassifier(n_neighbors=KNN_NEIGHBORS))
-        ]
-        svm_steps = [
-            ("clf",    SVC(kernel="rbf"))
-        ]
-        rf_steps = [
-            ("clf",    RandomForestClassifier(n_estimators=RF_TREES, random_state=seed))
-        ]
-    else:
-        knn_steps = [
-            ("scaler", StandardScaler()),
-            ("clf",    KNeighborsClassifier(n_neighbors=KNN_NEIGHBORS))
-        ]
-        svm_steps = [
-            ("scaler", StandardScaler()),
-            ("clf",    SVC(kernel="rbf"))
-        ]
-        rf_steps = [
-            # ("scaler", StandardScaler()),
-            ("clf",    RandomForestClassifier(n_estimators=RF_TREES, random_state=seed))
-        ]
-        
-    return {
-        "KNN":           Pipeline(knn_steps),
-        "SVM":           Pipeline(svm_steps),
-        "Random Forest": Pipeline(rf_steps)
-    }
-
 
 # =====================================================
 # SPECIFICITY

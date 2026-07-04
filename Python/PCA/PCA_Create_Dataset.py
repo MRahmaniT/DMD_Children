@@ -7,14 +7,24 @@ from sklearn.decomposition import PCA
 # =====================================================
 # SETTINGS
 # =====================================================
-# Stand / Sit_To_Stand / ...
-TASK = "Sit_To_Stand"
 
-INPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+# 1. Choose task : Stand / Sit_To_Stand / Jump / ...
+TASK = "Sit_To_Stand" 
+    
+# 2. Did you use action detector on your data or not
+DETECTED = True
 
-OUTPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA95.xlsx"
-
+# 3. Choose PCA cariance
 PCA_VARIANCE = 0.95
+
+# 4. Path
+if DETECTED :
+    INPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"   
+    OUTPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA95.xlsx"
+else:
+    INPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"   
+    OUTPUT_FILE = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA95.xlsx"
+
 
 # =====================================================
 # LOAD DATA

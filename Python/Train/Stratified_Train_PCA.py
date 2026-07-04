@@ -19,28 +19,51 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # SETTINGS
 # =====================================================
 
-# Stand / Sit_To_Stand / ...
-TASK = "Stand" 
+# 1. Choose task : Stand / Sit_To_Stand / Jump / ...
+TASK = "Sit_To_Stand" 
     
-USE_PCA = False        # Toggle PCA on/off here
+# 2. Did you use action detector on your data or not
+DETECTED = False
+
+# 3. Choose one or none of PCAs True (If you make both true it will use Pipeline PCA)
+USE_PIPELINE_PCA = True        
+USE_FIXED_PCA = False
+
+# 4. Choose PCA cariance
 PCA_VARIANCE = 0.95
 
+# 5. Choose K-fold cross validation Splits, Tepeats and Seed
 N_SPLITS = 5
 REPEATS = 5
 RANDOM_SEED = 42
 
+# 6. Choose parameters of models
 RF_TREES = 500
 KNN_NEIGHBORS = 5
 
-MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+# 7. Path
+if DETECTED :
+    if USE_PIPELINE_PCA:
+        MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+        OUTPUT_EXCEL = "Results/" + TASK + "/DetectedAction/Results_Comparison_Pipeline_PCA" + str(int(PCA_VARIANCE*100)) + "_Detected_Action_" + TASK + ".xlsx"
+    elif USE_FIXED_PCA:
+        MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
+        OUTPUT_EXCEL = "Results/" + TASK + "/DetectedAction/Results_Comparison_Fixed_PCA" + str(int(PCA_VARIANCE*100)) + "_Detected_Action_" + TASK + ".xlsx"
+    else:
+        MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+        OUTPUT_EXCEL = "Results/" + TASK + "/DetectedAction/Results_Comparison_Detected_Action_" + TASK + ".xlsx"
+else :
+    if USE_PIPELINE_PCA:
+        MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+        OUTPUT_EXCEL = "Results/" + TASK + "/Normal/Results_Comparison_Pipeline_PCA" + str(int(PCA_VARIANCE*100)) + "_" + TASK + ".xlsx"
+    elif USE_FIXED_PCA:
+        MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
+        OUTPUT_EXCEL = "Results/" + TASK + "/Normal/Results_Comparison_Fixed_PCA" + str(int(PCA_VARIANCE*100)) + "_" + TASK + ".xlsx"
+    else:
+        MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + ".xlsx"
+        OUTPUT_EXCEL = "Results/" + TASK + "/Normal/Results_Comparison_" + TASK + ".xlsx"
+
 OUTPUT_PATH = "Results/" + TASK 
-
-if USE_PCA:
-    OUTPUT_EXCEL = "Results/" + TASK + "/Results_Comparison_Pipeline_PCA" + str(int(PCA_VARIANCE*100)) + "_" + TASK + ".xlsx"
-else:
-    OUTPUT_EXCEL = "Results/" + TASK + "/Results_Comparison_" + TASK + ".xlsx"
-    
-
 
 # =====================================================
 # LOAD FEATURES
@@ -79,7 +102,7 @@ def multiclass_specificity(y_true, y_pred):
 # MODELS — PCA is now INSIDE the pipeline
 # =====================================================
 
-def get_models(seed, use_pca, pca_variance):
+def get_models(seed, use_pca, use_fixed_pca, pca_variance):
     
     if use_pca:
         # PCA is part of the pipeline — it will be fit on training data only, and applied to test data separately
@@ -96,6 +119,16 @@ def get_models(seed, use_pca, pca_variance):
         rf_steps = [
             ("scaler", StandardScaler()),
             ("pca",    PCA(n_components=pca_variance, random_state=seed)),
+            ("clf",    RandomForestClassifier(n_estimators=RF_TREES, random_state=seed))
+        ]
+    elif use_fixed_pca:
+        knn_steps = [
+            ("clf",    KNeighborsClassifier(n_neighbors=KNN_NEIGHBORS))
+        ]
+        svm_steps = [
+            ("clf",    SVC(kernel="rbf"))
+        ]
+        rf_steps = [
             ("clf",    RandomForestClassifier(n_estimators=RF_TREES, random_state=seed))
         ]
     else:
@@ -128,7 +161,7 @@ def run_stratified_Kfold():
     print(f"Dataset shape: {X.shape}")
     print(f"Classes: {np.unique(y)}")
     print(
-        f"PCA: {'ON (' + str(int(PCA_VARIANCE*100)) + '% variance)' if USE_PCA else 'OFF'}"
+        f"PCA: {'ON (' + str(int(PCA_VARIANCE*100)) + '% variance)' if USE_PIPELINE_PCA else 'OFF'}"
     )
 
     all_runs = []
@@ -165,7 +198,8 @@ def run_stratified_Kfold():
 
             model = get_models(
                 RANDOM_SEED,
-                USE_PCA,
+                USE_PIPELINE_PCA,
+                USE_FIXED_PCA,
                 PCA_VARIANCE
             )[model_name]
 
