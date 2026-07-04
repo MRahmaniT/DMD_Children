@@ -8,13 +8,15 @@ import pandas as pd
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Sit_To_Stand" 
+TASK = "Jump" 
     
 # 2. Did you use action detector on your data or not
-DETECTED = False
+DETECTED = True
 
-# 3. Choose range of indexes for above task (Choose the upper limit one more)
-INDEX_RANGE = range(2, 27) # 2..26
+# 3. Choose range of indexes for above task (Example for range 2 to 26))
+INDEX_RANGE_MIN = 2
+INDEX_RANGE_MAX = 27
+
 
 # 4. Coose Labels
 LABELS = (0, 1, 2)
@@ -35,10 +37,6 @@ else:
     OUTPUT_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Features" 
     MASTER_DIR = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features" 
         
-INDEX_RANGE = range(2, 27),    # 2..26
-labels=(0, 1, 2),
-force_headers=False,
-save_master=True
 # -----------------------------
 # 1) Your headers (ground truth)
 # -----------------------------
@@ -187,9 +185,10 @@ def extract_features(df: pd.DataFrame) -> dict:
 # 4) File finder (robust)
 # -----------------------------
 def find_file(input_dir: str, prefix: str, label: int, idx: int) -> str | None:
-    KIND = "Filtered"
     if DETECTED:
         KIND = "DetectedAction_Filtered"
+    else:
+        KIND = "Filtered"
     patterns = [
         os.path.join(input_dir, f"KIND.{prefix}_{label}.{idx:02d}.xlsx"),
         os.path.join(input_dir, f"KIND.{prefix}_{label}.{idx}.xlsx"),
@@ -211,7 +210,7 @@ def process_dataset(
     output_dir: str,
     master_dir: str,
     prefix: str,
-    idx_range = INDEX_RANGE,
+    idx_range = range(INDEX_RANGE_MIN, INDEX_RANGE_MAX),
     labels = LABELS,
     force_headers: bool =FORCE_HEADERS,
     save_master: bool = SAVE_MASTER
@@ -269,7 +268,7 @@ if __name__ == "__main__":
         output_dir = OUTPUT_DIR,
         master_dir = MASTER_DIR,
         prefix = TASK,
-        idx_range = INDEX_RANGE,
+        idx_range = range(INDEX_RANGE_MIN, INDEX_RANGE_MAX),
         labels = LABELS,
         force_headers = FORCE_HEADERS,
         save_master = SAVE_MASTER

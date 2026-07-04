@@ -26,10 +26,10 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Sit_To_Stand" 
+TASK = "Jump" 
     
 # 2. Did you use action detector on your data or not
-DETECTED = False
+DETECTED = True
 
 # 3. Choose PCA cariance
 PCA_VARIANCE = 0.95

@@ -2,7 +2,7 @@ function DataCollector_Timer()
 % ===================== MAIN: constants + actions ======================
 CFG.devices.Head       = "TTGO-06";
 CFG.devices.Right_Hand = "TTGO-11";
-CFG.devices.Left_Hand  = "TTGO-10";
+CFG.devices.Left_Hand  = "TTGO-12";
 CFG.devices.Right_Foot = "TTGO-18";
 CFG.devices.Left_Foot  = "TTGO-19";
 CFG.btChannel = 1;

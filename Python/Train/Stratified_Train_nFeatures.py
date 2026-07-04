@@ -25,15 +25,15 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Sit_To_Stand" 
+TASK = "Jump" 
     
 # 2. Did you use action detector on your data or not
 DETECTED = False
 
-# 3. Choose one or none of PCAs True (If you make both true it will use Pipeline PCA)
+# 3. Choose one or none of PCAs True (The code work only with FIX for now)
+USE_PIPELINE_PCA = False 
 USE_FIXED_PCA = True
-USE_PIPELINE_PCA = False        
-
+       
 # 4. Choose PCA cariance
 PCA_VARIANCE = 0.95
 
@@ -48,7 +48,7 @@ KNN_NEIGHBORS = 5
 
 # 7. Choose range of comparison
 N_COMPONENTS_MIN = 5
-N_COMPONENTS_MAX = 20
+N_COMPONENTS_MAX = 10
 
 # 8. Path
 if DETECTED:

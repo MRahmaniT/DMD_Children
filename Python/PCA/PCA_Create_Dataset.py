@@ -9,7 +9,7 @@ from sklearn.decomposition import PCA
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Sit_To_Stand" 
+TASK = "Jump" 
     
 # 2. Did you use action detector on your data or not
 DETECTED = True
