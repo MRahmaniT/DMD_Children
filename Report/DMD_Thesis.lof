@@ -11,17 +11,22 @@
 \contentsline {figure}{\numberline {11}{\ignorespaces رابط کاربری توسعه‌یافته در محیط متلب برای دریافت و ذخیره‌سازی داده‌ها}}{18}{figure.caption.17}%
 \contentsline {figure}{\numberline {12}{\ignorespaces راهنمای عملکرد بخش‌های مختلف رابط کاربری محیط متلب}}{19}{figure.caption.18}%
 \contentsline {figure}{\numberline {13}{\ignorespaces مراحل انجام فرآیند داده‌برداری}}{20}{figure.caption.19}%
-\contentsline {figure}{\numberline {14}{\ignorespaces نمونه سیگنال های ثبت شده از حسگرها در فعالیت ایستادن}}{27}{figure.caption.22}%
-\contentsline {figure}{\numberline {15}{\ignorespaces توزیع تعداد نمونه ها در کلاس های برچسب گذاری شده}}{28}{figure.caption.23}%
-\contentsline {figure}{\numberline {16}{\ignorespaces نقشه همبستگی 20 ویژگی با بیشترین واریانس}}{29}{figure.caption.24}%
-\contentsline {figure}{\numberline {17}{\ignorespaces مقایسه معیارهای عملکرد مدل ها در دو حالت بدون \lr {PCA} و با \lr {PCA95}}}{30}{figure.caption.25}%
-\contentsline {figure}{\numberline {18}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {no pca}}}{30}{figure.caption.26}%
-\contentsline {figure}{\numberline {19}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {pca95}}}{31}{figure.caption.27}%
-\contentsline {figure}{\numberline {20}{\ignorespaces رتبه بندی مدل ها بر اساس \lr {F1} در حالت بدون \lr {PCA}}}{31}{figure.caption.28}%
-\contentsline {figure}{\numberline {21}{\ignorespaces درصد واریانس توضیح داده شده و تجمعی مولفه های اصلی}}{32}{figure.caption.30}%
-\contentsline {figure}{\numberline {22}{\ignorespaces پراکندگی نمونه ها در فضای \lr {PC1} و \lr {PC2}}}{33}{figure.caption.31}%
-\contentsline {figure}{\numberline {23}{\ignorespaces تغییر \lr {F1} هر مدل پس از اعمال \lr {PCA95}}}{33}{figure.caption.32}%
-\contentsline {figure}{\numberline {24}{\ignorespaces 20 ویژگی برتر بر اساس اهمیت در مدل \lr {Random Forest}}}{34}{figure.caption.33}%
-\contentsline {figure}{\numberline {25}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {no pca}}}{35}{figure.caption.34}%
-\contentsline {figure}{\numberline {26}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {pca95}}}{35}{figure.caption.35}%
-\contentsline {figure}{\numberline {27}{\ignorespaces میانگین نرمال شده ویژگی های برتر برای هر کلاس}}{36}{figure.caption.36}%
+\contentsline {figure}{\numberline {14}{\ignorespaces نمونه سیگنال خام}}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {15}{\ignorespaces نمونه سیگنال فیلترشده}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {16}{\ignorespaces نمونه سیگنال جداسازی شده}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces نمونه مقایسه تعداد مؤلفه‌های اصلی}}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {18}{\ignorespaces نمونه مقایسه مدل‌ها در بازه بهینه}}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces نمونه سیگنال های ثبت شده از حسگرها در فعالیت ایستادن}}{30}{figure.caption.28}%
+\contentsline {figure}{\numberline {20}{\ignorespaces توزیع تعداد نمونه ها در کلاس های برچسب گذاری شده}}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {21}{\ignorespaces نقشه همبستگی 20 ویژگی با بیشترین واریانس}}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {22}{\ignorespaces مقایسه معیارهای عملکرد مدل ها در دو حالت بدون \lr {PCA} و با \lr {PCA95}}}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {23}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {no pca}}}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {24}{\ignorespaces ماتریس درهم ریختگی نرمال شده مدل ها در حالت \lr {pca95}}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {25}{\ignorespaces رتبه بندی مدل ها بر اساس \lr {F1} در حالت بدون \lr {PCA}}}{34}{figure.caption.34}%
+\contentsline {figure}{\numberline {26}{\ignorespaces درصد واریانس توضیح داده شده و تجمعی مولفه های اصلی}}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {27}{\ignorespaces پراکندگی نمونه ها در فضای \lr {PC1} و \lr {PC2}}}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {28}{\ignorespaces تغییر \lr {F1} هر مدل پس از اعمال \lr {PCA95}}}{36}{figure.caption.38}%
+\contentsline {figure}{\numberline {29}{\ignorespaces 20 ویژگی برتر بر اساس اهمیت در مدل \lr {Random Forest}}}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {30}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {no pca}}}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {31}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {pca95}}}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {32}{\ignorespaces میانگین نرمال شده ویژگی های برتر برای هر کلاس}}{39}{figure.caption.42}%

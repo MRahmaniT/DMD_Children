@@ -1,7 +1,7 @@
 clc; clear; close all;
 
 PathName = '/Users/mohammad/University/Bachelor Project/Matlab_Final/Data/';
-base = "Jump_0";
+base = "Sit_To_Stand_2";
 
 for i = 1:26
     FileName = sprintf('%s.%02d.xlsx', base, i);

@@ -20,14 +20,14 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Jump" 
+TASK = "Sit_To_Stand" 
     
 # 2. Did you use action detector on your data or not
 DETECTED = False
 
 # 3. Choose one or none of PCAs True (If you make both true it will use Pipeline PCA)
-USE_PIPELINE_PCA = True        
-USE_FIXED_PCA = False
+USE_PIPELINE_PCA = False        
+USE_FIXED_PCA = True
 
 # 4. Choose PCA cariance
 PCA_VARIANCE = 0.95
@@ -160,9 +160,20 @@ def run_stratified_Kfold():
 
     print(f"Dataset shape: {X.shape}")
     print(f"Classes: {np.unique(y)}")
-    print(
-        f"PCA: {'ON (' + str(int(PCA_VARIANCE*100)) + '% variance)' if USE_PIPELINE_PCA else 'OFF'}"
-    )
+    if USE_FIXED_PCA:
+        print(
+            f"Fixed_PCA: {'ON (' + str(int(PCA_VARIANCE*100)) + '% variance)'}"
+        )
+    elif USE_PIPELINE_PCA:
+        print(
+            f"Pipeline_PCA: {'ON (' + str(int(PCA_VARIANCE*100)) + '% variance)'}"
+        )
+    else:
+        print(
+            f"PCA: {'OFF'}"
+        )
+        
+    
 
     all_runs = []
     summary = []
