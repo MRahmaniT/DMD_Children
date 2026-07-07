@@ -1,0 +1,54 @@
+\contentsline {chapter}{مقدمه}{1}{chapter*.1}%
+\contentsline {chapter}{تحلیل حرکات}{2}{chapter*.2}%
+\contentsline {section}{\colorbox {green}{حرکت اول: ایستادن}}{2}{section*.3}%
+\contentsline {subsection}{وسایل مورد نیاز}{2}{section*.4}%
+\contentsline {subsection}{نمره ۲}{2}{section*.5}%
+\contentsline {subsection}{نمره ۱}{2}{section*.6}%
+\contentsline {section}{حرکت دوم: راه رفتن}{3}{section*.7}%
+\contentsline {subsection}{وسایل مورد نیاز}{3}{section*.8}%
+\contentsline {subsection}{نمره ۲}{3}{section*.9}%
+\contentsline {subsection}{نمره ۱}{3}{section*.10}%
+\contentsline {section}{\colorbox {green}{حرکت سوم: بلند شدن از روی صندلی}}{4}{section*.11}%
+\contentsline {subsection}{وسایل مورد نیاز}{4}{section*.12}%
+\contentsline {subsection}{نمره ۲}{4}{section*.13}%
+\contentsline {subsection}{نمره ۱}{4}{section*.14}%
+\contentsline {section}{حرکت چهارم و پنجم: ایستادن روی یک پا}{5}{section*.15}%
+\contentsline {subsection}{وسایل مورد نیاز}{5}{section*.16}%
+\contentsline {subsection}{نمره ۲}{5}{section*.17}%
+\contentsline {subsection}{نمره ۱}{5}{section*.18}%
+\contentsline {section}{\colorbox {green}{حرکت ششم و هفتم: بالا رفتن از یک جعبه}}{6}{section*.19}%
+\contentsline {subsection}{وسایل مورد نیاز}{6}{section*.20}%
+\contentsline {subsection}{نمره ۲}{6}{section*.21}%
+\contentsline {subsection}{نمره ۱}{6}{section*.22}%
+\contentsline {section}{حرکت هشتم و نهم: پایین آمدن از یک جعبه}{7}{section*.23}%
+\contentsline {subsection}{وسایل مورد نیاز}{7}{section*.24}%
+\contentsline {subsection}{نمره ۲}{7}{section*.25}%
+\contentsline {subsection}{نمره ۱}{7}{section*.26}%
+\contentsline {section}{حرکت دهم: نشستن روی زمین}{8}{section*.27}%
+\contentsline {subsection}{وسایل مورد نیاز}{8}{section*.28}%
+\contentsline {subsection}{نمره ۲}{8}{section*.29}%
+\contentsline {subsection}{نمره ۱}{8}{section*.30}%
+\contentsline {section}{حرکت یازدهم: بلند شدن از زمین}{9}{section*.31}%
+\contentsline {subsection}{وسایل مورد نیاز}{9}{section*.32}%
+\contentsline {subsection}{نمره ۲}{9}{section*.33}%
+\contentsline {subsection}{نمره ۱}{9}{section*.34}%
+\contentsline {section}{\colorbox {green}{حرکت دوازدهم: بالا آوردن سر}}{10}{section*.35}%
+\contentsline {subsection}{وسایل مورد نیاز}{10}{section*.36}%
+\contentsline {subsection}{نمره ۲}{10}{section*.37}%
+\contentsline {subsection}{نمره ۱}{10}{section*.38}%
+\contentsline {section}{حرکت سیزدهم: ایستادن روی پاشنه‌ها}{11}{section*.39}%
+\contentsline {subsection}{وسایل مورد نیاز}{11}{section*.40}%
+\contentsline {subsection}{نمره ۲}{11}{section*.41}%
+\contentsline {subsection}{نمره ۱}{11}{section*.42}%
+\contentsline {section}{\colorbox {green}{حرکت چهاردهم: پریدن}}{12}{section*.43}%
+\contentsline {subsection}{وسایل مورد نیاز}{12}{section*.44}%
+\contentsline {subsection}{نمره ۲}{12}{section*.45}%
+\contentsline {subsection}{نمره ۱}{12}{section*.46}%
+\contentsline {section}{حرکت پانزدهم و شانزدهم: پریدن روی یک پا}{13}{section*.47}%
+\contentsline {subsection}{وسایل مورد نیاز}{13}{section*.48}%
+\contentsline {subsection}{نمره ۲}{13}{section*.49}%
+\contentsline {subsection}{نمره ۱}{13}{section*.50}%
+\contentsline {section}{حرکت هفدهم: دویدن}{14}{section*.51}%
+\contentsline {subsection}{وسایل مورد نیاز}{14}{section*.52}%
+\contentsline {subsection}{نمره ۲}{14}{section*.53}%
+\contentsline {subsection}{نمره ۱}{14}{section*.54}%

@@ -2398,13 +2398,12 @@
     <bcf:citekey order="21" intorder="1">Breiman2001RandomForest</bcf:citekey>
     <bcf:citekey order="22" intorder="1">Mayhew2011NSAARasch</bcf:citekey>
     <bcf:citekey order="23" intorder="1">Mazzone2009NSAAReliability</bcf:citekey>
-    <bcf:citekey order="23" intorder="2">Mayhew2011NSAARasch</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">MuroDeLaHerran2014Wearable</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Mayhew2011NSAARasch</bcf:citekey>
     <bcf:citekey order="25" intorder="1">MuroDeLaHerran2014Wearable</bcf:citekey>
     <bcf:citekey order="26" intorder="1">Patel2012Wearable</bcf:citekey>
-    <bcf:citekey order="26" intorder="2">Bonato2010Wearable</bcf:citekey>
-    <bcf:citekey order="26" intorder="3">Lara2013Survey</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Sabatini2011IMU</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Bonato2010Wearable</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Lara2013Survey</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Sabatini2011IMU</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

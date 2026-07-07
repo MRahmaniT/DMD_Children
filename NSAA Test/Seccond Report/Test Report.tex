@@ -1,0 +1,375 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{svg}
+\usepackage{tikz}
+\usepackage{caption,subcaption}
+\usepackage{float}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[top=2cm,left=1.5cm,right=1.5cm,bottom=3cm]{geometry}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color,soul}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage[numbered,framed]{matlab-prettifier}
+\usepackage{ragged2e}
+\usepackage{fontspec}
+\usepackage{xepersian}
+\usepackage{lastpage}
+
+% Color definitions
+\definecolor{mygreen}{RGB}{28,172,0}
+\definecolor{mylilas}{RGB}{170,55,241}
+
+% Font settings
+\settextfont[Scale=1.4]{B Nazanin}
+\setlatintextfont[Scale=1.1]{Times New Roman}
+\linespread{1.3}
+
+% Hyperlink settings
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	pdftitle={Project Report}
+}
+
+% Header and footer configuration
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{15pt}
+%Title of Pages
+\fancyhead[C]{\Large شیوه انجام تست\\
+	\rule[1.5ex]{\linewidth}{0.4pt}}
+\fancyfoot[C]{%
+	\rule[1.5ex]{\linewidth}{0.4pt}\\%
+	صفحه \thepage\ از \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\cfttoctitlefont}{\hfill\large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		\vspace*{3cm}
+		{\huge شیوه انجام تست \lr{NSAA}}\\
+		\vspace{1cm}
+		{\LARGE پروژه بیماران دوشن}\\
+		\vspace{1.5cm}
+		\rule{\linewidth}{0.8mm}\\
+		\vspace{1cm}
+		{\Large محمد رحمانی‌طلب}\\
+		\vspace{0.5cm}
+		شماره دانشجویی: 400105636 \\
+		\vspace{1cm}
+		{\Large اساتید: \\ دکتر سعید بهزادی‌پور \\ دکتر مرضیه بابایی}\\
+		\vspace{2cm}
+		\vfill
+		\includegraphics[width=0.25\textwidth]{/Users/mohammad/University/Latex/Media/Sharif_logo.png}
+		\vfill
+		اردیبهشت 1405
+	\end{titlepage}
+	
+	\clearpage
+	\pagenumbering{gobble}
+	\tableofcontents
+	\thispagestyle{empty}
+	\clearpage
+	\pagenumbering{arabic}
+	
+	\chapter*{مقدمه}
+	\addcontentsline{toc}{chapter}{مقدمه}
+	مرجع تست‌ها 
+	\lr{NSAA}
+	است که شامل ۱۷ حرکت است.(البته ۴ حرکت آن کاملا مشابه هستند و صرفا اندام چپ و راست تغییر میکند.)\\
+	امتیاز هر حرکت بین ۰ تا ۲ است. امتیاز ۲ به حرکتی تعلق می‌گیرد که فعالیت را بدون کمک گرفتن از وسیله‌ی خاص یا محیط اطراف و همچنین بدون تغییر حالت بدن یا تغییر در حرکت انجام دهد. برای کسب نمره ۱ نیز باید فعالیت را به طور کامل انجام دهد اما می‌تواند حالت بدن را به طور غیر معمول تغییر دهد یا حرکت را به شیوه دیگری انجام دهد. اگر حرکت را بدون کمک فیزیکی نتواند انجام دهد نمره‌ای کسب نمی‌کند.
+	\chapter*{تحلیل حرکات}
+	\addcontentsline{toc}{chapter}{تحلیل حرکات}
+	\section*{\colorbox{green}{حرکت اول: ایستادن}}
+	\addcontentsline{toc}{section}{\colorbox{green}{حرکت اول: ایستادن}}
+	فرد باید بتواند بیشترین زمانی که می‌تواند را روی پاهای خود بایستد.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	 روی یک سطح صاف و بدون کفش انجام شود.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	ایستادن بدون حمایت، فاصله‌ی پاها از یکدیگر تقریبا به اندازه عرض شانه، پاشنه‌ها روی زمین و دست‌ها باز نشده باشند. 
+	\\
+	حداقل زمان لازم برای گرفتن نمره صحیح ۳ ثانیه است.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه ایستادن تعادل خود را حفظ کند.
+	\begin{enumerate}
+		\item باز کردن دست‌ها
+		\item افزایش فاصله بین دو پا
+		\item گام برداشتن
+		\item حرکت دادن اندام فوقانی
+		\item افزایش قوس کمر
+		\item صافی بیش از حد زانو (قفل کردن زانوها)
+		\item ایستادن روی پنجه پا (کوتاهی تاندون آشیل)
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت دوم: راه رفتن}
+	\addcontentsline{toc}{section}{حرکت دوم: راه رفتن}
+فرد باید بتواند مسافتی در حدود ۵ متر راه برود.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف و یک مسیر مستقیم، بدون کفش و جوراب انجام شود.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	راه رفتن با سرعت طبیعی، فاصله‌ی پاها از یکدیگر تقریبا به اندازه عرض شانه، پاشنه اول زمین را لمس می‌کند، بازوها طبیعی تاب می‌خورند، مسافت تعیین شده را نیز باید طی کنند.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه راه رفتن تعادل خود را حفظ کند و به مسیر خود ادامه دهد.
+	\begin{enumerate}
+		\item باز کردن دست‌ها
+		\item راه رفتن روی پنجه
+		\item فاصله زیاد بین پاها
+		\item کاهش سرعت
+		\item لگن به چپ و راست کج ‌شود
+		\item تنه به چپ و راست تاب بخورد
+		 
+	\end{enumerate}
+	\newpage
+	
+	\section*{\colorbox{green}{حرکت سوم: بلند شدن از روی صندلی}}
+	\addcontentsline{toc}{section}{\colorbox{green}{حرکت سوم: بلند شدن از روی صندلی}}
+	فرد باید ابتدا روی یک صندلی نشسته باشد. زاویه مفاصل هیپ و زانو باید ۹۰ درجه باشد. و پاها روی زمین قرار گرفته باشند.(یا پاها روی یک جعبه کمکی باشد.)
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	\begin{enumerate}
+		\item یک صندلی با ارتفاع مناسب یا پایه تنظیم شونده
+		\item یک جعبه در صورت نیاز
+	\end{enumerate}
+	
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	بلند شدن بدون استفاده از دست‌ها، فقط با نیروی پاها. دست‌ها به صورت ضربدری در سینه جمع شده باشند.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در بلند شدن تعادل خود را حفظ کند.
+	\begin{enumerate}
+		\item باز کردن دست‌ها
+		\item استفاده از دست‌ها روی صندلی یا زانوها برای فشار دادن
+		\item خم شدن زیاد تنه به جلو برای ایجاد مومنتوم
+		\item چند بار تلاش برای بلند شدن
+		\item حرکت جلو-عقب قبل از بلند شدن
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت چهارم و پنجم: ایستادن روی یک پا}
+	\addcontentsline{toc}{section}{حرکت چهارم و پنجم: ایستادن روی یک پا}
+	فرد باید بتواند بیشترین زمانی که می‌تواند را روی یکی از پاهای خود بایستد.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف بدون کفش انجام شود.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	ایستادن روی یک پا، بدون نوسان، پاشنه‌ پا روی زمین، دست‌ها باز نشده باشند. \\
+	حداقل زمان لازم برای گرفتن نمره صحیح ۳ ثانیه است.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه ایستادن تعادل خود را حفظ کند.
+	\begin{enumerate}
+		\item باز کردن دست‌ها
+		\item بالا آوردن پاشنه پا(روی پنجه رفتن)
+		\item زیاد حرکت دادن اندام فوقانی
+		\item بالا کشیدن لگن سمت پای شناور (خم شدن به بیرون)
+		\item لمس کوتاه زمین با پای شناور
+	\end{enumerate}
+	\newpage
+	
+	\section*{\colorbox{green}{حرکت ششم و هفتم: بالا رفتن از یک جعبه}}
+	\addcontentsline{toc}{section}{\colorbox{green}{حرکت ششم و هفتم: بالا رفتن از یک جعبه}}
+	فرد باید رو به جعبه ایستاده باشد. سپس در هر حرکت یکی از پاها را ابتدا روی جعبه قرار داده و سپس به بالای آن برود. 
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	\begin{enumerate}
+		\item یک جعبه به ارتفاع ۱۵ سانتی‌متر
+		\item یک پله
+	\end{enumerate}
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	بالا رفتن با یک پا، بدون حمایت دست ، حفظ تعادل.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه بالا رفتن تعادل خود را حفظ کند.
+	\begin{enumerate}
+		\item باز کردن دست‌ها
+		\item استفاده از دست روی دیوار یا میز
+		\item کمک از همراه
+		\item خم شدن تنه به جلو
+		\item کشیدن پای دوم به جای بالا آوردن
+		\item چند بار تلاش
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت هشتم و نهم: پایین آمدن از یک جعبه}
+	\addcontentsline{toc}{section}{حرکت هشتم و نهم: پایین آمدن از یک جعبه}
+	فرد باید رو به جلو از جعبه پایین بیاید.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	\begin{enumerate}
+		\item یک جعبه به ارتفاع ۱۵ سانتی‌متر
+	\end{enumerate}
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	پایین آمدن کنترل‌شده، بدون پرش یا سقوط،‌ بدون کمک گرفتن از دست.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه بالا رفتن تعادل خود را حفظ کند.
+	\begin{enumerate}
+		\item باز کردن دست‌ها
+		\item پریدن به جای پایین آمدن کنترل‌شده
+		\item استفاده از دست روی دیوار یا میز
+		\item فرود سفت و بدون جذب ضربه
+		\item از دست دادن تعادل بعد از فرود
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت دهم: نشستن روی زمین}
+	\addcontentsline{toc}{section}{حرکت دهم: نشستن روی زمین}
+	فرد باید ابتدا روی زمین به پشت خوابیده باشد و سپس رو به جلو بدون کمک از دست‌ها بلند شود و در حالت نشسته قرار بگیرد.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف انجام شود. چیزی زیر سر نباید قرار بگیرد.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	نشستن کنترل‌شده، بدون استفاده از دست‌ها، نحوه خوابیدن را تغییر ندهد.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه حرکت، بنشیند.
+	\begin{enumerate}
+		\item پرتاب دست‌ها رو به جلو
+		\item چرخیدن رو به زمین در حالت خوابیده
+		\item نشستن به صورت کج یا کنار‌رو
+		\item چند بار تلاش
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت یازدهم: بلند شدن از زمین}
+	\addcontentsline{toc}{section}{حرکت یازدهم: بلند شدن از زمین}
+فرد باید ابتدا روی زمین به پشت خوابیده باشد. سپس با کمترین کمک از دست‌ها از زمین بلند شود.
+	‍\subsection*{وسایل مورد نیاز}
+	‍‍‍‍\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف انجام شود. چیزی زیر سر نباید قرار بگیرد.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	بلند شدن با کمترین استفاده از دست‌ها یا حمایت و در سریع‌ترین زمان ممکن
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه حرکت، سر را بالا بیاورد.
+	\begin{enumerate}
+		\item استفاده از دست‌ها روی زانوها و رانها برای “بالا کشیدن” خود
+		\item چرخیدن رو به زمین در حالت خوابیده
+		\item فشار دادن دست‌ها روی زمین
+		\item گرفتن صندلی یا میز
+		\item ایستادن روی زانوها به عنوان مرحله میانی
+		\item بلند شدن در چند مرحله
+	\end{enumerate}
+	\newpage
+	
+	\section*{\colorbox{green}{حرکت دوازدهم: بالا آوردن سر}}
+	\addcontentsline{toc}{section}{\colorbox{green}{حرکت دوازدهم: بالا آوردن سر}}
+	فرد باید ابتدا روی زمین به پشت خوابیده باشد. سپس سر را بالا بیاورد و به نوک انگشتان پا نگاه کند. دامنه حرکت باید تا رسیدن چانه به سینه باشد.
+	‍\subsection*{وسایل مورد نیاز}
+	‍‍‍‍\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف انجام شود. چیزی زیر سر نباید قرار بگیرد.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	بالا بردن سر از حالت  خوابیده بدون استفاده از دست‌ها. دست ها یا کنار بدن باشند یا به صورت ضربدری.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه حرکت، سر را بالا بیاورد.
+	\begin{enumerate}
+		\item استفاده از دست‌ها برای کشیدن سر
+		\item بالا بردن شانه‌ها به جای سر
+		\item چرخیدن تنه به جای بالا بردن مستقیم سر
+		\item بالا بردن ناقص سر (فقط چند سانتی‌متر)
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت سیزدهم: ایستادن روی پاشنه‌ها}
+	\addcontentsline{toc}{section}{حرکت سیزدهم: ایستادن روی پاشنه‌ها}
+	فرد باید بتواند بیشترین زمانی که می‌تواند را روی پاشنه پاهای خود بایستد.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف بدون کفش انجام شود.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	ایستادن روی پاشنه‌ها، پنجه‌ها کاملاً از زمین بالا.\\
+	حداقل زمان لازم برای گرفتن نمره صحیح ۳ ثانیه است. گام برداشتن مشکلی ندارد.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه ایستادن تعادل خود را حفظ کند.
+	\begin{enumerate}
+		\item باز کردن دست‌ها
+		\item افزایش فاصله پاها
+		\item حرکت دادن اندام فوقانی(خم کردن کمر)
+		\item فقط کمی پنجه‌ها از زمین بالا بیایند
+		\item کناره‌های پا روی زمین بمانند ولی پنجه کاملا بالا رود
+	\end{enumerate}
+
+	\newpage
+	\section*{\colorbox{green}{حرکت چهاردهم: پریدن}}
+	\addcontentsline{toc}{section}{\colorbox{green}{حرکت چهاردهم: پریدن}}
+	فرد باید بتواند بیشترین مقدار که می‌تواند را بپرد و فاصله معقولی از زمین بگیرد.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف انجام شود. 
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	پریدن همزمان با هر دو پا، فاصله گرفتن از زمین، فرود همزمان، فاصله بین پاها کم.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه پریدن تعادل خود را حفظ کند.
+	\begin{enumerate}
+	\item استفاده زیاد از بازوها برای ایجاد نیرو
+	\item حرکت غیرمنطقی رو به جلو
+	\item باز کردن پاها
+	\item بلند کردن یک پا بعد از دیگری
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت پانزدهم و شانزدهم: پریدن روی یک پا}
+	\addcontentsline{toc}{section}{حرکت پانزدهم و شانزدهم: پریدن روی یک پا}
+	فرد باید بتواند بیشترین مقدار که می‌تواند را به کمک یک پا بپرد و فاصله معقولی از زمین بگیرد. پای دیگر باید قبل از حرکت از زمین جدا باشد.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف بدون کفش انجام شود.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	یک پا را ابتدا جمع می‌کنیم سپس به کمک پای تکیه‌گاه یک پرش انجام می‌دهیم.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه پریدن تعادل خود را حفظ کند.
+	\begin{enumerate}
+		\item حرکت غیرمنطقی رو به جلو
+		\item زمین گذاشتن پای دیگر
+		\item خم کردن زانو و روی پنجه بردن پای تکیه‌گاه(عدم تکمیل پرش)
+		\item حرکت زیاد بازوها برای تعادل
+		\item خم شدن تنه به جلو
+	\end{enumerate}
+	\newpage
+	
+	\section*{حرکت هفدهم: دویدن}
+	\addcontentsline{toc}{section}{حرکت هفدهم: دویدن}
+	فرد باید بتواند مسافتی در حدود ۱۰ متر بدود.
+	\subsection*{وسایل مورد نیاز}
+	\addcontentsline{toc}{subsection}{وسایل مورد نیاز}
+	روی یک سطح صاف و یک مسیر مستقیم بدون کفش و جوراب انجام شود.
+	\subsection*{نمره ۲}
+	\addcontentsline{toc}{subsection}{نمره ۲}
+	هر دو پا باید از روی زمین بلند شوند. سرعت معقول.
+	\subsection*{نمره ۱}
+	\addcontentsline{toc}{subsection}{نمره ۱}
+	فرد باید بتواند با تغییر‌های محسوس در نحوه دویدن تعادل خود را حفظ کند و به مسیر خود ادامه دهد.
+	\begin{enumerate}
+		\item \lr{Duchenne jog}
+	\end{enumerate}
+	\lr{Duchenne jog}
+	به معنای راه رفتن سریع است. حالت‌هایی وجود دارد که هر دو پا روی زمین قرار دارند. با تکان دادن شانه‌ همراه است. از بازو‌ها و چرخش تنه نیز کمک می‌گیرند. شبیه به راه رفتن اردک. راه رفتن معمولی نمره ۰ می‌گیرد.
+\end{document}
