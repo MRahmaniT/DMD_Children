@@ -1,112 +1,397 @@
 \subsection{فعالیت بلند شدن از صندلی}
 
-\providecommand{\ResultFigure}[4][0.86\linewidth]{%
+\subsubsection{ماهیت فعالیت و منطق تحلیل}
+
+فعالیت بلند شدن از صندلی یک حرکت انتقالی مهم است که در آن بدن از وضعیت نشسته به وضعیت ایستاده منتقل می‌شود. برخلاف ایستادن که تغییرات سیگنال عمدتاً به نوسانات کوچک تعادلی مربوط است، در این فعالیت چند فاز حرکتی مشخص وجود دارد: آماده‌سازی، انتقال وزن، جدا شدن از صندلی، راست شدن تنه و رسیدن به وضعیت ایستاده. به همین دلیل، انتظار می‌رود ویژگی‌های مربوط به دامنه تغییرات، انرژی سیگنال، سرعت تغییرات و هماهنگی بین حسگرهای سر، دست و پا در تفکیک سطوح عملکردی نقش بیشتری داشته باشند.
+
+در تحلیل این فعالیت، علاوه بر داده‌های اصلی، داده‌های جداسازی‌شده با تشخیص فعالیت نیز بررسی شدند. هدف از این مقایسه آن است که مشخص شود آیا حذف بخش‌های قبل و بعد از اجرای واقعی حرکت می‌تواند ویژگی‌ها را متمرکزتر و عملکرد مدل را بهتر کند یا خیر. اگر جداسازی بازه حرکت باعث بهبود عملکرد شود، می‌توان نتیجه گرفت که اطلاعات غیرمرتبط در داده اصلی باعث تضعیف مدل بوده‌اند. اگر عملکرد تغییر زیادی نکند یا کاهش یابد، باید بررسی شود که آیا بازه جداسازی‌شده بخشی از اطلاعات مفید حرکت را حذف کرده است یا خیر.
+
+\subsubsection{تحلیل داده‌های اصلی}
+
+در داده‌های اصلی، کل بازه ثبت‌شده برای استخراج ویژگی مورد استفاده قرار گرفته است. نمونه سیگنال در
+\autoref{fig:sit_to_stand_normal_signal_sample}
+نشان می‌دهد که فعالیت بلند شدن از صندلی نسبت به ایستادن دارای تغییرات واضح‌تری در طول زمان است. این تغییرات می‌توانند مربوط به شروع حرکت، انتقال وزن و رسیدن به وضعیت ایستاده باشند. بنابراین، در این فعالیت انتظار می‌رود ویژگی‌هایی که شدت، دامنه و تغییرات زمانی سیگنال را توصیف می‌کنند، نقش مهم‌تری نسبت به ویژگی‌های صرفاً ایستا داشته باشند.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=#1]{#2}
-	\caption{#3}
-	\label{#4}
-\end{figure}}
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/signal_sample.png}
+	\caption{نمونه سیگنال‌های ثبت‌شده در فعالیت بلند شدن از صندلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_signal_sample}
+\end{figure}
 
-\subsubsection{ماهیت فعالیت و اهمیت آن}
+توزیع نمونه‌ها در
+\autoref{fig:sit_to_stand_normal_class_distribution}
+برای تفسیر معیارهای ارزیابی اهمیت دارد. اگر کلاس‌ها متعادل باشند، مقایسه مدل‌ها ساده‌تر است؛ با این حال، در مسئله سه‌کلاسه همچنان لازم است عملکرد هر کلاس جداگانه بررسی شود. به همین دلیل، در کنار معیارهای کلی، نمودارهای
+\lr{Recall}
+هر کلاس و ماتریس‌های درهم‌ریختگی نیز در این فعالیت استفاده شده‌اند.
 
-فعالیت بلند شدن از صندلی یکی از فعالیت‌های مهم در ارزیابی عملکرد حرکتی است، زیرا اجرای آن به هماهنگی تنه، اندام‌های تحتانی، کنترل انتقال وزن و در برخی موارد استفاده جبرانی از دست‌ها وابسته است. در افراد دارای ضعف عضلانی، این فعالیت ممکن است با خم شدن بیشتر تنه، استفاده از دست‌ها، تغییر زمان‌بندی حرکت یا ناپایداری هنگام رسیدن به وضعیت ایستاده همراه شود. بنابراین، انتظار می‌رود حسگرهای نصب‌شده روی سر، دست‌ها و پاها بتوانند بخشی از تفاوت بین سطوح عملکردی را ثبت کنند.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.70\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/class_distribution.png}
+	\caption{توزیع نمونه‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_class_distribution}
+\end{figure}
 
-برای این فعالیت، نتایج در دو حالت بررسی شده‌اند: داده‌های اصلی و داده‌های جداسازی‌شده با تشخیص فعالیت. در حالت اول، ویژگی‌ها از بازه اصلی داده استخراج شده‌اند. در حالت دوم، ابتدا بخش مربوط به اجرای حرکت جدا شده و سپس استخراج ویژگی انجام شده است. مقایسه این دو حالت نشان می‌دهد که جداسازی بازه حرکت تا چه اندازه می‌تواند اطلاعات غیرمرتبط را کاهش دهد.
+نقشه همبستگی ویژگی‌ها در
+\autoref{fig:sit_to_stand_normal_feature_correlation}
+نشان می‌دهد که بخشی از ویژگی‌های استخراج‌شده مستقل از یکدیگر نیستند. این موضوع در فعالیت بلند شدن از صندلی قابل انتظار است؛ زیرا یک رویداد حرکتی مشخص به طور همزمان در چند حسگر و چند محور اثر می‌گذارد. بنابراین، ویژگی‌هایی مانند دامنه، انرژی و تغییرات مشتق‌شده ممکن است در چند محور رفتار مشابهی نشان دهند. این همبستگی بالا، ضرورت بررسی کاهش بعد را تقویت می‌کند.
 
-\subsubsection{داده‌های اصلی: سیگنال، کلاس‌ها و ویژگی‌ها}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/feature_correlation_heatmap.png}
+	\caption{نقشه همبستگی ویژگی‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_feature_correlation}
+\end{figure}
 
-شکل \ref{fig:sit_to_stand_normal_signal_sample} نمونه سیگنال‌های ثبت‌شده در حالت داده‌های اصلی را نشان می‌دهد. در این فعالیت، برخلاف ایستادن، انتظار می‌رود تغییرات سیگنال در لحظه شروع حرکت و رسیدن به وضعیت ایستاده واضح‌تر باشد. وجود نوسان‌های بزرگ‌تر در سیگنال می‌تواند با فاز انتقال از نشستن به ایستادن مرتبط باشد.
+نمودار واریانس
+\lr{PCA}
+در
+\autoref{fig:sit_to_stand_normal_pca_variance}
+برای پاسخ به این پرسش استفاده می‌شود که آیا استفاده از همه ویژگی‌های اولیه ضروری است یا خیر. اگر تعداد مؤلفه‌های لازم برای رسیدن به ۹۵ درصد واریانس بسیار کمتر از تعداد ویژگی‌های اولیه باشد، می‌توان نتیجه گرفت که اطلاعات موجود در ویژگی‌ها فشرده‌پذیر است. در چنین حالتی، کاهش بعد علاوه بر کم کردن پیچیدگی مدل، می‌تواند اثر نویز یا افزونگی را نیز کاهش دهد.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/signal_sample.png}{نمونه سیگنال‌های ثبت‌شده در فعالیت بلند شدن از صندلی، داده‌های اصلی.}{fig:sit_to_stand_normal_signal_sample}
+% TODO: تعداد دقیق مؤلفه‌های لازم برای حفظ ۹۵ درصد واریانس را از نمودار یا فایل Excel این فعالیت وارد کن.
 
-شکل \ref{fig:sit_to_stand_normal_class_distribution} توزیع نمونه‌ها در کلاس‌های مختلف را نشان می‌دهد. این توزیع برای تفسیر معیارهای عملکردی اهمیت دارد، زیرا عملکرد مناسب مدل باید در هر سه کلاس بررسی شود و فقط میانگین کلی کافی نیست.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_variance_curve.png}
+	\caption{واریانس توضیح‌داده‌شده \lr{PCA} در فعالیت بلند شدن از صندلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_pca_variance}
+\end{figure}
 
-\ResultFigure[0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/class_distribution.png}{توزیع نمونه‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی.}{fig:sit_to_stand_normal_class_distribution}
+پراکندگی دو مؤلفه اول در
+\autoref{fig:sit_to_stand_normal_pca_scatter}
+یک دید اولیه از جدایی‌پذیری کلاس‌ها ارائه می‌دهد. در این فعالیت، اگر کلاس‌ها در فضای دو مؤلفه اول تا حدی از یکدیگر جدا شده باشند، می‌توان انتظار داشت مدل‌هایی مانند
+\lr{SVM}
+یا
+\lr{Random Forest}
+در فضای کامل‌تر عملکرد مناسبی داشته باشند. اگر هم‌پوشانی قابل توجه باشد، تفسیر آن این است که اطلاعات لازم برای تفکیک کلاس‌ها احتمالاً در مؤلفه‌های بعدی یا روابط غیرخطی‌تر قرار دارد.
 
-شکل \ref{fig:sit_to_stand_normal_feature_correlation} همبستگی ویژگی‌های منتخب را نشان می‌دهد. وجود همبستگی بین ویژگی‌ها نشان می‌دهد که بخشی از ویژگی‌های استخراج‌شده اطلاعات مشابهی دارند و استفاده از کاهش بعد می‌تواند به ساده‌تر شدن فضای داده کمک کند.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_scatter_pc1_pc2.png}
+	\caption{پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_pca_scatter}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/feature_correlation_heatmap.png}{نقشه همبستگی ویژگی‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی.}{fig:sit_to_stand_normal_feature_correlation}
+\subsubsection{عملکرد مدل‌ها در داده‌های اصلی}
 
-\subsubsection{داده‌های اصلی: تحلیل \lr{PCA} و مدل‌ها}
+مقایسه عملکرد مدل‌ها در داده‌های اصلی در
+\autoref{fig:sit_to_stand_normal_model_comparison_f1}
+آورده شده است. در این مرحله، معیار
+\lr{F1}
+به عنوان معیار اصلی مقایسه در نظر گرفته می‌شود، زیرا هم خطای مثبت کاذب و هم خطای منفی کاذب را در نظر می‌گیرد. برای فعالیت بلند شدن از صندلی، عملکرد خوب مدل زمانی قابل قبول است که علاوه بر میانگین مناسب، در تشخیص هر سه کلاس نیز تعادل داشته باشد.
 
-نمودار واریانس \lr{PCA} در شکل \ref{fig:sit_to_stand_normal_pca_variance} نشان می‌دهد چند مؤلفه اصلی برای نمایش بخش عمده واریانس داده لازم است. شکل \ref{fig:sit_to_stand_normal_pca_scatter} نیز پراکندگی نمونه‌ها را در دو مؤلفه اول نمایش می‌دهد. اگر در این شکل مرزبندی نسبی بین کلاس‌ها دیده شود، می‌توان انتظار داشت مدل‌ها در فضای کامل‌تر عملکرد قابل قبولی داشته باشند.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/model_comparison_f1.png}
+	\caption{مقایسه عملکرد مدل‌ها بر اساس \lr{F1} در فعالیت بلند شدن از صندلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_model_comparison_f1}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_variance_curve.png}{نمودار واریانس توضیح‌داده‌شده \lr{PCA} در فعالیت بلند شدن از صندلی، داده‌های اصلی.}{fig:sit_to_stand_normal_pca_variance}
+رتبه‌بندی مدل‌ها در
+\autoref{fig:sit_to_stand_normal_model_ranking_f1}
+نشان می‌دهد کدام مدل در این حالت عملکرد بهتری داشته است. با این حال، این شکل فقط یک جمع‌بندی اولیه است. برای انتخاب نهایی باید مشخص شود که آیا مدل برتر در
+\lr{fold}
+های مختلف نیز پایدار بوده و آیا در یک کلاس خاص افت عملکرد نداشته است یا خیر.
 
-\ResultFigure[0.74\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_scatter_pc1_pc2.png}{پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های اصلی.}{fig:sit_to_stand_normal_pca_scatter}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/model_ranking_f1.png}
+	\caption{رتبه‌بندی مدل‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_model_ranking_f1}
+\end{figure}
 
-شکل‌های \ref{fig:sit_to_stand_normal_model_comparison_f1} تا \ref{fig:sit_to_stand_normal_metric_boxplots} عملکرد مدل‌ها را در داده‌های اصلی نشان می‌دهند. مقایسه مدل‌ها باید هم بر اساس مقدار \lr{F1} و هم بر اساس پایداری نتایج در foldهای مختلف انجام شود.
+اثر اعمال
+\lr{PCA95}
+در
+\autoref{fig:sit_to_stand_normal_f1_gain_pca}
+نشان داده شده است. این نمودار برای تصمیم‌گیری درباره استفاده از کاهش بعد اهمیت زیادی دارد. اگر بهبود مشاهده شود، کاهش بعد علاوه بر ساده‌تر کردن داده، عملکرد را نیز بهتر کرده است. اگر افت کمی وجود داشته باشد، می‌توان آن را به عنوان یک مصالحه بین کاهش پیچیدگی و حفظ عملکرد در نظر گرفت. اگر افت زیاد باشد، باید تعداد مؤلفه‌ها یا روش انتخاب ویژگی بازبینی شود.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/model_comparison_f1.png}{مقایسه عملکرد مدل‌ها بر اساس \lr{F1} در فعالیت بلند شدن از صندلی، داده‌های اصلی.}{fig:sit_to_stand_normal_model_comparison_f1}
+% TODO: مقدار دقیق بهبود یا افت F1 پس از PCA را از شکل یا Excel وارد کن.
 
-\ResultFigure[0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/model_ranking_f1.png}{رتبه‌بندی مدل‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی.}{fig:sit_to_stand_normal_model_ranking_f1}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/f1_gain_pca_vs_no_pca.png}
+	\caption{اثر \lr{PCA95} بر معیار \lr{F1} در فعالیت بلند شدن از صندلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_f1_gain_pca}
+\end{figure}
 
-\ResultFigure[0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/f1_gain_pca_vs_no_pca.png}{اثر \lr{PCA95} بر معیار \lr{F1} در فعالیت بلند شدن از صندلی، داده‌های اصلی.}{fig:sit_to_stand_normal_f1_gain_pca}
+پایداری عملکرد مدل‌ها در
+\autoref{fig:sit_to_stand_normal_metric_boxplots}
+بررسی شده است. در این نمودار، پراکندگی زیاد به معنی حساسیت مدل به تقسیم داده است. برای یک سامانه قابل اتکا، مدلی که کمی عملکرد پایین‌تر اما پایداری بیشتر دارد، ممکن است نسبت به مدلی با میانگین بالا و پراکندگی زیاد انتخاب مناسب‌تری باشد.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/metric_boxplots.png}{پراکندگی معیارهای ارزیابی در foldهای مختلف، داده‌های اصلی.}{fig:sit_to_stand_normal_metric_boxplots}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/metric_boxplots.png}
+	\caption{پراکندگی معیارهای ارزیابی در \lr{fold}های مختلف، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_metric_boxplots}
+\end{figure}
 
-\subsubsection{داده‌های اصلی: تحلیل خطا و ویژگی‌ها}
+\subsubsection{تحلیل خطا و ویژگی‌ها در داده‌های اصلی}
 
-ماتریس‌های درهم‌ریختگی در شکل‌های \ref{fig:sit_to_stand_normal_confusion_no_pca} و \ref{fig:sit_to_stand_normal_confusion_pca95} نشان می‌دهند که خطاهای مدل در داده‌های اصلی بین کدام کلاس‌ها رخ داده است. نمودارهای \lr{Recall} نیز مشخص می‌کنند که آیا یک سطح عملکردی خاص نسبت به بقیه ضعیف‌تر تشخیص داده شده است یا خیر.
+ماتریس‌های درهم‌ریختگی در
+\autoref{fig:sit_to_stand_normal_confusion_no_pca}
+و
+\autoref{fig:sit_to_stand_normal_confusion_pca95}
+نشان می‌دهند که خطاهای اصلی بین کدام کلاس‌ها رخ داده است. در فعالیت بلند شدن از صندلی، خطای بین سطح یک و دو می‌تواند قابل انتظار باشد، زیرا تفاوت بین اجرای اصلاح‌شده و اجرای طبیعی ممکن است در شدت جبرانی بودن حرکت، زمان‌بندی یا میزان استفاده از اندام‌ها باشد. اما خطای زیاد بین سطح صفر و دو نیازمند بررسی دقیق‌تر داده یا برچسب‌گذاری است.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_no_pca.png}{ماتریس‌های درهم‌ریختگی در فعالیت بلند شدن از صندلی، داده‌های اصلی، بدون \lr{PCA}.}{fig:sit_to_stand_normal_confusion_no_pca}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_no_pca.png}
+	\caption{ماتریس‌های درهم‌ریختگی در فعالیت بلند شدن از صندلی، داده‌های اصلی، بدون \lr{PCA}}
+	\label{fig:sit_to_stand_normal_confusion_no_pca}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_no_pca.png}{مقایسه \lr{Recall} هر کلاس، داده‌های اصلی، بدون \lr{PCA}.}{fig:sit_to_stand_normal_per_class_recall_no_pca}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_no_pca.png}
+	\caption{مقایسه \lr{Recall} هر کلاس، داده‌های اصلی، بدون \lr{PCA}}
+	\label{fig:sit_to_stand_normal_per_class_recall_no_pca}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_pca95.png}{ماتریس‌های درهم‌ریختگی در فعالیت بلند شدن از صندلی، داده‌های اصلی، با \lr{PCA95}.}{fig:sit_to_stand_normal_confusion_pca95}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_pca95.png}
+	\caption{ماتریس‌های درهم‌ریختگی در فعالیت بلند شدن از صندلی، داده‌های اصلی، با \lr{PCA95}}
+	\label{fig:sit_to_stand_normal_confusion_pca95}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_pca95.png}{مقایسه \lr{Recall} هر کلاس، داده‌های اصلی، با \lr{PCA95}.}{fig:sit_to_stand_normal_per_class_recall_pca95}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_pca95.png}
+	\caption{مقایسه \lr{Recall} هر کلاس، داده‌های اصلی، با \lr{PCA95}}
+	\label{fig:sit_to_stand_normal_per_class_recall_pca95}
+\end{figure}
 
-شکل \ref{fig:sit_to_stand_normal_rf_importance} ویژگی‌های اثرگذار را بر اساس \lr{Random Forest} نشان می‌دهد. در این فعالیت، ویژگی‌های مربوط به تغییرات پا، حرکت سر و احتمالاً حرکت دست‌ها می‌توانند در تشخیص سطح عملکردی نقش داشته باشند. شکل \ref{fig:sit_to_stand_normal_class_centroid_heatmap} نیز تفاوت میانگین نرمال‌شده ویژگی‌ها را بین کلاس‌ها نشان می‌دهد.
+تحلیل اهمیت ویژگی‌ها در
+\autoref{fig:sit_to_stand_normal_rf_importance}
+نشان می‌دهد مدل
+\lr{Random Forest}
+کدام ویژگی‌ها را در تصمیم‌گیری مؤثرتر دانسته است. در این فعالیت، انتظار می‌رود ویژگی‌های مربوط به پاها و سر اهمیت زیادی داشته باشند، زیرا حرکت اصلی شامل انتقال وزن، راست شدن تنه و رسیدن به وضعیت ایستاده است. اگر ویژگی‌های دست نیز در رتبه‌های بالا قرار گیرند، می‌تواند نشان‌دهنده نقش حرکات جبرانی یا تغییر الگوی اندام فوقانی باشد.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/rf_top_feature_importance.png}{ویژگی‌های مهم‌تر بر اساس \lr{Random Forest}، داده‌های اصلی.}{fig:sit_to_stand_normal_rf_importance}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/rf_top_feature_importance.png}
+	\caption{ویژگی‌های مهم‌تر بر اساس \lr{Random Forest}، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_rf_importance}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/class_centroid_feature_heatmap.png}{میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های اصلی.}{fig:sit_to_stand_normal_class_centroid_heatmap}
+\autoref{fig:sit_to_stand_normal_class_centroid_heatmap}
+میانگین نرمال‌شده ویژگی‌های منتخب را در کلاس‌های مختلف نشان می‌دهد. این شکل برای تفسیر کیفی داده مفید است، زیرا اگر الگوی میانگین ویژگی‌ها بین کلاس‌ها متفاوت باشد، نشان می‌دهد که تمایز کلاس‌ها در فضای ویژگی نیز قابل مشاهده است و فقط حاصل رفتار تصادفی مدل نیست.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/svm_metrics_vs_pca_components.png}{تغییر عملکرد \lr{SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی.}{fig:sit_to_stand_normal_svm_metrics_vs_pca_components}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/class_centroid_feature_heatmap.png}
+	\caption{میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_class_centroid_heatmap}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/Normal/models_f1_vs_pca_components.png}{مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی.}{fig:sit_to_stand_normal_models_f1_vs_pca_components}
+اثر تعداد مؤلفه‌های اصلی در
+\autoref{fig:sit_to_stand_normal_svm_metrics_vs_pca_components}
+و
+\autoref{fig:sit_to_stand_normal_models_f1_vs_pca_components}
+ارائه شده است. این دو نمودار نشان می‌دهند که انتخاب تعداد مؤلفه باید همزمان با انتخاب مدل انجام شود. ممکن است یک مدل با تعداد مؤلفه کمتر پایدار شود، در حالی که مدل دیگر برای رسیدن به همان سطح عملکرد به مؤلفه‌های بیشتری نیاز داشته باشد.
 
-\subsubsection{داده‌های جداسازی‌شده با تشخیص فعالیت}
+% TODO: تعداد مؤلفه منتخب برای داده‌های اصلی Sit_To_Stand را پس از بررسی نمودار وارد کن.
 
-در حالت داده‌های جداسازی‌شده، هدف این است که فقط بخش مؤثر حرکت بلند شدن از صندلی وارد مرحله استخراج ویژگی شود. شکل \ref{fig:sit_to_stand_detectedaction_signal_sample} نمونه سیگنال این حالت را نشان می‌دهد. اگر جداسازی درست انجام شده باشد، انتظار می‌رود بخش‌های غیرمرتبط قبل و بعد از حرکت کمتر روی ویژگی‌های آماری اثر بگذارند.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/svm_metrics_vs_pca_components.png}
+	\caption{تغییر عملکرد \lr{SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_svm_metrics_vs_pca_components}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/signal_sample.png}{نمونه سیگنال‌های ثبت‌شده در فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_signal_sample}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/Normal/models_f1_vs_pca_components.png}
+	\caption{مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}
+	\label{fig:sit_to_stand_normal_models_f1_vs_pca_components}
+\end{figure}
 
-\ResultFigure[0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_distribution.png}{توزیع نمونه‌ها در فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_class_distribution}
+\subsubsection{تحلیل داده‌های جداسازی‌شده با تشخیص فعالیت}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/feature_correlation_heatmap.png}{نقشه همبستگی ویژگی‌ها در فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_feature_correlation}
+در مرحله بعد، همین فعالیت پس از جداسازی بازه اجرای حرکت بررسی شد. هدف از این کار آن بود که ویژگی‌ها به جای کل بازه ثبت‌شده، از بخش مؤثر حرکت استخراج شوند. نمونه سیگنال جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_signal_sample}
+آورده شده است. اگر جداسازی به درستی انجام شده باشد، انتظار می‌رود ویژگی‌های آماری کمتر تحت تأثیر سکون قبل یا بعد از حرکت قرار گیرند و بیشتر به خود فرآیند بلند شدن از صندلی مربوط باشند.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_variance_curve.png}{نمودار واریانس توضیح‌داده‌شده \lr{PCA}، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_pca_variance}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/signal_sample.png}
+	\caption{نمونه سیگنال‌های فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_signal_sample}
+\end{figure}
 
-\ResultFigure[0.74\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_scatter_pc1_pc2.png}{پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_pca_scatter}
+توزیع نمونه‌ها و همبستگی ویژگی‌ها برای داده‌های جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_class_distribution}
+و
+\autoref{fig:sit_to_stand_detectedaction_feature_correlation}
+آورده شده‌اند. مقایسه این دو شکل با حالت داده‌های اصلی کمک می‌کند مشخص شود آیا جداسازی بازه حرکت فقط طول سیگنال را تغییر داده یا ساختار ویژگی‌ها را نیز تحت تأثیر قرار داده است.
 
-شکل‌های بعدی عملکرد مدل‌ها را در حالت داده‌های جداسازی‌شده نمایش می‌دهند. مقایسه این شکل‌ها با حالت داده‌های اصلی نشان می‌دهد که جداسازی بازه حرکت تا چه اندازه بر عملکرد مدل اثر گذاشته است.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.70\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_distribution.png}
+	\caption{توزیع نمونه‌ها در فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_class_distribution}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_comparison_f1.png}{مقایسه عملکرد مدل‌ها بر اساس \lr{F1}، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_model_comparison_f1}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/feature_correlation_heatmap.png}
+	\caption{نقشه همبستگی ویژگی‌ها در فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_feature_correlation}
+\end{figure}
 
-\ResultFigure[0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_ranking_f1.png}{رتبه‌بندی مدل‌ها، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_model_ranking_f1}
+تحلیل
+\lr{PCA}
+برای داده‌های جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_pca_variance}
+و
+\autoref{fig:sit_to_stand_detectedaction_pca_scatter}
+ارائه شده است. اگر پس از جداسازی، تعداد مؤلفه‌های لازم برای حفظ واریانس کاهش یابد، می‌توان گفت داده‌ها فشرده‌تر و متمرکزتر شده‌اند. اگر پراکندگی کلاس‌ها در فضای دو مؤلفه اول بهتر شود، این موضوع می‌تواند نشانه‌ای از مؤثر بودن جداسازی فعالیت باشد.
 
-\ResultFigure[0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/f1_gain_pca_vs_no_pca.png}{اثر \lr{PCA95} بر معیار \lr{F1}، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_f1_gain_pca}
+% TODO: در صورت مشاهده تغییر محسوس نسبت به داده‌های اصلی، مقدار دقیق تعداد مؤلفه یا الگوی جدایی کلاس‌ها را اینجا بنویس.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/metric_boxplots.png}{پراکندگی معیارهای ارزیابی در foldهای مختلف، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_metric_boxplots}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_variance_curve.png}
+	\caption{واریانس توضیح‌داده‌شده \lr{PCA}، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_pca_variance}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matrices_no_pca.png}{ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، بدون \lr{PCA}.}{fig:sit_to_stand_detectedaction_confusion_no_pca}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_scatter_pc1_pc2.png}
+	\caption{پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_pca_scatter}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall_no_pca.png}{مقایسه \lr{Recall} هر کلاس، داده‌های جداسازی‌شده، بدون \lr{PCA}.}{fig:sit_to_stand_detectedaction_per_class_recall_no_pca}
+\subsubsection{عملکرد مدل‌ها در داده‌های جداسازی‌شده}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matrices_pca95.png}{ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، با \lr{PCA95}.}{fig:sit_to_stand_detectedaction_confusion_pca95}
+عملکرد مدل‌ها پس از جداسازی فعالیت در
+\autoref{fig:sit_to_stand_detectedaction_model_comparison_f1}
+ارائه شده است. این نمودار باید مستقیماً با
+\autoref{fig:sit_to_stand_normal_model_comparison_f1}
+مقایسه شود. اگر معیار
+\lr{F1}
+در این حالت بهبود یافته باشد، می‌توان نتیجه گرفت که مرحله تشخیص فعالیت باعث حذف اطلاعات غیرمرتبط و تقویت الگوی حرکتی شده است. اگر عملکرد افت کرده باشد، احتمال دارد بخشی از اطلاعات زمینه‌ای یا فازهای مهم حرکت در جداسازی حذف شده باشد.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall_pca95.png}{مقایسه \lr{Recall} هر کلاس، داده‌های جداسازی‌شده، با \lr{PCA95}.}{fig:sit_to_stand_detectedaction_per_class_recall_pca95}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_comparison_f1.png}
+	\caption{مقایسه عملکرد مدل‌ها بر اساس \lr{F1}، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_model_comparison_f1}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/rf_top_feature_importance.png}{ویژگی‌های مهم‌تر بر اساس \lr{Random Forest}، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_rf_importance}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_ranking_f1.png}
+	\caption{رتبه‌بندی مدل‌ها، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_model_ranking_f1}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_centroid_feature_heatmap.png}{میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_class_centroid_heatmap}
+اثر
+\lr{PCA95}
+در داده‌های جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_f1_gain_pca}
+آورده شده است. این شکل مشخص می‌کند که پس از جداسازی بازه حرکت، کاهش بعد همچنان مفید بوده است یا خیر. اگر جداسازی فعالیت باعث تمرکز بهتر ویژگی‌ها شده باشد، ممکن است اثر
+\lr{PCA}
+نسبت به داده‌های اصلی تغییر کند.
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/svm_metrics_vs_pca_components.png}{تغییر عملکرد \lr{SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_svm_metrics_vs_pca_components}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/f1_gain_pca_vs_no_pca.png}
+	\caption{اثر \lr{PCA95} بر معیار \lr{F1}، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_f1_gain_pca}
+\end{figure}
 
-\ResultFigure{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/models_f1_vs_pca_components.png}{مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده.}{fig:sit_to_stand_detectedaction_models_f1_vs_pca_components}
+پایداری عملکرد در داده‌های جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_metric_boxplots}
+بررسی شده است. اگر جداسازی فعالیت علاوه بر افزایش میانگین عملکرد، پراکندگی نتایج را نیز کاهش دهد، می‌توان آن را به عنوان مرحله‌ای مؤثر در افزایش قابلیت اعتماد سامانه در نظر گرفت.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/metric_boxplots.png}
+	\caption{پراکندگی معیارهای ارزیابی در \lr{fold}های مختلف، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_metric_boxplots}
+\end{figure}
+
+تحلیل خطا برای داده‌های جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_confusion_no_pca}
+تا
+\autoref{fig:sit_to_stand_detectedaction_per_class_recall_pca95}
+ارائه شده است. این بخش مشخص می‌کند که جداسازی فعالیت فقط میانگین عملکرد را تغییر داده یا تشخیص کلاس‌های خاص را نیز بهتر کرده است. برای مثال، اگر پس از جداسازی،
+\lr{Recall}
+کلاس میانی بهتر شود، می‌توان گفت مدل بهتر توانسته الگوهای اصلاح‌شده حرکت را تشخیص دهد.
+
+% TODO: اگر در یکی از کلاس‌ها بهبود یا افت واضح دیده می‌شود، مقدار دقیق آن را اینجا وارد کن.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matrices_no_pca.png}
+	\caption{ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، بدون \lr{PCA}}
+	\label{fig:sit_to_stand_detectedaction_confusion_no_pca}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall_no_pca.png}
+	\caption{مقایسه \lr{Recall} هر کلاس، داده‌های جداسازی‌شده، بدون \lr{PCA}}
+	\label{fig:sit_to_stand_detectedaction_per_class_recall_no_pca}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matrices_pca95.png}
+	\caption{ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، با \lr{PCA95}}
+	\label{fig:sit_to_stand_detectedaction_confusion_pca95}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall_pca95.png}
+	\caption{مقایسه \lr{Recall} هر کلاس، داده‌های جداسازی‌شده، با \lr{PCA95}}
+	\label{fig:sit_to_stand_detectedaction_per_class_recall_pca95}
+\end{figure}
+
+ویژگی‌های مهم‌تر و الگوی میانگین ویژگی‌ها در داده‌های جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_rf_importance}
+و
+\autoref{fig:sit_to_stand_detectedaction_class_centroid_heatmap}
+آمده‌اند. مقایسه این دو شکل با حالت داده‌های اصلی می‌تواند نشان دهد که جداسازی فعالیت باعث تغییر نقش حسگرها یا ویژگی‌های اصلی شده است یا خیر.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/rf_top_feature_importance.png}
+	\caption{ویژگی‌های مهم‌تر بر اساس \lr{Random Forest}، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_rf_importance}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_centroid_feature_heatmap.png}
+	\caption{میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_class_centroid_heatmap}
+\end{figure}
+
+اثر تعداد مؤلفه‌های اصلی در داده‌های جداسازی‌شده در
+\autoref{fig:sit_to_stand_detectedaction_svm_metrics_vs_pca_components}
+و
+\autoref{fig:sit_to_stand_detectedaction_models_f1_vs_pca_components}
+آمده است. این نمودارها برای انتخاب تعداد مؤلفه مناسب در حالت نهایی این فعالیت استفاده می‌شوند.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/svm_metrics_vs_pca_components.png}
+	\caption{تغییر عملکرد \lr{SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_svm_metrics_vs_pca_components}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/models_f1_vs_pca_components.png}
+	\caption{مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}
+	\label{fig:sit_to_stand_detectedaction_models_f1_vs_pca_components}
+\end{figure}
 
 % TODO: عددهای جدول زیر را از خروجی‌های Excel فعالیت Sit_To_Stand وارد کن.
 \begin{table}[H]
@@ -129,4 +414,6 @@
 
 \subsubsection{جمع‌بندی فعالیت بلند شدن از صندلی}
 
-فعالیت بلند شدن از صندلی به دلیل ماهیت انتقالی خود، اطلاعات مهمی درباره توان حرکتی و الگوهای جبرانی فراهم می‌کند. مقایسه داده‌های اصلی و داده‌های جداسازی‌شده در این فعالیت برای تصمیم‌گیری درباره نقش مرحله تشخیص فعالیت اهمیت دارد. پس از تکمیل جدول عددی، باید مشخص شود که آیا جداسازی بازه حرکت موجب افزایش عملکرد و پایداری مدل شده است یا خیر. همچنین باید مدل منتخب بر اساس ترکیب معیار \lr{F1}، پایداری foldها و رفتار ماتریس درهم‌ریختگی تعیین شود.
+در فعالیت بلند شدن از صندلی، تحلیل نتایج باید بر پایه مقایسه دو حالت داده انجام شود. داده‌های اصلی تصویری از کل بازه ثبت‌شده ارائه می‌دهند، در حالی که داده‌های جداسازی‌شده روی بخش مؤثر حرکت متمرکز هستند. تصمیم نهایی درباره استفاده از تشخیص فعالیت باید پس از تکمیل عددهای جدول و بررسی همزمان میانگین عملکرد، پایداری در
+\lr{fold}
+ها، رفتار کلاس‌ها در ماتریس درهم‌ریختگی و تعداد مؤلفه‌های مورد نیاز برای مدل منتخب انجام شود.
