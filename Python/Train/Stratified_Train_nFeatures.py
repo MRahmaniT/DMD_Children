@@ -13,6 +13,7 @@ from sklearn.metrics import (
     confusion_matrix
 )
 from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
@@ -28,11 +29,11 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 TASK = "Jump" 
     
 # 2. Did you use action detector on your data or not
-DETECTED = False
+DETECTED = True
 
-# 3. Choose one or none of PCAs True (The code work only with FIX for now)
-USE_PIPELINE_PCA = False 
-USE_FIXED_PCA = True
+# 3. Choose one or none of PCAs True (The code work only with Pipeline for now)
+USE_PIPELINE_PCA = True 
+USE_FIXED_PCA = False
        
 # 4. Choose PCA cariance
 PCA_VARIANCE = 0.95
@@ -48,21 +49,52 @@ KNN_NEIGHBORS = 5
 
 # 7. Choose range of comparison
 N_COMPONENTS_MIN = 5
-N_COMPONENTS_MAX = 10
+N_COMPONENTS_MAX = 15
 
 # 8. Path
 if DETECTED:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
-    RESULTS_FOLDER = "/Users/mohammad/University/Bachelor Project/Results/" + TASK + "/DetectedAction/CompareNumberOfPrincipalComponents_" + TASK + ".xlsx"
+    MASTER_PATH = (
+        r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/"
+        + TASK
+        + "/Master Features/MASTER_Features_"
+        + TASK
+        + ".xlsx"
+    )
+
+    RESULTS_FOLDER = (
+        "/Users/mohammad/University/Bachelor Project/Results/"
+        + TASK
+        + "/DetectedAction/CompareNumberOfPrincipalComponents_PipelinePCA_"
+        + TASK
+    )
+
 else:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
-    RESULTS_FOLDER = "/Users/mohammad/University/Bachelor Project/Results/" + TASK + "/Normal/CompareNumberOfPrincipalComponents_" + TASK + ".xlsx"
+    MASTER_PATH = (
+        r"/Users/mohammad/University/Bachelor Project/Final/Data/"
+        + TASK
+        + "/Master Features/MASTER_Features_"
+        + TASK
+        + ".xlsx"
+    )
+
+    RESULTS_FOLDER = (
+        "/Users/mohammad/University/Bachelor Project/Results/"
+        + TASK
+        + "/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_"
+        + TASK
+    )
+
+FIGURES_FOLDER = os.path.join(
+    RESULTS_FOLDER,
+    "Figures"
+)
 
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
+os.makedirs(FIGURES_FOLDER, exist_ok=True)
 
 OUTPUT_EXCEL = os.path.join(
     RESULTS_FOLDER,
-    f"Results_All_PCA_Components_{int(PCA_VARIANCE*100)}.xlsx"
+    f"Results_All_PipelinePCA_Components.xlsx"
 )
 
 
@@ -110,39 +142,34 @@ def load_features(master_path):
 # =====================================================
 # MODELS
 # =====================================================
+def get_models(seed, n_components):
 
-def get_models(seed):
-    
-    if USE_FIXED_PCA:
-        knn_steps = [
-            ("clf",    KNeighborsClassifier(n_neighbors=KNN_NEIGHBORS))
-        ]
-        svm_steps = [
-            ("clf",    SVC(kernel="rbf"))
-        ]
-        rf_steps = [
-            ("clf",    RandomForestClassifier(n_estimators=RF_TREES, random_state=seed))
-        ]
-    else:
-        knn_steps = [
-            ("scaler", StandardScaler()),
-            ("clf",    KNeighborsClassifier(n_neighbors=KNN_NEIGHBORS))
-        ]
-        svm_steps = [
-            ("scaler", StandardScaler()),
-            ("clf",    SVC(kernel="rbf"))
-        ]
-        rf_steps = [
-            # ("scaler", StandardScaler()),
-            ("clf",    RandomForestClassifier(n_estimators=RF_TREES, random_state=seed))
-        ]
-        
+    knn_steps = [
+        ("scaler", StandardScaler()),
+        ("pca", PCA(n_components=n_components)),
+        ("clf", KNeighborsClassifier(n_neighbors=KNN_NEIGHBORS))
+    ]
+
+    svm_steps = [
+        ("scaler", StandardScaler()),
+        ("pca", PCA(n_components=n_components)),
+        ("clf", SVC(kernel="rbf"))
+    ]
+
+    rf_steps = [
+        ("scaler", StandardScaler()),
+        ("pca", PCA(n_components=n_components)),
+        ("clf", RandomForestClassifier(
+            n_estimators=RF_TREES,
+            random_state=seed
+        ))
+    ]
+
     return {
-        "KNN":           Pipeline(knn_steps),
-        "SVM":           Pipeline(svm_steps),
+        "KNN": Pipeline(knn_steps),
+        "SVM": Pipeline(svm_steps),
         "Random Forest": Pipeline(rf_steps)
     }
-
 
 # =====================================================
 # SPECIFICITY
@@ -183,8 +210,6 @@ def run_stratified_Kfold():
 
     X_all, y = load_features(MASTER_PATH)
 
-    models = get_models(RANDOM_SEED)
-
     all_runs = []
     component_summary = []
 
@@ -203,7 +228,12 @@ def run_stratified_Kfold():
 
         print(f"\n========== {n_components} Components ==========")
 
-        X = X_all[:, :n_components]
+        X = X_all.copy()
+
+        models = get_models(
+            RANDOM_SEED,
+            n_components
+        )
 
         for model_name in models:
 
@@ -225,7 +255,10 @@ def run_stratified_Kfold():
                 Xte = X[te]
                 yte = y[te]
 
-                model = get_models(RANDOM_SEED)[model_name]
+                model = get_models(
+                    RANDOM_SEED,
+                    n_components
+                )[model_name]
 
                 model.fit(Xtr, ytr)
 
@@ -331,7 +364,7 @@ def run_stratified_Kfold():
         plt.savefig(
 
             os.path.join(
-                RESULTS_FOLDER,
+                FIGURES_FOLDER,
                 metric + "_vs_PCA_Components.png"
             ),
 
@@ -366,8 +399,11 @@ def run_stratified_Kfold():
 
     print(summary_df.round(3))
 
-    print("\nSaved:")
+    print("\nSaved Excel:")
     print(os.path.abspath(OUTPUT_EXCEL))
+
+    print("\nSaved Figures:")
+    print(os.path.abspath(FIGURES_FOLDER))
 
 # =====================================================
 # RUN

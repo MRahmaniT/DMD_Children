@@ -45,7 +45,7 @@
 \contentsline {subsection}{\numberline {3.10}بررسی تعداد ویژگی‌های مؤثر}{26}{subsection.3.10}%
 \contentsline {subsection}{\numberline {3.11}مقایسه مدل‌ها در بازه تعداد مؤلفه‌های اصلی مؤثر}{27}{subsection.3.11}%
 \contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{28}{subsection.3.12}%
-\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{28}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{29}{subsection.3.13}%
 \contentsline {section}{\numberline {4}نتایج و بحث}{30}{section.4}%
 \contentsline {subsection}{\numberline {4.1}مقدمه}{30}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}بررسی داده‌های ثبت‌شده}{30}{subsection.4.2}%
@@ -55,8 +55,18 @@
 \contentsline {subsection}{\numberline {4.6}تأثیر کاهش بعد با استفاده از \lr {PCA}}{35}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}تحلیل ویژگی‌های مؤثر}{37}{subsection.4.7}%
 \contentsline {subsection}{\numberline {4.8}جمع‌بندی فصل}{39}{subsection.4.8}%
-\contentsline {section}{\numberline {5}جمع بندی}{40}{section.5}%
-\contentsline {section}{\numberline {6}پیوست}{41}{section.6}%
-\contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{41}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}ویژگی‌های استخراج‌شده از هر سیگنال}{44}{subsection.6.2}%
-\contentsline {section}{\numberline {7}مراجع}{45}{section.7}%
+\contentsline {section}{\numberline {5}نتایج و بحث}{40}{section.5}%
+\contentsline {subsection}{\numberline {5.1}مقدمه}{40}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}بررسی کلی مجموعه‌داده و کیفیت داده‌های ثبت‌شده}{40}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}نتایج پیش‌پردازش سیگنال‌ها}{41}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}ساختار ویژگی‌های استخراج‌شده}{43}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}نتایج کلی کاهش بعد با استفاده از تحلیل مؤلفه‌های اصلی}{43}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}فعالیت اول: ایستادن}{45}{subsubsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.6}مقایسه کلی عملکرد مدل‌ها بین فعالیت‌ها}{46}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}تحلیل تعداد مؤلفه‌های اصلی مؤثر}{47}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}تحلیل ویژگی‌های اثرگذار}{47}{subsection.5.8}%
+\contentsline {section}{\numberline {6}جمع بندی}{49}{section.6}%
+\contentsline {section}{\numberline {7}پیوست}{50}{section.7}%
+\contentsline {subsection}{\numberline {7.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{50}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}ویژگی‌های استخراج‌شده از هر سیگنال}{53}{subsection.7.2}%
+\contentsline {section}{\numberline {8}مراجع}{54}{section.8}%

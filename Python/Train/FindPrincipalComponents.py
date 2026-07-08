@@ -1,54 +1,109 @@
 import os
-import glob
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
 
 from sklearn.metrics import (
     accuracy_score,
     precision_score,
     recall_score,
     f1_score,
-    confusion_matrix
+    confusion_matrix,
+    balanced_accuracy_score
 )
+
 from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
+
 from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold
-from sklearn.model_selection import RepeatedStratifiedKFold
+
 
 # =====================================================
 # EXPERIMENT SETTINGS
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Jump" 
-    
+TASK = "Jump"
+
 # 2. Did you use action detector on your data or not
-DETECTED = True
+DETECTED = False
 
-# 3. Choose PCA cariance
-PCA_VARIANCE = 0.95
+# 3. Model settings
+MODEL_NAME = "SVM"
 
-# 4. Path
+SVM_KERNEL = "rbf"
+SVM_C = 1
+SVM_GAMMA = "scale"
+
+# 4. Cross-validation settings
+N_SPLITS = 5
+RANDOM_SEED = 42
+
+# 5. PCA component search settings
+# If START_COMPONENTS = None, code starts from maximum possible components.
+START_COMPONENTS = 50
+
+# If END_COMPONENTS = 1, code tests down to 1 component.
+END_COMPONENTS = 1
+
+# 6. Figure quality
+FIG_DPI = 600
+
+
+# =====================================================
+# PATHS
+# =====================================================
+
 if DETECTED:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
-    RESULTS_FOLDER = "Results/" + TASK + "/DetectedAction/FindPrincipalComponents_" + TASK + ".xlsx"
-else:
-    MASTER_PATH = r"/Users/mohammad/University/Bachelor Project/Final/Data/" + TASK + "/Master Features/MASTER_Features_" + TASK + "_PCA" + str(int(PCA_VARIANCE*100)) + ".xlsx"
-    RESULTS_FOLDER = "Results/" + TASK + "/Normal/FindPrincipalComponents_" + TASK + ".xlsx"
 
+    MASTER_PATH = (
+        r"/Users/mohammad/University/Bachelor Project/Final/DetectedActionData/"
+        + TASK
+        + "/Master Features/MASTER_Features_"
+        + TASK
+        + ".xlsx"
+    )
+
+    RESULTS_FOLDER = (
+        "Results/"
+        + TASK
+        + "/DetectedAction/FindPrincipalComponents_PipelinePCA_"
+        + TASK
+    )
+
+else:
+
+    MASTER_PATH = (
+        r"/Users/mohammad/University/Bachelor Project/Final/Data/"
+        + TASK
+        + "/Master Features/MASTER_Features_"
+        + TASK
+        + ".xlsx"
+    )
+
+    RESULTS_FOLDER = (
+        "Results/"
+        + TASK
+        + "/Normal/FindPrincipalComponents_PipelinePCA_"
+        + TASK
+    )
+
+
+FIGURES_FOLDER = os.path.join(
+    RESULTS_FOLDER,
+    "Figures"
+)
 
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
+os.makedirs(FIGURES_FOLDER, exist_ok=True)
 
 OUTPUT_EXCEL = os.path.join(
     RESULTS_FOLDER,
-    f"PCA_Dimension_Search_{int(PCA_VARIANCE*100)}.xlsx"
+    "PCA_Dimension_Search_PipelinePCA.xlsx"
 )
+
 
 # =====================================================
 # LOAD FEATURES
@@ -75,6 +130,7 @@ def load_features(master_path):
     X = df.drop(columns=["label"]).copy()
 
     for c in X.columns:
+
         X[c] = pd.to_numeric(
             X[c],
             errors="coerce"
@@ -89,15 +145,41 @@ def load_features(master_path):
         X.median(numeric_only=True)
     )
 
-    return X.to_numpy(dtype=float), y
+    feature_names = X.columns.to_list()
+
+    return X.to_numpy(dtype=float), y, feature_names
+
+
+# =====================================================
+# MODEL PIPELINE
+# =====================================================
+
+def get_pipeline(n_components):
+
+    pipeline = Pipeline([
+        ("scaler", StandardScaler()),
+        ("pca", PCA(n_components=n_components)),
+        ("clf", SVC(
+            kernel=SVM_KERNEL,
+            C=SVM_C,
+            gamma=SVM_GAMMA
+        ))
+    ])
+
+    return pipeline
+
 
 # =====================================================
 # SPECIFICITY
 # =====================================================
 
-def multiclass_specificity(y_true, y_pred):
+def multiclass_specificity(y_true, y_pred, labels):
 
-    cm = confusion_matrix(y_true, y_pred)
+    cm = confusion_matrix(
+        y_true,
+        y_pred,
+        labels=labels
+    )
 
     n_classes = cm.shape[0]
 
@@ -114,8 +196,11 @@ def multiclass_specificity(y_true, y_pred):
         TN = cm.sum() - TP - FP - FN
 
         if (TN + FP) == 0:
+
             specs.append(0)
+
         else:
+
             specs.append(
                 TN / (TN + FP)
             )
@@ -124,106 +209,252 @@ def multiclass_specificity(y_true, y_pred):
 
 
 # =====================================================
+# METRICS
+# =====================================================
+
+def calculate_metrics(y_true, y_pred, labels):
+
+    acc = accuracy_score(
+        y_true,
+        y_pred
+    )
+
+    prec = precision_score(
+        y_true,
+        y_pred,
+        average="macro",
+        zero_division=0
+    )
+
+    rec = recall_score(
+        y_true,
+        y_pred,
+        average="macro",
+        zero_division=0
+    )
+
+    spec = multiclass_specificity(
+        y_true,
+        y_pred,
+        labels=labels
+    )
+
+    f1 = f1_score(
+        y_true,
+        y_pred,
+        average="macro",
+        zero_division=0
+    )
+
+    bal_acc = balanced_accuracy_score(
+        y_true,
+        y_pred
+    )
+
+    return {
+        "Accuracy": acc,
+        "Precision": prec,
+        "Recall": rec,
+        "Specificity": spec,
+        "F1": f1,
+        "Balanced Accuracy": bal_acc
+    }
+
+
+# =====================================================
 # MAIN EVALUATION
 # =====================================================
+
 def evaluate_pca_dimensions():
 
-    X, y = load_features(MASTER_PATH)
+    X, y, feature_names = load_features(
+        MASTER_PATH
+    )
 
-    total_components = X.shape[1]
+    labels = np.unique(y)
 
-    print(f"Total PCA components = {total_components}")
+    max_possible_components = min(
+        X.shape[0] - 1,
+        X.shape[1]
+    )
+
+    if START_COMPONENTS is None:
+
+        start_components = max_possible_components
+
+    else:
+
+        start_components = min(
+            START_COMPONENTS,
+            max_possible_components
+        )
+
+    end_components = max(
+        END_COMPONENTS,
+        1
+    )
+
+    print("\n")
+    print("=" * 70)
+    print("DATASET INFORMATION")
+    print("=" * 70)
+
+    print("Task:", TASK)
+    print("Detected:", DETECTED)
+    print("Model:", MODEL_NAME)
+    print("Master path:", MASTER_PATH)
+    print("X shape:", X.shape)
+    print("Number of samples:", X.shape[0])
+    print("Number of raw features:", X.shape[1])
+    print("Classes:", labels)
+    print("Maximum possible PCA components:", max_possible_components)
+    print("Search from:", start_components)
+    print("Search to:", end_components)
 
     skf = StratifiedKFold(
-        n_splits=5,
+        n_splits=N_SPLITS,
         shuffle=True,
-        random_state=42
+        random_state=RANDOM_SEED
     )
 
     results = []
+    all_folds = []
 
-    for n_components in range(total_components, 0, -1):
+    for n_components in range(start_components, end_components - 1, -1):
 
-        print(f"Testing first {n_components} components")
+        print(f"\nTesting {n_components} PCA components inside pipeline")
 
-        X_current = X[:, :n_components]
+        fold_metrics_storage = {
+            "Accuracy": [],
+            "Precision": [],
+            "Recall": [],
+            "Specificity": [],
+            "F1": [],
+            "Balanced Accuracy": []
+        }
 
-        fold_acc = []
-        fold_prec = []
-        fold_rec = []
-        fold_spec = []
-        fold_f1 = []
-                
+        fold = 1
 
-        for train_idx, test_idx in skf.split(X_current, y):
+        for train_idx, test_idx in skf.split(X, y):
 
-            X_train = X_current[train_idx]
-            X_test = X_current[test_idx]
+            X_train = X[train_idx]
+            X_test = X[test_idx]
 
             y_train = y[train_idx]
             y_test = y[test_idx]
 
-            model = SVC(kernel="rbf")
-
-            model.fit(X_train, y_train)
-
-            pred = model.predict(X_test)
-
-            acc = accuracy_score(y_test, pred)
-
-            prec = precision_score(
-                y_test,
-                pred,
-                average="macro",
-                zero_division=0
+            model = get_pipeline(
+                n_components=n_components
             )
 
-            rec = recall_score(
-                y_test,
-                pred,
-                average="macro",
-                zero_division=0
+            model.fit(
+                X_train,
+                y_train
             )
 
-            spec = multiclass_specificity(
-                y_test,
-                pred
+            pred = model.predict(
+                X_test
             )
 
-            f1 = f1_score(
-                y_test,
-                pred,
-                average="macro",
-                zero_division=0
+            fold_metrics = calculate_metrics(
+                y_true=y_test,
+                y_pred=pred,
+                labels=labels
             )
 
-            fold_acc.append(acc)
-            fold_prec.append(prec)
-            fold_rec.append(rec)
-            fold_spec.append(spec)
-            fold_f1.append(f1)
+            for metric_name in fold_metrics_storage:
+
+                fold_metrics_storage[metric_name].append(
+                    fold_metrics[metric_name]
+                )
+
+            all_folds.append({
+                "Components": n_components,
+                "Fold": fold,
+                "Accuracy": fold_metrics["Accuracy"] * 100,
+                "Precision": fold_metrics["Precision"] * 100,
+                "Recall": fold_metrics["Recall"] * 100,
+                "Specificity": fold_metrics["Specificity"] * 100,
+                "F1": fold_metrics["F1"] * 100,
+                "Balanced Accuracy": fold_metrics["Balanced Accuracy"] * 100
+            })
+
+            fold += 1
 
         results.append({
 
             "Components": n_components,
 
-            "Accuracy": np.mean(fold_acc) * 100,
-            "Precision": np.mean(fold_prec) * 100,
-            "Recall": np.mean(fold_rec) * 100,
-            "Specificity": np.mean(fold_spec) * 100,
-            "F1": np.mean(fold_f1) * 100,
+            "Accuracy": np.mean(fold_metrics_storage["Accuracy"]) * 100,
+            "Precision": np.mean(fold_metrics_storage["Precision"]) * 100,
+            "Recall": np.mean(fold_metrics_storage["Recall"]) * 100,
+            "Specificity": np.mean(fold_metrics_storage["Specificity"]) * 100,
+            "F1": np.mean(fold_metrics_storage["F1"]) * 100,
+            "Balanced Accuracy": np.mean(fold_metrics_storage["Balanced Accuracy"]) * 100,
 
-            "Accuracy Std": np.std(fold_acc) * 100,
-            "Precision Std": np.std(fold_prec) * 100,
-            "Recall Std": np.std(fold_rec) * 100,
-            "Specificity Std": np.std(fold_spec) * 100,
-            "F1 Std": np.std(fold_f1) * 100,
+            "Accuracy Std": np.std(fold_metrics_storage["Accuracy"]) * 100,
+            "Precision Std": np.std(fold_metrics_storage["Precision"]) * 100,
+            "Recall Std": np.std(fold_metrics_storage["Recall"]) * 100,
+            "Specificity Std": np.std(fold_metrics_storage["Specificity"]) * 100,
+            "F1 Std": np.std(fold_metrics_storage["F1"]) * 100,
+            "Balanced Accuracy Std": np.std(fold_metrics_storage["Balanced Accuracy"]) * 100
         })
 
-    results_df = pd.DataFrame(results)
+    results_df = pd.DataFrame(
+        results
+    )
+
+    all_folds_df = pd.DataFrame(
+        all_folds
+    )
 
     # =====================================================
-    # PLOT ACCURACY VS PCA COMPONENTS
+    # FIND BEST COMPONENT NUMBER
+    # =====================================================
+
+    best_f1_row = results_df.loc[
+        results_df["F1"].idxmax()
+    ]
+
+    best_accuracy_row = results_df.loc[
+        results_df["Accuracy"].idxmax()
+    ]
+
+    best_balanced_accuracy_row = results_df.loc[
+        results_df["Balanced Accuracy"].idxmax()
+    ]
+
+    best_f1_row_dict = best_f1_row.to_dict()
+    best_accuracy_row_dict = best_accuracy_row.to_dict()
+    best_balanced_accuracy_row_dict = best_balanced_accuracy_row.to_dict()
+
+    best_summary_df = pd.DataFrame([
+        {
+            "Criterion": "Best F1",
+            "Components": int(best_f1_row_dict["Components"]),
+            "Score (%)": float(best_f1_row_dict["F1"])
+        },
+        {
+            "Criterion": "Best Accuracy",
+            "Components": int(best_accuracy_row_dict["Components"]),
+            "Score (%)": float(best_accuracy_row_dict["Accuracy"])
+        },
+        {
+            "Criterion": "Best Balanced Accuracy",
+            "Components": int(best_balanced_accuracy_row_dict["Components"]),
+            "Score (%)": float(best_balanced_accuracy_row_dict["Balanced Accuracy"])
+        }
+    ])
+
+    print("\n")
+    print("=" * 70)
+    print("BEST COMPONENT SUMMARY")
+    print("=" * 70)
+
+    print(best_summary_df.round(3))
+
+    # =====================================================
+    # PLOTS
     # =====================================================
 
     metrics = [
@@ -231,12 +462,13 @@ def evaluate_pca_dimensions():
         "Precision",
         "Recall",
         "Specificity",
-        "F1"
+        "F1",
+        "Balanced Accuracy"
     ]
 
     for metric in metrics:
 
-        plt.figure(figsize=(9,6))
+        plt.figure(figsize=(9, 6))
 
         plt.plot(
             results_df["Components"],
@@ -248,8 +480,15 @@ def evaluate_pca_dimensions():
 
         plt.gca().invert_xaxis()
 
-        plt.xlabel("Number of Principal Components", fontsize=12)
-        plt.ylabel(metric + " (%)", fontsize=12)
+        plt.xlabel(
+            "Number of Principal Components",
+            fontsize=12
+        )
+
+        plt.ylabel(
+            metric + " (%)",
+            fontsize=12
+        )
 
         plt.title(
             f"SVM Performance vs Number of PCA Components ({metric})",
@@ -257,7 +496,11 @@ def evaluate_pca_dimensions():
             weight="bold"
         )
 
-        plt.grid(True, linestyle="--", alpha=0.4)
+        plt.grid(
+            True,
+            linestyle="--",
+            alpha=0.4
+        )
 
         plt.xlim(
             results_df["Components"].max(),
@@ -268,21 +511,166 @@ def evaluate_pca_dimensions():
 
         plt.savefig(
             os.path.join(
-                RESULTS_FOLDER,
+                FIGURES_FOLDER,
                 metric.replace(" ", "_") + "_vs_PCA.png"
             ),
-            dpi=600,
+            dpi=FIG_DPI,
             bbox_inches="tight"
         )
 
         plt.close()
-    
-    results_df.to_excel(
-        OUTPUT_EXCEL,
-        index=False
+
+    # =====================================================
+    # ALL METRICS IN ONE PLOT
+    # =====================================================
+
+    plt.figure(figsize=(11, 7))
+
+    for metric in metrics:
+
+        plt.plot(
+            results_df["Components"],
+            results_df[metric],
+            linewidth=2,
+            marker="o",
+            markersize=4,
+            label=metric
+        )
+
+    plt.gca().invert_xaxis()
+
+    plt.xlabel(
+        "Number of Principal Components",
+        fontsize=12
     )
 
-    print(results_df)
+    plt.ylabel(
+        "Score (%)",
+        fontsize=12
+    )
+
+    plt.title(
+        "SVM Performance vs Number of PCA Components",
+        fontsize=14,
+        weight="bold"
+    )
+
+    plt.grid(
+        True,
+        linestyle="--",
+        alpha=0.4
+    )
+
+    plt.legend()
+
+    plt.xlim(
+        results_df["Components"].max(),
+        results_df["Components"].min()
+    )
+
+    plt.tight_layout()
+
+    plt.savefig(
+        os.path.join(
+            FIGURES_FOLDER,
+            "All_Metrics_vs_PCA.png"
+        ),
+        dpi=FIG_DPI,
+        bbox_inches="tight"
+    )
+
+    plt.close()
+
+    # =====================================================
+    # SAVE EXCEL
+    # =====================================================
+
+    settings_df = pd.DataFrame({
+        "Setting": [
+            "Task",
+            "Detected",
+            "Model",
+            "SVM Kernel",
+            "SVM C",
+            "SVM Gamma",
+            "N Splits",
+            "Random Seed",
+            "Number of Samples",
+            "Number of Raw Features",
+            "Max Possible PCA Components",
+            "Start Components",
+            "End Components",
+            "Master Path"
+        ],
+        "Value": [
+            TASK,
+            DETECTED,
+            MODEL_NAME,
+            SVM_KERNEL,
+            SVM_C,
+            SVM_GAMMA,
+            N_SPLITS,
+            RANDOM_SEED,
+            X.shape[0],
+            X.shape[1],
+            max_possible_components,
+            start_components,
+            end_components,
+            MASTER_PATH
+        ]
+    })
+
+    feature_names_df = pd.DataFrame({
+        "Raw Feature Names": feature_names
+    })
+
+    with pd.ExcelWriter(
+        OUTPUT_EXCEL,
+        engine="openpyxl"
+    ) as writer:
+
+        settings_df.to_excel(
+            writer,
+            sheet_name="Settings",
+            index=False
+        )
+
+        results_df.to_excel(
+            writer,
+            sheet_name="Results",
+            index=False
+        )
+
+        all_folds_df.to_excel(
+            writer,
+            sheet_name="All_Folds",
+            index=False
+        )
+
+        best_summary_df.to_excel(
+            writer,
+            sheet_name="Best_Summary",
+            index=False
+        )
+
+        feature_names_df.to_excel(
+            writer,
+            sheet_name="Raw_Features",
+            index=False
+        )
+
+    print("\n")
+    print("=" * 70)
+    print("FINAL RESULTS")
+    print("=" * 70)
+
+    print(results_df.round(3))
+
+    print("\nSaved Excel:")
+    print(os.path.abspath(OUTPUT_EXCEL))
+
+    print("\nSaved Figures:")
+    print(os.path.abspath(FIGURES_FOLDER))
 
     return results_df
 
@@ -292,5 +680,5 @@ def evaluate_pca_dimensions():
 # =====================================================
 
 if __name__ == "__main__":
-    
+
     evaluate_pca_dimensions()

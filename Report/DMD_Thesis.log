@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  8 JUL 2026 01:52
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  8 JUL 2026 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,28 +1478,34 @@ Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-)
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+
+
+[4])
 \tf@toc=\write5
 \openout5 = `DMD_Thesis.toc'.
 
 
 
-[4] (./DMD_Thesis.lof
+[5] (./DMD_Thesis.lof
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-)
+
+
+[6])
 \tf@lof=\write6
 \openout6 = `DMD_Thesis.lof'.
 
 
 
-[5] (./DMD_Thesis.lot)
+[7] (./DMD_Thesis.lot)
 \tf@lot=\write7
 \openout7 = `DMD_Thesis.lot'.
 
 
 
-[6] (./Chapters/Chapter1_Introduction.tex
+[8] (./Chapters/Chapter1_Introduction.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
@@ -1633,8 +1639,6 @@ Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 File: Plots/Python/Accuracy_vs_PCA.png Graphic file (type bmp)
 <Plots/Python/Accuracy_vs_PCA.png>
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
@@ -1749,9 +1753,98 @@ file (type bmp)
 
 [38])
 
-[39] (./Chapters/Chapter5_Conclusion.tex)
+[39] (./Chapters/Chapter4_ResultAndDiscussion2.tex
+File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
+mp)
+<Images/Generated/Chapter2/ch2_class_distribution.png>
+File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
+<Images/Generated/Chapter2/ch2_signal_sample.png>
 
-[40] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
+
+[40]
+File: Plots/Matlab/A_STS_NoFilter.png Graphic file (type bmp)
+<Plots/Matlab/A_STS_NoFilter.png>
+File: Plots/Matlab/A_STS_Filter.png Graphic file (type bmp)
+<Plots/Matlab/A_STS_Filter.png>
+
+
+[41]
+File: Plots/Matlab/A_STS_Action.png Graphic file (type bmp)
+<Plots/Matlab/A_STS_Action.png>
+
+
+[42]
+File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
+e (type bmp)
+<Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
+
+Missing character: There is no ٔ (U+0654) in font B Nazanin Bold/OT:language=df
+lt;script=arab;mapping=persian-tex-text;!
+
+
+[43]
+File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
+mp)
+<Images/Generated/Chapter3/ch3_pca_variance_curve.png>
+File: Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png Graphic file (type 
+bmp)
+<Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
+
+
+[44]
+File: screenshot001.png Graphic file (type bmp)
+<screenshot001.png>
+File: ../Results/Stand/Normal/FindPrincipalComponents_Stand.xlsx/Accuracy_vs_PC
+A.png Graphic file (type bmp)
+<../Results/Stand/Normal/FindPrincipalComponents_Stand.xlsx/Accuracy_vs_PCA.png
+>
+File: ../Results/Stand/Normal/CompareNumberOfPrincipalComponents_Stand.xlsx/Acc
+uracy_vs_PCA_Components.png Graphic file (type bmp)
+<../Results/Stand/Normal/CompareNumberOfPrincipalComponents_Stand.xlsx/Accuracy
+_vs_PCA_Components.png>
+
+
+[45]
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+
+
+[46]
+File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
+(type bmp)
+<Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
+File: Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png Graphic 
+file (type bmp)
+<Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
+)
+
+[47]
+
+[48] (./Chapters/Chapter5_Conclusion.tex)
+
+[49] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
 Overfull \hbox (2.24437pt too wide) in paragraph at lines 17--17
 [][]|\TU/BNazanin(0)/b/n/12 ردیف| []
  []
@@ -2021,11 +2114,11 @@ Underfull \hbox (badness 1466) in paragraph at lines 144--148
 []\TU/BNazanin(0)/m/n/12 شامل راه‌رفتن سریع، نبود[]
  []
 
-[41] [42]))
+[50] [51]))
 
-[43]
+[52]
 
-[44] (./Refrences/Refrences.tex
+[53] (./Refrences/Refrences.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 5.
 
@@ -2037,16 +2130,16 @@ oman(0)/m/n/12 20.3 (1995),[]
 
 
 
-[45])
+[54])
 
-[46] (./Front/Abstract/abstract-en.tex
+[55] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[47]
+[56]
 \openout2 = `Front/Title/title-eng.aux'.
 
  (./Front/Title/title-eng.tex
@@ -2056,7 +2149,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 15.
 )
 
-[48
+[57
 
 ] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
 (./Front/Title/title-eng.aux))
@@ -2065,18 +2158,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DMD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D6D7613C2E6FD008423F64B5B9B798B9;14162.
+(rerunfilecheck)             Checksum: 6690173671867A6AB4C2913A94982C4C;16983.
 Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 \openout1 = `DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26093 strings out of 473832
- 547534 string characters out of 5729482
- 1426194 words of memory out of 5000000
- 48635 multiletter control sequences out of 15000+600000
+ 26173 strings out of 473832
+ 552231 string characters out of 5729482
+ 1430586 words of memory out of 5000000
+ 48710 multiletter control sequences out of 15000+600000
  566125 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,12n,95p,2772b,4980s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis.pdf (55 pages).
+Output written on DMD_Thesis.pdf (66 pages).
