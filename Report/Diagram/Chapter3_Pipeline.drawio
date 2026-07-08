@@ -1,0 +1,55 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="wB8jSZY50sxguUn0_whn">
+    <mxGraphModel dx="1071" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="752" pageHeight="256" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-3" edge="1" parent="1" source="oDmtZ9Ql-GYKOL0-OCSv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oDmtZ9Ql-GYKOL0-OCSv-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" value="ثبت داده‌های فعالیت" vertex="1">
+          <mxGeometry height="60" width="120" x="616" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-5" edge="1" parent="1" source="oDmtZ9Ql-GYKOL0-OCSv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oDmtZ9Ql-GYKOL0-OCSv-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-2" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="پیش‌پردازش داده‌ها" vertex="1">
+          <mxGeometry height="60" width="120" x="416" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-7" edge="1" parent="1" source="oDmtZ9Ql-GYKOL0-OCSv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oDmtZ9Ql-GYKOL0-OCSv-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-4" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="محاسبه ویژگی‌ها" vertex="1">
+          <mxGeometry height="60" width="120" x="216" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-9" edge="1" parent="1" source="oDmtZ9Ql-GYKOL0-OCSv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oDmtZ9Ql-GYKOL0-OCSv-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-6" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="کاهش ابعاد" vertex="1">
+          <mxGeometry height="60" width="120" x="16" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-11" edge="1" parent="1" source="oDmtZ9Ql-GYKOL0-OCSv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oDmtZ9Ql-GYKOL0-OCSv-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-8" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="انتخاب مؤلفه‌های اصلی مؤثر" vertex="1">
+          <mxGeometry height="60" width="120" x="16" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-13" edge="1" parent="1" source="oDmtZ9Ql-GYKOL0-OCSv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oDmtZ9Ql-GYKOL0-OCSv-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-10" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="آموزش مدل‌های طبقه‌بند" vertex="1">
+          <mxGeometry height="60" width="120" x="216" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-15" edge="1" parent="1" source="oDmtZ9Ql-GYKOL0-OCSv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oDmtZ9Ql-GYKOL0-OCSv-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-12" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="انتخاب مدل برتر" vertex="1">
+          <mxGeometry height="60" width="120" x="416" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmtZ9Ql-GYKOL0-OCSv-14" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="ذخیره مدل به همراه مشخصات" vertex="1">
+          <mxGeometry height="60" width="120" x="616" y="168" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

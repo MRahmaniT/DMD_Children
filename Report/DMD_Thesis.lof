@@ -3,101 +3,34 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces نمونه سیگنال پیش و پس از اعمال فیلتر پایین‌گذر}}{7}{figure.caption.8}%
 \contentsline {figure}{\numberline {4}{\ignorespaces شماتیک عملکرد الگوریتم ماشین بردار پشتیبان}}{9}{figure.caption.9}%
 \contentsline {figure}{\numberline {5}{\ignorespaces شماتیک عملکرد الگوریتم نزدیک‌ترین همسایه}}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces روند تصمیم‌گیری}}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces روند تصمیم‌گیری}}{13}{figure.caption.11}%
 \contentsline {figure}{\numberline {7}{\ignorespaces معماری کلی سامانه پیشنهادی و جریان داده از مرحله ثبت اطلاعات تا پیش‌بینی نمره عملکردی}}{15}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces \lr {LILYGO T-Wristband}}}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces محل نصب پنج حسگر اینرسیایی بر روی بدن}}{16}{figure.caption.14}%
-\contentsline {figure}{\numberline {10}{\ignorespaces الگوریتم اجراشده روی هر واحد حسگر}}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {11}{\ignorespaces رابط کاربری توسعه‌یافته در محیط متلب برای دریافت و ذخیره‌سازی داده‌ها}}{18}{figure.caption.17}%
-\contentsline {figure}{\numberline {12}{\ignorespaces راهنمای عملکرد بخش‌های مختلف رابط کاربری محیط متلب}}{19}{figure.caption.18}%
-\contentsline {figure}{\numberline {13}{\ignorespaces مراحل انجام فرآیند داده‌برداری}}{20}{figure.caption.19}%
-\contentsline {figure}{\numberline {14}{\ignorespaces نمونه سیگنال خام}}{21}{figure.caption.20}%
-\contentsline {figure}{\numberline {15}{\ignorespaces نمونه سیگنال فیلترشده}}{21}{figure.caption.21}%
-\contentsline {figure}{\numberline {16}{\ignorespaces نمونه سیگنال جداسازی شده}}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {17}{\ignorespaces نمونه مقایسه تعداد مؤلفه‌های اصلی}}{27}{figure.caption.25}%
-\contentsline {figure}{\numberline {18}{\ignorespaces نمونه مقایسه مدل‌ها در بازه بهینه}}{28}{figure.caption.26}%
-\contentsline {figure}{\numberline {19}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت ایستادن}}{32}{figure.caption.29}%
-\contentsline {figure}{\numberline {20}{\ignorespaces توزیع نمونه‌ها در کلاس‌های مختلف فعالیت ایستادن}}{32}{figure.caption.30}%
-\contentsline {figure}{\numberline {21}{\ignorespaces نقشه همبستگی ویژگی‌های منتخب در فعالیت ایستادن}}{33}{figure.caption.31}%
-\contentsline {figure}{\numberline {22}{\ignorespaces واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت ایستادن}}{34}{figure.caption.32}%
-\contentsline {figure}{\numberline {23}{\ignorespaces پراکندگی نمونه‌های فعالیت ایستادن در فضای دو مؤلفه اصلی اول}}{34}{figure.caption.33}%
-\contentsline {figure}{\numberline {24}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس معیار \lr {F1} در فعالیت ایستادن}}{35}{figure.caption.34}%
-\contentsline {figure}{\numberline {25}{\ignorespaces رتبه‌بندی مدل‌ها در فعالیت ایستادن بر اساس معیار \lr {F1}}}{35}{figure.caption.35}%
-\contentsline {figure}{\numberline {26}{\ignorespaces تغییر معیار \lr {F1} پس از اعمال \lr {PCA95} در فعالیت ایستادن}}{36}{figure.caption.36}%
-\contentsline {figure}{\numberline {27}{\ignorespaces پراکندگی معیارهای ارزیابی در \lr {fold}های مختلف برای فعالیت ایستادن}}{36}{figure.caption.37}%
-\contentsline {figure}{\numberline {28}{\ignorespaces ماتریس‌های درهم‌ریختگی نرمال‌شده در فعالیت ایستادن، بدون \lr {PCA}}}{37}{figure.caption.39}%
-\contentsline {figure}{\numberline {29}{\ignorespaces ماتریس‌های درهم‌ریختگی نرمال‌شده در فعالیت ایستادن، با \lr {PCA95}}}{37}{figure.caption.40}%
-\contentsline {figure}{\numberline {30}{\ignorespaces مقایسه \lr {Recall} هر کلاس در فعالیت ایستادن، بدون \lr {PCA}}}{38}{figure.caption.41}%
-\contentsline {figure}{\numberline {31}{\ignorespaces مقایسه \lr {Recall} هر کلاس در فعالیت ایستادن، با \lr {PCA95}}}{38}{figure.caption.42}%
-\contentsline {figure}{\numberline {32}{\ignorespaces ویژگی‌های مهم‌تر بر اساس مدل \lr {Random Forest} در فعالیت ایستادن}}{39}{figure.caption.43}%
-\contentsline {figure}{\numberline {33}{\ignorespaces میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌های مختلف فعالیت ایستادن}}{39}{figure.caption.44}%
-\contentsline {figure}{\numberline {34}{\ignorespaces تغییر عملکرد مدل \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{40}{figure.caption.45}%
-\contentsline {figure}{\numberline {35}{\ignorespaces مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{40}{figure.caption.46}%
-\contentsline {figure}{\numberline {36}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت بلند شدن از صندلی، داده‌های اصلی}}{42}{figure.caption.48}%
-\contentsline {figure}{\numberline {37}{\ignorespaces توزیع نمونه‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی}}{42}{figure.caption.49}%
-\contentsline {figure}{\numberline {38}{\ignorespaces نقشه همبستگی ویژگی‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی}}{43}{figure.caption.50}%
-\contentsline {figure}{\numberline {39}{\ignorespaces واریانس توضیح‌داده‌شده \lr {PCA} در فعالیت بلند شدن از صندلی، داده‌های اصلی}}{44}{figure.caption.51}%
-\contentsline {figure}{\numberline {40}{\ignorespaces پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های اصلی}}{44}{figure.caption.52}%
-\contentsline {figure}{\numberline {41}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس \lr {F1} در فعالیت بلند شدن از صندلی، داده‌های اصلی}}{45}{figure.caption.53}%
-\contentsline {figure}{\numberline {42}{\ignorespaces رتبه‌بندی مدل‌ها در فعالیت بلند شدن از صندلی، داده‌های اصلی}}{45}{figure.caption.54}%
-\contentsline {figure}{\numberline {43}{\ignorespaces اثر \lr {PCA95} بر معیار \lr {F1} در فعالیت بلند شدن از صندلی، داده‌های اصلی}}{46}{figure.caption.55}%
-\contentsline {figure}{\numberline {44}{\ignorespaces پراکندگی معیارهای ارزیابی در \lr {fold}های مختلف، داده‌های اصلی}}{46}{figure.caption.56}%
-\contentsline {figure}{\numberline {45}{\ignorespaces ماتریس‌های درهم‌ریختگی در فعالیت بلند شدن از صندلی، داده‌های اصلی، بدون \lr {PCA}}}{47}{figure.caption.57}%
-\contentsline {figure}{\numberline {46}{\ignorespaces مقایسه \lr {Recall} هر کلاس، داده‌های اصلی، بدون \lr {PCA}}}{47}{figure.caption.58}%
-\contentsline {figure}{\numberline {47}{\ignorespaces ماتریس‌های درهم‌ریختگی در فعالیت بلند شدن از صندلی، داده‌های اصلی، با \lr {PCA95}}}{47}{figure.caption.59}%
-\contentsline {figure}{\numberline {48}{\ignorespaces مقایسه \lr {Recall} هر کلاس، داده‌های اصلی، با \lr {PCA95}}}{48}{figure.caption.60}%
-\contentsline {figure}{\numberline {49}{\ignorespaces ویژگی‌های مهم‌تر بر اساس \lr {Random Forest}، داده‌های اصلی}}{48}{figure.caption.61}%
-\contentsline {figure}{\numberline {50}{\ignorespaces میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های اصلی}}{49}{figure.caption.62}%
-\contentsline {figure}{\numberline {51}{\ignorespaces تغییر عملکرد \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}}{49}{figure.caption.63}%
-\contentsline {figure}{\numberline {52}{\ignorespaces مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}}{50}{figure.caption.64}%
-\contentsline {figure}{\numberline {53}{\ignorespaces نمونه سیگنال‌های فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده}}{50}{figure.caption.65}%
-\contentsline {figure}{\numberline {54}{\ignorespaces توزیع نمونه‌ها در فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده}}{51}{figure.caption.66}%
-\contentsline {figure}{\numberline {55}{\ignorespaces نقشه همبستگی ویژگی‌ها در فعالیت بلند شدن از صندلی، داده‌های جداسازی‌شده}}{51}{figure.caption.67}%
-\contentsline {figure}{\numberline {56}{\ignorespaces واریانس توضیح‌داده‌شده \lr {PCA}، داده‌های جداسازی‌شده}}{52}{figure.caption.68}%
-\contentsline {figure}{\numberline {57}{\ignorespaces پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های جداسازی‌شده}}{52}{figure.caption.69}%
-\contentsline {figure}{\numberline {58}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس \lr {F1}، داده‌های جداسازی‌شده}}{53}{figure.caption.70}%
-\contentsline {figure}{\numberline {59}{\ignorespaces رتبه‌بندی مدل‌ها، داده‌های جداسازی‌شده}}{53}{figure.caption.71}%
-\contentsline {figure}{\numberline {60}{\ignorespaces اثر \lr {PCA95} بر معیار \lr {F1}، داده‌های جداسازی‌شده}}{54}{figure.caption.72}%
-\contentsline {figure}{\numberline {61}{\ignorespaces پراکندگی معیارهای ارزیابی در \lr {fold}های مختلف، داده‌های جداسازی‌شده}}{54}{figure.caption.73}%
-\contentsline {figure}{\numberline {62}{\ignorespaces ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، بدون \lr {PCA}}}{55}{figure.caption.74}%
-\contentsline {figure}{\numberline {63}{\ignorespaces مقایسه \lr {Recall} هر کلاس، داده‌های جداسازی‌شده، بدون \lr {PCA}}}{55}{figure.caption.75}%
-\contentsline {figure}{\numberline {64}{\ignorespaces ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، با \lr {PCA95}}}{55}{figure.caption.76}%
-\contentsline {figure}{\numberline {65}{\ignorespaces مقایسه \lr {Recall} هر کلاس، داده‌های جداسازی‌شده، با \lr {PCA95}}}{56}{figure.caption.77}%
-\contentsline {figure}{\numberline {66}{\ignorespaces ویژگی‌های مهم‌تر بر اساس \lr {Random Forest}، داده‌های جداسازی‌شده}}{56}{figure.caption.78}%
-\contentsline {figure}{\numberline {67}{\ignorespaces میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های جداسازی‌شده}}{57}{figure.caption.79}%
-\contentsline {figure}{\numberline {68}{\ignorespaces تغییر عملکرد \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}}{57}{figure.caption.80}%
-\contentsline {figure}{\numberline {69}{\ignorespaces مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}}{58}{figure.caption.81}%
-\contentsline {figure}{\numberline {70}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت پریدن، داده‌های اصلی}}{59}{figure.caption.83}%
-\contentsline {figure}{\numberline {71}{\ignorespaces توزیع نمونه‌ها در فعالیت پریدن، داده‌های اصلی}}{60}{figure.caption.84}%
-\contentsline {figure}{\numberline {72}{\ignorespaces نقشه همبستگی ویژگی‌ها در فعالیت پریدن، داده‌های اصلی}}{61}{figure.caption.85}%
-\contentsline {figure}{\numberline {73}{\ignorespaces واریانس توضیح‌داده‌شده \lr {PCA} در فعالیت پریدن، داده‌های اصلی}}{62}{figure.caption.86}%
-\contentsline {figure}{\numberline {74}{\ignorespaces پراکندگی نمونه‌های فعالیت پریدن در فضای دو مؤلفه اصلی اول، داده‌های اصلی}}{62}{figure.caption.87}%
-\contentsline {figure}{\numberline {75}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس \lr {F1} در فعالیت پریدن، داده‌های اصلی}}{63}{figure.caption.88}%
-\contentsline {figure}{\numberline {76}{\ignorespaces رتبه‌بندی مدل‌ها در فعالیت پریدن، داده‌های اصلی}}{63}{figure.caption.89}%
-\contentsline {figure}{\numberline {77}{\ignorespaces اثر \lr {PCA95} بر معیار \lr {F1} در فعالیت پریدن، داده‌های اصلی}}{64}{figure.caption.90}%
-\contentsline {figure}{\numberline {78}{\ignorespaces پراکندگی معیارهای ارزیابی در \lr {fold}های مختلف، داده‌های اصلی}}{64}{figure.caption.91}%
-\contentsline {figure}{\numberline {79}{\ignorespaces ماتریس‌های درهم‌ریختگی در فعالیت پریدن، داده‌های اصلی، بدون \lr {PCA}}}{65}{figure.caption.92}%
-\contentsline {figure}{\numberline {80}{\ignorespaces مقایسه \lr {Recall} هر کلاس در فعالیت پریدن، داده‌های اصلی، بدون \lr {PCA}}}{65}{figure.caption.93}%
-\contentsline {figure}{\numberline {81}{\ignorespaces ماتریس‌های درهم‌ریختگی در فعالیت پریدن، داده‌های اصلی، با \lr {PCA95}}}{65}{figure.caption.94}%
-\contentsline {figure}{\numberline {82}{\ignorespaces مقایسه \lr {Recall} هر کلاس در فعالیت پریدن، داده‌های اصلی، با \lr {PCA95}}}{66}{figure.caption.95}%
-\contentsline {figure}{\numberline {83}{\ignorespaces ویژگی‌های مهم‌تر بر اساس \lr {Random Forest}، داده‌های اصلی}}{66}{figure.caption.96}%
-\contentsline {figure}{\numberline {84}{\ignorespaces میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های اصلی}}{67}{figure.caption.97}%
-\contentsline {figure}{\numberline {85}{\ignorespaces تغییر عملکرد \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}}{67}{figure.caption.98}%
-\contentsline {figure}{\numberline {86}{\ignorespaces مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}}{68}{figure.caption.99}%
-\contentsline {figure}{\numberline {87}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت پریدن، داده‌های جداسازی‌شده}}{68}{figure.caption.100}%
-\contentsline {figure}{\numberline {88}{\ignorespaces توزیع نمونه‌ها در فعالیت پریدن، داده‌های جداسازی‌شده}}{69}{figure.caption.101}%
-\contentsline {figure}{\numberline {89}{\ignorespaces نقشه همبستگی ویژگی‌ها در فعالیت پریدن، داده‌های جداسازی‌شده}}{69}{figure.caption.102}%
-\contentsline {figure}{\numberline {90}{\ignorespaces واریانس توضیح‌داده‌شده \lr {PCA}، داده‌های جداسازی‌شده}}{70}{figure.caption.103}%
-\contentsline {figure}{\numberline {91}{\ignorespaces پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های جداسازی‌شده}}{70}{figure.caption.104}%
-\contentsline {figure}{\numberline {92}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس \lr {F1}، داده‌های جداسازی‌شده}}{71}{figure.caption.105}%
-\contentsline {figure}{\numberline {93}{\ignorespaces رتبه‌بندی مدل‌ها، داده‌های جداسازی‌شده}}{71}{figure.caption.106}%
-\contentsline {figure}{\numberline {94}{\ignorespaces اثر \lr {PCA95} بر معیار \lr {F1}، داده‌های جداسازی‌شده}}{72}{figure.caption.107}%
-\contentsline {figure}{\numberline {95}{\ignorespaces پراکندگی معیارهای ارزیابی در \lr {fold}های مختلف، داده‌های جداسازی‌شده}}{72}{figure.caption.108}%
-\contentsline {figure}{\numberline {96}{\ignorespaces ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، بدون \lr {PCA}}}{73}{figure.caption.109}%
-\contentsline {figure}{\numberline {97}{\ignorespaces مقایسه \lr {Recall} هر کلاس، داده‌های جداسازی‌شده، بدون \lr {PCA}}}{73}{figure.caption.110}%
-\contentsline {figure}{\numberline {98}{\ignorespaces ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، با \lr {PCA95}}}{73}{figure.caption.111}%
-\contentsline {figure}{\numberline {99}{\ignorespaces مقایسه \lr {Recall} هر کلاس، داده‌های جداسازی‌شده، با \lr {PCA95}}}{74}{figure.caption.112}%
-\contentsline {figure}{\numberline {100}{\ignorespaces ویژگی‌های مهم‌تر بر اساس \lr {Random Forest}، داده‌های جداسازی‌شده}}{74}{figure.caption.113}%
-\contentsline {figure}{\numberline {101}{\ignorespaces میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های جداسازی‌شده}}{75}{figure.caption.114}%
-\contentsline {figure}{\numberline {102}{\ignorespaces تغییر عملکرد \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}}{75}{figure.caption.115}%
-\contentsline {figure}{\numberline {103}{\ignorespaces مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}}{76}{figure.caption.116}%
+\contentsline {figure}{\numberline {8}{\ignorespaces محل نصب پنج حسگر اینرسیایی بر روی بدن}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces الگوریتم اجراشده روی هر واحد حسگر}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {10}{\ignorespaces رابط کاربری توسعه‌یافته در محیط متلب برای دریافت و ذخیره‌سازی داده‌ها}}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {11}{\ignorespaces راهنمای عملکرد بخش‌های مختلف رابط کاربری محیط متلب}}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {12}{\ignorespaces مراحل انجام فرآیند داده‌برداری}}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {13}{\ignorespaces نمونه‌ای از سیگنال خام ثبت‌شده توسط حسگر اینرسیایی}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {14}{\ignorespaces نمونه‌ای از سیگنال پس از اعمال فیلتر پایین‌گذر باترورث}}{22}{figure.caption.20}%
+\contentsline {figure}{\numberline {15}{\ignorespaces نمونه سیگنال جداسازی شده}}{23}{figure.caption.21}%
+\contentsline {figure}{\numberline {16}{\ignorespaces مراحل انجام کاهش ابعاد}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces نمونه مقایسه تعداد مؤلفه‌های اصلی}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {18}{\ignorespaces نمونه مقایسه مدل‌ها در بازه بهینه}}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces فرآیند انجام کامل یک فعالیت}}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {20}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت ایستادن}}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {21}{\ignorespaces توزیع نمونه‌ها در کلاس‌های مختلف فعالیت ایستادن}}{34}{figure.caption.31}%
+\contentsline {figure}{\numberline {22}{\ignorespaces نقشه همبستگی ویژگی‌های منتخب در فعالیت ایستادن}}{35}{figure.caption.32}%
+\contentsline {figure}{\numberline {23}{\ignorespaces واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت ایستادن}}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {24}{\ignorespaces پراکندگی نمونه‌های فعالیت ایستادن در فضای دو مؤلفه اصلی اول}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {25}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس معیار \lr {F1} در فعالیت ایستادن}}{36}{figure.caption.35}%
+\contentsline {figure}{\numberline {26}{\ignorespaces رتبه‌بندی مدل‌ها در فعالیت ایستادن بر اساس معیار \lr {F1}}}{37}{figure.caption.36}%
+\contentsline {figure}{\numberline {27}{\ignorespaces تغییر معیار \lr {F1} پس از اعمال \lr {PCA95} در فعالیت ایستادن}}{37}{figure.caption.37}%
+\contentsline {figure}{\numberline {28}{\ignorespaces پراکندگی معیارهای ارزیابی در \lr {fold}های مختلف برای فعالیت ایستادن}}{38}{figure.caption.38}%
+\contentsline {figure}{\numberline {29}{\ignorespaces ماتریس‌های درهم‌ریختگی نرمال‌شده در فعالیت ایستادن، بدون \lr {PCA}}}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {30}{\ignorespaces ماتریس‌های درهم‌ریختگی نرمال‌شده در فعالیت ایستادن، با \lr {PCA95}}}{39}{figure.caption.41}%
+\contentsline {figure}{\numberline {31}{\ignorespaces مقایسه \lr {Recall} هر کلاس در فعالیت ایستادن، بدون \lr {PCA}}}{39}{figure.caption.42}%
+\contentsline {figure}{\numberline {32}{\ignorespaces مقایسه \lr {Recall} هر کلاس در فعالیت ایستادن، با \lr {PCA95}}}{40}{figure.caption.43}%
+\contentsline {figure}{\numberline {33}{\ignorespaces ویژگی‌های مهم‌تر بر اساس مدل \lr {Random Forest} در فعالیت ایستادن}}{40}{figure.caption.44}%
+\contentsline {figure}{\numberline {34}{\ignorespaces میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌های مختلف فعالیت ایستادن}}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {35}{\ignorespaces تغییر عملکرد مدل \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {36}{\ignorespaces مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{42}{figure.caption.47}%

@@ -7,7 +7,7 @@
         <mxCell id="tKZxA21WhAfYIQJh8kY5-1" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" target="tKZxA21WhAfYIQJh8kY5-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="انجام فعالیت توسط بیمار" vertex="1">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="انجام فعالیت انتخابی" vertex="1">
           <mxGeometry height="60" width="120" x="1040" y="60" as="geometry" />
         </mxCell>
         <mxCell id="tKZxA21WhAfYIQJh8kY5-4" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" target="tKZxA21WhAfYIQJh8kY5-14" value="">

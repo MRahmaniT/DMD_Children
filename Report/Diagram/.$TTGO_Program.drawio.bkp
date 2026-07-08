@@ -1,66 +1,66 @@
 <mxfile host="Electron">
   <diagram id="7Gs_DfStQSDdEMOHskya" name="Page-1">
-    <mxGraphModel dx="1607" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1181" pageHeight="512" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1181" pageHeight="276" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-1" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" target="tKZxA21WhAfYIQJh8kY5-5" value="">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-1" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="انتخاب بازه برای هر متغیر" vertex="1">
-          <mxGeometry height="60" width="120" x="1040" y="60" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" value="انتخاب بازه برای هر متغیر" vertex="1">
+          <mxGeometry height="60" width="120" x="1040" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-4" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" target="tKZxA21WhAfYIQJh8kY5-14" value="">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-4" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-14" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;" value="مقداردهی اولیه" vertex="1">
-          <mxGeometry height="60" width="130" x="840" y="60" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" value="مقداردهی اولیه" vertex="1">
+          <mxGeometry height="60" width="130" x="840" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-11" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" target="tKZxA21WhAfYIQJh8kY5-16" value="">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-11" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;" value="ثبت زمان داده‌برداری" vertex="1">
-          <mxGeometry height="60" width="120" x="640" y="60" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" value="ثبت زمان داده‌برداری" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-26" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tKZxA21WhAfYIQJh8kY5-25" value="">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-26" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;" value="ثبت شتاب خطی" vertex="1">
-          <mxGeometry height="60" width="120" x="440" y="60" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" value="ثبت شتاب خطی" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-28" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tKZxA21WhAfYIQJh8kY5-27" value="">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-28" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-27" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-25" parent="1" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" value="ثبت سرعت زاویه‌ای" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="60" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-25" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="ثبت سرعت زاویه‌ای" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-30" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tKZxA21WhAfYIQJh8kY5-29" value="">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-30" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-29" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-27" parent="1" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" value="ایجاد یک بسته داده" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="60" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-27" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="ایجاد یک بسته داده" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-32" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tKZxA21WhAfYIQJh8kY5-31" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;بله&lt;/font&gt;">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-32" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-31" value="&lt;font&gt;بله&lt;/font&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-39" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="tKZxA21WhAfYIQJh8kY5-5">
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-39" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="180" as="targetPoint" />
+            <mxPoint x="240" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_d3ctYQIFXWvyPwWG_lj-1" connectable="0" parent="tKZxA21WhAfYIQJh8kY5-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;خیر&lt;/font&gt;" vertex="1">
+        <mxCell id="_d3ctYQIFXWvyPwWG_lj-1" connectable="0" parent="tKZxA21WhAfYIQJh8kY5-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font&gt;خیر&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="0.3159" y="-2" as="geometry">
             <mxPoint x="-466" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-29" parent="1" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" value="بلوتوث متصل است؟" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="220" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-29" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" value="بلوتوث متصل است؟" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="_d3ctYQIFXWvyPwWG_lj-2" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="tKZxA21WhAfYIQJh8kY5-14">
+        <mxCell id="_d3ctYQIFXWvyPwWG_lj-2" edge="1" parent="1" source="tKZxA21WhAfYIQJh8kY5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" target="tKZxA21WhAfYIQJh8kY5-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKZxA21WhAfYIQJh8kY5-31" parent="1" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=light-dark(#60A917,#99FF99);fontColor=#ffffff;strokeColor=#2D7600;" value="ارسال داده‌ها" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="220" as="geometry" />
+        <mxCell id="tKZxA21WhAfYIQJh8kY5-31" parent="1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;fillColor=light-dark(#60A917,#99FF99);fontColor=#ffffff;strokeColor=#2D7600;" value="ارسال داده‌ها" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

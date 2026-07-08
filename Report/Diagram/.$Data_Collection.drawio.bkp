@@ -80,7 +80,7 @@
         <mxCell id="WruhjTwqjsiBzzy_kixB-19" parent="1" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" value="فایل‌ها به درستی ذخیره شدند؟" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="228" as="geometry" />
         </mxCell>
-        <mxCell id="WruhjTwqjsiBzzy_kixB-20" parent="1" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" value="اتمام فرآیند" vertex="1">
+        <mxCell id="WruhjTwqjsiBzzy_kixB-20" parent="1" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=light-dark(#60A917,#99FF99);fontColor=#ffffff;strokeColor=#2D7600;" value="اتمام فرآیند" vertex="1">
           <mxGeometry height="60" width="120" x="650" y="228" as="geometry" />
         </mxCell>
         <mxCell id="WruhjTwqjsiBzzy_kixB-21" edge="1" parent="1" source="WruhjTwqjsiBzzy_kixB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WruhjTwqjsiBzzy_kixB-2" value="">

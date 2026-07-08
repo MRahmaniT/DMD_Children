@@ -632,6 +632,87 @@
       \verb 10.1023/A:1010933404324
       \endverb
     \endentry
+    \entry{Partovi2023Thesis}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=9470159c77df446120b7390e13c47350}{%
+           family={Partovi},
+           familyi={P\bibinitperiod},
+           given={Ehsan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sharif University of Technology}%
+      }
+      \strng{namehash}{9470159c77df446120b7390e13c47350}
+      \strng{fullhash}{9470159c77df446120b7390e13c47350}
+      \strng{fullhashraw}{9470159c77df446120b7390e13c47350}
+      \strng{bibnamehash}{9470159c77df446120b7390e13c47350}
+      \strng{authorbibnamehash}{9470159c77df446120b7390e13c47350}
+      \strng{authornamehash}{9470159c77df446120b7390e13c47350}
+      \strng{authorfullhash}{9470159c77df446120b7390e13c47350}
+      \strng{authorfullhashraw}{9470159c77df446120b7390e13c47350}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Development of a Human Activity Recognition System with an Adaptive Neuro-Fuzzy Post-Processing for the Lee Silverman Voice Treatment-BIG and Functional Activities}
+      \field{type}{M.Sc. Thesis}
+      \field{year}{2023}
+    \endentry
+    \entry{Ejtehadi2022Thesis}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=8e9f9abbb0f40dd194d1ec94befb6aa8}{%
+           family={Ejtehadi},
+           familyi={E\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sharif University of Technology}%
+      }
+      \strng{namehash}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \strng{fullhash}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \strng{fullhashraw}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \strng{bibnamehash}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \strng{authorbibnamehash}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \strng{authornamehash}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \strng{authorfullhash}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \strng{authorfullhashraw}{8e9f9abbb0f40dd194d1ec94befb6aa8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Development of a Classifier for the Human Activity Recognition System of PD Patients Using Biomechanical Features of Motion}
+      \field{type}{M.Sc. Thesis}
+      \field{year}{2022}
+    \endentry
+    \entry{Nasrabadi2019Thesis}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=cb8f811101963a0d61fcfd9ae6aed0df}{%
+           family={Mohammadi\bibnamedelima Nasrabadi},
+           familyi={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Amin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sharif University of Technology}%
+      }
+      \strng{namehash}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \strng{fullhash}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \strng{fullhashraw}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \strng{bibnamehash}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \strng{authorbibnamehash}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \strng{authornamehash}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \strng{authorfullhash}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \strng{authorfullhashraw}{cb8f811101963a0d61fcfd9ae6aed0df}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design and Development of a Mobility Recognition System in PD Patients for Tele-Rehabilitation}
+      \field{type}{M.Sc. Thesis}
+      \field{year}{2019}
+    \endentry
     \entry{MuroDeLaHerran2014Wearable}{article}{}{}
       \name{author}{3}{}{%
         {{hash=637e69e2a6ee027ea202887aacfbe9dc}{%
@@ -739,8 +820,8 @@
       \strng{authornamehash}{221deeeb7b4e28fc403d52016a1feec2}
       \strng{authorfullhash}{221deeeb7b4e28fc403d52016a1feec2}
       \strng{authorfullhashraw}{221deeeb7b4e28fc403d52016a1feec2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Engineering in Medicine and Biology Magazine}
@@ -753,6 +834,148 @@
       \verb{doi}
       \verb 10.1109/MEMB.2010.936554
       \endverb
+    \endentry
+    \entry{Bao2004ActivityRecognition}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=df5f6ce5e543281f1321c31bd33b9497}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod}}}%
+        {{hash=53ea80873b837eb5e5d8b0eb042f898d}{%
+           family={Intille},
+           familyi={I\bibinitperiod},
+           given={Stephen\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{323dd8cc8109a6db524ad42c71dacf43}
+      \strng{fullhash}{323dd8cc8109a6db524ad42c71dacf43}
+      \strng{fullhashraw}{323dd8cc8109a6db524ad42c71dacf43}
+      \strng{bibnamehash}{323dd8cc8109a6db524ad42c71dacf43}
+      \strng{authorbibnamehash}{323dd8cc8109a6db524ad42c71dacf43}
+      \strng{authornamehash}{323dd8cc8109a6db524ad42c71dacf43}
+      \strng{authorfullhash}{323dd8cc8109a6db524ad42c71dacf43}
+      \strng{authorfullhashraw}{323dd8cc8109a6db524ad42c71dacf43}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Pervasive Computing}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Activity Recognition from User-Annotated Acceleration Data}
+      \field{volume}{3001}
+      \field{year}{2004}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-540-24646-6_1
+      \endverb
+    \endentry
+    \entry{Ravi2005ActivityRecognition}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=7513672993e5dec76fe9172133f64506}{%
+           family={Ravi},
+           familyi={R\bibinitperiod},
+           given={Nishkam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ef181c035837333ef40b1446c2a7a1bc}{%
+           family={Dandekar},
+           familyi={D\bibinitperiod},
+           given={Nikhil},
+           giveni={N\bibinitperiod}}}%
+        {{hash=842ecbbead68c4a3bdf14b69fd078d3f}{%
+           family={Mysore},
+           familyi={M\bibinitperiod},
+           given={Preetham},
+           giveni={P\bibinitperiod}}}%
+        {{hash=211e529e9f10ad1bfacff2284da10ea7}{%
+           family={Littman},
+           familyi={L\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AAAI Press}%
+      }
+      \strng{namehash}{af04e889654df8e1a9ec84af3f0ffae2}
+      \strng{fullhash}{7fb242d9c534c86b04952af0ae762a11}
+      \strng{fullhashraw}{7fb242d9c534c86b04952af0ae762a11}
+      \strng{bibnamehash}{af04e889654df8e1a9ec84af3f0ffae2}
+      \strng{authorbibnamehash}{af04e889654df8e1a9ec84af3f0ffae2}
+      \strng{authornamehash}{af04e889654df8e1a9ec84af3f0ffae2}
+      \strng{authorfullhash}{7fb242d9c534c86b04952af0ae762a11}
+      \strng{authorfullhashraw}{7fb242d9c534c86b04952af0ae762a11}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Seventeenth Innovative Applications of Artificial Intelligence Conference}
+      \field{title}{Activity Recognition from Accelerometer Data}
+      \field{year}{2005}
+      \field{pages}{1541\bibrangedash 1546}
+      \range{pages}{6}
+    \endentry
+    \entry{Jolliffe2016PCAReview}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2d87c65d6bc93daaaf4c9f1e98b5e53a}{%
+           family={Jolliffe},
+           familyi={J\bibinitperiod},
+           given={Ian\bibnamedelima T.},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d7c36a415b2b525b1a13001347b85b34}{%
+           family={Cadima},
+           familyi={C\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{fullhash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{fullhashraw}{5cafe59e1897a85daaf352903ab478de}
+      \strng{bibnamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorbibnamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authornamehash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorfullhash}{5cafe59e1897a85daaf352903ab478de}
+      \strng{authorfullhashraw}{5cafe59e1897a85daaf352903ab478de}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A}
+      \field{number}{2065}
+      \field{title}{Principal Component Analysis: A Review and Recent Developments}
+      \field{volume}{374}
+      \field{year}{2016}
+      \field{pages}{20150202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsta.2015.0202
+      \endverb
+    \endentry
+    \entry{ScikitLearnCommonPitfalls}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e033fba571eb5c80fe02f754d76bc675}{%
+           family={{Scikit-learn Developers}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e033fba571eb5c80fe02f754d76bc675}
+      \strng{fullhash}{e033fba571eb5c80fe02f754d76bc675}
+      \strng{fullhashraw}{e033fba571eb5c80fe02f754d76bc675}
+      \strng{bibnamehash}{e033fba571eb5c80fe02f754d76bc675}
+      \strng{authorbibnamehash}{e033fba571eb5c80fe02f754d76bc675}
+      \strng{authornamehash}{e033fba571eb5c80fe02f754d76bc675}
+      \strng{authorfullhash}{e033fba571eb5c80fe02f754d76bc675}
+      \strng{authorfullhashraw}{e033fba571eb5c80fe02f754d76bc675}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://scikit-learn.org/stable/common_pitfalls.html}}
+      \field{note}{Accessed: 2026-07-08}
+      \field{title}{Common Pitfalls and Recommended Practices}
+      \field{year}{2026}
     \endentry
   \enddatalist
 \endrefsection
