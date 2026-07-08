@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  8 JUL 2026 16:40
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  8 JUL 2026 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,8 +1478,6 @@ Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
 
 
 [4])
@@ -1757,30 +1755,24 @@ file (type bmp)
 File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
 mp)
 <Images/Generated/Chapter2/ch2_class_distribution.png>
-File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
-<Images/Generated/Chapter2/ch2_signal_sample.png>
+File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
+e (type bmp)
+<Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
 
 
 [40]
 File: Plots/Matlab/A_STS_NoFilter.png Graphic file (type bmp)
 <Plots/Matlab/A_STS_NoFilter.png>
-File: Plots/Matlab/A_STS_Filter.png Graphic file (type bmp)
-<Plots/Matlab/A_STS_Filter.png>
 
 
 [41]
+File: Plots/Matlab/A_STS_Filter.png Graphic file (type bmp)
+<Plots/Matlab/A_STS_Filter.png>
 File: Plots/Matlab/A_STS_Action.png Graphic file (type bmp)
 <Plots/Matlab/A_STS_Action.png>
 
 
 [42]
-File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
-e (type bmp)
-<Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
-
-Missing character: There is no ٔ (U+0654) in font B Nazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-
 
 [43]
 File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
@@ -1792,59 +1784,103 @@ bmp)
 
 
 [44]
-File: screenshot001.png Graphic file (type bmp)
-<screenshot001.png>
-File: ../Results/Stand/Normal/FindPrincipalComponents_Stand.xlsx/Accuracy_vs_PC
-A.png Graphic file (type bmp)
-<../Results/Stand/Normal/FindPrincipalComponents_Stand.xlsx/Accuracy_vs_PCA.png
->
-File: ../Results/Stand/Normal/CompareNumberOfPrincipalComponents_Stand.xlsx/Acc
-uracy_vs_PCA_Components.png Graphic file (type bmp)
-<../Results/Stand/Normal/CompareNumberOfPrincipalComponents_Stand.xlsx/Accuracy
-_vs_PCA_Components.png>
-
 
 [45]
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+Overfull \hbox (51.46643pt too wide) in paragraph at lines 160--160
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Stand/Normal/FindPrincipalCompone
+nts_PipelinePCA_Stand/Figures/Accuracy_vs_PCA.png[][] 
+ []
+
+
+Overfull \hbox (105.48187pt too wide) in paragraph at lines 163--163
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Stand/Normal/FindPrincipalCompone
+nts_PipelinePCA_Stand/PCA_Dimension_Search_PipelinePCA.xlsx[][] 
+ []
+
 
 
 [46]
+Overfull \hbox (178.03336pt too wide) in paragraph at lines 169--169
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Stand/Normal/CompareNumberOfPrinc
+ipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA_Components.png[][] 
+ []
+
+
+
+[47]
+Overfull \hbox (28.332pt too wide) in paragraph at lines 207--207
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Sit_To_Stand/DetectedAction/Resul
+ts_Comparison_Detected_Action_Sit_To_Stand.xlsx[][] 
+ []
+
+
+
+[48]
+Overfull \hbox (119.56711pt too wide) in paragraph at lines 217--217
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Sit_To_Stand/Normal/FindPrincipal
+Components_PipelinePCA_Sit_To_Stand/Figures/Accuracy_vs_PCA.png[][] 
+ []
+
+
+Overfull \hbox (216.17056pt too wide) in paragraph at lines 220--220
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Sit_To_Stand/Normal/CompareNumber
+OfPrincipalComponents_PipelinePCA_Sit_To_Stand/Figures/F1_vs_PCA_Components.png
+[][] 
+ []
+
+
+
+[49]
+
+[50]
+Overfull \hbox (49.0723pt too wide) in paragraph at lines 258--258
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Jump/Normal/FindPrincipalComponen
+ts_PipelinePCA_Jump/Figures/Accuracy_vs_PCA.png[][] 
+ []
+
+
+
+[51]
+Overfull \hbox (145.67575pt too wide) in paragraph at lines 262--262
+ [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Jump/Normal/CompareNumberOfPrinci
+palComponents_PipelinePCA_Jump/Figures/F1_vs_PCA_Components.png[][] 
+ []
+
+
+
+[52]
+
+[53]
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+
+
+[54]
 File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
 (type bmp)
 <Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
 File: Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png Graphic 
 file (type bmp)
 <Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
-)
 
-[47]
 
-[48] (./Chapters/Chapter5_Conclusion.tex)
+[55]
 
-[49] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
+[56])
+
+[57] (./Chapters/Chapter5_Conclusion.tex)
+
+[58] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
 Overfull \hbox (2.24437pt too wide) in paragraph at lines 17--17
 [][]|\TU/BNazanin(0)/b/n/12 ردیف| []
  []
@@ -2114,11 +2150,11 @@ Underfull \hbox (badness 1466) in paragraph at lines 144--148
 []\TU/BNazanin(0)/m/n/12 شامل راه‌رفتن سریع، نبود[]
  []
 
-[50] [51]))
+[59] [60]))
 
-[52]
+[61]
 
-[53] (./Refrences/Refrences.tex
+[62] (./Refrences/Refrences.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 5.
 
@@ -2130,16 +2166,16 @@ oman(0)/m/n/12 20.3 (1995),[]
 
 
 
-[54])
+[63])
 
-[55] (./Front/Abstract/abstract-en.tex
+[64] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[56]
+[65]
 \openout2 = `Front/Title/title-eng.aux'.
 
  (./Front/Title/title-eng.tex
@@ -2149,7 +2185,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 15.
 )
 
-[57
+[66
 
 ] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
 (./Front/Title/title-eng.aux))
@@ -2158,18 +2194,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DMD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6690173671867A6AB4C2913A94982C4C;16983.
+(rerunfilecheck)             Checksum: 619D23C2799B10D508C03BB99E672BBC;22549.
 Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 \openout1 = `DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26173 strings out of 473832
- 552231 string characters out of 5729482
- 1430586 words of memory out of 5000000
- 48710 multiletter control sequences out of 15000+600000
+ 26134 strings out of 473832
+ 548974 string characters out of 5729482
+ 1437115 words of memory out of 5000000
+ 48673 multiletter control sequences out of 15000+600000
  566125 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,12n,95p,2772b,4980s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis.pdf (66 pages).
+Output written on DMD_Thesis.pdf (75 pages).

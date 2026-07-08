@@ -31,15 +31,22 @@
 \contentsline {figure}{\numberline {31}{\ignorespaces مقایسه \lr {Recall} هر کلاس بین مدل ها \lr {pca95}}}{38}{figure.caption.41}%
 \contentsline {figure}{\numberline {32}{\ignorespaces میانگین نرمال شده ویژگی های برتر برای هر کلاس}}{39}{figure.caption.42}%
 \contentsline {figure}{\numberline {33}{\ignorespaces توزیع تعداد نمونه‌ها در سطوح عملکردی شبیه‌سازی‌شده}}{40}{figure.caption.43}%
-\contentsline {figure}{\numberline {34}{\ignorespaces نمونه‌ای از سیگنال‌های ثبت‌شده توسط حسگرهای اینرسیایی در یکی از فعالیت‌های منتخب}}{41}{figure.caption.44}%
-\contentsline {figure}{\numberline {35}{\ignorespaces نمونه سیگنال خام پیش از اعمال فیلتر}}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {34}{\ignorespaces نقشه همبستگی ۲۰ ویژگی با بیشترین واریانس}}{41}{figure.caption.44}%
+\contentsline {figure}{\numberline {35}{\ignorespaces نمونه سیگنال خام پیش از اعمال فیلتر}}{42}{figure.caption.45}%
 \contentsline {figure}{\numberline {36}{\ignorespaces نمونه سیگنال پس از اعمال فیلتر پایین‌گذر باترورث}}{42}{figure.caption.46}%
-\contentsline {figure}{\numberline {37}{\ignorespaces نمونه سیگنال پس از جداسازی بازه زمانی اجرای فعالیت}}{42}{figure.caption.47}%
-\contentsline {figure}{\numberline {38}{\ignorespaces نقشه همبستگی ۲۰ ویژگی با بیشترین واریانس}}{43}{figure.caption.48}%
-\contentsline {figure}{\numberline {39}{\ignorespaces درصد واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی}}{44}{figure.caption.49}%
-\contentsline {figure}{\numberline {40}{\ignorespaces پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول}}{44}{figure.caption.50}%
-\contentsline {figure}{\numberline {41}{\ignorespaces مقایسه عملکرد مدل‌ها برای فعالیت ایستادن در دو حالت بدون \lr {PCA} و با \lr {PCA}}}{45}{figure.caption.51}%
-\contentsline {figure}{\numberline {42}{\ignorespaces تغییر دقت مدل \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{45}{figure.caption.52}%
-\contentsline {figure}{\numberline {43}{\ignorespaces مقایسه عملکرد مدل‌ها در بازه مؤلفه‌های اصلی مؤثر برای فعالیت ایستادن}}{46}{figure.caption.53}%
-\contentsline {figure}{\numberline {44}{\ignorespaces بیست ویژگی برتر بر اساس اهمیت در مدل \lr {Random Forest}}}{47}{figure.caption.55}%
-\contentsline {figure}{\numberline {45}{\ignorespaces میانگین نرمال‌شده ویژگی‌های برتر در سطوح عملکردی مختلف}}{48}{figure.caption.56}%
+\contentsline {figure}{\numberline {37}{\ignorespaces نمونه سیگنال پس از جداسازی بازه زمانی اجرای فعالیت}}{43}{figure.caption.47}%
+\contentsline {figure}{\numberline {38}{\ignorespaces درصد واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی}}{44}{figure.caption.49}%
+\contentsline {figure}{\numberline {39}{\ignorespaces پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول}}{45}{figure.caption.50}%
+\contentsline {figure}{\numberline {40}{\ignorespaces مقایسه عملکرد مدل‌ها برای فعالیت ایستادن در حالت داده عادی}}{46}{figure.caption.51}%
+\contentsline {figure}{\numberline {41}{\ignorespaces تغییر عملکرد مدل \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{46}{figure.caption.52}%
+\contentsline {figure}{\numberline {42}{\ignorespaces مقایسه سه مدل در بازه مؤلفه‌های اصلی منتخب برای فعالیت ایستادن}}{47}{figure.caption.53}%
+\contentsline {figure}{\numberline {43}{\ignorespaces مقایسه عملکرد مدل‌ها برای فعالیت بلند شدن از صندلی در داده‌های عادی}}{48}{figure.caption.54}%
+\contentsline {figure}{\numberline {44}{\ignorespaces مقایسه عملکرد داده عادی و داده جداسازی‌شده در فعالیت بلند شدن از صندلی}}{49}{figure.caption.55}%
+\contentsline {figure}{\numberline {45}{\ignorespaces تغییر عملکرد \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی در فعالیت بلند شدن از صندلی}}{49}{figure.caption.56}%
+\contentsline {figure}{\numberline {46}{\ignorespaces مقایسه سه مدل در بازه مؤلفه‌های اصلی منتخب برای فعالیت بلند شدن از صندلی}}{50}{figure.caption.57}%
+\contentsline {figure}{\numberline {47}{\ignorespaces مقایسه عملکرد مدل‌ها برای فعالیت پریدن در داده‌های عادی}}{51}{figure.caption.58}%
+\contentsline {figure}{\numberline {48}{\ignorespaces مقایسه داده عادی و داده جداسازی‌شده در فعالیت پریدن}}{51}{figure.caption.59}%
+\contentsline {figure}{\numberline {49}{\ignorespaces تغییر عملکرد \lr {SVM} نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}}{52}{figure.caption.60}%
+\contentsline {figure}{\numberline {50}{\ignorespaces مقایسه سه مدل در بازه مؤلفه‌های اصلی منتخب برای فعالیت پریدن}}{52}{figure.caption.61}%
+\contentsline {figure}{\numberline {51}{\ignorespaces بیست ویژگی برتر بر اساس اهمیت در مدل \lr {Random Forest}}}{55}{figure.caption.64}%
+\contentsline {figure}{\numberline {52}{\ignorespaces میانگین نرمال‌شده ویژگی‌های برتر در سطوح عملکردی مختلف}}{56}{figure.caption.65}%
