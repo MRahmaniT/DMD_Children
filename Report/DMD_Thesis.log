@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  8 JUL 2026 18:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  8 JUL 2026 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1486,24 +1486,28 @@ ript=arab;mapping=persian-tex-text;!
 
 
 
-[5] (./DMD_Thesis.lof
+[5]
+
+[6] (./DMD_Thesis.lof
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 
 
-[6])
+[7]
+
+[8])
 \tf@lof=\write6
 \openout6 = `DMD_Thesis.lof'.
 
 
 
-[7] (./DMD_Thesis.lot)
+[9] (./DMD_Thesis.lot)
 \tf@lot=\write7
 \openout7 = `DMD_Thesis.lot'.
 
 
 
-[8] (./Chapters/Chapter1_Introduction.tex
+[10] (./Chapters/Chapter1_Introduction.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
@@ -1675,212 +1679,497 @@ ript=arab;mapping=persian-tex-text;!
 
 [28])
 
-[29] (./Chapters/Chapter4_ResultAndDiscussion.tex
-File: Images/Generated/Chapter2/ch2_signal_sample.png Graphic file (type bmp)
-<Images/Generated/Chapter2/ch2_signal_sample.png>
-File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
-mp)
-<Images/Generated/Chapter2/ch2_class_distribution.png>
+[29] (./Chapters/Chapter4_ResultAndDiscussion2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های اصلی و[]
+ []
 
 
-[30]
-File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
-e (type bmp)
-<Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های اصلی و[]
+ []
 
+
+Overfull \hbox (11.38849pt too wide) in paragraph at lines 28--39
+ [][][][] 
+ []
+
+
+
+[30] (./Chapters/ResultActivities/Activity_Stand.tex
 
 [31]
-File: Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png Graphic file (typ
-e bmp)
-<Images/Generated/Chapter3/ch3_metrics_pca_vs_no_pca.png>
+File: Images/Generated/TaskResults/Stand/Normal/signal_sample.png Graphic file 
+(type bmp)
+<Images/Generated/TaskResults/Stand/Normal/signal_sample.png>
+File: Images/Generated/TaskResults/Stand/Normal/class_distribution.png Graphic 
+file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/class_distribution.png>
 
 
 [32]
-File: Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png Graphic file 
-(type bmp)
-<Images/Generated/Chapter3/ch3_confusion_matrices_no_pca.png>
-File: Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png Graphic file (
-type bmp)
-<Images/Generated/Chapter3/ch3_confusion_matrices_pca95.png>
+File: Images/Generated/TaskResults/Stand/Normal/feature_correlation_heatmap.png
+ Graphic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/feature_correlation_heatmap.png>
+File: Images/Generated/TaskResults/Stand/Normal/pca_variance_curve.png Graphic 
+file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/pca_variance_curve.png>
 
 
 [33]
-File: Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png Graphic file (t
-ype bmp)
-<Images/Generated/Chapter3/ch3_model_ranking_f1_no_pca.png>
+File: Images/Generated/TaskResults/Stand/Normal/pca_scatter_pc1_pc2.png Graphic
+ file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/pca_scatter_pc1_pc2.png>
 
 
 [34]
-File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
-mp)
-<Images/Generated/Chapter3/ch3_pca_variance_curve.png>
-File: Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png Graphic file (type 
-bmp)
-<Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
+File: Images/Generated/TaskResults/Stand/Normal/model_comparison_f1.png Graphic
+ file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/model_comparison_f1.png>
+File: Images/Generated/TaskResults/Stand/Normal/model_ranking_f1.png Graphic fi
+le (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/model_ranking_f1.png>
 
 
 [35]
-Missing character: There is no P (U+0050) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no C (U+0043) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no A (U+0041) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-File: Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png Graphic file (typ
-e bmp)
-<Images/Generated/Chapter4/ch4_f1_gain_pca_vs_no_pca.png>
+File: Images/Generated/TaskResults/Stand/Normal/f1_gain_pca_vs_no_pca.png Graph
+ic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/f1_gain_pca_vs_no_pca.png>
+File: Images/Generated/TaskResults/Stand/Normal/metric_boxplots.png Graphic fil
+e (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/metric_boxplots.png>
 
 
 [36]
-File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
-(type bmp)
-<Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
-File: Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png Graphic file (t
-ype bmp)
-<Images/Generated/Chapter4/ch4_per_class_recall_no_pca.png>
+File: Images/Generated/TaskResults/Stand/Normal/confusion_matrices_no_pca.png G
+raphic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/confusion_matrices_no_pca.png>
+File: Images/Generated/TaskResults/Stand/Normal/confusion_matrices_pca95.png Gr
+aphic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/confusion_matrices_pca95.png>
+File: Images/Generated/TaskResults/Stand/Normal/per_class_recall_no_pca.png Gra
+phic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/per_class_recall_no_pca.png>
 
 
 [37]
-File: Images/Generated/Chapter4/ch4_per_class_recall_pca95.png Graphic file (ty
-pe bmp)
-<Images/Generated/Chapter4/ch4_per_class_recall_pca95.png>
-File: Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png Graphic 
-file (type bmp)
-<Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
+File: Images/Generated/TaskResults/Stand/Normal/per_class_recall_pca95.png Grap
+hic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/per_class_recall_pca95.png>
+File: Images/Generated/TaskResults/Stand/Normal/rf_top_feature_importance.png G
+raphic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/rf_top_feature_importance.png>
 
 
-[38])
-
-[39] (./Chapters/Chapter4_ResultAndDiscussion2.tex
-File: Images/Generated/Chapter2/ch2_class_distribution.png Graphic file (type b
-mp)
-<Images/Generated/Chapter2/ch2_class_distribution.png>
-File: Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png Graphic fil
-e (type bmp)
-<Images/Generated/Chapter2/ch2_feature_correlation_heatmap.png>
+[38]
+File: Images/Generated/TaskResults/Stand/Normal/class_centroid_feature_heatmap.
+png Graphic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/class_centroid_feature_heatmap.png>
 
 
-[40]
-File: Plots/Matlab/A_STS_NoFilter.png Graphic file (type bmp)
-<Plots/Matlab/A_STS_NoFilter.png>
+[39]
+File: Images/Generated/TaskResults/Stand/Normal/svm_metrics_vs_pca_components.p
+ng Graphic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/svm_metrics_vs_pca_components.png>
+File: Images/Generated/TaskResults/Stand/Normal/models_f1_vs_pca_components.png
+ Graphic file (type bmp)
+<Images/Generated/TaskResults/Stand/Normal/models_f1_vs_pca_components.png>
+
+
+[40]) (./Chapters/ResultActivities/Activity_Sit_To_Stand.tex
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/signal_sample.png Graphi
+c file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/signal_sample.png>
 
 
 [41]
-File: Plots/Matlab/A_STS_Filter.png Graphic file (type bmp)
-<Plots/Matlab/A_STS_Filter.png>
-File: Plots/Matlab/A_STS_Action.png Graphic file (type bmp)
-<Plots/Matlab/A_STS_Action.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/class_distribution.png G
+raphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/class_distribution.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/feature_correlation_heat
+map.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/feature_correlation_heatmap.p
+ng>
 
 
 [42]
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_variance_curve.png G
+raphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_variance_curve.png>
+
 
 [43]
-File: Images/Generated/Chapter3/ch3_pca_variance_curve.png Graphic file (type b
-mp)
-<Images/Generated/Chapter3/ch3_pca_variance_curve.png>
-File: Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png Graphic file (type 
-bmp)
-<Images/Generated/Chapter3/ch3_pca_scatter_pc1_pc2.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_scatter_pc1_pc2.png 
+Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/pca_scatter_pc1_pc2.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/model_comparison_f1.png 
+Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/model_comparison_f1.png>
 
 
 [44]
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/model_ranking_f1.png Gra
+phic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/model_ranking_f1.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/f1_gain_pca_vs_no_pca.pn
+g Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/f1_gain_pca_vs_no_pca.png>
+
 
 [45]
-Overfull \hbox (51.46643pt too wide) in paragraph at lines 160--160
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Stand/Normal/FindPrincipalCompone
-nts_PipelinePCA_Stand/Figures/Accuracy_vs_PCA.png[][] 
- []
-
-
-Overfull \hbox (105.48187pt too wide) in paragraph at lines 163--163
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Stand/Normal/FindPrincipalCompone
-nts_PipelinePCA_Stand/PCA_Dimension_Search_PipelinePCA.xlsx[][] 
- []
-
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/metric_boxplots.png Grap
+hic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/metric_boxplots.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_no_pc
+a.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_no_pca.png
+>
 
 
 [46]
-Overfull \hbox (178.03336pt too wide) in paragraph at lines 169--169
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Stand/Normal/CompareNumberOfPrinc
-ipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA_Components.png[][] 
- []
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_no_pca.
+png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_no_pca.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_pca95
+.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/confusion_matrices_pca95.png>
 
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_pca95.p
+ng Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/per_class_recall_pca95.png>
 
 
 [47]
-Overfull \hbox (28.332pt too wide) in paragraph at lines 207--207
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Sit_To_Stand/DetectedAction/Resul
-ts_Comparison_Detected_Action_Sit_To_Stand.xlsx[][] 
- []
-
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/rf_top_feature_importanc
+e.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/rf_top_feature_importance.png
+>
 
 
 [48]
-Overfull \hbox (119.56711pt too wide) in paragraph at lines 217--217
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Sit_To_Stand/Normal/FindPrincipal
-Components_PipelinePCA_Sit_To_Stand/Figures/Accuracy_vs_PCA.png[][] 
- []
-
-
-Overfull \hbox (216.17056pt too wide) in paragraph at lines 220--220
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Sit_To_Stand/Normal/CompareNumber
-OfPrincipalComponents_PipelinePCA_Sit_To_Stand/Figures/F1_vs_PCA_Components.png
-[][] 
- []
-
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/class_centroid_feature_h
+eatmap.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/class_centroid_feature_heatma
+p.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/svm_metrics_vs_pca_compo
+nents.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/svm_metrics_vs_pca_components
+.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/models_f1_vs_pca_compone
+nts.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/models_f1_vs_pca_components.p
+ng>
 
 
 [49]
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/signal_sample.pn
+g Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/signal_sample.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_distributi
+on.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_distribution.pn
+g>
+
 
 [50]
-Overfull \hbox (49.0723pt too wide) in paragraph at lines 258--258
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Jump/Normal/FindPrincipalComponen
-ts_PipelinePCA_Jump/Figures/Accuracy_vs_PCA.png[][] 
- []
-
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/feature_correlat
+ion_heatmap.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/feature_correlation_h
+eatmap.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_variance_cur
+ve.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_variance_curve.pn
+g>
 
 
 [51]
-Overfull \hbox (145.67575pt too wide) in paragraph at lines 262--262
- [][][]\TU/TimesNewRoman(0)/m/n/12 ../Results/Jump/Normal/CompareNumberOfPrinci
-palComponents_PipelinePCA_Jump/Figures/F1_vs_PCA_Components.png[][] 
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_scatter_pc1_
+pc2.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/pca_scatter_pc1_pc2.p
+ng>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_comparison
+_f1.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_comparison_f1.p
+ng>
+
+
+[52]
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_ranking_f1
+.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/model_ranking_f1.png>
+
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/f1_gain_pca_vs_n
+o_pca.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/f1_gain_pca_vs_no_pca
+.png>
+
+
+[53]
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/metric_boxplots.
+png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/metric_boxplots.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matric
+es_no_pca.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matrices_no
+_pca.png>
+
+
+[54]
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall
+_no_pca.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall_no_p
+ca.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matric
+es_pca95.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/confusion_matrices_pc
+a95.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall
+_pca95.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/per_class_recall_pca9
+5.png>
+
+
+[55]
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/rf_top_feature_i
+mportance.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/rf_top_feature_import
+ance.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_centroid_f
+eature_heatmap.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/class_centroid_featur
+e_heatmap.png>
+
+
+[56]
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/svm_metrics_vs_p
+ca_components.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/svm_metrics_vs_pca_co
+mponents.png>
+File: Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/models_f1_vs_pca
+_components.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/DetectedAction/models_f1_vs_pca_comp
+onents.png>
+
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های[]
+ []
+
+) (./Chapters/ResultActivities/Activity_Jump.tex
+
+[58]
+File: Images/Generated/TaskResults/Jump/Normal/signal_sample.png Graphic file (
+type bmp)
+<Images/Generated/TaskResults/Jump/Normal/signal_sample.png>
+File: Images/Generated/TaskResults/Jump/Normal/class_distribution.png Graphic f
+ile (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/class_distribution.png>
+
+
+[59]
+File: Images/Generated/TaskResults/Jump/Normal/feature_correlation_heatmap.png 
+Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/feature_correlation_heatmap.png>
+
+
+[60]
+File: Images/Generated/TaskResults/Jump/Normal/pca_variance_curve.png Graphic f
+ile (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/pca_variance_curve.png>
+
+
+[61]
+File: Images/Generated/TaskResults/Jump/Normal/pca_scatter_pc1_pc2.png Graphic 
+file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/pca_scatter_pc1_pc2.png>
+File: Images/Generated/TaskResults/Jump/Normal/model_comparison_f1.png Graphic 
+file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/model_comparison_f1.png>
+
+
+[62]
+File: Images/Generated/TaskResults/Jump/Normal/model_ranking_f1.png Graphic fil
+e (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/model_ranking_f1.png>
+File: Images/Generated/TaskResults/Jump/Normal/f1_gain_pca_vs_no_pca.png Graphi
+c file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/f1_gain_pca_vs_no_pca.png>
+
+
+[63]
+File: Images/Generated/TaskResults/Jump/Normal/metric_boxplots.png Graphic file
+ (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/metric_boxplots.png>
+File: Images/Generated/TaskResults/Jump/Normal/confusion_matrices_no_pca.png Gr
+aphic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/confusion_matrices_no_pca.png>
+
+
+[64]
+File: Images/Generated/TaskResults/Jump/Normal/per_class_recall_no_pca.png Grap
+hic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/per_class_recall_no_pca.png>
+File: Images/Generated/TaskResults/Jump/Normal/confusion_matrices_pca95.png Gra
+phic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/confusion_matrices_pca95.png>
+File: Images/Generated/TaskResults/Jump/Normal/per_class_recall_pca95.png Graph
+ic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/per_class_recall_pca95.png>
+
+
+[65]
+File: Images/Generated/TaskResults/Jump/Normal/rf_top_feature_importance.png Gr
+aphic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/rf_top_feature_importance.png>
+
+
+[66]
+File: Images/Generated/TaskResults/Jump/Normal/class_centroid_feature_heatmap.p
+ng Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/class_centroid_feature_heatmap.png>
+File: Images/Generated/TaskResults/Jump/Normal/svm_metrics_vs_pca_components.pn
+g Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/svm_metrics_vs_pca_components.png>
+File: Images/Generated/TaskResults/Jump/Normal/models_f1_vs_pca_components.png 
+Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/Normal/models_f1_vs_pca_components.png>
+
+
+[67]
+File: Images/Generated/TaskResults/Jump/DetectedAction/signal_sample.png Graphi
+c file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/signal_sample.png>
+File: Images/Generated/TaskResults/Jump/DetectedAction/class_distribution.png G
+raphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/class_distribution.png>
+
+
+[68]
+File: Images/Generated/TaskResults/Jump/DetectedAction/feature_correlation_heat
+map.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/feature_correlation_heatmap.p
+ng>
+File: Images/Generated/TaskResults/Jump/DetectedAction/pca_variance_curve.png G
+raphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/pca_variance_curve.png>
+
+
+[69]
+File: Images/Generated/TaskResults/Jump/DetectedAction/pca_scatter_pc1_pc2.png 
+Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/pca_scatter_pc1_pc2.png>
+File: Images/Generated/TaskResults/Jump/DetectedAction/model_comparison_f1.png 
+Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/model_comparison_f1.png>
+
+
+[70]
+File: Images/Generated/TaskResults/Jump/DetectedAction/model_ranking_f1.png Gra
+phic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/model_ranking_f1.png>
+File: Images/Generated/TaskResults/Jump/DetectedAction/f1_gain_pca_vs_no_pca.pn
+g Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/f1_gain_pca_vs_no_pca.png>
+
+
+[71]
+File: Images/Generated/TaskResults/Jump/DetectedAction/metric_boxplots.png Grap
+hic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/metric_boxplots.png>
+File: Images/Generated/TaskResults/Jump/DetectedAction/confusion_matrices_no_pc
+a.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/confusion_matrices_no_pca.png
+>
+
+
+[72]
+File: Images/Generated/TaskResults/Jump/DetectedAction/per_class_recall_no_pca.
+png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/per_class_recall_no_pca.png>
+File: Images/Generated/TaskResults/Jump/DetectedAction/confusion_matrices_pca95
+.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/confusion_matrices_pca95.png>
+
+File: Images/Generated/TaskResults/Jump/DetectedAction/per_class_recall_pca95.p
+ng Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/per_class_recall_pca95.png>
+
+
+[73]
+File: Images/Generated/TaskResults/Jump/DetectedAction/rf_top_feature_importanc
+e.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/rf_top_feature_importance.png
+>
+File: Images/Generated/TaskResults/Jump/DetectedAction/class_centroid_feature_h
+eatmap.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/class_centroid_feature_heatma
+p.png>
+
+
+[74]
+File: Images/Generated/TaskResults/Jump/DetectedAction/svm_metrics_vs_pca_compo
+nents.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/svm_metrics_vs_pca_components
+.png>
+File: Images/Generated/TaskResults/Jump/DetectedAction/models_f1_vs_pca_compone
+nts.png Graphic file (type bmp)
+<Images/Generated/TaskResults/Jump/DetectedAction/models_f1_vs_pca_components.p
+ng>
+
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[][]|\TU/BNazanin(0)/m/n/12 داده‌های[]
+ []
+
+) (./Chapters/ResultActivities/Activity_Head_Raise.tex
+
+[76])
+
+[77] (./Chapters/ResultActivities/Activity_Box_Step.tex
+
+[78])
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[][]|\TU/BNazanin(0)/m/n/12 تعداد مؤلفه‌های[]
+ []
+
+
+Overfull \hbox (29.07939pt too wide) in paragraph at lines 108--119
+ [][][][] 
  []
 
 
 
-[52]
+[79])
 
-[53]
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
+[80] (./Chapters/Chapter5_Conclusion.tex
 
+[81]
 
-[54]
-File: Images/Generated/Chapter4/ch4_rf_top_feature_importance.png Graphic file 
-(type bmp)
-<Images/Generated/Chapter4/ch4_rf_top_feature_importance.png>
-File: Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png Graphic 
-file (type bmp)
-<Images/Generated/Chapter4/ch4_class_centroid_feature_heatmap.png>
+[82])
 
-
-[55]
-
-[56])
-
-[57] (./Chapters/Chapter5_Conclusion.tex)
-
-[58] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
+[83] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
 Overfull \hbox (2.24437pt too wide) in paragraph at lines 17--17
 [][]|\TU/BNazanin(0)/b/n/12 ردیف| []
  []
@@ -2150,11 +2439,11 @@ Underfull \hbox (badness 1466) in paragraph at lines 144--148
 []\TU/BNazanin(0)/m/n/12 شامل راه‌رفتن سریع، نبود[]
  []
 
-[59] [60]))
+[84] [85]))
 
-[61]
+[86]
 
-[62] (./Refrences/Refrences.tex
+[87] (./Refrences/Refrences.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 5.
 
@@ -2166,16 +2455,16 @@ oman(0)/m/n/12 20.3 (1995),[]
 
 
 
-[63])
+[88])
 
-[64] (./Front/Abstract/abstract-en.tex
+[89] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[65]
+[90]
 \openout2 = `Front/Title/title-eng.aux'.
 
  (./Front/Title/title-eng.tex
@@ -2185,7 +2474,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 15.
 )
 
-[66
+[91
 
 ] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
 (./Front/Title/title-eng.aux))
@@ -2194,18 +2483,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DMD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 619D23C2799B10D508C03BB99E672BBC;22549.
+(rerunfilecheck)             Checksum: 96583AA17117D1C30079D73EB962A1F2;25238.
 Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 \openout1 = `DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26134 strings out of 473832
- 548974 string characters out of 5729482
- 1437115 words of memory out of 5000000
- 48673 multiletter control sequences out of 15000+600000
+ 26791 strings out of 473832
+ 600518 string characters out of 5729482
+ 1445350 words of memory out of 5000000
+ 49312 multiletter control sequences out of 15000+600000
  566125 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,12n,95p,2772b,4980s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,95p,2772b,4980s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis.pdf (75 pages).
+Output written on DMD_Thesis.pdf (102 pages).

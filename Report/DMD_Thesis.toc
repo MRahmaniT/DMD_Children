@@ -48,51 +48,57 @@
 \contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{29}{subsection.3.13}%
 \contentsline {section}{\numberline {4}نتایج و بحث}{30}{section.4}%
 \contentsline {subsection}{\numberline {4.1}مقدمه}{30}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}بررسی داده‌های ثبت‌شده}{30}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}نتایج پیش‌پردازش داده‌ها}{31}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}نتایج استخراج ویژگی}{32}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}نتایج مدل‌های یادگیری ماشین}{32}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}تأثیر کاهش بعد با استفاده از \lr {PCA}}{35}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}تحلیل ویژگی‌های مؤثر}{37}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}جمع‌بندی فصل}{39}{subsection.4.8}%
-\contentsline {section}{\numberline {5}نتایج و بحث}{40}{section.5}%
-\contentsline {subsection}{\numberline {5.1}مقدمه}{40}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}مروری بر داده‌ها و خروجی‌های مورد استفاده}{40}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}مراحل پیش‌پردازش و جداسازی فعالیت}{41}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}پروتکل ارزیابی مدل‌ها}{43}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}تحلیل کلی کاهش بعد با \lr {PCA}}{44}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}فعالیت ایستادن}{45}{subsection.5.6}%
-\contentsline {subsubsection}{\numberline {5.6.1}ماهیت حرکتی فعالیت}{45}{subsubsection.5.6.1}%
-\contentsline {subsubsection}{\numberline {5.6.2}نتایج داده‌های عادی}{45}{subsubsection.5.6.2}%
-\contentsline {subsubsection}{\numberline {5.6.3}تحلیل تعداد مؤلفه‌های اصلی}{46}{subsubsection.5.6.3}%
-\contentsline {subsubsection}{\numberline {5.6.4}نتایج مدل نهایی برای ایستادن}{47}{subsubsection.5.6.4}%
-\contentsline {subsubsection}{\numberline {5.6.5}جمع‌بندی فعالیت ایستادن}{47}{subsubsection.5.6.5}%
-\contentsline {subsection}{\numberline {5.7}فعالیت بلند شدن از صندلی}{48}{subsection.5.7}%
-\contentsline {subsubsection}{\numberline {5.7.1}ماهیت حرکتی فعالیت}{48}{subsubsection.5.7.1}%
-\contentsline {subsubsection}{\numberline {5.7.2}نتایج داده‌های عادی}{48}{subsubsection.5.7.2}%
-\contentsline {subsubsection}{\numberline {5.7.3}نتایج پس از جداسازی بازه فعالیت}{48}{subsubsection.5.7.3}%
-\contentsline {subsubsection}{\numberline {5.7.4}تحلیل تعداد مؤلفه‌های اصلی}{49}{subsubsection.5.7.4}%
-\contentsline {subsubsection}{\numberline {5.7.5}جمع‌بندی فعالیت بلند شدن از صندلی}{50}{subsubsection.5.7.5}%
-\contentsline {subsection}{\numberline {5.8}فعالیت پریدن}{50}{subsection.5.8}%
-\contentsline {subsubsection}{\numberline {5.8.1}ماهیت حرکتی فعالیت}{50}{subsubsection.5.8.1}%
-\contentsline {subsubsection}{\numberline {5.8.2}نتایج داده‌های عادی}{50}{subsubsection.5.8.2}%
-\contentsline {subsubsection}{\numberline {5.8.3}نتایج پس از جداسازی بازه فعالیت}{51}{subsubsection.5.8.3}%
-\contentsline {subsubsection}{\numberline {5.8.4}تحلیل تعداد مؤلفه‌های اصلی}{51}{subsubsection.5.8.4}%
-\contentsline {subsubsection}{\numberline {5.8.5}نتایج مدل نهایی برای پریدن}{52}{subsubsection.5.8.5}%
-\contentsline {subsubsection}{\numberline {5.8.6}جمع‌بندی فعالیت پریدن}{52}{subsubsection.5.8.6}%
-\contentsline {subsection}{\numberline {5.9}فعالیت بالا آوردن سر}{53}{subsection.5.9}%
-\contentsline {subsubsection}{\numberline {5.9.1}وضعیت فعلی}{53}{subsubsection.5.9.1}%
-\contentsline {subsubsection}{\numberline {5.9.2}انتظار تحلیلی}{53}{subsubsection.5.9.2}%
-\contentsline {subsection}{\numberline {5.10}فعالیت بالا رفتن از جعبه}{53}{subsection.5.10}%
-\contentsline {subsubsection}{\numberline {5.10.1}وضعیت فعلی}{53}{subsubsection.5.10.1}%
-\contentsline {subsubsection}{\numberline {5.10.2}انتظار تحلیلی}{53}{subsubsection.5.10.2}%
-\contentsline {subsection}{\numberline {5.11}مقایسه کلی فعالیت‌ها}{54}{subsection.5.11}%
-\contentsline {subsection}{\numberline {5.12}تحلیل اثر جداسازی فعالیت}{54}{subsection.5.12}%
-\contentsline {subsection}{\numberline {5.13}تحلیل ویژگی‌های اثرگذار}{55}{subsection.5.13}%
-\contentsline {subsection}{\numberline {5.14}ملاحظات و محدودیت‌های تحلیل}{56}{subsection.5.14}%
-\contentsline {subsection}{\numberline {5.15}جمع‌بندی فصل}{56}{subsection.5.15}%
-\contentsline {section}{\numberline {6}جمع بندی}{58}{section.6}%
-\contentsline {section}{\numberline {7}پیوست}{59}{section.7}%
-\contentsline {subsection}{\numberline {7.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{59}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}ویژگی‌های استخراج‌شده از هر سیگنال}{62}{subsection.7.2}%
-\contentsline {section}{\numberline {8}مراجع}{63}{section.8}%
+\contentsline {subsection}{\numberline {4.2}ساختار کلی خروجی‌ها}{30}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}چارچوب ارزیابی مدل‌ها}{31}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}نتایج فعالیت‌ها}{31}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}فعالیت ایستادن}{31}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}ماهیت فعالیت و منطق تحلیل}{31}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}رفتار سیگنال و توزیع داده‌ها}{32}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}افزونگی ویژگی‌ها و ضرورت کاهش بعد}{33}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.4}رفتار مدل‌ها و اثر کاهش بعد}{34}{subsubsection.4.5.4}%
+\contentsline {subsubsection}{\numberline {4.5.5}تحلیل خطاهای طبقه‌بندی}{37}{subsubsection.4.5.5}%
+\contentsline {subsubsection}{\numberline {4.5.6}اهمیت ویژگی‌ها و انتخاب تعداد مؤلفه‌ها}{38}{subsubsection.4.5.6}%
+\contentsline {subsubsection}{\numberline {4.5.7}جمع‌بندی فعالیت ایستادن}{41}{subsubsection.4.5.7}%
+\contentsline {subsection}{\numberline {4.6}فعالیت بلند شدن از صندلی}{41}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}ماهیت فعالیت و منطق تحلیل}{41}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}تحلیل داده‌های اصلی}{41}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.3}عملکرد مدل‌ها در داده‌های اصلی}{44}{subsubsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.4}تحلیل خطا و ویژگی‌ها در داده‌های اصلی}{46}{subsubsection.4.6.4}%
+\contentsline {subsubsection}{\numberline {4.6.5}تحلیل داده‌های جداسازی‌شده با تشخیص فعالیت}{50}{subsubsection.4.6.5}%
+\contentsline {subsubsection}{\numberline {4.6.6}عملکرد مدل‌ها در داده‌های جداسازی‌شده}{52}{subsubsection.4.6.6}%
+\contentsline {subsubsection}{\numberline {4.6.7}جمع‌بندی فعالیت بلند شدن از صندلی}{58}{subsubsection.4.6.7}%
+\contentsline {subsection}{\numberline {4.7}فعالیت پریدن}{59}{subsection.4.7}%
+\contentsline {subsubsection}{\numberline {4.7.1}ماهیت فعالیت و منطق تحلیل}{59}{subsubsection.4.7.1}%
+\contentsline {subsubsection}{\numberline {4.7.2}تحلیل داده‌های اصلی}{59}{subsubsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.3}تحلیل \lr {PCA} در داده‌های اصلی}{61}{subsubsection.4.7.3}%
+\contentsline {subsubsection}{\numberline {4.7.4}عملکرد مدل‌ها در داده‌های اصلی}{62}{subsubsection.4.7.4}%
+\contentsline {subsubsection}{\numberline {4.7.5}تحلیل خطا و ویژگی‌ها در داده‌های اصلی}{64}{subsubsection.4.7.5}%
+\contentsline {subsubsection}{\numberline {4.7.6}تحلیل داده‌های جداسازی‌شده با تشخیص فعالیت}{68}{subsubsection.4.7.6}%
+\contentsline {subsubsection}{\numberline {4.7.7}عملکرد مدل‌ها در داده‌های جداسازی‌شده}{70}{subsubsection.4.7.7}%
+\contentsline {subsubsection}{\numberline {4.7.8}جمع‌بندی فعالیت پریدن}{76}{subsubsection.4.7.8}%
+\contentsline {subsection}{\numberline {4.8}فعالیت بالا آوردن سر}{77}{subsection.4.8}%
+\contentsline {subsubsection}{\numberline {4.8.1}هدف از افزودن این فعالیت}{77}{subsubsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.2}ساختار داده و سیگنال‌ها}{77}{subsubsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.3}تحلیل ویژگی‌ها و کاهش بعد}{77}{subsubsection.4.8.3}%
+\contentsline {subsubsection}{\numberline {4.8.4}ارزیابی مدل‌ها}{77}{subsubsection.4.8.4}%
+\contentsline {subsubsection}{\numberline {4.8.5}جمع‌بندی مورد انتظار}{78}{subsubsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.9}فعالیت بالا رفتن از جعبه}{78}{subsection.4.9}%
+\contentsline {subsubsection}{\numberline {4.9.1}هدف از افزودن این فعالیت}{78}{subsubsection.4.9.1}%
+\contentsline {subsubsection}{\numberline {4.9.2}ساختار داده و سیگنال‌ها}{78}{subsubsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.3}تحلیل ویژگی‌ها و کاهش بعد}{78}{subsubsection.4.9.3}%
+\contentsline {subsubsection}{\numberline {4.9.4}ارزیابی مدل‌ها}{78}{subsubsection.4.9.4}%
+\contentsline {subsubsection}{\numberline {4.9.5}جمع‌بندی مورد انتظار}{79}{subsubsection.4.9.5}%
+\contentsline {subsection}{\numberline {4.10}مقایسه کلی فعالیت‌ها}{79}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}محدودیت‌های نتایج}{80}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}جمع‌بندی فصل}{80}{subsection.4.12}%
+\contentsline {section}{\numberline {5}جمع‌بندی و پیشنهادها}{81}{section.5}%
+\contentsline {subsection}{\numberline {5.1}جمع‌بندی کلی پژوهش}{81}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}دستاوردهای اصلی}{81}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}جمع‌بندی نتایج فعالیت‌ها}{82}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}محدودیت‌های پژوهش}{82}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}پیشنهادها برای کارهای آینده}{83}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}نتیجه‌گیری نهایی}{83}{subsection.5.6}%
+\contentsline {section}{\numberline {6}پیوست}{84}{section.6}%
+\contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{84}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}ویژگی‌های استخراج‌شده از هر سیگنال}{87}{subsection.6.2}%
+\contentsline {section}{\numberline {7}مراجع}{88}{section.7}%
