@@ -320,13 +320,13 @@ def plot_signal_sample(tp: TaskPaths, figs: List[FigureItem]) -> None:
     if nums.empty:
         return
 
-    preferred = ["Head Ax", "head_ax", "Right Foot Ax", "right_foot_ax", "Left Foot Ax", "left_foot_ax"]
+    preferred = ["Head Ax", "head_ax", "Right Hand Ax", "right_hand_ax", "Left Hand Ax", "left_hand_ax", "Right Foot Ax", "right_foot_ax", "Left Foot Ax", "left_foot_ax"]
     selected: List[str] = []
     for key in preferred:
         found = next((c for c in nums.columns if key.lower() in str(c).lower()), None)
         if found is not None and found not in selected:
             selected.append(found)
-        if len(selected) >= 3:
+        if len(selected) >= 5:
             break
 
     if not selected:

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  8 JUL 2026 23:46
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  12 JUL 2026 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,15 +1478,24 @@ Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-
-
-[4])
+)
 \tf@toc=\write5
 \openout5 = `DMD_Thesis.toc'.
 
 
 
+[4]
+
 [5] (./DMD_Thesis.lof
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+
+
+[6]
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 )
@@ -1494,8 +1503,6 @@ ript=arab;mapping=persian-tex-text;!
 \openout6 = `DMD_Thesis.lof'.
 
 
-
-[6]
 
 [7] (./DMD_Thesis.lot)
 \tf@lot=\write7
@@ -1686,119 +1693,180 @@ File: Diagram/Chapter3_Pipeline.pdf Graphic file (type pdf)
 )
 
 [31] (./Chapters/Chapter4_ResultAndDiscussion2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 [][]|\TU/BNazanin(0)/m/n/12 داده‌های اصلی و[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 [][]|\TU/BNazanin(0)/m/n/12 داده‌های اصلی و[]
  []
 
 
-Overfull \hbox (11.38849pt too wide) in paragraph at lines 28--39
+Overfull \hbox (11.38849pt too wide) in paragraph at lines 10--21
  [][][][] 
  []
 
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
 
 
-[32] (./Chapters/ResultActivities/Activity_Stand.tex
+[32]
+File: Plots/Matlab/A_STS_NoFilter.png Graphic file (type bmp)
+<Plots/Matlab/A_STS_NoFilter.png>
+File: Plots/Matlab/G_STS_NoFilter.png Graphic file (type bmp)
+<Plots/Matlab/G_STS_NoFilter.png>
+File: Plots/Matlab/A_STS_Filter.png Graphic file (type bmp)
+<Plots/Matlab/A_STS_Filter.png>
+
+
+[33]
+File: Plots/Matlab/G_STS_Filter.png Graphic file (type bmp)
+<Plots/Matlab/G_STS_Filter.png>
+File: Plots/Matlab/A_STS_Action.png Graphic file (type bmp)
+<Plots/Matlab/A_STS_Action.png>
+
+
+[34]
+File: Plots/Matlab/G_STS_Action.png Graphic file (type bmp)
+<Plots/Matlab/G_STS_Action.png>
+
+
+[35] (./Chapters/ResultActivities/Activity_Stand.tex
 File: Images/Generated/TaskResults/Stand/Normal/signal_sample.png Graphic file 
 (type bmp)
 <Images/Generated/TaskResults/Stand/Normal/signal_sample.png>
 
 
-[33]
-File: Images/Generated/TaskResults/Stand/Normal/class_distribution.png Graphic 
-file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/class_distribution.png>
+[36]
 File: Images/Generated/TaskResults/Stand/Normal/feature_correlation_heatmap.png
  Graphic file (type bmp)
 <Images/Generated/TaskResults/Stand/Normal/feature_correlation_heatmap.png>
 
-
-[34]
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
 File: Images/Generated/TaskResults/Stand/Normal/pca_variance_curve.png Graphic 
 file (type bmp)
 <Images/Generated/TaskResults/Stand/Normal/pca_variance_curve.png>
 
 
-[35]
+[37]
 File: Images/Generated/TaskResults/Stand/Normal/pca_scatter_pc1_pc2.png Graphic
  file (type bmp)
 <Images/Generated/TaskResults/Stand/Normal/pca_scatter_pc1_pc2.png>
-File: Images/Generated/TaskResults/Stand/Normal/model_comparison_f1.png Graphic
- file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/model_comparison_f1.png>
-
-
-[36]
-File: Images/Generated/TaskResults/Stand/Normal/model_ranking_f1.png Graphic fi
-le (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/model_ranking_f1.png>
-File: Images/Generated/TaskResults/Stand/Normal/f1_gain_pca_vs_no_pca.png Graph
-ic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/f1_gain_pca_vs_no_pca.png>
-File: Images/Generated/TaskResults/Stand/Normal/metric_boxplots.png Graphic fil
-e (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/metric_boxplots.png>
-
-
-[37]
-File: Images/Generated/TaskResults/Stand/Normal/confusion_matrices_no_pca.png G
-raphic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/confusion_matrices_no_pca.png>
-File: Images/Generated/TaskResults/Stand/Normal/confusion_matrices_pca95.png Gr
-aphic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/confusion_matrices_pca95.png>
 
 
 [38]
-File: Images/Generated/TaskResults/Stand/Normal/per_class_recall_no_pca.png Gra
-phic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/per_class_recall_no_pca.png>
-File: Images/Generated/TaskResults/Stand/Normal/per_class_recall_pca95.png Grap
-hic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/per_class_recall_pca95.png>
+File: ../Results/Stand/Baseline/Accuracy_Bar_Baseline.png Graphic file (type bm
+p)
+<../Results/Stand/Baseline/Accuracy_Bar_Baseline.png>
+File: ../Results/Stand/Baseline/Metric_Distribution_Baseline.png Graphic file (
+type bmp)
+<../Results/Stand/Baseline/Metric_Distribution_Baseline.png>
 
 
 [39]
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: ../Results/Stand/Pipeline_PCA/Metric_Distribution_Pipeline_PCA.png Graphi
+c file (type bmp)
+<../Results/Stand/Pipeline_PCA/Metric_Distribution_Pipeline_PCA.png>
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: ../Results/Stand/Comparisons/Accuracy_Baseline_vs_Pipeline_PCA.png Graphi
+c file (type bmp)
+<../Results/Stand/Comparisons/Accuracy_Baseline_vs_Pipeline_PCA.png>
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
 File: Images/Generated/TaskResults/Stand/Normal/rf_top_feature_importance.png G
 raphic file (type bmp)
 <Images/Generated/TaskResults/Stand/Normal/rf_top_feature_importance.png>
-File: Images/Generated/TaskResults/Stand/Normal/class_centroid_feature_heatmap.
-png Graphic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/class_centroid_feature_heatmap.png>
 
 
 [40]
-File: Images/Generated/TaskResults/Stand/Normal/svm_metrics_vs_pca_components.p
-ng Graphic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/svm_metrics_vs_pca_components.png>
-File: Images/Generated/TaskResults/Stand/Normal/models_f1_vs_pca_components.png
- Graphic file (type bmp)
-<Images/Generated/TaskResults/Stand/Normal/models_f1_vs_pca_components.png>
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: ../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures
+/Accuracy_vs_PCA.png Graphic file (type bmp)
+<../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/Accu
+racy_vs_PCA.png>
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: ../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures
+/All_Metrics_vs_PCA.png Graphic file (type bmp)
+<../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/All_
+Metrics_vs_PCA.png>
 
 
-[41])
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[41]
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: ../Results/Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_St
+and/Figures/Accuracy_vs_PCA_Components.png Graphic file (type bmp)
+<../Results/Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Stand/F
+igures/Accuracy_vs_PCA_Components.png>
+
+
+[42]
+File: ../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Final_Model_Main_Met
+rics_Bar.png Graphic file (type bmp)
+<../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Final_Model_Main_Metrics_
+Bar.png>
+
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: ../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/PCA_Explained_Varian
+ce.png Graphic file (type bmp)
+<../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/PCA_Explained_Variance.pn
+g>
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+
+
+[43]
+File: ../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/CV_Fold_Metrics.png 
+Graphic file (type bmp)
+<../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/CV_Fold_Metrics.png>
+File: ../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Normalized_Confusion
+_Matrix.png Graphic file (type bmp)
+<../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Normalized_Confusion_Matr
+ix.png>
+
+
+[44])
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 [][]|\TU/BNazanin(0)/m/n/12 تعداد مؤلفه‌های[]
  []
 
 
-Overfull \hbox (29.07939pt too wide) in paragraph at lines 108--119
+Overfull \hbox (29.07939pt too wide) in paragraph at lines 143--154
  [][][][] 
  []
 
 
 
-[42])
-
-[43] (./Chapters/Chapter5_Conclusion.tex
-
-[44]
-
-[45])
+[45]
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+)
 
 [46] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
 Overfull \hbox (2.24437pt too wide) in paragraph at lines 17--17
@@ -2131,16 +2199,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DMD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 341ADB2AA383B760BC4E7AF3DBF0EA23;16947.
+(rerunfilecheck)             Checksum: 8BB0491707B36559FFB8D27E1D163E2A;15508.
 Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 \openout1 = `DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26177 strings out of 473832
- 553245 string characters out of 5729482
- 1430834 words of memory out of 5000000
- 48708 multiletter control sequences out of 15000+600000
+ 26378 strings out of 473832
+ 565828 string characters out of 5729482
+ 1429844 words of memory out of 5000000
+ 48906 multiletter control sequences out of 15000+600000
  566133 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,17n,95p,2772b,4970s stack positions out of 10000i,1000n,20000p,200000b,200000s

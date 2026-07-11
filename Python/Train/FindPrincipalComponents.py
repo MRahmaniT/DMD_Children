@@ -28,7 +28,7 @@ from sklearn.model_selection import StratifiedKFold
 TASK = "Jump"
 
 # 2. Did you use action detector on your data or not
-DETECTED = False
+DETECTED = True
 
 # 3. Model settings
 MODEL_NAME = "SVM"

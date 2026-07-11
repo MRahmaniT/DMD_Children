@@ -1,210 +1,125 @@
 \subsection{فعالیت ایستادن}
 
+هدف از بررسی این فعالیت، ارزیابی این موضوع است که آیا روند در نظر گرفته شده برای سیگنال‌های نسبتاً کم‌دامنه در یک فعالیت بدون حرکت و تقریبا سکون مطلق می‌توانند سه سطح عملکردی را از یکدیگر جدا کنند یا خیر. در این بخش، تمرکز تحلیل روی سه خروجی اصلی است: ساختار فضای ویژگی، اثر کاهش بعد و عملکرد مدل‌ها در طبقه‌بندی کلاس‌ها.
+
 \subsubsection{گزارش کلی فعالیت}
 
-برای فعالیت ایستادن، داده‌ها در حالت
-\lr{Normal}
-بررسی شدند. هدف این بخش، ارزیابی این موضوع است که آیا ویژگی‌های استخراج‌شده از سیگنال‌های نسبتاً کم‌دامنه وضعیت ایستاده می‌توانند سه سطح عملکردی را از یکدیگر جدا کنند یا خیر. در این فعالیت، تمرکز تحلیل روی سه خروجی اصلی است: ساختار فضای ویژگی، اثر کاهش بعد با
-\lr{PCA}
-و عملکرد مدل‌ها در طبقه‌بندی کلاس‌ها.
+برای فعالیت ایستادن، برای پیش‌پردازش اولیه داده‌ها فقط از فیلتر استفاده شد و جداسازی فعالیت انجام نشد. زیرا با توجه به ماهیت حرکت نباید کاری انجام بشود و حسگرها باید داده‌های ثابت دریافت کنند.
 
 نمونه سیگنال در
 \autoref{fig:stand_normal_signal_sample}
-نشان می‌دهد که داده‌های ایستادن نسبت به فعالیت‌های دینامیک تغییرات محدودتری دارند. بنابراین، نتیجه‌گیری در این فعالیت بیشتر به ویژگی‌های آماری و الگوی نوسان وابسته است تا رویدادهای حرکتی بزرگ.
+نشان می‌دهد که داده‌های ایستادن نسبت به فعالیت‌های دینامیک تغییرات محدودتری دارند.  برای مثال در داده‌های بدست آمده از حسگرهای قرار گرفته روی پا هیچ تغییری مشاهده نمی‌شود. یا در داده‌های حسگرهای قرار گرفته روی دست تغییرات به صورت نوسان با دامنه کوچک هستند. بنابراین، نتیجه‌گیری در این فعالیت بیشتر به ویژگی‌های آماری و الگوی نوسان وابسته است تا رویدادهای حرکتی بزرگ.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Stand/Normal/signal_sample.png}
+	\includegraphics[width=0.80\linewidth]{Images/Generated/TaskResults/Stand/Normal/signal_sample.png}
 	\caption{نمونه سیگنال‌های ثبت‌شده در فعالیت ایستادن}
 	\label{fig:stand_normal_signal_sample}
 \end{figure}
 
-توزیع کلاس‌ها در
-\autoref{fig:stand_normal_class_distribution}
-برای کنترل تعادل داده‌ها استفاده شد. این شکل مبنای تفسیر معیارهای کلی مانند
-\lr{Accuracy}
-و معیارهای کلاسی مانند
-\lr{Recall}
-است.
+در این فعالیت توزیع طبقه‌ها یکسان است. از آنجا که انجام تست‌ها نیز بخشی از این پژوهش بود برای هر ۳ طبقه‌ به مقدار یکسان داده جمع آوری شده است. زیرا وزن داده‌ها در تحلیل نهایی اثرگذار است.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.70\linewidth]{Images/Generated/TaskResults/Stand/Normal/class_distribution.png}
-	\caption{توزیع نمونه‌ها در کلاس‌های مختلف فعالیت ایستادن}
-	\label{fig:stand_normal_class_distribution}
-\end{figure}
+\subsubsection{ساختار ویژگی‌ها}
 
-\subsubsection{کاهش بعد و ساختار ویژگی‌ها}
-
-در این فعالیت، تعداد ویژگی‌های اولیه نسبت به تعداد نمونه‌ها زیاد بود؛ بنابراین خروجی‌های
-\lr{PCA}
-برای بررسی فشرده‌پذیری داده تحلیل شدند. نقشه همبستگی
+در این فعالیت، تعداد ویژگی‌های اولیه نسبت به تعداد نمونه‌ها زیاد بود؛ بنابراین نقشه همبستگی مورد بررسی قرار گرفت. نقشه همبستگی 
 \autoref{fig:stand_normal_feature_correlation}
-نشان می‌دهد بخشی از ویژگی‌ها رفتار مشابهی دارند. این نتیجه با انتظار اولیه همخوانی دارد، زیرا از هر حسگر و محور چندین ویژگی آماری استخراج شده است.
+انرژی و آنتروپی حسگر‌های مختلف در محورهای مختلف را نشان می‌دهد، بخشی از ویژگی‌ها رفتار مشابهی داشتند. این نتیجه با انتظار اولیه همخوانی داشت، زیرا از هر حسگر و محور چندین ویژگی آماری استخراج شده بود.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Stand/Normal/feature_correlation_heatmap.png}
+	\includegraphics[width=0.75\linewidth]{Images/Generated/TaskResults/Stand/Normal/feature_correlation_heatmap.png}
 	\caption{نقشه همبستگی ویژگی‌های منتخب در فعالیت ایستادن}
 	\label{fig:stand_normal_feature_correlation}
 \end{figure}
-
+ 
+ اگرچه ممکن است با آموزش یک طبقه‌بند به وسیله ویژگی‌های استخراج شده منجر به دقت خوبی بشود، اما بدلیل تعداد بالای ویژگی‌ها نسبت به تعداد نمونه‌ها  نتایج بدست آمده قابلیت اطمینان کافی را نخواهند داشت. پس در ادامه مسیر کاهش بعد ویژگی‌ها مورد بررسی قرار گرفت.
+ 
+ 
+ \subsubsection{کاهش بعد ویژگی‌ها}\label{sec:demansionreduction2}
+ 
+ همانطور که در 
+ \autoref{sec:demansionreduction}
+ اشاره شد، از تحلیل مؤلفه‌های اصلی برای کاهش بعد ویژگی‌ها استفاده شده است.  به کمک این روش توانستیم با ۴۶ مؤلفه اصلی که هرکدام یک ترکیب خطی از ویژگی‌های اولیه هستند، ۹۵ درصد واریانس داده‌ها را حفظ کنیم.
+ 
 طبق نمودار واریانس تجمعی در
 \autoref{fig:stand_normal_pca_variance}،
-بخش عمده واریانس داده با تعداد کمتری از مؤلفه‌های اصلی حفظ می‌شود. نتیجه مهم این بخش این است که استفاده مستقیم از همه ویژگی‌های اولیه برای این فعالیت ضروری نیست و می‌توان فضای داده را با حفظ بخش اصلی اطلاعات کاهش داد.
-
-% TODO: تعداد دقیق مؤلفه‌های لازم برای رسیدن به ۹۵ درصد واریانس را از فایل PCA یا نمودار وارد کن؛ مثال نگارش: «در این فعالیت، با ... مؤلفه اصلی، ۹۵ درصد واریانس داده حفظ شد.»
+بخش عمده واریانس داده با تعداد کمتری از مؤلفه‌های اصلی حفظ می‌شود. از این مقایسه می‌توان نتیجه گرفت که حتی ممکن است نیازی به استفاده از تمام ۴۶ مؤلفه اصلی نباشد. برای مثال با ۲۰ مؤلفه اصلی می‌توان به ۸۰ درصد واریانس داده‌ها رسید و اضافه کردن ۲۶ مؤلفه اصلی بعدی فقط ۱۵ درصد به این مقدار اضافه می‌کند. به عبارت دیگر ابعاد ورودی ۱۳۰ درصد افزایش می‌یابد، اما واریانس کمتر از ۲۰ درصد افزایش پیدا می‌کند.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Stand/Normal/pca_variance_curve.png}
+	\includegraphics[width=0.8\linewidth]{Images/Generated/TaskResults/Stand/Normal/pca_variance_curve.png}
 	\caption{واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت ایستادن}
 	\label{fig:stand_normal_pca_variance}
 \end{figure}
 
 پراکندگی داده در دو مؤلفه اول در
 \autoref{fig:stand_normal_pca_scatter}
-برای مشاهده اولیه جدایی کلاس‌ها استفاده شد. این شکل به تنهایی معیار نهایی نیست، اما نشان می‌دهد که بخشی از ساختار کلاس‌ها در فضای کاهش‌یافته قابل مشاهده است یا نیاز به مؤلفه‌های بعدی و مدل غیرخطی وجود دارد.
+برای مشاهده اولیه جدایی کلاس‌ها استفاده شد. این شکل به تنهایی معیار نهایی نیست، اما نشان می‌دهد که بخشی از ساختار کلاس‌ها در فضای کاهش‌یافته قابل مشاهده است و با دقت خوبی نیاز به مؤلفه‌های بعدی و مدل غیرخطی وجود ندارد.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Stand/Normal/pca_scatter_pc1_pc2.png}
+	\includegraphics[width=0.8\linewidth]{Images/Generated/TaskResults/Stand/Normal/pca_scatter_pc1_pc2.png}
 	\caption{پراکندگی نمونه‌های فعالیت ایستادن در فضای دو مؤلفه اصلی اول}
 	\label{fig:stand_normal_pca_scatter}
 \end{figure}
 
-\subsubsection{مقایسه مدل‌ها}
+ نتیجه‌گیری دقیق‌تر باید در مقایسه مدل‌های طبقه بند صورت بگیرد زیرا با واریانس داده‌ها نمیتوان بیشتر از این اظهار نظر کرد. نتیجه مهم این بخش این است که استفاده مستقیم از همه ویژگی‌های اولیه برای این فعالیت ضروری نیست و می‌توان فضای داده را با حفظ بخش اصلی اطلاعات کاهش داد.
+ 
+\subsubsection{عملکرد طبقه‌بند‌ها}
 
-عملکرد سه مدل
-\lr{KNN}،
-\lr{SVM}
-و
-\lr{Random Forest}
+عملکرد سه طبقه‌بند ماشین بردار پشتیبان، نزدیک‌ترین همسایه و جنگل تصادفی
 در
-\autoref{fig:stand_normal_model_comparison_f1}
-مقایسه شده است. معیار اصلی در این مقایسه
-\lr{F1}
-در نظر گرفته شد، زیرا مسئله سه‌کلاسه است و فقط گزارش
-\lr{Accuracy}
-برای تصمیم‌گیری کافی نیست.
+\autoref{fig:accuracybarbaseline}
+مقایسه شده است. معیار اصلی در این مقایسه دقت در نظر گرفته شد. همه مدل‌ها دقت خوبی در پیش‌بینی نمرات عملکردی از خود نشان دادند، اما این مقایسه به تنهایی برای نظر دادن کافی نبود. به همین علت مقایسه‌ای در دیگر معیار‌های ارزیابی صورت گرفت. نتیجه این ارزیابی در 
+\autoref{fig:metricdistributionbaseline}
+آمده است. طبق هردو مقایسه جنگل تصادفی از خود عملکرد بهتری را نشان می‌دهد.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Stand/Normal/model_comparison_f1.png}
-	\caption{مقایسه عملکرد مدل‌ها بر اساس معیار \lr{F1} در فعالیت ایستادن}
-	\label{fig:stand_normal_model_comparison_f1}
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Baseline/Accuracy_Bar_Baseline}
+	\caption{مقایسه عملکرد مدل‌ها بر اساس دقت در فعالیت ایستادن}
+	\label{fig:accuracybarbaseline}
 \end{figure}
 
-رتبه‌بندی مدل‌ها در
-\autoref{fig:stand_normal_model_ranking_f1}
-مدل کاندید را مشخص می‌کند. با این حال، انتخاب نهایی باید با
-\autoref{fig:stand_normal_metric_boxplots}
-و ماتریس‌های درهم‌ریختگی کنترل شود؛ زیرا در این مرحله پایداری مدل به اندازه میانگین عملکرد اهمیت دارد.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Stand/Normal/model_ranking_f1.png}
-	\caption{رتبه‌بندی مدل‌ها در فعالیت ایستادن بر اساس معیار \lr{F1}}
-	\label{fig:stand_normal_model_ranking_f1}
-\end{figure}
-
-اثر کاهش بعد بر عملکرد مدل‌ها در
-\autoref{fig:stand_normal_f1_gain_pca}
-گزارش شده است. این نمودار نتیجه اصلی بخش
-\lr{PCA}
-را برای مدل‌ها نشان می‌دهد: اگر مقدار تغییر
-\lr{F1}
-مثبت باشد، کاهش بعد هم پیچیدگی داده را کم کرده و هم عملکرد را بهتر کرده است؛ اگر تغییر نزدیک به صفر باشد، کاهش بعد بدون افت محسوس عملکرد انجام شده است؛ و اگر مقدار منفی باشد، باید بین افت عملکرد و کاهش ابعاد مصالحه انجام شود.
-
-% TODO: مقدار تغییر F1 هر مدل پس از PCA را با یک رقم اعشار وارد کن؛ مثال: «در مدل ...، استفاده از PCA باعث ... درصد تغییر در F1 شد.»
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Stand/Normal/f1_gain_pca_vs_no_pca.png}
-	\caption{تغییر معیار \lr{F1} پس از اعمال \lr{PCA95} در فعالیت ایستادن}
-	\label{fig:stand_normal_f1_gain_pca}
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Baseline/Metric_Distribution_Baseline}
+	\caption{مقایسه عملکرد مدل‌ها در فعالیت ایستادن}
+	\label{fig:metricdistributionbaseline}
 \end{figure}
 
 پراکندگی معیارها در
-\autoref{fig:stand_normal_metric_boxplots}
-برای بررسی ثبات مدل‌ها در
-\lr{fold}
-های مختلف استفاده شد. مدلی که میانگین بالا و پراکندگی کمتر داشته باشد، برای انتخاب نهایی مناسب‌تر است.
+\autoref{fig:metricdistributionbaseline}
+برای بررسی ثبات مدل‌ها درتقسیم‌بندی‌های
+\footnote{\lr{Fold}}
+ مختلف استفاده شد. مدلی که میانگین بالا و پراکندگی کمتر داشته باشد، برای انتخاب نهایی مناسب‌تر است.
+
+طبق موارد ذکر شده در 
+\autoref{sec:demansionreduction2}
+اکنون لازم است که نتایج را هنگام استفاده از مؤلفه‌های اصلی بررسی کنیم. در این حالت بر اساس 
+\autoref{fig:metricdistributionpipelinepca}
+ تقریبا در تمامی معیارها دو مدل ماشین بردار پشتیبان و جنگل تصادفی عملکرد خوب و یکسانی از خود به نمایش می‌گذارند.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Stand/Normal/metric_boxplots.png}
-	\caption{پراکندگی معیارهای ارزیابی در \lr{fold}های مختلف برای فعالیت ایستادن}
-	\label{fig:stand_normal_metric_boxplots}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Pipeline_PCA/Metric_Distribution_Pipeline_PCA}
+	\caption{مقایسه عملکرد مدل‌های آموزش داده شده با مؤلفه‌های اصلی در فعالیت ایستادن}
+	\label{fig:metricdistributionpipelinepca}
 \end{figure}
 
-% TODO: عددهای این جدول را از فایل‌های Excel مربوط به Results/Stand/Normal وارد کن.
-\begin{table}[H]
-	\centering
-	\caption{خلاصه عملکرد مدل‌ها برای فعالیت ایستادن}
-	\label{tab:stand_model_metrics}
-	\begin{tabular}{lccccc}
-		\toprule
-		مدل & \lr{Accuracy} & \lr{Precision} & \lr{Recall} & \lr{Specificity} & \lr{F1} \\
-		\midrule
-		\lr{KNN} &  &  &  &  &  \\
-		\lr{SVM} &  &  &  &  &  \\
-		\lr{Random Forest} &  &  &  &  &  \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-\subsubsection{تحلیل خطا}
-
-ماتریس‌های درهم‌ریختگی در حالت بدون
-\lr{PCA}
-و با
-\lr{PCA95}
-به ترتیب در
-\autoref{fig:stand_normal_confusion_no_pca}
-و
-\autoref{fig:stand_normal_confusion_pca95}
-آمده‌اند. هدف از این بخش، مشخص کردن این است که خطاها بیشتر بین کلاس‌های مجاور رخ داده‌اند یا مدل در تشخیص یک سطح خاص ضعف دارد.
-
+حال که نتایج رضایت‌بخش هستند زمان مقایسه آن‌ها با حالت قبل است. در
+\autoref{fig:accuracybaselinevspipelinepca}
+مشاهده می‌کنید در حالی که دقت پیش‌بینی مدل جنگل تصادفی نسبت به قبل کاهش پیدا کرده است، دقت ماشین بردار پشتیبان نسبت به قبل افزایش پیدا کرده است.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Stand/Normal/confusion_matrices_no_pca.png}
-	\caption{ماتریس‌های درهم‌ریختگی نرمال‌شده در فعالیت ایستادن، بدون \lr{PCA}}
-	\label{fig:stand_normal_confusion_no_pca}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Comparisons/Accuracy_Baseline_vs_Pipeline_PCA}
+	\caption{مقایسه عملکرد مدل‌های آموزش داده شده بر اساس ورودی مدل و دقت آن در فعالیت ایستادن}
+	\label{fig:accuracybaselinevspipelinepca}
 \end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Stand/Normal/confusion_matrices_pca95.png}
-	\caption{ماتریس‌های درهم‌ریختگی نرمال‌شده در فعالیت ایستادن، با \lr{PCA95}}
-	\label{fig:stand_normal_confusion_pca95}
-\end{figure}
-
-نمودارهای
-\lr{Recall}
-هر کلاس در
-\autoref{fig:stand_normal_per_class_recall_no_pca}
-و
-\autoref{fig:stand_normal_per_class_recall_pca95}
-برای بررسی عملکرد کلاسی استفاده شدند. اگر یک کلاس
-\lr{Recall}
-پایین‌تری داشته باشد، نتیجه نهایی مدل باید با احتیاط گزارش شود، حتی اگر میانگین کلی مناسب باشد.
-
-% TODO: اگر یک کلاس مشخص Recall پایین‌تری دارد، همان را در یک جمله گزارش کن.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Stand/Normal/per_class_recall_no_pca.png}
-	\caption{مقایسه \lr{Recall} هر کلاس در فعالیت ایستادن، بدون \lr{PCA}}
-	\label{fig:stand_normal_per_class_recall_no_pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Stand/Normal/per_class_recall_pca95.png}
-	\caption{مقایسه \lr{Recall} هر کلاس در فعالیت ایستادن، با \lr{PCA95}}
-	\label{fig:stand_normal_per_class_recall_pca95}
-\end{figure}
+ تا به اینجا متوجه شدیم که کاهش ابعاد مفید واقع شده است. از طرف دیگر افزایش پیدا کردن دقت مدل ماشین بردار پشتیبان با کاهش ابعاد و همچنین 
+ \autoref{fig:stand_normal_pca_scatter}، 
+ ما را بر این داشت که دست به مقایسه میزان اثر تعداد مؤلفه‌های اصلی بر دقت این مدل بزنیم.
 
 \subsubsection{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}
 
@@ -214,63 +129,101 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Stand/Normal/rf_top_feature_importance.png}
+	\includegraphics[width=0.80\linewidth]{Images/Generated/TaskResults/Stand/Normal/rf_top_feature_importance.png}
 	\caption{ویژگی‌های مهم‌تر بر اساس مدل \lr{Random Forest} در فعالیت ایستادن}
 	\label{fig:stand_normal_rf_importance}
 \end{figure}
 
-الگوی میانگین نرمال‌شده ویژگی‌ها در کلاس‌های مختلف در
-\autoref{fig:stand_normal_class_centroid_heatmap}
-آمده است. این شکل برای بررسی تفاوت ساختاری کلاس‌ها در فضای ویژگی استفاده شد.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Stand/Normal/class_centroid_feature_heatmap.png}
-	\caption{میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌های مختلف فعالیت ایستادن}
-	\label{fig:stand_normal_class_centroid_heatmap}
-\end{figure}
-
-اثر تعداد مؤلفه‌های اصلی بر مدل
-\lr{SVM}
+اثر تعداد مؤلفه‌های اصلی بر مدل ماشین بردار پشتیبان
 در
 \autoref{fig:stand_normal_svm_metrics_vs_pca_components}
-و مقایسه مدل‌ها در تعداد مؤلفه‌های مختلف در
-\autoref{fig:stand_normal_models_f1_vs_pca_components}
-ارائه شده است. این دو خروجی برای انتخاب تعداد مؤلفه نهایی استفاده می‌شوند، نه برای توضیح مفهومی
-\lr{PCA}.
-
-% TODO: تعداد مؤلفه منتخب و دلیل انتخاب آن را از این دو نمودار وارد کن.
+ارائه شده است. این مقایسه نشان می‌دهد که با تعداد خیلی کم از مؤلفه‌های اصلی نیز می‌توان دقت بالای ۹۰ درصد داشت. اما برای تصمیم گیری نهایی لازم است تا دیگر معیارهای ارزیابی را نیز بررسی کنیم.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Stand/Normal/svm_metrics_vs_pca_components.png}
-	\caption{تغییر عملکرد مدل \lr{SVM} نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA}
+	\caption{تغییر دقت مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
 	\label{fig:stand_normal_svm_metrics_vs_pca_components}
 \end{figure}
 
+با توجه به مقایسه انجام شده در
+\autoref{fig:allmetricsvspca}
+متوجه شدیم که تمامی معیارها روند یکسانی با دقت دارند. پس با پیدا کردن تعداد مؤلفه اصلی بهینه نسبت به دقت می‌توان فرض کرد دیگر معیارها نیز به خوبی ارضا می‌شوند.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Stand/Normal/models_f1_vs_pca_components.png}
-	\caption{مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
-	\label{fig:stand_normal_models_f1_vs_pca_components}
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/All_Metrics_vs_PCA}
+	\caption{تغییر عملکرد مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
+	\label{fig:allmetricsvspca}
 \end{figure}
 
-% TODO: پس از انتخاب نهایی مدل، مقدار مؤلفه و معیارهای نهایی این جدول را پر کن.
+در نهایت با توجه به  
+\autoref{fig:stand_normal_svm_metrics_vs_pca_components}
+و
+\autoref{fig:allmetricsvspca}
+در بازه ۵ تا ۱۵ مدل‌ها مجدد مقایسه شدند تا مدل برتر و تعداد مؤلفه‌های اصلی بهینه انتخاب شود. نتیجه مقایسه را می‌توانید در
+\autoref{fig:stand_normal_metrics_vs_pca_components}
+ببینید. با این حساب برای فعالیت ایستادن تعداد ۱۳ مؤلفه اصلی و مدل طبقه‌بند ماشین بردار پشتیبان انتخاب شد.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA_Components}
+	\caption{تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
+	\label{fig:stand_normal_metrics_vs_pca_components}
+\end{figure}
+
 \begin{table}[H]
 	\centering
 	\caption{تنظیمات منتخب فعالیت ایستادن برای مدل نهایی}
 	\label{tab:stand_selected_setup}
-	\begin{tabular}{lccc}
+	\begin{tabular}{lcc}
 		\toprule
-		مدل منتخب & نوع داده & تعداد مؤلفه اصلی & معیار انتخاب \\
+		مدل منتخب & نوع داده & تعداد مؤلفه اصلی \\
 		\midrule
-		 & داده‌های اصلی &  &  \\
+		ماشین بردار پشتیبان & بدون جداسازی فعالیت &  ۱۳ \\
 		\bottomrule
 	\end{tabular}
 \end{table}
 
+نتیجه نهایی با توجه به شرایط ذکر شده در
+\autoref{tab:stand_selected_setup}
+به طور کامل در 
+\autoref{fig:finalmodelmainmetricsbar}
+آمده است.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Final_Model_Main_Metrics_Bar}
+	\caption{عملکرد مدل ماشین بردار پشتیبان آموزش داده شده با ۱۳ مؤلفه اصلی در فعالیت ایستادن}
+	\label{fig:finalmodelmainmetricsbar}
+\end{figure}
+
 \subsubsection{جمع‌بندی فعالیت ایستادن}
 
-در فعالیت ایستادن، نتیجه اصلی این است که با وجود دامنه حرکتی محدود، فضای ویژگی استخراج‌شده برای طبقه‌بندی قابل استفاده است. جمع‌بندی نهایی این فعالیت پس از تکمیل عددهای جدول باید شامل سه مورد باشد: مدل منتخب، تعداد مؤلفه‌های اصلی منتخب و کلاس‌هایی که بیشترین خطا یا کمترین
-\lr{Recall}
-را داشته‌اند.
+در فعالیت ایستادن مدل منتخب که در 
+\autoref{tab:stand_selected_setup}
+آمده است، با روش اعتبارسنجی طبقه‌بندی متقاطع مورد آزمایش قرار گرفت. توزیع مؤلفه‌های اصلی انتخاب شده در
+\autoref{fig:pcaexplainedvariance}
+آمده است. بدین ترتیب مؤلفه‌های اصلی منتخب حدود ۷۰ درصد واریانس داده‌های اصلی را دارا هستند. از آنجایی که در این آزمایش هر بار داده‌ها به ۲ قسمت تقسیم شدند و ۵ بار آزمایش تکرار شده است، نتایج ۵ مرتبه آزمایش در
+\autoref{fig:cvfoldmetrics}
+آمده‌اند. برای بررسی دقیق‌تر خطا در پژوهش‌های بعدی نیز ماتریس درهم‌ریختگی نیز در 
+\autoref{fig:normalizedconfusionmatrix}
+آورده شده است.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/PCA_Explained_Variance}
+	\caption{توزیع مؤلفه‌های اصلی منتخب برای فعالیت ایستادن}
+	\label{fig:pcaexplainedvariance}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/CV_Fold_Metrics}
+	\caption{نتایج ۵ آزمایش مدل منتخب برای فعالیت ایستادن}
+	\label{fig:cvfoldmetrics}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Normalized_Confusion_Matrix}
+	\caption{ماتریس درهم‌ریختگی مدل منتخب برای فعالیت ایستادن}
+	\label{fig:normalizedconfusionmatrix}
+\end{figure}
+

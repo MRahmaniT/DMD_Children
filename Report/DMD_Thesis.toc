@@ -46,30 +46,23 @@
 \contentsline {subsection}{\numberline {3.11}مقایسه مدل‌ها در بازه تعداد مؤلفه‌های اصلی مؤثر}{29}{subsection.3.11}%
 \contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{30}{subsection.3.12}%
 \contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{30}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}جمع‌بندی}{31}{subsection.3.14}%
 \contentsline {section}{\numberline {4}نتایج و بحث}{32}{section.4}%
-\contentsline {subsection}{\numberline {4.1}مقدمه}{32}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}ساختار کلی خروجی‌ها}{32}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}چارچوب ارزیابی مدل‌ها}{33}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}نتایج فعالیت‌ها}{33}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}فعالیت ایستادن}{33}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}گزارش کلی فعالیت}{33}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}کاهش بعد و ساختار ویژگی‌ها}{34}{subsubsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.3}مقایسه مدل‌ها}{36}{subsubsection.4.5.3}%
-\contentsline {subsubsection}{\numberline {4.5.4}تحلیل خطا}{38}{subsubsection.4.5.4}%
-\contentsline {subsubsection}{\numberline {4.5.5}اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{40}{subsubsection.4.5.5}%
-\contentsline {subsubsection}{\numberline {4.5.6}جمع‌بندی فعالیت ایستادن}{42}{subsubsection.4.5.6}%
-\contentsline {subsection}{\numberline {4.6}مقایسه کلی فعالیت‌ها}{42}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}محدودیت‌های نتایج}{43}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}جمع‌بندی فصل}{43}{subsection.4.8}%
-\contentsline {section}{\numberline {5}جمع‌بندی و پیشنهادها}{44}{section.5}%
-\contentsline {subsection}{\numberline {5.1}جمع‌بندی کلی پژوهش}{44}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}دستاوردهای اصلی}{44}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}جمع‌بندی نتایج فعالیت‌ها}{45}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}محدودیت‌های پژوهش}{45}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}پیشنهادها برای کارهای آینده}{46}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}نتیجه‌گیری نهایی}{46}{subsection.5.6}%
-\contentsline {section}{\numberline {6}پیوست}{47}{section.6}%
-\contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{47}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}ویژگی‌های استخراج‌شده از هر سیگنال}{50}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}فرمول محاسبه ویژگی‌های استخراج‌شده}{51}{subsubsection.6.2.1}%
-\contentsline {section}{\numberline {7}مراجع}{52}{section.7}%
+\contentsline {subsection}{\numberline {4.1}کیفیت داده‌برداری}{32}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}کیفیت پیش‌پردازش داده‌ها}{32}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{36}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}فعالیت ایستادن}{36}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}گزارش کلی فعالیت}{36}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}ساختار ویژگی‌ها}{36}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}کاهش بعد ویژگی‌ها}{37}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}عملکرد طبقه‌بند‌ها}{39}{subsubsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.5}اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{41}{subsubsection.4.4.5}%
+\contentsline {subsubsection}{\numberline {4.4.6}جمع‌بندی فعالیت ایستادن}{43}{subsubsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.5}مقایسه کلی فعالیت‌ها}{45}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}محدودیت‌های نتایج}{45}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}جمع‌بندی فصل}{46}{subsection.4.7}%
+\contentsline {section}{\numberline {5}پیوست}{47}{section.5}%
+\contentsline {subsection}{\numberline {5.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{47}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}ویژگی‌های استخراج‌شده از هر سیگنال}{50}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}فرمول محاسبه ویژگی‌های استخراج‌شده}{51}{subsubsection.5.2.1}%
+\contentsline {section}{\numberline {6}مراجع}{52}{section.6}%

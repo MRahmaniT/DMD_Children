@@ -1,400 +1,301 @@
 \subsection{فعالیت پریدن}
 
+هدف از بررسی این فعالیت، ارزیابی توانایی سامانه در تفکیک سه سطح عملکردی شبیه‌سازی‌شده در یک حرکت سریع، انفجاری و دارای تغییرات شدید سیگنال است. پریدن شامل مراحل آماده‌سازی، جداشدن پاها از زمین، قرارگرفتن بدن در هوا، فرود و بازیابی تعادل است. در این بخش، ساختار فضای ویژگی، اثر کاهش بعد و عملکرد مدل‌های طبقه‌بندی در تشخیص سطوح مختلف اجرای حرکت بررسی شده‌اند.
+
 \subsubsection{گزارش کلی فعالیت}
 
-برای فعالیت پریدن، نتایج در دو حالت
-\lr{Normal}
-و
-\lr{DetectedAction}
-بررسی شدند. این فعالیت نسبت به ایستادن و بلند شدن از صندلی سریع‌تر و چندفازی‌تر است؛ بنابراین گزارش نتیجه باید مشخص کند که آیا مدل‌ها توانسته‌اند از ویژگی‌های مربوط به جهش، فرود و بازیابی تعادل برای تفکیک کلاس‌ها استفاده کنند یا خیر. در این فعالیت، اهمیت جداسازی بازه حرکت بیشتر است، چون بخش‌های قبل و بعد از پرش می‌توانند روی ویژگی‌های آماری اثر بگذارند.
+فعالیت پریدن نسبت به فعالیت ایستادن دارای دامنه تغییرات بیشتر و مدت اجرای کوتاه‌تری است. در این فعالیت، تغییر وضعیت بدن در یک بازه زمانی محدود رخ می‌دهد و معمولاً چند رویداد حرکتی مشخص، شامل شروع خم‌شدن اندام‌های تحتانی، مرحله پرتاب بدن به سمت بالا و ضربه ناشی از فرود، در سیگنال حسگرها مشاهده می‌شوند.
 
-در حالت
-\lr{Normal}،
-نمونه سیگنال و توزیع کلاس‌ها در
+برای پیش‌پردازش اولیه داده‌ها از فیلتر استفاده شد تا نویزهای فرکانس بالا کاهش یابد. از آنجا که رویداد اصلی پرش تنها بخشی از سیگنال ثبت‌شده را تشکیل می‌دهد، جداسازی بازه حرکت می‌تواند مانع از آن شود که قسمت‌های سکون پیش و پس از پرش بر ویژگی‌های استخراج‌شده غالب شوند.
+
+\textbf{TODO: مشخص شود که برای مدل نهایی از داده‌های کامل، داده‌های جداسازی‌شده یا مقایسه هر دو حالت استفاده شده است.}
+
+نمونه سیگنال در
 \autoref{fig:jump_normal_signal_sample}
-و
-\autoref{fig:jump_normal_class_distribution}
-آمده‌اند. سیگنال این فعالیت نسبت به ایستادن تغییرات شدیدتری دارد و همین موضوع انتظار نقش بیشتر ویژگی‌های دامنه، انرژی و تغییرات سریع را ایجاد می‌کند.
+تغییرات سریع داده‌ها هنگام اجرای پرش را نشان می‌دهد. انتظار می‌رود حسگرهای نصب‌شده روی پاها در لحظه جداشدن از زمین و به‌ویژه هنگام فرود، قله‌های قابل‌توجهی ثبت کنند. حسگر نصب‌شده روی سر نیز جابه‌جایی عمودی بدن و نوسان ایجادشده پس از فرود را نشان می‌دهد. سیگنال دست‌ها می‌تواند بیانگر نحوه استفاده از اندام‌های فوقانی برای ایجاد تکانه یا حفظ تعادل باشد.
+
+در سطوح عملکردی مختلف، تفاوت‌هایی مانند کاهش ارتفاع پرش، کاهش شدت جداشدن از زمین، افزایش ناپایداری هنگام فرود، استفاده بیشتر از دست‌ها و افزایش مدت آماده‌سازی حرکت می‌توانند در سیگنال‌ها ظاهر شوند.
+
+\textbf{TODO: بر اساس شکل سیگنال مشخص شود بیشترین قله‌ها در کدام حسگر و محور مشاهده شده‌اند. همچنین تفاوت قابل مشاهده میان مراحل آماده‌سازی، جداشدن از زمین و فرود توضیح داده شود.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/Normal/signal_sample.png}
-	\caption{نمونه سیگنال‌های ثبت‌شده در فعالیت پریدن، داده‌های اصلی}
+	\includegraphics[width=0.80\linewidth]{Images/Generated/TaskResults/Jump/Normal/signal_sample.png}
+	\caption{نمونه سیگنال‌های ثبت‌شده در فعالیت پریدن}
 	\label{fig:jump_normal_signal_sample}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.70\linewidth]{Images/Generated/TaskResults/Jump/Normal/class_distribution.png}
-	\caption{توزیع نمونه‌ها در فعالیت پریدن، داده‌های اصلی}
-	\label{fig:jump_normal_class_distribution}
-\end{figure}
+در این فعالیت، توزیع نمونه‌ها میان سه طبقه یکسان است. برای هر سه سطح عملکردی شبیه‌سازی‌شده تعداد یکسانی آزمون ثبت شد تا مدل تحت تأثیر فراوانی بیشتر یکی از طبقه‌ها قرار نگیرد و معیارهای ارزیابی قابلیت مقایسه مناسبی داشته باشند.
 
-\subsubsection{نتایج کاهش بعد در داده‌های اصلی}
+\subsubsection{ساختار ویژگی‌ها}
 
-نقشه همبستگی ویژگی‌ها در
+در فعالیت پریدن، تعداد ویژگی‌های اولیه در مقایسه با تعداد نمونه‌ها زیاد بود؛ بنابراین میزان همبستگی میان ویژگی‌ها بررسی شد. نقشه همبستگی در
 \autoref{fig:jump_normal_feature_correlation}
-نشان می‌دهد که در فعالیت پریدن نیز بخشی از ویژگی‌ها هم‌پوشانی اطلاعاتی دارند. این موضوع به‌ویژه در فعالیت‌های سریع قابل انتظار است، زیرا یک رویداد حرکتی شدید به طور همزمان در چند حسگر و محور دیده می‌شود.
+ارتباط میان تعدادی از ویژگی‌های استخراج‌شده از حسگرها و محورهای مختلف را نشان می‌دهد.
+
+با توجه به وجود قله‌های شدید در مرحله جداشدن از زمین و فرود، انتظار می‌رود ویژگی‌هایی مانند بیشینه، کمینه، دامنه، انرژی، ریشه میانگین مربعات، واریانس و انحراف معیار دارای همبستگی قابل‌توجهی باشند. ویژگی‌های استخراج‌شده از دو پای بدن نیز ممکن است به دلیل اجرای هم‌زمان حرکت، الگوی مشابهی داشته باشند.
+
+\textbf{TODO: بر اساس نقشه همبستگی مشخص شود بیشترین همبستگی میان چه ویژگی‌ها و چه حسگرهایی وجود داشته است. همچنین وجود تفاوت میان حسگرهای سمت راست و چپ بررسی شود.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/Normal/feature_correlation_heatmap.png}
-	\caption{نقشه همبستگی ویژگی‌ها در فعالیت پریدن، داده‌های اصلی}
+	\includegraphics[width=0.75\linewidth]{Images/Generated/TaskResults/Jump/Normal/feature_correlation_heatmap.png}
+	\caption{نقشه همبستگی ویژگی‌های منتخب در فعالیت پریدن}
 	\label{fig:jump_normal_feature_correlation}
 \end{figure}
 
-خروجی واریانس تجمعی
-\lr{PCA}
-در
-\autoref{fig:jump_normal_pca_variance}
-برای تعیین تعداد مؤلفه‌های لازم استفاده شد. در گزارش نهایی باید به صورت عددی مشخص شود که از ۶۹۰ ویژگی اولیه، چند مؤلفه برای حفظ ۹۵ درصد واریانس کافی بوده است.
+وجود ویژگی‌های متعدد و همبسته می‌تواند پیچیدگی مدل را افزایش دهد و در مجموعه‌داده‌ای با تعداد نمونه محدود، احتمال بیش‌برازش را بیشتر کند. به همین دلیل، کاهش بعد فضای ویژگی‌ها برای این فعالیت نیز مورد بررسی قرار گرفت.
 
-% TODO: تعداد مؤلفه لازم برای ۹۵ درصد واریانس را از فایل PCA یا نمودار وارد کن.
+\subsubsection{کاهش بعد ویژگی‌ها}
+\label{sec:dimension_reduction_jump}
+
+همان‌طور که در
+\autoref{sec:demansionreduction}
+اشاره شد، از تحلیل مؤلفه‌های اصلی برای کاهش تعداد ویژگی‌ها استفاده شد. در فعالیت پریدن، با
+\textbf{TODO: تعداد مؤلفه اصلی}
+مؤلفه اصلی توانستیم ۹۵ درصد واریانس داده‌های اولیه را حفظ کنیم.
+
+طبق نمودار واریانس تجمعی در
+\autoref{fig:jump_normal_pca_variance}،
+مؤلفه‌های ابتدایی سهم بیشتری از تغییرات داده‌ها را توضیح می‌دهند. این موضوع می‌تواند ناشی از آن باشد که بسیاری از ویژگی‌های مربوط به شدت حرکت، ضربه فرود و دامنه سیگنال، اطلاعات مشترکی را نمایش می‌دهند.
+
+برای مثال، با استفاده از
+\textbf{TODO: تعداد مؤلفه اول}
+می‌توان حدود
+\textbf{TODO: درصد واریانس}
+از واریانس داده‌ها را حفظ کرد. افزودن
+\textbf{TODO: تعداد مؤلفه‌های بعدی}
+تنها
+\textbf{TODO: درصد افزایش واریانس}
+به واریانس تجمعی اضافه می‌کند. بنابراین، تعداد مؤلفه بهینه باید بر اساس عملکرد مدل و نه صرفاً رسیدن به آستانه ۹۵ درصد تعیین شود.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/Normal/pca_variance_curve.png}
-	\caption{واریانس توضیح‌داده‌شده \lr{PCA} در فعالیت پریدن، داده‌های اصلی}
+	\includegraphics[width=0.8\linewidth]{Images/Generated/TaskResults/Jump/Normal/pca_variance_curve.png}
+	\caption{واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت پریدن}
 	\label{fig:jump_normal_pca_variance}
 \end{figure}
 
-پراکندگی دو مؤلفه اول در
+پراکندگی نمونه‌ها در دو مؤلفه اصلی اول در
 \autoref{fig:jump_normal_pca_scatter}
-برای مشاهده اولیه ساختار کلاس‌ها استفاده شد. اگر جدایی کامل در این شکل دیده نشود، نتیجه منفی قطعی نیست؛ چون مدل‌ها از مؤلفه‌ها و ویژگی‌های بیشتری استفاده می‌کنند.
+برای مشاهده اولیه میزان تفکیک طبقه‌ها استفاده شد. در فعالیت پریدن، تفاوت شدت حرکت و نحوه فرود می‌تواند باعث شکل‌گیری خوشه‌های متفاوت شود. با این حال، شباهت بعضی اجراها یا تفاوت طبیعی میان تکرارهای حرکت ممکن است موجب هم‌پوشانی نمونه‌ها شود.
+
+\textbf{TODO: بر اساس نمودار مشخص شود کدام طبقه‌ها جدایی بیشتری دارند، کدام طبقه‌ها هم‌پوشانی دارند و آیا نمونه‌های دورافتاده مشاهده می‌شوند.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Jump/Normal/pca_scatter_pc1_pc2.png}
-	\caption{پراکندگی نمونه‌های فعالیت پریدن در فضای دو مؤلفه اصلی اول، داده‌های اصلی}
+	\includegraphics[width=0.8\linewidth]{Images/Generated/TaskResults/Jump/Normal/pca_scatter_pc1_pc2.png}
+	\caption{پراکندگی نمونه‌های فعالیت پریدن در فضای دو مؤلفه اصلی اول}
 	\label{fig:jump_normal_pca_scatter}
 \end{figure}
 
-\subsubsection{عملکرد مدل‌ها در داده‌های اصلی}
+این نمودار تنها نمایش دوبعدی داده‌ها است و نمی‌تواند تمام اطلاعات موجود در مؤلفه‌های بعدی را نشان دهد. بنابراین، نتیجه‌گیری نهایی درباره قابلیت تفکیک طبقه‌ها باید بر اساس عملکرد مدل‌های طبقه‌بندی انجام شود. با این حال، نمودار واریانس نشان می‌دهد که کاهش قابل‌توجه تعداد ورودی‌ها با حفظ بخش اصلی اطلاعات امکان‌پذیر است.
 
-مقایسه عملکرد مدل‌ها در حالت
-\lr{Normal}
-در
-\autoref{fig:jump_normal_model_comparison_f1}
-و رتبه‌بندی آن‌ها در
-\autoref{fig:jump_normal_model_ranking_f1}
-آمده است. معیار اصلی برای گزارش،
-\lr{F1}
-است. عددهای نهایی باید در جدول
-\ref{tab:jump_summary}
-وارد شوند.
+\subsubsection{عملکرد طبقه‌بندها}
+
+عملکرد سه طبقه‌بند ماشین بردار پشتیبان، K-نزدیک‌ترین همسایه و جنگل تصادفی در
+\autoref{fig:jump_accuracy_bar_baseline}
+بر اساس دقت مقایسه شده است.
+
+\textbf{TODO: مدل دارای بیشترین دقت، مقدار تقریبی آن و میزان اختلاف با دو مدل دیگر نوشته شود.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Jump/Normal/model_comparison_f1.png}
-	\caption{مقایسه عملکرد مدل‌ها بر اساس \lr{F1} در فعالیت پریدن، داده‌های اصلی}
-	\label{fig:jump_normal_model_comparison_f1}
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Baseline/Accuracy_Bar_Baseline}
+	\caption{مقایسه عملکرد مدل‌ها بر اساس دقت در فعالیت پریدن}
+	\label{fig:jump_accuracy_bar_baseline}
 \end{figure}
+
+برای ارزیابی دقیق‌تر، توزیع معیارهای مختلف مدل‌ها نیز در
+\autoref{fig:jump_metric_distribution_baseline}
+بررسی شد. در فعالیت پریدن، بررسی بازخوانی و امتیاز F1 اهمیت ویژه‌ای دارد؛ زیرا ممکن است یک مدل در تشخیص سطح دارای اجرای ضعیف‌تر یا سطح میانی خطای بیشتری داشته باشد.
+
+\textbf{TODO: مدل دارای بهترین میانگین معیارها و کمترین پراکندگی مشخص شود. همچنین در صورت وجود اختلاف میان دقت و امتیاز F1، علت احتمالی آن توضیح داده شود.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Jump/Normal/model_ranking_f1.png}
-	\caption{رتبه‌بندی مدل‌ها در فعالیت پریدن، داده‌های اصلی}
-	\label{fig:jump_normal_model_ranking_f1}
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Baseline/Metric_Distribution_Baseline}
+	\caption{مقایسه توزیع معیارهای ارزیابی مدل‌ها در فعالیت پریدن}
+	\label{fig:jump_metric_distribution_baseline}
 \end{figure}
 
-اثر
-\lr{PCA95}
-در
-\autoref{fig:jump_normal_f1_gain_pca}
-آمده است. این خروجی باید در متن نهایی به شکل کوتاه گزارش شود؛ یعنی آیا کاهش بعد باعث بهبود عملکرد، افت عملکرد یا حفظ عملکرد با ابعاد کمتر شده است.
+پراکندگی نتایج در تقسیم‌بندی‌های مختلف
+\footnote{\lr{Fold}}
+نشان‌دهنده میزان ثبات مدل است. میانگین بالا همراه با پراکندگی کم نشان می‌دهد که مدل در برابر تغییر نمونه‌های آموزشی و آزمایشی حساسیت کمتری دارد.
 
-% TODO: مقدار تغییر F1 مدل منتخب پس از PCA را با یک رقم اعشار وارد کن.
+در ادامه، بر اساس نتایج کاهش بعد مطرح‌شده در
+\autoref{sec:dimension_reduction_jump}،
+عملکرد طبقه‌بندها پس از اعمال تحلیل مؤلفه‌های اصلی بررسی شد. نتایج در
+\autoref{fig:jump_metric_distribution_pipeline_pca}
+ارائه شده‌اند.
+
+\textbf{TODO: مدل‌های برتر پس از کاهش بعد و تغییر عملکرد هر مدل نسبت به حالت استفاده از ویژگی‌های اولیه توضیح داده شوند.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Jump/Normal/f1_gain_pca_vs_no_pca.png}
-	\caption{اثر \lr{PCA95} بر معیار \lr{F1} در فعالیت پریدن، داده‌های اصلی}
-	\label{fig:jump_normal_f1_gain_pca}
+	\includegraphics[width=0.7\linewidth]{../Results/Jump/Pipeline_PCA/Metric_Distribution_Pipeline_PCA}
+	\caption{مقایسه عملکرد مدل‌های آموزش‌دیده با مؤلفه‌های اصلی در فعالیت پریدن}
+	\label{fig:jump_metric_distribution_pipeline_pca}
 \end{figure}
 
-پایداری عملکرد مدل‌ها در
-\lr{fold}
-های مختلف در
-\autoref{fig:jump_normal_metric_boxplots}
-آمده است. برای فعالیت پریدن، این نمودار اهمیت بیشتری دارد، چون تغییرات کوچک در اجرای حرکت می‌تواند ویژگی‌ها را تغییر دهد.
+مقایسه مستقیم دقت مدل‌ها پیش و پس از کاهش بعد در
+\autoref{fig:jump_accuracy_baseline_vs_pipeline_pca}
+انجام شده است.
+
+\textbf{TODO: مشخص شود کدام مدل‌ها پس از کاهش بعد بهبود یافته‌اند و دقت کدام مدل‌ها کاهش پیدا کرده است. بیشترین تغییر نیز گزارش شود.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/Normal/metric_boxplots.png}
-	\caption{پراکندگی معیارهای ارزیابی در \lr{fold}های مختلف، داده‌های اصلی}
-	\label{fig:jump_normal_metric_boxplots}
+	\includegraphics[width=0.7\linewidth]{../Results/Jump/Comparisons/Accuracy_Baseline_vs_Pipeline_PCA}
+	\caption{مقایسه دقت مدل‌ها پیش و پس از کاهش بعد در فعالیت پریدن}
+	\label{fig:jump_accuracy_baseline_vs_pipeline_pca}
 \end{figure}
 
-\subsubsection{خطاهای کلاسی در داده‌های اصلی}
+بر اساس این مقایسه، مدلی که پس از کاهش بعد بهترین ترکیب عملکرد و ثبات را داشته است برای بررسی اثر تعداد مؤلفه‌های اصلی انتخاب شد.
 
-ماتریس‌های درهم‌ریختگی و
-\lr{Recall}
-کلاس‌ها در حالت بدون
-\lr{PCA}
-و با
-\lr{PCA95}
-در شکل‌های
-\autoref{fig:jump_normal_confusion_no_pca}
-تا
-\autoref{fig:jump_normal_per_class_recall_pca95}
-آمده‌اند. در نسخه نهایی باید مشخص شود کدام کلاس بیشترین خطا را داشته است. برای فعالیت پریدن، افت در کلاس میانی اهمیت ویژه دارد، چون این کلاس معمولاً اجرای همراه با جبران حرکتی را نشان می‌دهد.
+\textbf{TODO: نام مدل انتخاب‌شده و دلیل انتخاب آن، مانند دقت بیشتر، امتیاز F1 بهتر یا پراکندگی کمتر، نوشته شود.}
 
-% TODO: کلاس با کمترین Recall را برای حالت منتخب گزارش کن.
+\subsubsection{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Jump/Normal/confusion_matrices_no_pca.png}
-	\caption{ماتریس‌های درهم‌ریختگی در فعالیت پریدن، داده‌های اصلی، بدون \lr{PCA}}
-	\label{fig:jump_normal_confusion_no_pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Jump/Normal/per_class_recall_no_pca.png}
-	\caption{مقایسه \lr{Recall} هر کلاس در فعالیت پریدن، داده‌های اصلی، بدون \lr{PCA}}
-	\label{fig:jump_normal_per_class_recall_no_pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Jump/Normal/confusion_matrices_pca95.png}
-	\caption{ماتریس‌های درهم‌ریختگی در فعالیت پریدن، داده‌های اصلی، با \lr{PCA95}}
-	\label{fig:jump_normal_confusion_pca95}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Jump/Normal/per_class_recall_pca95.png}
-	\caption{مقایسه \lr{Recall} هر کلاس در فعالیت پریدن، داده‌های اصلی، با \lr{PCA95}}
-	\label{fig:jump_normal_per_class_recall_pca95}
-\end{figure}
-
-\subsubsection{ویژگی‌های مؤثر در داده‌های اصلی}
-
-اهمیت ویژگی‌ها و الگوی کلاس‌ها در
+اهمیت ویژگی‌ها بر اساس مدل جنگل تصادفی در
 \autoref{fig:jump_normal_rf_importance}
-و
-\autoref{fig:jump_normal_class_centroid_heatmap}
-آمده‌اند. در گزارش نهایی باید فقط ویژگی‌های غالب ذکر شوند؛ یعنی مشخص شود مدل بیشتر به حسگرهای پا، سر، دست یا شاخص‌های آماری خاص وابسته بوده است.
+گزارش شده است. این نمودار نشان می‌دهد کدام ویژگی‌های حرکتی بیشترین نقش را در تشخیص سطوح مختلف پرش داشته‌اند.
 
-% TODO: سه ویژگی مهم اول را از نمودار اهمیت ویژگی‌ها وارد کن.
+در فعالیت پریدن، انتظار می‌رود ویژگی‌های حسگرهای نصب‌شده روی پاها اهمیت زیادی داشته باشند؛ زیرا این حسگرها مرحله تولید نیرو، جداشدن از زمین و ضربه فرود را مستقیماً ثبت می‌کنند. در عین حال، ویژگی‌های حسگر سر می‌توانند اطلاعاتی درباره جابه‌جایی کلی بدن و پایداری پس از فرود ارائه دهند. نقش حسگرهای دست نیز ممکن است به میزان استفاده از حرکت دست‌ها برای ایجاد تکانه وابسته باشد.
+
+\textbf{TODO: ویژگی‌های مهم‌تر نمودار، محل حسگر، محور و نوع ویژگی آن‌ها نوشته شود. مشخص شود آیا ویژگی‌های مربوط به فرود غالب بوده‌اند یا ویژگی‌های مربوط به مرحله پرتاب.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/Normal/rf_top_feature_importance.png}
-	\caption{ویژگی‌های مهم‌تر بر اساس \lr{Random Forest}، داده‌های اصلی}
+	\includegraphics[width=0.80\linewidth]{Images/Generated/TaskResults/Jump/Normal/rf_top_feature_importance.png}
+	\caption{ویژگی‌های مهم‌تر بر اساس مدل \lr{Random Forest} در فعالیت پریدن}
 	\label{fig:jump_normal_rf_importance}
 \end{figure}
 
+اثر تعداد مؤلفه‌های اصلی بر دقت مدل منتخب در
+\autoref{fig:jump_accuracy_vs_pca_components}
+نمایش داده شده است. از این نمودار می‌توان محدوده‌ای را تعیین کرد که در آن مدل با تعداد محدودی مؤلفه به عملکرد مناسب می‌رسد.
+
+\textbf{TODO: کمترین تعداد مؤلفه لازم برای رسیدن به دقت مطلوب و تعداد مؤلفه متناظر با بیشترین دقت نوشته شود.}
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/Normal/class_centroid_feature_heatmap.png}
-	\caption{میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های اصلی}
-	\label{fig:jump_normal_class_centroid_heatmap}
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Normal/FindPrincipalComponents_PipelinePCA_Jump/Figures/Accuracy_vs_PCA}
+	\caption{تغییر دقت مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}
+	\label{fig:jump_accuracy_vs_pca_components}
 \end{figure}
 
-اثر تعداد مؤلفه‌ها در
-\autoref{fig:jump_normal_svm_metrics_vs_pca_components}
+در
+\autoref{fig:jump_all_metrics_vs_pca}
+تغییر معیارهای دقت، صحت، بازخوانی و امتیاز F1 نسبت به تعداد مؤلفه‌ها نمایش داده شده است. این مقایسه مشخص می‌کند که آیا بهبود دقت با بهبود متوازن سایر معیارها همراه بوده است یا خیر.
+
+\textbf{TODO: روند معیارها توصیف شود و در صورت وجود افت یا نوسان در یک بازه مشخص، به آن اشاره شود.}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Normal/FindPrincipalComponents_PipelinePCA_Jump/Figures/All_Metrics_vs_PCA}
+	\caption{تغییر عملکرد مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}
+	\label{fig:jump_all_metrics_vs_pca}
+\end{figure}
+
+در نهایت، بر اساس نمودارهای
+\autoref{fig:jump_accuracy_vs_pca_components}
 و
-\autoref{fig:jump_normal_models_f1_vs_pca_components}
-برای انتخاب تعداد مؤلفه نهایی استفاده شد.
+\autoref{fig:jump_all_metrics_vs_pca}،
+مدل‌ها در بازه
+\textbf{TODO: بازه تعداد مؤلفه‌ها}
+دوباره مقایسه شدند. نتیجه این مقایسه در
+\autoref{fig:jump_models_vs_pca_components}
+آمده است.
 
-% TODO: تعداد مؤلفه منتخب برای حالت Normal را وارد کن.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Jump/Normal/svm_metrics_vs_pca_components.png}
-	\caption{تغییر عملکرد \lr{SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}
-	\label{fig:jump_normal_svm_metrics_vs_pca_components}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Jump/Normal/models_f1_vs_pca_components.png}
-	\caption{مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های اصلی}
-	\label{fig:jump_normal_models_f1_vs_pca_components}
-\end{figure}
-
-\subsubsection{نتایج داده‌های جداسازی‌شده}
-
-در حالت
-\lr{DetectedAction}،
-ویژگی‌ها از بازه جداسازی‌شده پرش استخراج شدند. خروجی‌های سیگنال، توزیع کلاس، همبستگی ویژگی و
-\lr{PCA}
-در شکل‌های
-\autoref{fig:jump_detectedaction_signal_sample}
-تا
-\autoref{fig:jump_detectedaction_pca_scatter}
-آمده‌اند. این خروجی‌ها باید با حالت
-\lr{Normal}
-مقایسه شوند تا مشخص شود جداسازی بازه حرکت داده را فشرده‌تر یا قابل تفکیک‌تر کرده است یا خیر.
+بر اساس نتایج، برای فعالیت پریدن مدل
+\textbf{TODO: نام مدل منتخب}
+با
+\textbf{TODO: تعداد مؤلفه اصلی}
+مؤلفه اصلی انتخاب شد.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/signal_sample.png}
-	\caption{نمونه سیگنال‌های ثبت‌شده در فعالیت پریدن، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_signal_sample}
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Jump/Figures/Accuracy_vs_PCA_Components}
+	\caption{تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}
+	\label{fig:jump_models_vs_pca_components}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.70\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/class_distribution.png}
-	\caption{توزیع نمونه‌ها در فعالیت پریدن، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_class_distribution}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/feature_correlation_heatmap.png}
-	\caption{نقشه همبستگی ویژگی‌ها در فعالیت پریدن، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_feature_correlation}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/pca_variance_curve.png}
-	\caption{واریانس توضیح‌داده‌شده \lr{PCA}، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_pca_variance}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/pca_scatter_pc1_pc2.png}
-	\caption{پراکندگی نمونه‌ها در فضای دو مؤلفه اصلی اول، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_pca_scatter}
-\end{figure}
-
-\subsubsection{مقایسه مدل‌ها در داده‌های جداسازی‌شده}
-
-عملکرد مدل‌ها در حالت
-\lr{DetectedAction}
-در شکل‌های
-\autoref{fig:jump_detectedaction_model_comparison_f1}
-تا
-\autoref{fig:jump_detectedaction_metric_boxplots}
-آمده است. گزارش نهایی باید صریحاً مشخص کند که جداسازی فعالیت نسبت به حالت
-\lr{Normal}
-چه اثری بر بهترین
-\lr{F1}
-داشته است.
-
-% TODO: بهترین F1 حالت DetectedAction را با بهترین F1 حالت Normal مقایسه کن.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/model_comparison_f1.png}
-	\caption{مقایسه عملکرد مدل‌ها بر اساس \lr{F1}، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_model_comparison_f1}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/model_ranking_f1.png}
-	\caption{رتبه‌بندی مدل‌ها، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_model_ranking_f1}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.72\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/f1_gain_pca_vs_no_pca.png}
-	\caption{اثر \lr{PCA95} بر معیار \lr{F1}، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_f1_gain_pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/metric_boxplots.png}
-	\caption{پراکندگی معیارهای ارزیابی در \lr{fold}های مختلف، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_metric_boxplots}
-\end{figure}
-
-تحلیل خطای کلاسی برای داده‌های جداسازی‌شده در شکل‌های زیر آمده است. این قسمت باید مشخص کند آیا جداسازی بازه پرش، تشخیص کلاس‌های خاص را بهتر کرده است یا خیر.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/confusion_matrices_no_pca.png}
-	\caption{ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، بدون \lr{PCA}}
-	\label{fig:jump_detectedaction_confusion_no_pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/per_class_recall_no_pca.png}
-	\caption{مقایسه \lr{Recall} هر کلاس، داده‌های جداسازی‌شده، بدون \lr{PCA}}
-	\label{fig:jump_detectedaction_per_class_recall_no_pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.92\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/confusion_matrices_pca95.png}
-	\caption{ماتریس‌های درهم‌ریختگی، داده‌های جداسازی‌شده، با \lr{PCA95}}
-	\label{fig:jump_detectedaction_confusion_pca95}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.86\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/per_class_recall_pca95.png}
-	\caption{مقایسه \lr{Recall} هر کلاس، داده‌های جداسازی‌شده، با \lr{PCA95}}
-	\label{fig:jump_detectedaction_per_class_recall_pca95}
-\end{figure}
-
-ویژگی‌های مهم، الگوی کلاس‌ها و اثر تعداد مؤلفه‌ها در حالت جداسازی‌شده در شکل‌های
-\autoref{fig:jump_detectedaction_rf_importance}
-تا
-\autoref{fig:jump_detectedaction_models_f1_vs_pca_components}
-آمده‌اند. این خروجی‌ها برای انتخاب تنظیم نهایی فعالیت استفاده می‌شوند.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/rf_top_feature_importance.png}
-	\caption{ویژگی‌های مهم‌تر بر اساس \lr{Random Forest}، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_rf_importance}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.90\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/class_centroid_feature_heatmap.png}
-	\caption{میانگین نرمال‌شده ویژگی‌های منتخب در کلاس‌ها، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_class_centroid_heatmap}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/svm_metrics_vs_pca_components.png}
-	\caption{تغییر عملکرد \lr{SVM} نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_svm_metrics_vs_pca_components}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.88\linewidth]{Images/Generated/TaskResults/Jump/DetectedAction/models_f1_vs_pca_components.png}
-	\caption{مقایسه مدل‌ها نسبت به تعداد مؤلفه‌های اصلی، داده‌های جداسازی‌شده}
-	\label{fig:jump_detectedaction_models_f1_vs_pca_components}
-\end{figure}
-
-% TODO: عددهای جدول زیر را از خروجی‌های Excel فعالیت Jump وارد کن.
 \begin{table}[H]
 	\centering
-	\caption{خلاصه مقایسه داده‌های اصلی و جداسازی‌شده در فعالیت پریدن}
-	\label{tab:jump_summary}
-	\begin{tabular}{p{3cm}lccccc}
+	\caption{تنظیمات منتخب فعالیت پریدن برای مدل نهایی}
+	\label{tab:jump_selected_setup}
+	\begin{tabular}{lcc}
 		\toprule
-		نوع داده & مدل & \lr{Accuracy} & \lr{Precision} & \lr{Recall} & \lr{Specificity} & \lr{F1} \\
+		مدل منتخب & نوع داده & تعداد مؤلفه اصلی \\
 		\midrule
-		داده‌های اصلی & \lr{KNN} &  &  &  &  &  \\
-		داده‌های اصلی & \lr{SVM} &  &  &  &  &  \\
-		داده‌های اصلی & \lr{Random Forest} &  &  &  &  &  \\
-		داده‌های جداسازی‌شده & \lr{KNN} &  &  &  &  &  \\
-		داده‌های جداسازی‌شده & \lr{SVM} &  &  &  &  &  \\
-		داده‌های جداسازی‌شده & \lr{Random Forest} &  &  &  &  &  \\
+		\textbf{TODO: مدل منتخب} &
+		\textbf{TODO: داده کامل یا جداسازی‌شده} &
+		\textbf{TODO: تعداد مؤلفه} \\
 		\bottomrule
 	\end{tabular}
 \end{table}
 
+نتیجه نهایی با توجه به تنظیمات ذکرشده در
+\autoref{tab:jump_selected_setup}
+در
+\autoref{fig:jump_final_model_metrics}
+ارائه شده است.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/Final_Model_Main_Metrics_Bar}
+	\caption{عملکرد مدل نهایی منتخب در فعالیت پریدن}
+	\label{fig:jump_final_model_metrics}
+\end{figure}
+
 \subsubsection{جمع‌بندی فعالیت پریدن}
 
-جمع‌بندی این فعالیت باید در نسخه نهایی به سه خروجی محدود شود: بهترین مدل در حالت
-\lr{Normal}،
-بهترین مدل در حالت
-\lr{DetectedAction}
-و اثر جداسازی بازه پرش بر عملکرد. پس از تکمیل عددها، مشخص می‌شود که برای پریدن استفاده از داده اصلی مناسب‌تر است یا داده جداسازی‌شده.
+در فعالیت پریدن، مدل منتخب معرفی‌شده در
+\autoref{tab:jump_selected_setup}
+با روش اعتبارسنجی متقاطع طبقه‌بندی‌شده مورد ارزیابی قرار گرفت. نتایج این ارزیابی مشخص می‌کنند که ویژگی‌های استخراج‌شده از رویدادهای سریع حرکت، به‌ویژه مرحله جداشدن از زمین و فرود، قابلیت استفاده برای تفکیک سه سطح عملکردی شبیه‌سازی‌شده را دارند.
+
+توزیع واریانس مؤلفه‌های اصلی منتخب در
+\autoref{fig:jump_pca_explained_variance}
+ارائه شده است. مؤلفه‌های انتخاب‌شده در مجموع حدود
+\textbf{TODO: درصد واریانس حفظ‌شده}
+از واریانس داده‌های اولیه را حفظ کرده‌اند. بنابراین، مدل نهایی بدون نیاز به استفاده از تمام ویژگی‌ها یا تمام مؤلفه‌های لازم برای حفظ ۹۵ درصد واریانس، به عملکرد مناسب رسیده است.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/PCA_Explained_Variance}
+	\caption{توزیع واریانس مؤلفه‌های اصلی منتخب برای فعالیت پریدن}
+	\label{fig:jump_pca_explained_variance}
+\end{figure}
+
+در این ارزیابی، داده‌ها در هر مرحله به
+\textbf{TODO: تعداد بخش‌های اعتبارسنجی}
+بخش تقسیم شدند و فرایند ارزیابی
+\textbf{TODO: تعداد تکرار}
+مرتبه تکرار شد. عملکرد مدل در تقسیم‌بندی‌های مختلف در
+\autoref{fig:jump_cv_fold_metrics}
+نمایش داده شده است.
+
+\textbf{TODO: میزان ثبات مدل، دامنه تغییرات معیارها و تقسیم‌بندی دارای بیشترین یا کمترین عملکرد توضیح داده شود.}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/CV_Fold_Metrics}
+	\caption{نتایج ارزیابی مدل منتخب برای فعالیت پریدن در تقسیم‌بندی‌های مختلف}
+	\label{fig:jump_cv_fold_metrics}
+\end{figure}
+
+ماتریس درهم‌ریختگی نرمال‌شده مدل منتخب در
+\autoref{fig:jump_normalized_confusion_matrix}
+ارائه شده است. این ماتریس امکان بررسی طبقه‌هایی را فراهم می‌کند که الگوهای حرکتی مشابه‌تری داشته‌اند و بیشتر با یکدیگر اشتباه گرفته شده‌اند.
+
+\textbf{TODO: طبقه دارای بیشترین نرخ تشخیص صحیح و دو طبقه دارای بیشترین میزان اشتباه مشخص شوند. در صورت رخ‌دادن خطا میان سطح میانی و دو سطح مجاور، به پیوسته‌بودن تغییرات شدت پرش اشاره شود.}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/Normalized_Confusion_Matrix}
+	\caption{ماتریس درهم‌ریختگی مدل منتخب برای فعالیت پریدن}
+	\label{fig:jump_normalized_confusion_matrix}
+\end{figure}
+
+در مجموع، فعالیت پریدن به دلیل وجود قله‌های مشخص در سیگنال، تغییرات سریع شتاب و مشارکت هم‌زمان اندام‌های مختلف، اطلاعات مناسبی برای تشخیص سطوح عملکردی فراهم می‌کند. کاهش بعد ویژگی‌ها نیز موجب شد اطلاعات مرتبط با شدت پرش، هماهنگی اندام‌ها و پایداری فرود در تعداد محدودی مؤلفه خلاصه شوند و مدل نهایی با پیچیدگی کمتری آموزش داده شود.
