@@ -28,7 +28,7 @@ from sklearn.model_selection import StratifiedKFold
 TASK = "Jump"
 
 # 2. Did you use action detector on your data or not
-DETECTED = True
+DETECTED = False
 
 # 3. Model settings
 MODEL_NAME = "SVM"
@@ -42,11 +42,11 @@ N_SPLITS = 5
 RANDOM_SEED = 42
 
 # 5. PCA component search settings
-# If START_COMPONENTS = None, code starts from maximum possible components.
-START_COMPONENTS = 50
+# If START_COMPONENTS = None, code starts from 1 component.
+START_COMPONENTS = 1
 
-# If END_COMPONENTS = 1, code tests down to 1 component.
-END_COMPONENTS = 1
+# If END_COMPONENTS = None, code tests up to maximum possible component.
+END_COMPONENTS = 50
 
 # 6. Figure quality
 FIG_DPI = 600
@@ -278,19 +278,19 @@ def evaluate_pca_dimensions():
         X.shape[1]
     )
 
-    if START_COMPONENTS is None:
+    if END_COMPONENTS is None:
 
-        start_components = max_possible_components
+        end_components = max_possible_components
 
     else:
 
-        start_components = min(
-            START_COMPONENTS,
+        end_components = min(
+            END_COMPONENTS,
             max_possible_components
         )
 
-    end_components = max(
-        END_COMPONENTS,
+    start_components = max(
+        START_COMPONENTS,
         1
     )
 
@@ -320,7 +320,7 @@ def evaluate_pca_dimensions():
     results = []
     all_folds = []
 
-    for n_components in range(start_components, end_components - 1, -1):
+    for n_components in range(start_components, end_components):
 
         print(f"\nTesting {n_components} PCA components inside pipeline")
 
@@ -403,6 +403,12 @@ def evaluate_pca_dimensions():
     results_df = pd.DataFrame(
         results
     )
+    
+    results_df = (
+        results_df
+        .sort_values(by="Components")
+        .reset_index(drop=True)
+    )
 
     all_folds_df = pd.DataFrame(
         all_folds
@@ -466,45 +472,76 @@ def evaluate_pca_dimensions():
         "Balanced Accuracy"
     ]
 
+    metric_colors = {
+        "Accuracy": "#009E73",
+        "Precision": "#E69F00",
+        "Recall": "#0072B2",
+        "Specificity": "#CC79A7",
+        "F1": "#D55E00",
+        "Balanced Accuracy": "#56B4E9"
+    }
+
+    metric_markers = {
+        "Accuracy": "o",
+        "Precision": "s",
+        "Recall": "^",
+        "Specificity": "D",
+        "F1": "P",
+        "Balanced Accuracy": "X"
+    }
+
+    x_min = int(results_df["Components"].min())
+    x_max = int(results_df["Components"].max())
+
     for metric in metrics:
 
-        plt.figure(figsize=(9, 6))
+        plt.figure(figsize=(10, 6))
 
         plt.plot(
             results_df["Components"],
             results_df[metric],
-            linewidth=2.5,
-            marker="o",
-            markersize=5
+            color=metric_colors[metric],
+            linewidth=2.3,
+            marker=metric_markers[metric],
+            markersize=5.5,
+            markerfacecolor="white",
+            markeredgecolor=metric_colors[metric],
+            markeredgewidth=1.3
         )
-
-        plt.gca().invert_xaxis()
 
         plt.xlabel(
             "Number of Principal Components",
-            fontsize=12
+            fontsize=12,
+            fontweight="bold"
         )
 
         plt.ylabel(
             metric + " (%)",
-            fontsize=12
+            fontsize=12,
+            fontweight="bold"
         )
 
         plt.title(
             f"SVM Performance vs Number of PCA Components ({metric})",
             fontsize=14,
-            weight="bold"
+            fontweight="bold"
         )
+
+        plt.xlim(x_min, x_max)
+
+        plt.xticks(
+            np.arange(x_min, x_max + 1, 5),
+            fontsize=10
+        )
+
+        plt.yticks(fontsize=10)
 
         plt.grid(
             True,
+            which="major",
             linestyle="--",
-            alpha=0.4
-        )
-
-        plt.xlim(
-            results_df["Components"].max(),
-            results_df["Components"].min()
+            linewidth=0.7,
+            alpha=0.35
         )
 
         plt.tight_layout()
@@ -519,53 +556,68 @@ def evaluate_pca_dimensions():
         )
 
         plt.close()
-
+        
     # =====================================================
     # ALL METRICS IN ONE PLOT
     # =====================================================
 
-    plt.figure(figsize=(11, 7))
+    plt.figure(figsize=(12, 7))
 
     for metric in metrics:
 
         plt.plot(
             results_df["Components"],
             results_df[metric],
+            color=metric_colors[metric],
             linewidth=2,
-            marker="o",
-            markersize=4,
+            marker=metric_markers[metric],
+            markersize=5,
+            markerfacecolor="white",
+            markeredgecolor=metric_colors[metric],
+            markeredgewidth=1.2,
             label=metric
         )
 
-    plt.gca().invert_xaxis()
-
     plt.xlabel(
         "Number of Principal Components",
-        fontsize=12
+        fontsize=12,
+        fontweight="bold"
     )
 
     plt.ylabel(
         "Score (%)",
-        fontsize=12
+        fontsize=12,
+        fontweight="bold"
     )
 
     plt.title(
         "SVM Performance vs Number of PCA Components",
         fontsize=14,
-        weight="bold"
+        fontweight="bold"
     )
+
+    plt.xlim(x_min, x_max)
+
+    plt.xticks(
+        np.arange(x_min, x_max + 1, 5),
+        fontsize=10
+    )
+
+    plt.yticks(fontsize=10)
 
     plt.grid(
         True,
+        which="major",
         linestyle="--",
-        alpha=0.4
+        linewidth=0.7,
+        alpha=0.35
     )
 
-    plt.legend()
-
-    plt.xlim(
-        results_df["Components"].max(),
-        results_df["Components"].min()
+    plt.legend(
+        loc="best",
+        fontsize=10,
+        frameon=True,
+        ncol=2
     )
 
     plt.tight_layout()
