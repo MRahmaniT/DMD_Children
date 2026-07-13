@@ -15,12 +15,16 @@
 \usepackage{fancyhdr}
 \usepackage{transparent}
 
+\usepackage{titlesec}
+
 % --- Useful for thesis ---
 \usepackage{amsmath,amssymb}
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{multirow}
 \usepackage{multicol}
+
+
 
 % --------------------------------------------------
 % 2) Hyperlink style (NO BOX, colored text only)
@@ -103,6 +107,11 @@ eprint=false
 
 % --------------------------------------------------
 \begin{document}
+	
+	\titleformat{\subsection}
+	{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+	\titleformat{\paragraph}
+	{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
 	
 	% ======================
 	% Title Page (Modular)

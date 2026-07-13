@@ -31,38 +31,38 @@
 \contentsline {subsection}{\numberline {3.5}پیش‌پردازش داده‌ها در نرم‌افزار متلب}{20}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}دریافت فایل‌های خام}{20}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}فیلترگذاری سیگنال‌ها}{21}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}جداسازی فعالیت‌ها}{22}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.3}جداسازی فعالیت‌ها}{23}{subsubsection.3.5.3}%
 \contentsline {subsubsection}{\numberline {3.5.4}آماده‌سازی داده‌ها}{23}{subsubsection.3.5.4}%
 \contentsline {subsection}{\numberline {3.6}استخراج ویژگی‌ها}{24}{subsection.3.6}%
 \contentsline {subsubsection}{\numberline {3.6.1}ویژگی‌های استخراج‌شده}{24}{subsubsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.7}کاهش بعد ویژگی‌ها}{25}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}آموزش مدل‌های یادگیری ماشین}{26}{subsection.3.8}%
-\contentsline {subsubsection}{\numberline {3.8.1}تقسیم‌بندی تصادفی با تعداد نمونه ثابت}{26}{subsubsection.3.8.1}%
-\contentsline {subsubsection}{\numberline {3.8.2}اعتبارسنجی طبقه‌بندی متقاطع}{26}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.1}تقسیم‌بندی تصادفی با تعداد نمونه ثابت}{27}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}اعتبارسنجی طبقه‌بندی متقاطع}{27}{subsubsection.3.8.2}%
 \contentsline {subsubsection}{\numberline {3.8.3}مدل‌های مورد استفاده}{27}{subsubsection.3.8.3}%
-\contentsline {subsubsection}{\numberline {3.8.4}\lr {Pipeline} پردازش داده}{27}{subsubsection.3.8.4}%
-\contentsline {subsection}{\numberline {3.9}معیارهای ارزیابی}{27}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}بررسی تعداد ویژگی‌های مؤثر}{28}{subsection.3.10}%
-\contentsline {subsection}{\numberline {3.11}مقایسه مدل‌ها در بازه تعداد مؤلفه‌های اصلی مؤثر}{29}{subsection.3.11}%
-\contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{30}{subsection.3.12}%
-\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{30}{subsection.3.13}%
-\contentsline {subsection}{\numberline {3.14}جمع‌بندی}{31}{subsection.3.14}%
-\contentsline {section}{\numberline {4}نتایج و بحث}{32}{section.4}%
-\contentsline {subsection}{\numberline {4.1}کیفیت داده‌برداری}{32}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}کیفیت پیش‌پردازش داده‌ها}{32}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{36}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}فعالیت ایستادن}{36}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}گزارش کلی فعالیت}{36}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}ساختار ویژگی‌ها}{36}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}کاهش بعد ویژگی‌ها}{37}{subsubsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.4}عملکرد طبقه‌بند‌ها}{39}{subsubsection.4.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.5}اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{41}{subsubsection.4.4.5}%
-\contentsline {subsubsection}{\numberline {4.4.6}جمع‌بندی فعالیت ایستادن}{43}{subsubsection.4.4.6}%
-\contentsline {subsection}{\numberline {4.5}مقایسه کلی فعالیت‌ها}{45}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}محدودیت‌های نتایج}{45}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}جمع‌بندی فصل}{46}{subsection.4.7}%
-\contentsline {section}{\numberline {5}پیوست}{47}{section.5}%
-\contentsline {subsection}{\numberline {5.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{47}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}ویژگی‌های استخراج‌شده از هر سیگنال}{50}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}فرمول محاسبه ویژگی‌های استخراج‌شده}{51}{subsubsection.5.2.1}%
-\contentsline {section}{\numberline {6}مراجع}{52}{section.6}%
+\contentsline {subsubsection}{\numberline {3.8.4}\lr {Pipeline} پردازش داده}{28}{subsubsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.9}معیارهای ارزیابی}{28}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}بررسی تعداد ویژگی‌های مؤثر}{29}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}مقایسه مدل‌ها در بازه تعداد مؤلفه‌های اصلی مؤثر}{30}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{31}{subsection.3.12}%
+\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{31}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}جمع‌بندی}{32}{subsection.3.14}%
+\contentsline {section}{\numberline {4}نتایج و بحث}{33}{section.4}%
+\contentsline {subsection}{\numberline {4.1}کیفیت داده‌برداری}{33}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}کیفیت پیش‌پردازش داده‌ها}{33}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{38}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}فعالیت ایستادن}{38}{subsubsection.4.3.1}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{38}{subsubsection.4.3.1}%
+\contentsline {paragraph}{ساختار ویژگی‌ها}{39}{figure.caption.30}%
+\contentsline {paragraph}{کاهش بعد ویژگی‌ها}{39}{figure.caption.31}%
+\contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{41}{figure.caption.33}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{43}{figure.caption.37}%
+\contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{45}{figure.caption.43}%
+\contentsline {subsection}{\numberline {4.4}مقایسه کلی فعالیت‌ها}{47}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}محدودیت‌های نتایج}{47}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}جمع‌بندی فصل}{48}{subsection.4.6}%
+\contentsline {section}{\numberline {5}پیوست}{49}{section.5}%
+\contentsline {subsection}{\numberline {5.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{49}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}ویژگی‌های استخراج‌شده از هر سیگنال}{52}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}فرمول محاسبه ویژگی‌های استخراج‌شده}{53}{subsubsection.5.2.1}%
+\contentsline {section}{\numberline {6}مراجع}{54}{section.6}%
