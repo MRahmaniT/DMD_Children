@@ -1,45 +1,57 @@
 \documentclass[oneside,a4paper,12pt]{article}
 
-% --------------------------------------------------
-% 1) General packages (BEFORE xepersian)
-% --------------------------------------------------
+% ==================================================
+% 1) Page geometry
+% ==================================================
+
 \usepackage{geometry}
-\geometry{left=25mm,right=25mm,top=20mm,bottom=25mm}
+
+\geometry{
+	left=25mm,
+	right=25mm,
+	top=20mm,
+	bottom=25mm
+}
+
+% تغییر واقعی اندازه صفحه در میانه سند
+\usepackage{stocksize}
+
+
+% ==================================================
+% 2) General packages
+%    All packages must be loaded before xepersian
+% ==================================================
 
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{caption}
 \usepackage{booktabs}
-\usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{transparent}
-
 \usepackage{titlesec}
 
-% --- Useful for thesis ---
-\usepackage{amsmath,amssymb}
+\usepackage{indentfirst}
+\setlength{\parindent}{1cm}
+
+
+% ==================================================
+% 3) Mathematical and table packages
+% ==================================================
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{multirow}
 \usepackage{multicol}
 
 
+% ==================================================
+% 4) Bibliography
+% ==================================================
 
-% --------------------------------------------------
-% 2) Hyperlink style (NO BOX, colored text only)
-% --------------------------------------------------
-\definecolor{LinkBlue}{RGB}{0,70,140}
-\hypersetup{
-	colorlinks=true,
-	linkcolor=LinkBlue,
-	citecolor=LinkBlue,
-	urlcolor=LinkBlue
-}
-
-% --------------------------------------------------
-% 3) Bibliography (Numbers in brackets: [1], [2], ...)
-% --------------------------------------------------
 \usepackage[
 backend=biber,
 style=numeric,
@@ -53,144 +65,243 @@ eprint=false
 \addbibresource{references.bib}
 
 
-% --------------------------------------------------
-% 4) Custom report template
-% --------------------------------------------------
+% ==================================================
+% 5) Hyperlinks
+% ==================================================
+
+\usepackage{hyperref}
+
+\definecolor{LinkBlue}{RGB}{0,70,140}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=LinkBlue,
+	citecolor=LinkBlue,
+	urlcolor=LinkBlue
+}
+
+
+% ==================================================
+% 6) Custom report template
+% ==================================================
+
 \usepackage{ProjectReportTemplate}
 
-% --------------------------------------------------
-% 5) Persian support
-% --------------------------------------------------
+
+% ==================================================
+% 7) Persian support
+%    xepersian should be loaded last
+% ==================================================
+
 \usepackage{xepersian}
+
 \SetReportFonts
 \SetReportLineSpread{1.35}
 
-%Your Name In Header
+
+% ==================================================
+% 8) Header and footer
+% ==================================================
+
+% نام دانشجو در هدر
 \newcommand{\StudentNameInHeader}{محمد رحمانی‌طلب}
+
+% ارتفاع هدر
+\setlength{\headheight}{10mm}
 
 \fancypagestyle{mainmatterstyle}{%
 	\fancyhf{}
 	
-	%Header Height
-	\setlength{\headheight}{10mm}
-
-	%Section In Header
-	\fancyhead[C]{
-		\nouppercase{
-			\begin{small}
-				\leftmark
-			\end{small}
-			\vspace{2.5mm}
-			}
-		}
+	% عنوان سکشن در مرکز هدر
+	\fancyhead[C]{%
+		\nouppercase{%
+			\small
+			\leftmark
+		}%
+		\vspace{2.5mm}%
+	}
 	
-	
-	%Logo In Header
-	%\fancyhead[R]{\includegraphics[scale=0.1]{Front/Images/logo} \vspace{0.5mm}}
-	
-	%Thesis Name In Header 
-	%\fancyhead[C]{\ThesisTitle \vspace{1mm}}
-	
-	%Page Number
+	% شماره صفحه در مرکز فوتر
 	\fancyfoot[C]{\thepage}
-	%\fancyhead[R]{\thepage}
 	
-	
+	% خط زیر هدر
 	\renewcommand{\headrulewidth}{0.4pt}
+	
+	% حذف خط فوتر
 	\renewcommand{\footrulewidth}{0pt}
 }
 
+
+% عنوان سکشن در هدر قرار می‌گیرد
 \renewcommand{\sectionmark}[1]{%
 	\markboth{#1}{}%
 }
+
+% عنوان ساب‌سکشن وارد هدر نمی‌شود
 \renewcommand{\subsectionmark}[1]{}
 
-% --------------------------------------------------
+
+% فعال‌سازی استایل اصلی و تنظیم عرض هدر
+% متناسب با عرض فعلی صفحه
+\newcommand{\ApplyMainMatterStyle}{%
+	\pagestyle{mainmatterstyle}%
+	\setlength{\headwidth}{\textwidth}%
+}
+
+
+% ==================================================
+% 9) Landscape-page environment
+% ==================================================
+\newenvironment{thesislandscape}
+{%
+	\newstocksize{%
+		layoutsize={297mm,210mm},
+		keepmargins
+	}%
+	\ApplyMainMatterStyle
+}
+{%
+	\restorestocksize
+	\ApplyMainMatterStyle
+}
+
+% ==================================================
+% Document
+% ==================================================
+
 \begin{document}
 	
-	\titleformat{\subsection}
-	{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
-	\titleformat{\paragraph}
-	{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
 	
-	% ======================
-	% Title Page (Modular)
-	% ======================
+	% ==================================================
+	% Paragraph title format
+	% ==================================================
+	
+	\titleformat{\paragraph}
+	{\normalfont\normalsize\bfseries}
+	{\theparagraph}
+	{1em}
+	{}
+	
+	
+	% ==================================================
+	% Title page
+	% ==================================================
+	
 	\include{Front/Title/info}
+	
 	\pagestyle{empty}
+	
 	\include{Front/Title/title}
 	
 	
-	% ======================
-	% Page Style
-	% ======================
+	% ==================================================
+	% Front-page numbering
+	% ==================================================
+	
 	\pagestyle{plain}
 	\pagenumbering{tartibi}
 	
-
-	% ======================
-	% Acknowledgements (Modular)
-	% ======================
-	\input{Front/Acknowledgment/acknowledgment.tex}
-	\newpage
-
-	% ======================
-	% (Optional) Abstracts later
-	% ======================
-	 \input{Front/Abstract/abstract-fa}
 	
-		% ======================
-	% Front Matter (ToC, LoF, LoT, ...)
-	% ======================
-	\MakeFrontMatter
+	% ==================================================
+	% Acknowledgements
+	% ==================================================
+	
+	\input{Front/Acknowledgment/acknowledgment.tex}
+	
 	\newpage
+	
+	
+	% ==================================================
+	% Persian abstract
+	% ==================================================
+	
+	\input{Front/Abstract/abstract-fa}
+	
+	
+	% ==================================================
+	% Front matter
+	% Table of contents, list of figures, list of tables
+	% ==================================================
+	
+	\MakeFrontMatter
+	
+	\newpage
+	
+	
+	% ==================================================
+	% Main matter
+	% ==================================================
 	
 	\clearpage
+	
 	\pagenumbering{arabic}
 	\setcounter{page}{1}
-	\pagestyle{mainmatterstyle}
-	\markright{مقدمه}
 	
-	% ======================
-	% Chapters later (Modular)
-	% ======================
-	 \input{Chapters/Chapter1_Introduction}
-	 
-	 \newpage
-	 \input{Chapters/Chapter2_BasicConcepts}
-	 
-	 \newpage
-	 \input{Chapters/Chapter3_SystemDesign}
-	 
-	 \newpage
-	 % نسخه قدیمی فصل نتایج برای جلوگیری از تکرار در خروجی نهایی غیرفعال شد.
-	 % \input{Chapters/Chapter4_ResultAndDiscussion}
-	 \input{Chapters/Chapter4_ResultAndDiscussion2}
-
-	 \newpage
-	%\input{Chapters/Chapter5_Conclusion}
-
-
-	% ======================
+	\ApplyMainMatterStyle
+	
+	% مقدار اولیه هدر
+	\markboth{مقدمه}{}
+	
+	
+	% ==================================================
+	% Chapters
+	% ==================================================
+	
+	\input{Chapters/Chapter1_Introduction}
+	
+	
+	\newpage
+	
+	\input{Chapters/Chapter2_BasicConcepts}
+	
+	
+	\newpage
+	
+	\input{Chapters/Chapter3_SystemDesign}
+	
+	
+	\newpage
+	
+	% نسخه قدیمی فصل نتایج برای جلوگیری از تکرار
+	% در خروجی نهایی غیرفعال شده است.
+	%
+	% \input{Chapters/Chapter4_ResultAndDiscussion}
+	
+	\input{Chapters/Chapter4_ResultAndDiscussion2}
+	
+	
+	\newpage
+	
+	% \input{Chapters/Chapter5_Conclusion}
+	
+	
+	% ==================================================
 	% Appendix
-	% ======================
-	 \newpage
+	% ==================================================
+	
+	\newpage
+	
 	\input{Appendix/Appendix}
-
-
-	% ======================
-	% References (Print at end)
-	% ======================
+	
+	
+	% ==================================================
+	% References
+	% ==================================================
+	
 	\newpage
 	\input{Refrences/Refrences}
 	
 	
-	% ======================
-	% Title Page (Modular)
-	% ======================
+	% ==================================================
+	% English abstract and English title page
+	% ==================================================
+	
 	\newpage
+	
 	\pagestyle{empty}
+	
 	\input{Front/Abstract/abstract-en}
+	
 	\include{Front/Title/title-eng}
 	
 	

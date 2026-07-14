@@ -1,41 +1,41 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces نمای شماتیک پروتئین دیستروفین در غشای فیبر عضلانی}}{4}{figure.caption.1}%
 \contentsline {figure}{\numberline {2}{\ignorespaces محورهای اندازه‌گیری در یک حسگر اینرسیایی}}{6}{figure.caption.2}%
 \contentsline {figure}{\numberline {3}{\ignorespaces نمونه سیگنال پیش و پس از اعمال فیلتر پایین‌گذر}}{7}{figure.caption.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces شماتیک عملکرد الگوریتم ماشین بردار پشتیبان}}{9}{figure.caption.4}%
+\contentsline {figure}{\numberline {4}{\ignorespaces شماتیک عملکرد الگوریتم ماشین بردار پشتیبان}}{10}{figure.caption.4}%
 \contentsline {figure}{\numberline {5}{\ignorespaces شماتیک عملکرد الگوریتم نزدیک‌ترین همسایه}}{10}{figure.caption.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces روند تصمیم‌گیری}}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces معماری کلی سامانه پیشنهادی و جریان داده از مرحله ثبت اطلاعات تا پیش‌بینی نمره عملکردی}}{15}{figure.caption.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces محل نصب پنج حسگر اینرسیایی بر روی بدن}}{16}{figure.caption.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces الگوریتم اجراشده روی هر واحد حسگر}}{17}{figure.caption.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces رابط کاربری توسعه‌یافته در محیط متلب برای دریافت و ذخیره‌سازی داده‌ها}}{18}{figure.caption.11}%
-\contentsline {figure}{\numberline {11}{\ignorespaces راهنمای عملکرد بخش‌های مختلف رابط کاربری محیط متلب}}{19}{figure.caption.12}%
-\contentsline {figure}{\numberline {12}{\ignorespaces مراحل انجام فرآیند داده‌برداری}}{20}{figure.caption.13}%
-\contentsline {figure}{\numberline {13}{\ignorespaces نمونه‌ای از سیگنال خام ثبت‌شده توسط حسگر اینرسیایی}}{22}{figure.caption.14}%
-\contentsline {figure}{\numberline {14}{\ignorespaces نمونه‌ای از سیگنال پس از اعمال فیلتر پایین‌گذر باترورث}}{22}{figure.caption.15}%
-\contentsline {figure}{\numberline {15}{\ignorespaces نمونه سیگنال جداسازی شده}}{23}{figure.caption.16}%
-\contentsline {figure}{\numberline {16}{\ignorespaces مراحل انجام کاهش ابعاد}}{26}{figure.caption.17}%
-\contentsline {figure}{\numberline {17}{\ignorespaces نمونه مقایسه تعداد مؤلفه‌های اصلی}}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {18}{\ignorespaces نمونه مقایسه مدل‌ها در بازه بهینه}}{31}{figure.caption.21}%
-\contentsline {figure}{\numberline {19}{\ignorespaces فرآیند انجام کامل یک فعالیت}}{32}{figure.caption.22}%
-\contentsline {figure}{\numberline {20}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{34}{figure.caption.24}%
-\contentsline {figure}{\numberline {21}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{34}{figure.caption.25}%
-\contentsline {figure}{\numberline {22}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{35}{figure.caption.26}%
-\contentsline {figure}{\numberline {23}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{36}{figure.caption.27}%
-\contentsline {figure}{\numberline {24}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{37}{figure.caption.28}%
-\contentsline {figure}{\numberline {25}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{37}{figure.caption.29}%
-\contentsline {figure}{\numberline {26}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت ایستادن}}{38}{figure.caption.30}%
-\contentsline {figure}{\numberline {27}{\ignorespaces نقشه همبستگی ویژگی‌های منتخب در فعالیت ایستادن}}{39}{figure.caption.31}%
-\contentsline {figure}{\numberline {28}{\ignorespaces واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت ایستادن}}{40}{figure.caption.32}%
-\contentsline {figure}{\numberline {29}{\ignorespaces پراکندگی نمونه‌های فعالیت ایستادن در فضای دو مؤلفه اصلی اول}}{40}{figure.caption.33}%
-\contentsline {figure}{\numberline {30}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس دقت در فعالیت ایستادن}}{41}{figure.caption.34}%
-\contentsline {figure}{\numberline {31}{\ignorespaces مقایسه عملکرد مدل‌ها در فعالیت ایستادن}}{41}{figure.caption.35}%
-\contentsline {figure}{\numberline {32}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده با مؤلفه‌های اصلی در فعالیت ایستادن}}{42}{figure.caption.36}%
-\contentsline {figure}{\numberline {33}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده بر اساس ورودی مدل و دقت آن در فعالیت ایستادن}}{42}{figure.caption.37}%
-\contentsline {figure}{\numberline {34}{\ignorespaces ویژگی‌های مهم‌تر بر اساس مدل \lr {Random Forest} در فعالیت ایستادن}}{43}{figure.caption.38}%
-\contentsline {figure}{\numberline {35}{\ignorespaces تغییر دقت مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{43}{figure.caption.39}%
-\contentsline {figure}{\numberline {36}{\ignorespaces تغییر عملکرد مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{44}{figure.caption.40}%
-\contentsline {figure}{\numberline {37}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{44}{figure.caption.41}%
-\contentsline {figure}{\numberline {38}{\ignorespaces عملکرد مدل ماشین بردار پشتیبان آموزش داده شده با ۱۳ مؤلفه اصلی در فعالیت ایستادن}}{45}{figure.caption.43}%
-\contentsline {figure}{\numberline {39}{\ignorespaces توزیع مؤلفه‌های اصلی منتخب برای فعالیت ایستادن}}{46}{figure.caption.44}%
-\contentsline {figure}{\numberline {40}{\ignorespaces نتایج ۵ آزمایش مدل منتخب برای فعالیت ایستادن}}{46}{figure.caption.45}%
-\contentsline {figure}{\numberline {41}{\ignorespaces ماتریس درهم‌ریختگی مدل منتخب برای فعالیت ایستادن}}{47}{figure.caption.46}%
+\contentsline {figure}{\numberline {6}{\ignorespaces روند تصمیم‌گیری}}{14}{figure.caption.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces معماری کلی سامانه پیشنهادی و جریان داده از مرحله ثبت اطلاعات تا پیش‌بینی نمره عملکردی}}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces محل نصب پنج حسگر اینرسیایی بر روی بدن}}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces الگوریتم اجراشده روی هر واحد حسگر}}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces رابط کاربری توسعه‌یافته در محیط متلب برای دریافت و ذخیره‌سازی داده‌ها}}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {11}{\ignorespaces راهنمای عملکرد بخش‌های مختلف رابط کاربری محیط متلب}}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {12}{\ignorespaces مراحل انجام فرآیند داده‌برداری}}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {13}{\ignorespaces نمونه‌ای از سیگنال خام ثبت‌شده توسط حسگر اینرسیایی}}{23}{figure.caption.14}%
+\contentsline {figure}{\numberline {14}{\ignorespaces نمونه‌ای از سیگنال پس از اعمال فیلتر پایین‌گذر باترورث}}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {15}{\ignorespaces نمونه سیگنال جداسازی شده}}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {16}{\ignorespaces مراحل انجام کاهش ابعاد}}{27}{figure.caption.17}%
+\contentsline {figure}{\numberline {17}{\ignorespaces نمونه مقایسه تعداد مؤلفه‌های اصلی}}{31}{figure.caption.20}%
+\contentsline {figure}{\numberline {18}{\ignorespaces نمونه مقایسه مدل‌ها در بازه بهینه}}{32}{figure.caption.21}%
+\contentsline {figure}{\numberline {19}{\ignorespaces فرآیند انجام کامل یک فعالیت}}{33}{figure.caption.22}%
+\contentsline {figure}{\numberline {20}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{35}{figure.caption.24}%
+\contentsline {figure}{\numberline {21}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{35}{figure.caption.25}%
+\contentsline {figure}{\numberline {22}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {23}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {24}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{38}{figure.caption.28}%
+\contentsline {figure}{\numberline {25}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{38}{figure.caption.29}%
+\contentsline {figure}{\numberline {26}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت ایستادن}}{39}{figure.caption.31}%
+\contentsline {figure}{\numberline {27}{\ignorespaces نقشه همبستگی ویژگی‌های منتخب در فعالیت ایستادن}}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {28}{\ignorespaces واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت ایستادن}}{41}{figure.caption.35}%
+\contentsline {figure}{\numberline {29}{\ignorespaces پراکندگی نمونه‌های فعالیت ایستادن در فضای دو مؤلفه اصلی اول}}{41}{figure.caption.36}%
+\contentsline {figure}{\numberline {30}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس دقت در فعالیت ایستادن}}{42}{figure.caption.38}%
+\contentsline {figure}{\numberline {31}{\ignorespaces مقایسه عملکرد مدل‌ها در فعالیت ایستادن}}{42}{figure.caption.39}%
+\contentsline {figure}{\numberline {32}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده با مؤلفه‌های اصلی در فعالیت ایستادن}}{43}{figure.caption.40}%
+\contentsline {figure}{\numberline {33}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده بر اساس ورودی مدل و دقت آن در فعالیت ایستادن}}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {34}{\ignorespaces ویژگی‌های مهم‌تر بر اساس مدل \lr {Random Forest} در فعالیت ایستادن}}{44}{figure.caption.43}%
+\contentsline {figure}{\numberline {35}{\ignorespaces تغییر دقت مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{44}{figure.caption.44}%
+\contentsline {figure}{\numberline {36}{\ignorespaces تغییر عملکرد مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{45}{figure.caption.45}%
+\contentsline {figure}{\numberline {37}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{45}{figure.caption.46}%
+\contentsline {figure}{\numberline {38}{\ignorespaces عملکرد مدل ماشین بردار پشتیبان آموزش داده شده با ۱۳ مؤلفه اصلی در فعالیت ایستادن}}{46}{figure.caption.48}%
+\contentsline {figure}{\numberline {39}{\ignorespaces توزیع مؤلفه‌های اصلی منتخب برای فعالیت ایستادن}}{47}{figure.caption.50}%
+\contentsline {figure}{\numberline {40}{\ignorespaces نتایج ۵ آزمایش مدل منتخب برای فعالیت ایستادن}}{47}{figure.caption.51}%
+\contentsline {figure}{\numberline {41}{\ignorespaces ماتریس درهم‌ریختگی مدل منتخب برای فعالیت ایستادن}}{48}{figure.caption.52}%
