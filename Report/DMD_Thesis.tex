@@ -113,16 +113,21 @@ eprint=false
 	\fancyhf{}
 	
 	% عنوان سکشن در مرکز هدر
-	\fancyhead[C]{%
+	\fancyhead[L]{%
 		\nouppercase{%
 			\small
 			\leftmark
 		}%
-		\vspace{2.5mm}%
+		\vspace{1.5mm}%
 	}
 	
 	% شماره صفحه در مرکز فوتر
-	\fancyfoot[C]{\thepage}
+%	\fancyfoot[C]{\thepage}
+		\fancyhead[R]{
+			\thepage
+			\vspace{0.5mm}
+		}
+	
 	
 	% خط زیر هدر
 	\renewcommand{\headrulewidth}{0.4pt}
@@ -161,7 +166,11 @@ eprint=false
 	\ApplyMainMatterStyle
 }
 {%
-	\restorestocksize
+	%\restorestocksize
+	\newstocksize{%
+		layoutsize={210mm,297mm},
+		keepmargins
+	}
 	\ApplyMainMatterStyle
 }
 

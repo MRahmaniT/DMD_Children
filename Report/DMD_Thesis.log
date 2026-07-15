@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  14 JUL 2026 20:33
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  16 JUL 2026 01:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1279,26 +1279,26 @@ or XeTeX engine
 (./Front/Title/title-eng.aux))
 \openout1 = `DMD_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1360,9 +1360,9 @@ Package biblatex Info: ... file 'DMD_Thesis.bbl' found.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 55.
 )
-Package biblatex Info: Reference section=0 on input line 172.
-Package biblatex Info: Reference segment=0 on input line 172.
-Package hyperref Info: Link coloring ON on input line 172.
+Package biblatex Info: Reference section=0 on input line 181.
+Package biblatex Info: Reference segment=0 on input line 181.
+Package hyperref Info: Link coloring ON on input line 181.
  (./DMD_Thesis.out) (./DMD_Thesis.out)
 \@outlinefile=\write4
 \openout4 = `DMD_Thesis.out'.
@@ -1907,279 +1907,7 @@ Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 )
 
-[49] (./Appendix/Appendix.tex (./Appendix/NSAA_Test.tex
-Overfull \hbox (2.24437pt too wide) in paragraph at lines 17--17
-[][]|\TU/BNazanin(0)/b/n/12 ردیف| []
- []
-
-
-Overfull \hbox (2.24437pt too wide) in paragraph at lines 28--28
-[][]|\TU/BNazanin(0)/b/n/12 ردیف| []
- []
-
-
-Underfull \hbox (badness 4001) in paragraph at lines 46--46
-[][]|\TU/BNazanin(0)/m/n/12 ایستادن بدون کفش[]
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 46--46
-[]\TU/BNazanin(0)/m/n/12 روی سطح صاف، به[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[][]|\TU/BNazanin(0)/m/n/12 ایستادن بدون حمایت،[]
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 48--50
-[][]|\TU/BNazanin(0)/m/n/12 باز کردن دست‌ها، افزایش[]
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 48--50
-[]\TU/BNazanin(0)/m/n/12 فاصله پاها، گام برداشتن،[]
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 48--50
-[]\TU/BNazanin(0)/m/n/12 حرکت زیاد اندام فوقانی،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[][]|\TU/BNazanin(0)/m/n/12 راه رفتن در مسیر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[][]|\TU/BNazanin(0)/m/n/12 بلندشدن بدون استفاده[]
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 63--63
-[]\TU/BNazanin(0)/m/n/12 از دست‌ها و با قرارگیری[]
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 63--63
-[]\TU/BNazanin(0)/m/n/12 دست‌ها به‌صورت ضربدری[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-[][]|\TU/BNazanin(0)/m/n/12 استفاده از دست‌ها روی[]
- []
-
-
-Underfull \hbox (badness 7814) in paragraph at lines 64--66
-[]\TU/BNazanin(0)/m/n/12 صندلی یا زانو، خم‌شدن[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-[]\TU/BNazanin(0)/m/n/12 زیاد تنه، ایجاد حرکت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[][]|\TU/BNazanin(0)/m/n/12 ایستادن[]
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 70--70
-[][]|\TU/BNazanin(0)/m/n/12 اجرای جداگانه برای[]
- []
-
-
-Underfull \hbox (badness 4229) in paragraph at lines 70--70
-[]\TU/BNazanin(0)/m/n/12 سطح صاف و بدون[]
- []
-
-
-Underfull \hbox (badness 7081) in paragraph at lines 72--74
-[]\TU/BNazanin(0)/m/n/12 پاشنه، حرکت زیاد اندام[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[]\TU/BNazanin(0)/m/n/12 حرکت توسط پای[]
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 78--78
-[]\TU/BNazanin(0)/m/n/12 از جعبه‌ای به ارتفاع[]
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 79--79
-[][]|\TU/BNazanin(0)/m/n/12 بالا رفتن کنترل‌شده بدون[]
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 80--82
-[]\TU/BNazanin(0)/m/n/12 یا میز، خم‌شدن زیاد تنه،[]
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 80--82
-[]\TU/BNazanin(0)/m/n/12 کشیدن پای دوم، بازکردن[]
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 88--90
-[]\TU/BNazanin(0)/m/n/12 دست برای حمایت، فرود[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[][]|\TU/BNazanin(0)/m/n/12 بلندشدن[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]\TU/BNazanin(0)/m/n/12 از حالت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]\TU/BNazanin(0)/m/n/12 خوابیده و[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
-[][]|\TU/BNazanin(0)/m/n/12 شروع از وضعیت[]
- []
-
-
-Underfull \hbox (badness 6625) in paragraph at lines 95--95
-[][]|\TU/BNazanin(0)/m/n/12 رسیدن به حالت نشسته[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-[][]|\TU/BNazanin(0)/m/n/12 پرتاب دست‌ها به جلو،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[][]|\TU/BNazanin(0)/m/n/12 شروع از وضعیت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-[][]|\TU/BNazanin(0)/m/n/12 استفاده از دست‌ها روی[]
- []
-
-
-Underfull \hbox (badness 1783) in paragraph at lines 104--106
-[]\TU/BNazanin(0)/m/n/12 زمین، زانو یا ران، گرفتن[]
- []
-
-
-Underfull \hbox (badness 5359) in paragraph at lines 104--106
-[]\TU/BNazanin(0)/m/n/12 صندلی یا میز، چرخیدن[]
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 104--106
-[]\TU/BNazanin(0)/m/n/12 روی شکم یا بلندشدن در[]
- []
-
-
-Underfull \hbox (badness 7415) in paragraph at lines 109--109
-[][]|\TU/BNazanin(0)/m/n/12 بالا آوردن[]
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 110--110
-[]\TU/BNazanin(0)/m/n/12 سطح صاف و تلاش[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[][]|\TU/BNazanin(0)/m/n/12 ایستادن[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]\TU/BNazanin(0)/m/n/12 روی[]
- []
-
-
-Underfull \hbox (badness 4001) in paragraph at lines 118--118
-[][]|\TU/BNazanin(0)/m/n/12 ایستادن بدون کفش[]
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 118--118
-[]\TU/BNazanin(0)/m/n/12 روی سطح صاف به[]
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 120--122
-[][]|\TU/BNazanin(0)/m/n/12 باز کردن دست‌ها، افزایش[]
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 128--130
-[][]|\TU/BNazanin(0)/m/n/12 استفاده بیش از حد از[]
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 128--130
-[]\TU/BNazanin(0)/m/n/12 بازوها، حرکت زیاد رو به[]
- []
-
-
-Underfull \hbox (badness 4505) in paragraph at lines 128--130
-[]\TU/BNazanin(0)/m/n/12 غیرهم‌زمان پاها یا ارتفاع[]
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 132--132
-[][]|\TU/TimesNewRoman(1)/m/n/12 ۱۵ \TU/BNazanin(0)/m/n/12 و[]
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 133--133
-[][]|\TU/BNazanin(0)/m/n/12 پرش روی[]
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 134--134
-[][]|\TU/BNazanin(0)/m/n/12 اجرای جداگانه روی[]
- []
-
-
-Underfull \hbox (badness 2073) in paragraph at lines 134--134
-[]\TU/BNazanin(0)/m/n/12 زمین پیش از شروع[]
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 136--138
-[][]|\TU/BNazanin(0)/m/n/12 تماس پای دیگر با زمین،[]
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 136--138
-[]\TU/BNazanin(0)/m/n/12 تکمیل‌نشدن پرش، حرکت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-[][]|\TU/BNazanin(0)/m/n/12 دویدن در مسیر[]
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 144--148
-[]\TU/BNazanin(0)/m/n/12 شامل راه‌رفتن سریع، نبود[]
- []
-
-[50] [51])
-
-[52] (./Appendix/Features.tex
+[49] (./Appendix/Appendix.tex
 \@tempdimd=\dimen265
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -2214,7 +1942,53 @@ Underfull \hbox (badness 1466) in paragraph at lines 144--148
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ (./Appendix/NSAA_Test.tex
+Underfull \hbox (badness 1540) in paragraph at lines 50--50
+[][]|\TU/BNazanin(0)/m/n/12 ایستادن بدون کفش روی سطح[]
+ []
 
+
+Underfull \hbox (badness 1939) in paragraph at lines 67--67
+[][]|\TU/BNazanin(0)/m/n/12 بلندشدن بدون استفاده از دست‌ها و با[]
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 68--70
+[][]|\TU/BNazanin(0)/m/n/12 استفاده از دست‌ها روی صندلی یا زانو،[]
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 82--82
+[][]|\TU/BNazanin(0)/m/n/12 اجرای جداگانه با شروع حرکت[]
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 82--82
+[]\TU/BNazanin(0)/m/n/12 از جعبه‌ای به ارتفاع تقریبی \TU/TimesNewRoman(1)/m/n/1
+2 ۱۵[]
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 115--115
+[][]|\TU/BNazanin(0)/m/n/12 بالا آوردن مستقیم سر بدون استفاده از[]
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 122--122
+[][]|\TU/BNazanin(0)/m/n/12 ایستادن بدون کفش روی سطح[]
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 124--126
+[][]|\TU/BNazanin(0)/m/n/12 باز کردن دست‌ها، افزایش فاصله پاها،[]
+ []
+
+[50
+
+
+] [51])
+
+[52] (./Appendix/Features.tex
 Underfull \hbox (badness 4569) in paragraph at lines 271--272
 [][]|\TU/BNazanin(0)/m/n/12 میانگین تفاضل نمونه‌های[]
  []
@@ -2228,19 +2002,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 Overfull \vbox (8.13309pt too high) has occurred while \output is active []
 
 
-[53
+[53] [54])
+\@tempdimd=\dimen266
 
 
-] [54]
+[55]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <custom>
+* layout(width,height): (597.50787pt,845.04684pt)
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=717.00946pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-68.81723pt
+* \headheight=28.45274pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[55])) (./Refrences/Refrences.tex
+) (./Refrences/Refrences.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 5.
 
-
-[56
-
-]
 Overfull \hbox (3.71901pt too wide) in paragraph at lines 5--5
 [][]\TU/TimesNewRoman(0)/m/n/12 Corinna Cortes and Vladimir Vapnik. “Support-ve
 ctor networks”. In: \TU/TimesNewRoman(0)/m/it/12 Machine Learning \TU/TimesNewR
@@ -2248,17 +2051,23 @@ oman(0)/m/n/12 20.3 (1995),[]
  []
 
 
+Overfull \vbox (206.46776pt too high) has occurred while \output is active []
 
-[57])
 
-[58] (./Front/Abstract/abstract-en.tex
+
+[56
+
+
+])
+
+[57] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[59]
+[58]
 \openout2 = `Front/Title/title-eng.aux'.
 
  (./Front/Title/title-eng.tex
@@ -2268,7 +2077,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 15.
 )
 
-[60
+[59
 
 ] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
 (./Front/Title/title-eng.aux))
@@ -2287,12 +2096,12 @@ Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26782 strings out of 473832
- 572998 string characters out of 5729482
- 1424074 words of memory out of 5000000
- 49295 multiletter control sequences out of 15000+600000
+ 26785 strings out of 473832
+ 573033 string characters out of 5729482
+ 1422127 words of memory out of 5000000
+ 49298 multiletter control sequences out of 15000+600000
  566133 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,13n,95p,2772b,4976s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,95p,2772b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis.pdf (68 pages).
+Output written on DMD_Thesis.pdf (67 pages).
