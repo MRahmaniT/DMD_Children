@@ -33,7 +33,7 @@ DETECTED = True
 
 # 3. Choose one or none of PCAs True (The code work only with Pipeline for now)
 USE_PIPELINE_PCA = True 
-USE_FIXED_PCA = False
+#USE_FIXED_PCA = False
        
 # 4. Choose PCA cariance
 PCA_VARIANCE = 0.95
