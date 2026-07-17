@@ -8,11 +8,11 @@ from sklearn.decomposition import PCA
 # SETTINGS
 # =====================================================
 
-# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_foot
-TASK = "Rise_Head" 
+# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_Foot
+TASK = "Climb_Box_Right_Foot" 
     
 # 2. Did you use action detector on your data or not
-DETECTED = True
+DETECTED = False
 
 # 3. Choose PCA cariance
 PCA_VARIANCE = 0.95

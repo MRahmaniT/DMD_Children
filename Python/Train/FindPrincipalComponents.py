@@ -24,11 +24,11 @@ from sklearn.model_selection import StratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
-# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_foot
-TASK = "Rise_Head"
+# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_Foot
+TASK = "Climb_Box_Right_Foot"
 
 # 2. Did you use action detector on your data or not
-DETECTED = True
+DETECTED = False
 
 # 3. Model settings
 MODEL_NAME = "SVM"
@@ -51,6 +51,13 @@ END_COMPONENTS = 50
 # 6. Figure quality
 FIG_DPI = 600
 
+# 7. Required accuracy threshold in percent
+# Example: 80 means 80%
+SHOW_ACCURACY_THRESHOLD = True
+ACCURACY_THRESHOLD = 80.0
+
+# Highlight PCA component numbers whose accuracy reaches the threshold
+HIGHLIGHT_ACCEPTABLE_ACCURACY = True
 
 # =====================================================
 # PATHS
@@ -489,6 +496,15 @@ def evaluate_pca_dimensions():
         "F1": "P",
         "Balanced Accuracy": "X"
     }
+    
+    metric_linestyles = {
+        "Accuracy": "-",
+        "Precision": "--",
+        "Recall": "-.",
+        "Specificity": ":",
+        "F1": (0, (5, 2)),
+        "Balanced Accuracy": (0, (3, 1, 1, 1))
+    }
 
     x_min = int(results_df["Components"].min())
     x_max = int(results_df["Components"].max())
@@ -561,51 +577,252 @@ def evaluate_pca_dimensions():
     # ALL METRICS IN ONE PLOT
     # =====================================================
 
-    plt.figure(figsize=(12, 7))
+    fig, ax = plt.subplots(figsize=(13, 7.5))
 
-    for metric in metrics:
+    # Accuracy is deliberately plotted last so that it remains
+    # visible when multiple metric curves overlap.
+    plot_order = [
+        "Precision",
+        "Recall",
+        "Specificity",
+        "F1",
+        "Balanced Accuracy",
+        "Accuracy"
+    ]
 
-        plt.plot(
+    for metric in plot_order:
+
+        is_accuracy = metric == "Accuracy"
+
+        ax.plot(
             results_df["Components"],
             results_df[metric],
             color=metric_colors[metric],
-            linewidth=2,
+
+            # Accuracy is thicker and placed above other curves
+            linewidth=3.2 if is_accuracy else 2.0,
+            linestyle=metric_linestyles[metric],
+
             marker=metric_markers[metric],
-            markersize=5,
-            markerfacecolor="white",
+            markersize=7 if is_accuracy else 5.5,
+
+            # A filled marker makes Accuracy easier to identify
+            markerfacecolor=(
+                metric_colors[metric]
+                if is_accuracy
+                else "white"
+            ),
             markeredgecolor=metric_colors[metric],
-            markeredgewidth=1.2,
+            markeredgewidth=1.4,
+
+            # Higher zorder means the Accuracy line is drawn on top
+            zorder=10 if is_accuracy else 3,
+
+            # Slight transparency helps identify overlapping curves
+            alpha=1.0 if is_accuracy else 0.82,
+
             label=metric
         )
 
-    plt.xlabel(
+
+    # =====================================================
+    # ACCURACY THRESHOLD
+    # =====================================================
+
+    if SHOW_ACCURACY_THRESHOLD:
+
+        if not 0 <= ACCURACY_THRESHOLD <= 100:
+            raise ValueError(
+                "ACCURACY_THRESHOLD must be between 0 and 100."
+            )
+
+        # Horizontal threshold line
+        ax.axhline(
+            y=ACCURACY_THRESHOLD,
+            color="black",
+            linestyle="--",
+            linewidth=2.0,
+            alpha=0.9,
+            zorder=8,
+            label=f"Required Accuracy ({ACCURACY_THRESHOLD:.1f}%)"
+        )
+
+        # Shade the acceptable region above the threshold
+        ax.axhspan(
+            ACCURACY_THRESHOLD,
+            100,
+            alpha=0.06,
+            zorder=0
+        )
+
+        # Label placed near the right side of the threshold line
+        ax.annotate(
+            f"Required threshold = {ACCURACY_THRESHOLD:.1f}%",
+            xy=(x_max, ACCURACY_THRESHOLD),
+            xytext=(-8, 8),
+            textcoords="offset points",
+            ha="right",
+            va="bottom",
+            fontsize=9.5,
+            fontweight="bold",
+            bbox={
+                "boxstyle": "round,pad=0.3",
+                "facecolor": "white",
+                "edgecolor": "black",
+                "alpha": 0.85
+            },
+            zorder=12
+        )
+
+
+    # =====================================================
+    # HIGHLIGHT ACCEPTABLE ACCURACY POINTS
+    # =====================================================
+
+    if SHOW_ACCURACY_THRESHOLD and HIGHLIGHT_ACCEPTABLE_ACCURACY:
+
+        acceptable_mask = (
+            results_df["Accuracy"] >= ACCURACY_THRESHOLD
+        )
+
+        acceptable_results = results_df.loc[
+            acceptable_mask,
+            ["Components", "Accuracy"]
+        ].copy()
+
+        if not acceptable_results.empty:
+
+            # Large circles around acceptable Accuracy points
+            ax.scatter(
+                acceptable_results["Components"],
+                acceptable_results["Accuracy"],
+                s=115,
+                facecolors="none",
+                edgecolors=metric_colors["Accuracy"],
+                linewidths=2.2,
+                zorder=15,
+                label="Accuracy Above Threshold"
+            )
+
+            # Small vertical guide lines make the corresponding
+            # component numbers easier to locate.
+            for _, row in acceptable_results.iterrows():
+
+                component = int(row["Components"])
+                accuracy_value = float(row["Accuracy"])
+
+                ax.vlines(
+                    x=component,
+                    ymin=ACCURACY_THRESHOLD,
+                    ymax=accuracy_value,
+                    color=metric_colors["Accuracy"],
+                    linestyle=":",
+                    linewidth=1.0,
+                    alpha=0.45,
+                    zorder=2
+                )
+
+            acceptable_components = (
+                acceptable_results["Components"]
+                .astype(int)
+                .to_list()
+            )
+
+            print("\n")
+            print("=" * 70)
+            print("ACCURACY THRESHOLD SUMMARY")
+            print("=" * 70)
+
+            print(
+                f"Required accuracy threshold: "
+                f"{ACCURACY_THRESHOLD:.2f}%"
+            )
+
+            print(
+                "PCA components reaching the threshold:",
+                acceptable_components
+            )
+
+            print(
+                "Number of acceptable component settings:",
+                len(acceptable_components)
+            )
+
+        else:
+
+            print("\n")
+            print("=" * 70)
+            print("ACCURACY THRESHOLD SUMMARY")
+            print("=" * 70)
+
+            print(
+                f"No PCA component reached the required "
+                f"accuracy threshold of {ACCURACY_THRESHOLD:.2f}%."
+            )
+
+
+    # =====================================================
+    # AXES AND APPEARANCE
+    # =====================================================
+
+    ax.set_xlabel(
         "Number of Principal Components",
         fontsize=12,
         fontweight="bold"
     )
 
-    plt.ylabel(
+    ax.set_ylabel(
         "Score (%)",
         fontsize=12,
         fontweight="bold"
     )
 
-    plt.title(
+    ax.set_title(
         "SVM Performance vs Number of PCA Components",
         fontsize=14,
         fontweight="bold"
     )
 
-    plt.xlim(x_min, x_max)
-
-    plt.xticks(
-        np.arange(x_min, x_max + 1, 5),
-        fontsize=10
+    ax.set_xlim(
+        x_min,
+        x_max
     )
 
-    plt.yticks(fontsize=10)
+    ax.set_xticks(
+        np.arange(
+            x_min,
+            x_max + 1,
+            5
+        )
+    )
 
-    plt.grid(
+    # Use an appropriate lower limit while keeping the upper limit at 100.
+    minimum_metric_value = float(
+        results_df[metrics].min().min()
+    )
+
+    y_lower_limit = max(
+        0,
+        np.floor((minimum_metric_value - 5) / 5) * 5
+    )
+
+    if SHOW_ACCURACY_THRESHOLD:
+        y_lower_limit = min(
+            y_lower_limit,
+            max(0, ACCURACY_THRESHOLD - 5)
+        )
+
+    ax.set_ylim(
+        y_lower_limit,
+        101
+    )
+
+    ax.tick_params(
+        axis="both",
+        labelsize=10
+    )
+
+    ax.grid(
         True,
         which="major",
         linestyle="--",
@@ -613,16 +830,16 @@ def evaluate_pca_dimensions():
         alpha=0.35
     )
 
-    plt.legend(
+    ax.legend(
         loc="best",
-        fontsize=10,
+        fontsize=9,
         frameon=True,
         ncol=2
     )
 
-    plt.tight_layout()
+    fig.tight_layout()
 
-    plt.savefig(
+    fig.savefig(
         os.path.join(
             FIGURES_FOLDER,
             "All_Metrics_vs_PCA.png"
@@ -631,8 +848,7 @@ def evaluate_pca_dimensions():
         bbox_inches="tight"
     )
 
-    plt.close()
-
+    plt.close(fig)
     # =====================================================
     # SAVE EXCEL
     # =====================================================
@@ -652,6 +868,9 @@ def evaluate_pca_dimensions():
             "Max Possible PCA Components",
             "Start Components",
             "End Components",
+            "Show Accuracy Threshold",
+            "Accuracy Threshold (%)",
+            "Highlight Acceptable Accuracy",
             "Master Path"
         ],
         "Value": [
@@ -668,6 +887,9 @@ def evaluate_pca_dimensions():
             max_possible_components,
             start_components,
             end_components,
+            SHOW_ACCURACY_THRESHOLD,
+            ACCURACY_THRESHOLD,
+            HIGHLIGHT_ACCEPTABLE_ACCURACY,
             MASTER_PATH
         ]
     })

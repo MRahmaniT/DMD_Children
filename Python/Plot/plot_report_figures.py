@@ -23,11 +23,18 @@ from sklearn.svm import SVC
 # =====================================================
 
 # Write folder names exactly as they exist in Final/Data and Results.
-TASKS = ["Stand", "Sit_To_Stand", "Jump", "Rise_Head"]
+TASKS = ["Stand", "Sit_To_Stand", "Jump", "Rise_Head", "Climb_Box_Right_Foot"]
+#TASKS = ["Climb_Box_Right_Foot"]
 
 # The script will run Normal results and, when available, DetectedAction results.
 PROCESS_NORMAL = True
 PROCESS_DETECTED_ACTION = True
+
+# Label of the signal shown as the sample
+# 0: unable / incorrect
+# 1: impaired or partially correct
+# 2: correct movement
+SAMPLE_SIGNAL_LABEL = 2
 
 PCA_VARIANCE = 0.95
 N_SPLITS = 5
@@ -139,7 +146,91 @@ def infer_paths(project_root: Path) -> Paths:
     )
 
 
-def find_sample_file(task_data_root: Path, task: str) -> Optional[Path]:
+def find_sample_file(
+    task_data_root: Path,
+    task: str,
+    master_features: Path,
+    target_label: int = SAMPLE_SIGNAL_LABEL
+) -> Optional[Path]:
+
+    # First, use the master-feature file to identify a source
+    # file belonging to the requested label.
+    if master_features.exists():
+
+        try:
+            master_df = pd.read_excel(master_features)
+
+            required_columns = {"label", "source_file"}
+
+            if required_columns.issubset(master_df.columns):
+
+                target_rows = master_df.loc[
+                    master_df["label"].astype(int) == target_label
+                ].copy()
+
+                if not target_rows.empty:
+
+                    # Sort source names so the selected sample is reproducible.
+                    source_names = (
+                        target_rows["source_file"]
+                        .dropna()
+                        .astype(str)
+                        .drop_duplicates()
+                        .sort_values()
+                        .to_list()
+                    )
+
+                    for source_name in source_names:
+
+                        source_path = Path(source_name)
+
+                        # source_file may contain an absolute path.
+                        if source_path.is_absolute() and source_path.exists():
+                            return source_path
+
+                        # First try the filename exactly as stored.
+                        exact_path = task_data_root / source_name
+
+                        if exact_path.exists():
+                            return exact_path
+
+                        # Then search recursively using only the filename.
+                        matching_files = sorted(
+                            task_data_root.rglob(source_path.name)
+                        )
+
+                        matching_files = [
+                            path for path in matching_files
+                            if (
+                                path.is_file()
+                                and "Master Features" not in str(path)
+                                and not path.name.startswith("~$")
+                            )
+                        ]
+
+                        if matching_files:
+                            return matching_files[0]
+
+                else:
+                    warnings.warn(
+                        f"No signal sample with label={target_label} "
+                        f"was found in {master_features}."
+                    )
+
+            else:
+                warnings.warn(
+                    "The master feature file does not contain both "
+                    "'label' and 'source_file' columns. "
+                    "Falling back to the first available signal file."
+                )
+
+        except Exception as exc:
+            warnings.warn(
+                f"Could not select a signal with label={target_label}: {exc}"
+            )
+
+    # Fallback: use the first signal file if label-based
+    # selection was not possible.
     patterns = [
         f"Filtered.{task}_*.xlsx",
         f"Filtered_{task}_*.xlsx",
@@ -147,11 +238,27 @@ def find_sample_file(task_data_root: Path, task: str) -> Optional[Path]:
         "Filtered*.xlsx",
         "*.xlsx",
     ]
+
     for pattern in patterns:
+
         files = sorted(task_data_root.glob(pattern))
-        files = [p for p in files if "Master Features" not in str(p)]
+
+        files = [
+            path for path in files
+            if (
+                "Master Features" not in str(path)
+                and not path.name.startswith("~$")
+            )
+        ]
+
         if files:
+            warnings.warn(
+                f"Using fallback sample file because a signal with "
+                f"label={target_label} could not be identified: {files[0]}"
+            )
+
             return files[0]
+
     return None
 
 
@@ -201,7 +308,12 @@ def infer_task_paths(base: Paths, task: str, mode: str) -> Optional[TaskPaths]:
         results_folder=results_folder,
         master_features=master_features,
         pca_interpretation=master_dir / "PCA_Interpretation_95.xlsx",
-        sample_file=find_sample_file(task_data_root, task),
+        sample_file=find_sample_file(
+            task_data_root=task_data_root,
+            task=task,
+            master_features=master_features,
+            target_label=SAMPLE_SIGNAL_LABEL
+        ),
         results_no_pca=results_no_pca,
         results_pca95=results_pca95,
         find_components_excel=find_components_excel,
@@ -337,7 +449,10 @@ def plot_signal_sample(tp: TaskPaths, figs: List[FigureItem]) -> None:
     fig, ax = plt.subplots(figsize=(12, 5))
     for col in selected:
         ax.plot(nums.index, nums[col], label=str(col), linewidth=1.1)
-    ax.set_title(f"Sample Sensor Signals - {tp.task} ({tp.mode})")
+    ax.set_title(
+        f"Sample Sensor Signals - {tp.task} "
+        f"({tp.mode}, Label {SAMPLE_SIGNAL_LABEL})"
+    )
     ax.set_xlabel("Sample Index")
     ax.set_ylabel("Signal Value")
     ax.legend(loc="best")

@@ -25,8 +25,8 @@ from sklearn.svm import SVC
 # SETTINGS
 # =====================================================
 
-# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_foot
-TASK = "Rise_Head"
+# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_Foot
+TASK = "Climb_Box_Right_Foot"
 
 # 2. Enable/disable action-detected scenarios.
 # Baseline (non-detected data) is always executed.

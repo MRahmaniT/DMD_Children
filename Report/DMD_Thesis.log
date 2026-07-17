@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  17 JUL 2026 17:24
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  17 JUL 2026 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1276,32 +1276,6 @@ es New Roman' on input line 99.
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
 ) (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
-
-LaTeX Warning: Label `fig:Sit_To_Stand_all_metrics_vs_pca' multiply defined.
-
-
-LaTeX Warning: Label `fig:Sit_To_Stand_models_vs_pca_components' multiply defin
-ed.
-
-
-LaTeX Warning: Label `tab:Sit_To_Stand_selected_setup' multiply defined.
-
-
-LaTeX Warning: Label `fig:Sit_To_Stand_cv_fold_metrics' multiply defined.
-
-
-LaTeX Warning: Label `fig:Sit_To_Stand_all_metrics_vs_pca' multiply defined.
-
-
-LaTeX Warning: Label `fig:Sit_To_Stand_models_vs_pca_components' multiply defin
-ed.
-
-
-LaTeX Warning: Label `tab:Sit_To_Stand_selected_setup' multiply defined.
-
-
-LaTeX Warning: Label `fig:Sit_To_Stand_cv_fold_metrics' multiply defined.
-
 (./Front/Title/title-eng.aux))
 \openout1 = `DMD_Thesis.aux'.
 
@@ -1937,61 +1911,89 @@ ures/Accuracy_vs_PCA_Components.png>
 File: ../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/CV_Fold_Metrics.png G
 raphic file (type bmp)
 <../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/CV_Fold_Metrics.png>
-) (./Chapters/ResultActivities/Activity_Head_Raise.tex
+) (./Chapters/ResultActivities/Activity_Rise_Head.tex
 
 [50]
-File: ../Results/Sit_To_Stand/Normal/FindPrincipalComponents_PipelinePCA_Sit_To
-_Stand/Figures/All_Metrics_vs_PCA.png Graphic file (type bmp)
-<../Results/Sit_To_Stand/Normal/FindPrincipalComponents_PipelinePCA_Sit_To_Stan
-d/Figures/All_Metrics_vs_PCA.png>
-File: ../Results/Sit_To_Stand/Normal/CompareNumberOfPrincipalComponents_Pipelin
-ePCA_Sit_To_Stand/Figures/Accuracy_vs_PCA_Components.png Graphic file (type bmp
-)
-<../Results/Sit_To_Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_
-Sit_To_Stand/Figures/Accuracy_vs_PCA_Components.png>
+File: Images/Generated/TaskResults/Rise_Head/Normal/signal_sample.png Graphic f
+ile (type bmp)
+<Images/Generated/TaskResults/Rise_Head/Normal/signal_sample.png>
+File: ../Results/Rise_Head/Comparisons/Accuracy_Baseline_vs_Detected_Action.png
+ Graphic file (type bmp)
+<../Results/Rise_Head/Comparisons/Accuracy_Baseline_vs_Detected_Action.png>
 
 
 [51]
-File: ../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metri
-cs.png Graphic file (type bmp)
-<../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metrics.pn
-g>
+File: ../Results/Rise_Head/Normal/FindPrincipalComponents_PipelinePCA_Rise_Head
+/Figures/All_Metrics_vs_PCA.png Graphic file (type bmp)
+<../Results/Rise_Head/Normal/FindPrincipalComponents_PipelinePCA_Rise_Head/Figu
+res/All_Metrics_vs_PCA.png>
+File: ../Results/Rise_Head/Normal/CompareNumberOfPrincipalComponents_PipelinePC
+A_Rise_Head/Figures/Accuracy_vs_PCA_Components.png Graphic file (type bmp)
+<../Results/Rise_Head/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Ris
+e_Head/Figures/Accuracy_vs_PCA_Components.png>
 
 
-[52]) (./Chapters/ResultActivities/Activity_Box_Step.tex
-File: ../Results/Sit_To_Stand/Normal/FindPrincipalComponents_PipelinePCA_Sit_To
-_Stand/Figures/All_Metrics_vs_PCA.png Graphic file (type bmp)
-<../Results/Sit_To_Stand/Normal/FindPrincipalComponents_PipelinePCA_Sit_To_Stan
-d/Figures/All_Metrics_vs_PCA.png>
+[52]
+File: ../Results/Rise_Head/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metrics.
+png Graphic file (type bmp)
+<../Results/Rise_Head/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metrics.png>
 
 
-[53]
-File: ../Results/Sit_To_Stand/Normal/CompareNumberOfPrincipalComponents_Pipelin
-ePCA_Sit_To_Stand/Figures/Accuracy_vs_PCA_Components.png Graphic file (type bmp
-)
-<../Results/Sit_To_Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_
-Sit_To_Stand/Figures/Accuracy_vs_PCA_Components.png>
+[53]) (./Chapters/ResultActivities/Activity_Climb_Box_Right_Foot.tex
+File: Images/Generated/TaskResults/Climb_Box_Right_Foot/Normal/signal_sample.pn
+g Graphic file (type bmp)
+<Images/Generated/TaskResults/Climb_Box_Right_Foot/Normal/signal_sample.png>
 
 
 [54]
-File: ../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metri
-cs.png Graphic file (type bmp)
-<../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metrics.pn
-g>
-)
+File: ../Results/Climb_Box_Right_Foot/Comparisons/Accuracy_Baseline_vs_Detected
+_Action.png Graphic file (type bmp)
+<../Results/Climb_Box_Right_Foot/Comparisons/Accuracy_Baseline_vs_Detected_Acti
+on.png>
+File: ../Results/Climb_Box_Right_Foot/Normal/FindPrincipalComponents_PipelinePC
+A_Climb_Box_Right_Foot/Figures/All_Metrics_vs_PCA.png Graphic file (type bmp)
+<../Results/Climb_Box_Right_Foot/Normal/FindPrincipalComponents_PipelinePCA_Cli
+mb_Box_Right_Foot/Figures/All_Metrics_vs_PCA.png>
+
 
 [55]
+File: ../Results/Climb_Box_Right_Foot/Normal/CompareNumberOfPrincipalComponents
+_PipelinePCA_Climb_Box_Right_Foot/Figures/Accuracy_vs_PCA_Components.png Graphi
+c file (type bmp)
+<../Results/Climb_Box_Right_Foot/Normal/CompareNumberOfPrincipalComponents_Pipe
+linePCA_Climb_Box_Right_Foot/Figures/Accuracy_vs_PCA_Components.png>
+
+
+[56]
+File: ../Results/Climb_Box_Right_Foot/Final/Final_Model_SVM_PCA10/Figures/CV_Fo
+ld_Metrics.png Graphic file (type bmp)
+<../Results/Climb_Box_Right_Foot/Final/Final_Model_SVM_PCA10/Figures/CV_Fold_Me
+trics.png>
+)
+
+[57]
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 )
 
-[56] (./Chapters/Chapter5_Conclusion.tex
+[58] (./Chapters/Chapter5_Conclusion.tex
 
-[57]
+[59]
 
-[58])
+[60]
 
-[59] (./Appendix/Appendix.tex
+[61]
+Missing character: There is no – (U+2013) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+
+Overfull \hbox (11.32478pt too wide) in paragraph at lines 82--83
+[][]\TU/BNazanin(0)/m/n/12 در این پژوهش، یک سامانه کامل از مرحله ثبت داده‌های ا
+ینرسیایی تا طبقه‌بندی درجات عملکردی شبیه‌سازی‌شده[]
+ []
+
+)
+
+[62] (./Appendix/Appendix.tex
 \@tempdimd=\dimen265
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -2067,12 +2069,12 @@ Underfull \hbox (badness 4454) in paragraph at lines 124--126
 [][]|\TU/BNazanin(0)/m/n/12 باز کردن دست‌ها، افزایش فاصله پاها،[]
  []
 
-[60
+[63
 
 
-] [61])
+] [64])
 
-[62] (./Appendix/Features.tex
+[65] (./Appendix/Features.tex
 Underfull \hbox (badness 4569) in paragraph at lines 271--272
 [][]|\TU/BNazanin(0)/m/n/12 میانگین تفاضل نمونه‌های[]
  []
@@ -2086,41 +2088,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 Overfull \vbox (8.13309pt too high) has occurred while \output is active []
 
 
-[63] [64])
+[66] [67])
 File: Plots/Matlab/A_STS_NoFilter.jpeg Graphic file (type bmp)
 <Plots/Matlab/A_STS_NoFilter.jpeg>
 
 
-[65]
+[68]
 File: Plots/Matlab/G_STS_NoFilter.jpeg Graphic file (type bmp)
 <Plots/Matlab/G_STS_NoFilter.jpeg>
 
 
-[66]
+[69]
 File: Plots/Matlab/A_STS_Filter.jpeg Graphic file (type bmp)
 <Plots/Matlab/A_STS_Filter.jpeg>
 
 
-[67]
+[70]
 File: Plots/Matlab/G_STS_Filter.jpeg Graphic file (type bmp)
 <Plots/Matlab/G_STS_Filter.jpeg>
 
 
-[68]
+[71]
 File: Plots/Matlab/A_STS_Action.jpeg Graphic file (type bmp)
 <Plots/Matlab/A_STS_Action.jpeg>
 
 
-[69]
+[72]
 File: Plots/Matlab/G_STS_Action.jpeg Graphic file (type bmp)
 <Plots/Matlab/G_STS_Action.jpeg>
 
 
-[70]
+[73]
 \@tempdimd=\dimen266
 
 
-[71]
+[74]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2169,19 +2171,19 @@ Overfull \vbox (206.46776pt too high) has occurred while \output is active []
 
 
 
-[72
+[75
 
 
 ])
 
-[73] (./Front/Abstract/abstract-en.tex
+[76] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[74]
+[77]
 \openout2 = `Front/Title/title-eng.aux'.
 
  (./Front/Title/title-eng.tex
@@ -2191,7 +2193,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 15.
 )
 
-[75
+[78
 
 ] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
 (./Front/Title/title-eng.aux))
@@ -2203,9 +2205,6 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `DMD_Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 0482BD608CAA821E6A9B124E7DD3241C;16146.
 Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
@@ -2213,12 +2212,12 @@ Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27006 strings out of 473832
- 591103 string characters out of 5729482
- 1423179 words of memory out of 5000000
- 49493 multiletter control sequences out of 15000+600000
+ 27189 strings out of 473832
+ 609127 string characters out of 5729482
+ 1424418 words of memory out of 5000000
+ 49666 multiletter control sequences out of 15000+600000
  566133 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,13n,95p,2772b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis.pdf (84 pages).
+Output written on DMD_Thesis.pdf (87 pages).

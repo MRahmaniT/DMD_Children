@@ -25,8 +25,8 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
-# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_foot
-TASK = "Rise_Head" 
+# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_Foot
+TASK = "Climb_Box_Right_Foot" 
     
 # 2. Did you use action detector on your data or not
 DETECTED = True
@@ -48,8 +48,8 @@ RF_TREES = 500
 KNN_NEIGHBORS = 5
 
 # 7. Choose range of comparison
-N_COMPONENTS_MIN = 20
-N_COMPONENTS_MAX = 30
+N_COMPONENTS_MIN = 5
+N_COMPONENTS_MAX = 15
 
 # 8. Path
 if DETECTED:
