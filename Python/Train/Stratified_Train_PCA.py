@@ -26,11 +26,11 @@ from sklearn.svm import SVC
 # =====================================================
 
 # 1. Choose task: Stand / Sit_To_Stand / Jump / ...
-TASK = "Jump"
+TASK = "Sit_To_Stand"
 
 # 2. Enable/disable action-detected scenarios.
 # Baseline (non-detected data) is always executed.
-DETECTED = False
+DETECTED = True
 
 # 3. Enable/disable PCA scenario families.
 # Baseline without PCA is always executed.

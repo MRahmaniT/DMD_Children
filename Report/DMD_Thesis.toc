@@ -58,10 +58,24 @@
 \contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{42}{paragraph*.37}%
 \contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{44}{paragraph*.42}%
 \contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{46}{paragraph*.49}%
-\contentsline {subsection}{\numberline {4.4}مقایسه کلی فعالیت‌ها}{48}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}محدودیت‌های نتایج}{48}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}جمع‌بندی فصل}{49}{subsection.4.6}%
-\contentsline {section}{\numberline {5}پیوست}{50}{section.5}%
-\contentsline {subsection}{\numberline {5.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{50}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}ویژگی‌های استخراج‌شده از هر سیگنال}{53}{subsection.5.2}%
-\contentsline {section}{\numberline {6}مراجع}{56}{section.6}%
+\contentsline {subsubsection}{\numberline {4.3.2}فعالیت برخاستن از صندلی}{48}{subsubsection.4.3.2}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{48}{paragraph*.53}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{49}{paragraph*.56}%
+\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{51}{paragraph*.61}%
+\contentsline {subsubsection}{\numberline {4.3.3}فعالیت پریدن}{52}{subsubsection.4.3.3}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{52}{paragraph*.63}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{53}{paragraph*.66}%
+\contentsline {paragraph}{جمع‌بندی فعالیت پریدن}{55}{paragraph*.71}%
+\contentsline {subsection}{\numberline {4.4}مقایسه کلی فعالیت‌ها}{55}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}محدودیت‌های نتایج}{56}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}جمع‌بندی فصل}{56}{subsection.4.6}%
+\contentsline {section}{\numberline {5}جمع‌بندی و پیشنهادها}{57}{section.5}%
+\contentsline {subsection}{\numberline {5.1}دستاوردهای اصلی}{57}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}جمع‌بندی نتایج فعالیت‌ها}{58}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}محدودیت‌های پژوهش}{58}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}پیشنهادها برای کارهای آینده}{59}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}نتیجه‌گیری نهایی}{59}{subsection.5.5}%
+\contentsline {section}{\numberline {6}پیوست}{60}{section.6}%
+\contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{60}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}ویژگی‌های استخراج‌شده از هر سیگنال}{63}{subsection.6.2}%
+\contentsline {section}{\numberline {7}مراجع}{66}{section.7}%

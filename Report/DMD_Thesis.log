@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  16 JUL 2026 01:24
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  17 JUL 2026 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1508,20 +1508,22 @@ Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-)
+
+
+[4])
 \tf@toc=\write5
 \openout5 = `DMD_Thesis.toc'.
 
 
 
-[4] (./DMD_Thesis.lof
+[5] (./DMD_Thesis.lof
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 
 
-[5]
+[6]
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
@@ -1532,13 +1534,13 @@ ript=arab;mapping=persian-tex-text;!
 
 
 
-[6] (./DMD_Thesis.lot)
+[7] (./DMD_Thesis.lot)
 \tf@lot=\write7
 \openout7 = `DMD_Thesis.lot'.
 
 
 
-[7] (./Chapters/Chapter1_Introduction.tex
+[8] (./Chapters/Chapter1_Introduction.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
@@ -1728,7 +1730,7 @@ File: Diagram/Chapter3_Pipeline.pdf Graphic file (type pdf)
 <use Diagram/Chapter3_Pipeline.pdf>
 )
 
-[33] (./Chapters/Chapter4_ResultAndDiscussion2.tex
+[33] (./Chapters/Chapter4_ResultAndDiscussion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
 [][]|\TU/BNazanin(0)/m/n/12 داده‌های اصلی و[]
  []
@@ -1890,24 +1892,88 @@ _Matrix.png Graphic file (type bmp)
 ix.png>
 
 
-[47])
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[][]|\TU/BNazanin(0)/m/n/12 تعداد مؤلفه‌های[]
- []
-
-
-Overfull \hbox (29.07939pt too wide) in paragraph at lines 143--154
- [][][][] 
- []
-
+[47]) (./Chapters/ResultActivities/Activity_Sit_To_Stand.tex
+File: Images/Generated/TaskResults/Sit_To_Stand/Normal/signal_sample.png Graphi
+c file (type bmp)
+<Images/Generated/TaskResults/Sit_To_Stand/Normal/signal_sample.png>
 
 
 [48]
+File: ../Results/Sit_To_Stand/Comparisons/Accuracy_Baseline_vs_Detected_Action.
+png Graphic file (type bmp)
+<../Results/Sit_To_Stand/Comparisons/Accuracy_Baseline_vs_Detected_Action.png>
+File: ../Results/Sit_To_Stand/Normal/FindPrincipalComponents_PipelinePCA_Sit_To
+_Stand/Figures/All_Metrics_vs_PCA.png Graphic file (type bmp)
+<../Results/Sit_To_Stand/Normal/FindPrincipalComponents_PipelinePCA_Sit_To_Stan
+d/Figures/All_Metrics_vs_PCA.png>
+
+
+[49]
+File: ../Results/Sit_To_Stand/Normal/CompareNumberOfPrincipalComponents_Pipelin
+ePCA_Sit_To_Stand/Figures/Accuracy_vs_PCA_Components.png Graphic file (type bmp
+)
+<../Results/Sit_To_Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_
+Sit_To_Stand/Figures/Accuracy_vs_PCA_Components.png>
+File: ../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/Final_Model_M
+ain_Metrics_Bar.png Graphic file (type bmp)
+<../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/Final_Model_Main_M
+etrics_Bar.png>
+
+
+[50]
+File: ../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metri
+cs.png Graphic file (type bmp)
+<../Results/Sit_To_Stand/Final/Final_Model_SVM_PCA14/Figures/CV_Fold_Metrics.pn
+g>
+)
+
+[51] (./Chapters/ResultActivities/Activity_Jump.tex
+File: Images/Generated/TaskResults/Jump/Normal/signal_sample.png Graphic file (
+type bmp)
+<Images/Generated/TaskResults/Jump/Normal/signal_sample.png>
+File: ../Results/Jump/Comparisons/Accuracy_Baseline_vs_Detected_Action.png Grap
+hic file (type bmp)
+<../Results/Jump/Comparisons/Accuracy_Baseline_vs_Detected_Action.png>
+
+
+[52]
+Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+File: ../Results/Jump/Normal/FindPrincipalComponents_PipelinePCA_Jump/Figures/A
+ll_Metrics_vs_PCA.png Graphic file (type bmp)
+<../Results/Jump/Normal/FindPrincipalComponents_PipelinePCA_Jump/Figures/All_Me
+trics_vs_PCA.png>
+File: ../Results/Jump/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Jum
+p/Figures/Accuracy_vs_PCA_Components.png Graphic file (type bmp)
+<../Results/Jump/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Jump/Fig
+ures/Accuracy_vs_PCA_Components.png>
+
+
+[53]
+File: ../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/Final_Model_Main_Metr
+ics_Bar.png Graphic file (type bmp)
+<../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/Final_Model_Main_Metrics_B
+ar.png>
+
+
+[54]
+File: ../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/CV_Fold_Metrics.png G
+raphic file (type bmp)
+<../Results/Jump/Final/Final_Model_SVM_PCA15/Figures/CV_Fold_Metrics.png>
+)
+
+[55]
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 )
 
-[49] (./Appendix/Appendix.tex
+[56] (./Chapters/Chapter5_Conclusion.tex
+
+[57]
+
+[58])
+
+[59] (./Appendix/Appendix.tex
 \@tempdimd=\dimen265
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1983,12 +2049,12 @@ Underfull \hbox (badness 4454) in paragraph at lines 124--126
 [][]|\TU/BNazanin(0)/m/n/12 باز کردن دست‌ها، افزایش فاصله پاها،[]
  []
 
-[50
+[60
 
 
-] [51])
+] [61])
 
-[52] (./Appendix/Features.tex
+[62] (./Appendix/Features.tex
 Underfull \hbox (badness 4569) in paragraph at lines 271--272
 [][]|\TU/BNazanin(0)/m/n/12 میانگین تفاضل نمونه‌های[]
  []
@@ -2002,11 +2068,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 Overfull \vbox (8.13309pt too high) has occurred while \output is active []
 
 
-[53] [54])
+[63] [64])
 \@tempdimd=\dimen266
 
 
-[55]
+[65]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2055,19 +2121,19 @@ Overfull \vbox (206.46776pt too high) has occurred while \output is active []
 
 
 
-[56
+[66
 
 
 ])
 
-[57] (./Front/Abstract/abstract-en.tex
+[67] (./Front/Abstract/abstract-en.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 )
 
-[58]
+[68]
 \openout2 = `Front/Title/title-eng.aux'.
 
  (./Front/Title/title-eng.tex
@@ -2077,7 +2143,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 15.
 )
 
-[59
+[69
 
 ] (./DMD_Thesis.aux (./Front/Title/info.aux) (./Front/Title/title.aux)
 (./Front/Title/title-eng.aux))
@@ -2090,18 +2156,18 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DMD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 70AED056A64729A919E70616C7F39A24;13802.
+(rerunfilecheck)             Checksum: 82462A9D4FC7A0C1AAC126262F795ECC;15504.
 Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 \openout1 = `DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26785 strings out of 473832
- 573033 string characters out of 5729482
- 1422127 words of memory out of 5000000
- 49298 multiletter control sequences out of 15000+600000
+ 27031 strings out of 473832
+ 593799 string characters out of 5729482
+ 1423387 words of memory out of 5000000
+ 49524 multiletter control sequences out of 15000+600000
  566133 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,13n,95p,2772b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DMD_Thesis.pdf (67 pages).
+Output written on DMD_Thesis.pdf (78 pages).

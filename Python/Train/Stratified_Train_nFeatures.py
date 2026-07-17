@@ -29,7 +29,7 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 TASK = "Jump" 
     
 # 2. Did you use action detector on your data or not
-DETECTED = True
+DETECTED = False
 
 # 3. Choose one or none of PCAs True (The code work only with Pipeline for now)
 USE_PIPELINE_PCA = True 
@@ -48,7 +48,7 @@ RF_TREES = 500
 KNN_NEIGHBORS = 5
 
 # 7. Choose range of comparison
-N_COMPONENTS_MIN = 5
+N_COMPONENTS_MIN = 10
 N_COMPONENTS_MAX = 20
 
 # 8. Path
