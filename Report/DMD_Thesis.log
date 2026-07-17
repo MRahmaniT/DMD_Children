@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  17 JUL 2026 22:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  18 JUL 2026 00:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1607,6 +1607,8 @@ File: Diagram/System_Schema.pdf Graphic file (type pdf)
 
 
 [16]
+File: Diagram/Sensor_On_Body.png Graphic file (type bmp)
+<Diagram/Sensor_On_Body.png>
 File: Images/3_SensorsPlacement.png Graphic file (type bmp)
 <Images/3_SensorsPlacement.png>
 
@@ -1632,11 +1634,10 @@ File: Diagram/Data_Collection.pdf Graphic file (type pdf)
 
 
 [21]
-File: Plots/Matlab/A_STS_NoFilter.jpeg Graphic file (type bmp)
-<Plots/Matlab/A_STS_NoFilter.jpeg>
-
 
 [22]
+File: Plots/Matlab/A_STS_NoFilter.jpeg Graphic file (type bmp)
+<Plots/Matlab/A_STS_NoFilter.jpeg>
 File: Plots/Matlab/A_STS_Filter.jpeg Graphic file (type bmp)
 <Plots/Matlab/A_STS_Filter.jpeg>
 
@@ -1648,17 +1649,17 @@ File: Plots/Matlab/A_STS_Action.jpeg Graphic file (type bmp)
 
 [24]
 
-LaTeX Warning: Reference `app:featuresformula' on page 25 undefined on input li
-ne 412.
-
-
-
 [25]
-File: Diagram/DemansionReduction.pdf Graphic file (type pdf)
-<use Diagram/DemansionReduction.pdf>
+
+LaTeX Warning: Reference `app:featuresformula' on page 26 undefined on input li
+ne 419.
+
 
 
 [26]
+File: Diagram/DemansionReduction.pdf Graphic file (type pdf)
+<use Diagram/DemansionReduction.pdf>
+
 
 [27]
 Missing character: There is no ٔ (U+0654) in font B Nazanin/OT:language=dflt;sc
@@ -2212,10 +2213,10 @@ Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27189 strings out of 473832
- 609127 string characters out of 5729482
- 1424418 words of memory out of 5000000
- 49666 multiletter control sequences out of 15000+600000
+ 27197 strings out of 473832
+ 609394 string characters out of 5729482
+ 1424471 words of memory out of 5000000
+ 49673 multiletter control sequences out of 15000+600000
  566133 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,13n,95p,2772b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -27,19 +27,19 @@
 \contentsline {subsubsection}{\numberline {3.4.2}چیدمان حسگرها}{17}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}نرم‌افزار تعبیه‌شده روی بردهای حسگر}{18}{subsubsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.4}نرم‌افزار توسعه‌یافته در محیط متلب}{19}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.5}فرآیند انجام آزمون‌ها و ثبت داده‌ها}{20}{subsubsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.5}پیش‌پردازش داده‌ها در نرم‌افزار متلب}{21}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}دریافت فایل‌های خام}{21}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.4.5}فرآیند انجام آزمون‌ها و ثبت داده‌ها}{21}{subsubsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.5}پیش‌پردازش داده‌ها در نرم‌افزار متلب}{22}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}دریافت فایل‌های خام}{22}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}فیلترگذاری سیگنال‌ها}{22}{subsubsection.3.5.2}%
 \contentsline {subsubsection}{\numberline {3.5.3}جداسازی فعالیت‌ها}{24}{subsubsection.3.5.3}%
-\contentsline {subsubsection}{\numberline {3.5.4}آماده‌سازی داده‌ها}{24}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.4}آماده‌سازی داده‌ها}{25}{subsubsection.3.5.4}%
 \contentsline {subsection}{\numberline {3.6}استخراج ویژگی‌ها}{25}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}ویژگی‌های استخراج‌شده}{25}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.1}ویژگی‌های استخراج‌شده}{26}{subsubsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.7}کاهش بعد ویژگی‌ها}{26}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}آموزش مدل‌های یادگیری ماشین}{27}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.8}آموزش مدل‌های یادگیری ماشین}{28}{subsection.3.8}%
 \contentsline {subsubsection}{\numberline {3.8.1}تقسیم‌بندی تصادفی با تعداد نمونه ثابت}{28}{subsubsection.3.8.1}%
 \contentsline {subsubsection}{\numberline {3.8.2}اعتبارسنجی طبقه‌بندی متقاطع}{28}{subsubsection.3.8.2}%
-\contentsline {subsubsection}{\numberline {3.8.3}مدل‌های مورد استفاده}{28}{subsubsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.3}مدل‌های مورد استفاده}{29}{subsubsection.3.8.3}%
 \contentsline {subsubsection}{\numberline {3.8.4}\lr {Pipeline} پردازش داده}{29}{subsubsection.3.8.4}%
 \contentsline {subsection}{\numberline {3.9}معیارهای ارزیابی}{29}{subsection.3.9}%
 \contentsline {subsection}{\numberline {3.10}بررسی تعداد ویژگی‌های مؤثر}{30}{subsection.3.10}%
@@ -52,28 +52,28 @@
 \contentsline {subsection}{\numberline {4.2}کیفیت پیش‌پردازش داده‌ها}{34}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{35}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}فعالیت ایستادن}{35}{subsubsection.4.3.1}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{35}{paragraph*.23}%
-\contentsline {paragraph}{ساختار ویژگی‌ها}{36}{paragraph*.25}%
-\contentsline {paragraph}{کاهش بعد ویژگی‌ها}{36}{paragraph*.27}%
-\contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{38}{paragraph*.30}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{40}{paragraph*.35}%
-\contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{42}{paragraph*.42}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{35}{paragraph*.24}%
+\contentsline {paragraph}{ساختار ویژگی‌ها}{36}{paragraph*.26}%
+\contentsline {paragraph}{کاهش بعد ویژگی‌ها}{36}{paragraph*.28}%
+\contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{38}{paragraph*.31}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{40}{paragraph*.36}%
+\contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{42}{paragraph*.43}%
 \contentsline {subsubsection}{\numberline {4.3.2}فعالیت برخاستن از صندلی}{44}{subsubsection.4.3.2}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{44}{paragraph*.46}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{45}{paragraph*.49}%
-\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{47}{paragraph*.53}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{44}{paragraph*.47}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{45}{paragraph*.50}%
+\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{47}{paragraph*.54}%
 \contentsline {subsubsection}{\numberline {4.3.3}فعالیت پریدن}{47}{subsubsection.4.3.3}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{47}{paragraph*.55}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{48}{paragraph*.58}%
-\contentsline {paragraph}{جمع‌بندی فعالیت پریدن}{50}{paragraph*.62}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{47}{paragraph*.56}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{48}{paragraph*.59}%
+\contentsline {paragraph}{جمع‌بندی فعالیت پریدن}{50}{paragraph*.63}%
 \contentsline {subsubsection}{\numberline {4.3.4}فعالیت بالا آوردن سر}{50}{subsubsection.4.3.4}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{51}{paragraph*.64}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{52}{paragraph*.67}%
-\contentsline {paragraph}{جمع‌بندی فعالیت بالا آوردن سر}{53}{paragraph*.71}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{51}{paragraph*.65}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{52}{paragraph*.68}%
+\contentsline {paragraph}{جمع‌بندی فعالیت بالا آوردن سر}{53}{paragraph*.72}%
 \contentsline {subsubsection}{\numberline {4.3.5}فعالیت بالا رفتن از جعبه}{54}{subsubsection.4.3.5}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{54}{paragraph*.73}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{55}{paragraph*.76}%
-\contentsline {paragraph}{جمع‌بندی فعالیت بالا رفتن از جعبه با پای راست}{57}{paragraph*.80}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{54}{paragraph*.74}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{55}{paragraph*.77}%
+\contentsline {paragraph}{جمع‌بندی فعالیت بالا رفتن از جعبه با پای راست}{57}{paragraph*.81}%
 \contentsline {subsection}{\numberline {4.4}مقایسه کلی فعالیت‌ها}{58}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}محدودیت‌های نتایج}{58}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}جمع‌بندی فصل}{58}{subsection.4.6}%
