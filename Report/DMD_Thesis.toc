@@ -50,22 +50,30 @@
 \contentsline {section}{\numberline {4}نتایج و بحث}{34}{section.4}%
 \contentsline {subsection}{\numberline {4.1}کیفیت داده‌برداری}{34}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}کیفیت پیش‌پردازش داده‌ها}{34}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{39}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}فعالیت ایستادن}{39}{subsubsection.4.3.1}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{39}{paragraph*.30}%
-\contentsline {paragraph}{ساختار ویژگی‌ها}{40}{paragraph*.32}%
-\contentsline {paragraph}{کاهش بعد ویژگی‌ها}{40}{paragraph*.34}%
-\contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{42}{paragraph*.37}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{44}{paragraph*.42}%
-\contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{46}{paragraph*.49}%
-\contentsline {subsubsection}{\numberline {4.3.2}فعالیت برخاستن از صندلی}{48}{subsubsection.4.3.2}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{48}{paragraph*.53}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{49}{paragraph*.56}%
-\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{51}{paragraph*.61}%
-\contentsline {subsubsection}{\numberline {4.3.3}فعالیت پریدن}{52}{subsubsection.4.3.3}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{52}{paragraph*.63}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{53}{paragraph*.66}%
-\contentsline {paragraph}{جمع‌بندی فعالیت پریدن}{55}{paragraph*.71}%
+\contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{35}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}فعالیت ایستادن}{35}{subsubsection.4.3.1}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{35}{paragraph*.23}%
+\contentsline {paragraph}{ساختار ویژگی‌ها}{36}{paragraph*.25}%
+\contentsline {paragraph}{کاهش بعد ویژگی‌ها}{36}{paragraph*.27}%
+\contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{38}{paragraph*.30}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{40}{paragraph*.35}%
+\contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{42}{paragraph*.42}%
+\contentsline {subsubsection}{\numberline {4.3.2}فعالیت برخاستن از صندلی}{44}{subsubsection.4.3.2}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{44}{paragraph*.46}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{45}{paragraph*.49}%
+\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{47}{paragraph*.53}%
+\contentsline {subsubsection}{\numberline {4.3.3}فعالیت پریدن}{47}{subsubsection.4.3.3}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{47}{paragraph*.55}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{48}{paragraph*.58}%
+\contentsline {paragraph}{جمع‌بندی فعالیت پریدن}{50}{paragraph*.62}%
+\contentsline {subsubsection}{\numberline {4.3.4}فعالیت بالا آوردن سر}{50}{subsubsection.4.3.4}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{50}{paragraph*.64}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{51}{paragraph*.65}%
+\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{52}{paragraph*.69}%
+\contentsline {subsubsection}{\numberline {4.3.5}فعالیت بالا رفتن از جعبه}{53}{subsubsection.4.3.5}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{53}{paragraph*.71}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{53}{paragraph*.72}%
+\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{55}{paragraph*.76}%
 \contentsline {subsection}{\numberline {4.4}مقایسه کلی فعالیت‌ها}{55}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}محدودیت‌های نتایج}{56}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}جمع‌بندی فصل}{56}{subsection.4.6}%
@@ -78,4 +86,5 @@
 \contentsline {section}{\numberline {6}پیوست}{60}{section.6}%
 \contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{60}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}ویژگی‌های استخراج‌شده از هر سیگنال}{63}{subsection.6.2}%
-\contentsline {section}{\numberline {7}مراجع}{66}{section.7}%
+\contentsline {subsection}{\numberline {6.3}نمونه سیگنال}{66}{subsection.6.3}%
+\contentsline {section}{\numberline {7}مراجع}{72}{section.7}%

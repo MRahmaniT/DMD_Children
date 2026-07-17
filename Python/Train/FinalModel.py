@@ -29,18 +29,18 @@ from sklearn.model_selection import StratifiedKFold, cross_val_predict
 # EXPERIMENT SETTINGS
 # =====================================================
 
-# 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Stand"
+# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_foot
+TASK = "Rise_Head"
 
 # 2. Did you use action detector on your data or not
 DETECTED = False
 
 # 3. Choose final model
 # Options: "SVM", "KNN", "Random Forest"
-MODEL_NAME = "Random Forest"
+MODEL_NAME = "SVM"
 
 # 4. Choose fixed number of PCA components inside pipeline
-PCA_COMPONENTS = 13
+PCA_COMPONENTS = 15
 
 # 5. Cross-validation settings
 N_SPLITS = 5

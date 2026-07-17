@@ -17,37 +17,41 @@
 \contentsline {figure}{\numberline {17}{\ignorespaces نمونه مقایسه تعداد مؤلفه‌های اصلی}}{31}{figure.caption.20}%
 \contentsline {figure}{\numberline {18}{\ignorespaces نمونه مقایسه مدل‌ها در بازه بهینه}}{32}{figure.caption.21}%
 \contentsline {figure}{\numberline {19}{\ignorespaces فرآیند انجام کامل یک فعالیت}}{33}{figure.caption.22}%
-\contentsline {figure}{\numberline {20}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {21}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{35}{figure.caption.25}%
-\contentsline {figure}{\numberline {22}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{36}{figure.caption.26}%
-\contentsline {figure}{\numberline {23}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{37}{figure.caption.27}%
-\contentsline {figure}{\numberline {24}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{38}{figure.caption.28}%
-\contentsline {figure}{\numberline {25}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{38}{figure.caption.29}%
-\contentsline {figure}{\numberline {26}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت ایستادن}}{39}{figure.caption.31}%
-\contentsline {figure}{\numberline {27}{\ignorespaces نقشه همبستگی ویژگی‌های منتخب در فعالیت ایستادن}}{40}{figure.caption.33}%
-\contentsline {figure}{\numberline {28}{\ignorespaces واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت ایستادن}}{41}{figure.caption.35}%
-\contentsline {figure}{\numberline {29}{\ignorespaces پراکندگی نمونه‌های فعالیت ایستادن در فضای دو مؤلفه اصلی اول}}{41}{figure.caption.36}%
-\contentsline {figure}{\numberline {30}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس دقت در فعالیت ایستادن}}{42}{figure.caption.38}%
-\contentsline {figure}{\numberline {31}{\ignorespaces مقایسه عملکرد مدل‌ها در فعالیت ایستادن}}{42}{figure.caption.39}%
-\contentsline {figure}{\numberline {32}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده با مؤلفه‌های اصلی در فعالیت ایستادن}}{43}{figure.caption.40}%
-\contentsline {figure}{\numberline {33}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده بر اساس ورودی مدل و دقت آن در فعالیت ایستادن}}{43}{figure.caption.41}%
-\contentsline {figure}{\numberline {34}{\ignorespaces ویژگی‌های مهم‌تر بر اساس مدل \lr {Random Forest} در فعالیت ایستادن}}{44}{figure.caption.43}%
-\contentsline {figure}{\numberline {35}{\ignorespaces تغییر دقت مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{44}{figure.caption.44}%
-\contentsline {figure}{\numberline {36}{\ignorespaces تغییر عملکرد مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{45}{figure.caption.45}%
-\contentsline {figure}{\numberline {37}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{45}{figure.caption.46}%
-\contentsline {figure}{\numberline {38}{\ignorespaces عملکرد مدل ماشین بردار پشتیبان آموزش داده شده با ۱۳ مؤلفه اصلی در فعالیت ایستادن}}{46}{figure.caption.48}%
-\contentsline {figure}{\numberline {39}{\ignorespaces توزیع مؤلفه‌های اصلی منتخب برای فعالیت ایستادن}}{47}{figure.caption.50}%
-\contentsline {figure}{\numberline {40}{\ignorespaces نتایج ۵ آزمایش مدل منتخب برای فعالیت ایستادن}}{47}{figure.caption.51}%
-\contentsline {figure}{\numberline {41}{\ignorespaces ماتریس درهم‌ریختگی مدل منتخب برای فعالیت ایستادن}}{48}{figure.caption.52}%
-\contentsline {figure}{\numberline {42}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت برخاستن از صندلی}}{49}{figure.caption.54}%
-\contentsline {figure}{\numberline {43}{\ignorespaces بررسی اثر جداسازی فعالیت در برخاستن از صندلی}}{49}{figure.caption.55}%
-\contentsline {figure}{\numberline {44}{\ignorespaces تغییر عملکرد مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{50}{figure.caption.57}%
-\contentsline {figure}{\numberline {45}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{50}{figure.caption.58}%
-\contentsline {figure}{\numberline {46}{\ignorespaces عملکرد مدل نهایی منتخب در فعالیت برخاستن از صندلی}}{51}{figure.caption.60}%
-\contentsline {figure}{\numberline {47}{\ignorespaces نتایج ارزیابی مدل منتخب برای فعالیت برخاستن از صندلی در تقسیم‌بندی‌های مختلف}}{51}{figure.caption.62}%
-\contentsline {figure}{\numberline {48}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت پریدن}}{52}{figure.caption.64}%
-\contentsline {figure}{\numberline {49}{\ignorespaces بررسی اثر جداسازی فعالیت}}{53}{figure.caption.65}%
-\contentsline {figure}{\numberline {50}{\ignorespaces تغییر عملکرد مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}}{53}{figure.caption.67}%
-\contentsline {figure}{\numberline {51}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}}{54}{figure.caption.68}%
-\contentsline {figure}{\numberline {52}{\ignorespaces عملکرد مدل نهایی منتخب در فعالیت پریدن}}{54}{figure.caption.70}%
-\contentsline {figure}{\numberline {53}{\ignorespaces نتایج ارزیابی مدل منتخب برای فعالیت پریدن در تقسیم‌بندی‌های مختلف}}{55}{figure.caption.72}%
+\contentsline {figure}{\numberline {20}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت ایستادن}}{35}{figure.caption.24}%
+\contentsline {figure}{\numberline {21}{\ignorespaces نقشه همبستگی ویژگی‌های منتخب در فعالیت ایستادن}}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {22}{\ignorespaces واریانس توضیح‌داده‌شده و واریانس تجمعی مؤلفه‌های اصلی در فعالیت ایستادن}}{37}{figure.caption.28}%
+\contentsline {figure}{\numberline {23}{\ignorespaces پراکندگی نمونه‌های فعالیت ایستادن در فضای دو مؤلفه اصلی اول}}{37}{figure.caption.29}%
+\contentsline {figure}{\numberline {24}{\ignorespaces مقایسه عملکرد مدل‌ها بر اساس دقت در فعالیت ایستادن}}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {25}{\ignorespaces مقایسه عملکرد مدل‌ها در فعالیت ایستادن}}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {26}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده با مؤلفه‌های اصلی در فعالیت ایستادن}}{39}{figure.caption.33}%
+\contentsline {figure}{\numberline {27}{\ignorespaces مقایسه عملکرد مدل‌های آموزش داده شده بر اساس ورودی مدل و دقت آن در فعالیت ایستادن}}{39}{figure.caption.34}%
+\contentsline {figure}{\numberline {28}{\ignorespaces ویژگی‌های مهم‌تر بر اساس مدل \lr {Random Forest} در فعالیت ایستادن}}{40}{figure.caption.36}%
+\contentsline {figure}{\numberline {29}{\ignorespaces تغییر دقت مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{40}{figure.caption.37}%
+\contentsline {figure}{\numberline {30}{\ignorespaces تغییر عملکرد مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{41}{figure.caption.38}%
+\contentsline {figure}{\numberline {31}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}}{41}{figure.caption.39}%
+\contentsline {figure}{\numberline {32}{\ignorespaces عملکرد مدل ماشین بردار پشتیبان آموزش داده شده با ۱۳ مؤلفه اصلی در فعالیت ایستادن}}{42}{figure.caption.41}%
+\contentsline {figure}{\numberline {33}{\ignorespaces توزیع مؤلفه‌های اصلی منتخب برای فعالیت ایستادن}}{43}{figure.caption.43}%
+\contentsline {figure}{\numberline {34}{\ignorespaces نتایج ۵ آزمایش مدل منتخب برای فعالیت ایستادن}}{43}{figure.caption.44}%
+\contentsline {figure}{\numberline {35}{\ignorespaces ماتریس درهم‌ریختگی مدل منتخب برای فعالیت ایستادن}}{44}{figure.caption.45}%
+\contentsline {figure}{\numberline {36}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت برخاستن از صندلی}}{45}{figure.caption.47}%
+\contentsline {figure}{\numberline {37}{\ignorespaces بررسی اثر جداسازی فعالیت در برخاستن از صندلی}}{45}{figure.caption.48}%
+\contentsline {figure}{\numberline {38}{\ignorespaces تغییر عملکرد مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{46}{figure.caption.50}%
+\contentsline {figure}{\numberline {39}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{46}{figure.caption.51}%
+\contentsline {figure}{\numberline {40}{\ignorespaces نتایج ارزیابی مدل منتخب برای فعالیت برخاستن از صندلی در تقسیم‌بندی‌های مختلف}}{47}{figure.caption.54}%
+\contentsline {figure}{\numberline {41}{\ignorespaces نمونه سیگنال‌های ثبت‌شده در فعالیت پریدن}}{48}{figure.caption.56}%
+\contentsline {figure}{\numberline {42}{\ignorespaces بررسی اثر جداسازی فعالیت}}{48}{figure.caption.57}%
+\contentsline {figure}{\numberline {43}{\ignorespaces تغییر عملکرد مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}}{49}{figure.caption.59}%
+\contentsline {figure}{\numberline {44}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت پریدن}}{49}{figure.caption.60}%
+\contentsline {figure}{\numberline {45}{\ignorespaces نتایج ارزیابی مدل منتخب برای فعالیت پریدن در تقسیم‌بندی‌های مختلف}}{50}{figure.caption.63}%
+\contentsline {figure}{\numberline {46}{\ignorespaces تغییر عملکرد مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{51}{figure.caption.66}%
+\contentsline {figure}{\numberline {47}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{52}{figure.caption.67}%
+\contentsline {figure}{\numberline {48}{\ignorespaces نتایج ارزیابی مدل منتخب برای فعالیت برخاستن از صندلی در تقسیم‌بندی‌های مختلف}}{53}{figure.caption.70}%
+\contentsline {figure}{\numberline {49}{\ignorespaces تغییر عملکرد مدل منتخب نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{54}{figure.caption.73}%
+\contentsline {figure}{\numberline {50}{\ignorespaces تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت برخاستن از صندلی}}{54}{figure.caption.74}%
+\contentsline {figure}{\numberline {51}{\ignorespaces نتایج ارزیابی مدل منتخب برای فعالیت برخاستن از صندلی در تقسیم‌بندی‌های مختلف}}{55}{figure.caption.77}%
+\contentsline {figure}{\numberline {52}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{66}{figure.caption.79}%
+\contentsline {figure}{\numberline {53}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{67}{figure.caption.80}%
+\contentsline {figure}{\numberline {54}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{68}{figure.caption.81}%
+\contentsline {figure}{\numberline {55}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{69}{figure.caption.82}%
+\contentsline {figure}{\numberline {56}{\ignorespaces نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}}{70}{figure.caption.83}%
+\contentsline {figure}{\numberline {57}{\ignorespaces نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}}{71}{figure.caption.84}%

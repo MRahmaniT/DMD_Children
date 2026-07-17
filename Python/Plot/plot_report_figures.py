@@ -23,7 +23,7 @@ from sklearn.svm import SVC
 # =====================================================
 
 # Write folder names exactly as they exist in Final/Data and Results.
-TASKS = ["Stand", "Sit_To_Stand", "Jump"]
+TASKS = ["Stand", "Sit_To_Stand", "Jump", "Rise_Head"]
 
 # The script will run Normal results and, when available, DetectedAction results.
 PROCESS_NORMAL = True

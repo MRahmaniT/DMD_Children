@@ -24,11 +24,11 @@ from sklearn.model_selection import StratifiedKFold
 # EXPERIMENT SETTINGS
 # =====================================================
 
-# 1. Choose task : Stand / Sit_To_Stand / Jump / ...
-TASK = "Jump"
+# 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_foot
+TASK = "Rise_Head"
 
 # 2. Did you use action detector on your data or not
-DETECTED = False
+DETECTED = True
 
 # 3. Model settings
 MODEL_NAME = "SVM"

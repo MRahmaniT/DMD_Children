@@ -2,24 +2,6 @@
 
 در این فصل، نتایج حاصل از اجرای سامانه پیشنهادی برای تحلیل فعالیت‌های عملکردی شبیه‌سازی‌شده ارائه و بررسی می‌شود. تمرکز اصلی نتایج فعلی بر پنج فعالیت ایستادن، بلند شدن از صندلی، پریدن، بالا رفتن از جعبه و بالا آوردن سر است. هدف این فصل ارائه یک تحلیل پیوسته از مسیر داده خام تا تصمیم مدل است؛ یعنی بررسی این‌که سیگنال‌های ثبت‌شده چه الگوهایی دارند، ویژگی‌ها چه ساختاری پیدا کرده‌اند، مدل‌ها چگونه کلاس‌ها را از هم جدا می‌کنند و کدام بخش‌ها هنوز به بررسی بیشتر نیاز دارند.
 
-% TODO: پس از نهایی شدن فایل‌های Excel، ستون‌های عددی جدول زیر را تکمیل کن.
-\begin{table}[H]
-	\centering
-	\caption{خلاصه فعالیت‌ها و مسیر خروجی‌های مورد استفاده در فصل نتایج}
-	\label{tab:chapter4_activity_outputs}
-	\begin{tabular}{p{3.2cm}p{3.4cm}p{5.8cm}p{2.2cm}}
-		\toprule
-		فعالیت & نوع داده موجود & مسیر کلی خروجی‌ها & وضعیت عددی \\
-		\midrule
-		ایستادن & داده‌های اصلی & \lr{Results/Stand/Normal} &  \\
-		بلند شدن از صندلی & داده‌های اصلی و جداسازی‌شده & \lr{Results/Sit\_To\_Stand} &  \\
-		پریدن & داده‌های اصلی و جداسازی‌شده & \lr{Results/Jump} &  \\
-		بالا آوردن سر & در حال تکمیل &  &  \\
-		بالا رفتن از جعبه & در حال تکمیل &  &  \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
 \subsection{کیفیت داده‌برداری}
 
 در گام ابتدایی باید داده‌های ذخیره شده به صورت فایل اکسل مورد بررسی قرار می‌گرفت تا از دارا بودن کیفیت مناسب برای ادامه مراحل اطمینان حاصل شود. بنابراین در این مرحله نرخ داده‌برداری بررسی شد تا تعداد داده‌های از دست رفته بررسی شود.
@@ -39,25 +21,6 @@
  \footnote{\lr{Bias}}
  نیز مشاهده می‌شد. بنابراین ابتدا با پیدا کردن خطای پیش‌قدر سرعت زاویه‌ای برای هر حسگر و تفریق آن از مقدار خام سپس فیلتر باترورث را اعمال کردیم.
  
-\begin{figure}[H]
-	\centering
-	\makebox[\textwidth][c]{%
-		\includegraphics[width=1.15\linewidth]{Plots/Matlab/A_STS_NoFilter}
-	}
-	\caption{نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}
-	\label{fig:astsnofilter2}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\makebox[\textwidth][c]{%
-		\includegraphics[width=1.15\linewidth]{Plots/Matlab/G_STS_NoFilter}
-	}
-	\caption{نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}
-	\label{fig:gstsnofilter}
-\end{figure}
-
-
  نتیجه اعمال دو مورد فوق را می‌توان در 
 \autoref{fig:astsfilter2}
 و
@@ -65,23 +28,6 @@
 مشاهده کرد. لازم به ذکر است که میزان خطای پیش‌قدر در سرعت زاویه‌ای در مقایسه با مقادیر ثبت شده در این حرکت قابل صرف نظر کردن بود. اما در حرکاتی مانند ایستادن که در اجرای درست اندام فوقانی نباید تحرک خاصی از خود نشان بدهند، اعمال این مورد  می‌تواند به دقیق شدن روند کار کمک کند. نتیجه فیلتر اعمال شده کاملا رضایت‌بخش بود. همانطور که مشاهده می‌کنید جهش‌ها و تغییرات ناگهانی از بین رفته‌اند و سیگنال‌ها هموار
 \footnote{\lr{Smooth}}
 شده‌اند.
-\begin{figure}[H]
-	\centering
-	\makebox[\textwidth][c]{%
-		\includegraphics[width=1.15\linewidth]{Plots/Matlab/A_STS_Filter}
-	}
-	\caption{نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}
-	\label{fig:astsfilter2}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\makebox[\textwidth][c]{%
-		\includegraphics[width=1.15\linewidth]{Plots/Matlab/G_STS_Filter}
-	}
-	\caption{نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}
-	\label{fig:gstsfilter}
-\end{figure}
 
 گام بعدی تشخیص شروع و پایان فعالیت اجرا شده و جداسازی آن بخش بود. خروجی فرآیند در 
 \autoref{fig:astsaction2}
@@ -96,23 +42,7 @@
 مشاهده کرد. انتهای حرکت تقریبا با انتهای داده برداری یکی شده است. این مورد را نیز می‌توان از حرکت سر در 
 \autoref{fig:gstsfilter}
 نتیجه گرفت. بنابراین انتظار می‌رود که یک بازه از نقاط داده بین  ۲۰۰ و ۵۰۰ به عنوان انجام فعالیت جدا شود. این مورد نیز به خوبی صورت گرفت و یک بازه شامل تقریبا ۳۰۰ داده از انتهای هر سیگنال جدا شد.
-\begin{figure}[H]
-	\centering
-	\makebox[\textwidth][c]{%
-		\includegraphics[width=1.15\linewidth]{Plots/Matlab/A_STS_Action}
-	}
-	\caption{نمونه سیگنال شتاب خطی در فعالیت برخاستن از صندلی}
-	\label{fig:astsaction2}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\makebox[\textwidth][c]{%
-		\includegraphics[width=1.15\linewidth]{Plots/Matlab/G_STS_Action}
-	}
-	\caption{نمونه سیگنال سرعت زاویه‌ای در فعالیت برخاستن از صندلی}
-	\label{fig:gstsaction}
-\end{figure}
 
 
 \subsection{نتایج فعالیت‌ها}
@@ -127,9 +57,9 @@
 
 \input{Chapters/ResultActivities/Activity_Jump}
 
-%\input{Chapters/ResultActivities/Activity_Head_Raise}
+\input{Chapters/ResultActivities/Activity_Head_Raise}
 
-%\input{Chapters/ResultActivities/Activity_Box_Step}
+\input{Chapters/ResultActivities/Activity_Box_Step}
 
 \subsection{مقایسه کلی فعالیت‌ها}
 
@@ -146,13 +76,13 @@
 			\midrule
 	ایستادن & ندارد &  ماشین بردار پشتیبان & ۱۳ & ۹۰\\
 			\midrule
-	بلند شدن از صندلی & ندارد &  ماشین بردار پشتیبان & ۱۴ & ۸۰\\
+	برخاستن از صندلی & ندارد &  ماشین بردار پشتیبان & ۱۴ & ۸۰\\
 			\midrule
 	پریدن & ندارد &  ماشین بردار پشتیبان & ۱۵ & ۹۰\\
 			\midrule
-	بالا آوردن سر & ندارد &  ماشین بردار پشتیبان & ۱۳ & ۹۰\\
+	بالا آوردن سر & ندارد &  ماشین بردار پشتیبان & - & -\\
 			\midrule
-	بالا رفتن از جعبه & ندارد &  ماشین بردار پشتیبان & ۱۳ & ۹۰\\
+	بالا رفتن از جعبه & ندارد &  ماشین بردار پشتیبان & - & -\\
 			\bottomrule
 		\end{tabular}
 	}
