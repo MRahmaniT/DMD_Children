@@ -78,27 +78,26 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Baseline/Accuracy_Bar_Baseline}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Baseline/Accuracy_Bar_Baseline}
 	\caption{مقایسه عملکرد مدل‌ها بر اساس دقت در فعالیت ایستادن}
 	\label{fig:accuracybarbaseline}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Baseline/Metric_Distribution_Baseline}
-	\caption{مقایسه عملکرد مدل‌ها در فعالیت ایستادن}
-	\label{fig:metricdistributionbaseline}
 \end{figure}
 
 پراکندگی معیارها در
 \autoref{fig:metricdistributionbaseline}
 برای بررسی ثبات مدل‌ها درتقسیم‌بندی‌های
 \footnote{\lr{Fold}}
- مختلف استفاده شد. مدلی که میانگین بالا و پراکندگی کمتر داشته باشد، برای انتخاب نهایی مناسب‌تر است.
+مختلف استفاده شد. مدلی که میانگین بالا و پراکندگی کمتر داشته باشد، برای انتخاب نهایی مناسب‌تر است.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Baseline/Metric_Distribution_Baseline}
+	\caption{مقایسه عملکرد مدل‌ها در فعالیت ایستادن}
+	\label{fig:metricdistributionbaseline}
+\end{figure}
 
 طبق موارد ذکر شده در 
-\autoref{sec:demansionreduction2}
+\hyperref[sec:demansionreduction2]{کاهش بعد ویژگی‌ها }
 اکنون لازم است که نتایج را هنگام استفاده از مؤلفه‌های اصلی بررسی کنیم. در این حالت بر اساس 
 \autoref{fig:metricdistributionpipelinepca}
  تقریبا در تمامی معیارها دو مدل ماشین بردار پشتیبان و جنگل تصادفی عملکرد خوب و یکسانی از خود به نمایش می‌گذارند.
@@ -143,7 +142,7 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA}
 	\caption{تغییر دقت مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
 	\label{fig:stand_normal_svm_metrics_vs_pca_components}
 \end{figure}
@@ -153,7 +152,7 @@
 متوجه شدیم که تمامی معیارها روند یکسانی با دقت دارند. پس با پیدا کردن تعداد مؤلفه اصلی بهینه نسبت به دقت می‌توان فرض کرد دیگر معیارها نیز به خوبی ارضا می‌شوند.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/All_Metrics_vs_PCA}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Normal/FindPrincipalComponents_PipelinePCA_Stand/Figures/All_Metrics_vs_PCA}
 	\caption{تغییر عملکرد مدل ماشین بردار پشتیبان نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
 	\label{fig:allmetricsvspca}
 \end{figure}
@@ -167,7 +166,7 @@
 ببینید. با این حساب برای فعالیت ایستادن تعداد ۱۳ مؤلفه اصلی و مدل طبقه‌بند ماشین بردار پشتیبان انتخاب شد.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA_Components}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Normal/CompareNumberOfPrincipalComponents_PipelinePCA_Stand/Figures/Accuracy_vs_PCA_Components}
 	\caption{تغییر دقت مدل‌ها نسبت به تعداد مؤلفه‌های اصلی در فعالیت ایستادن}
 	\label{fig:stand_normal_metrics_vs_pca_components}
 \end{figure}
@@ -192,7 +191,7 @@
 آمده است.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Final_Model_Main_Metrics_Bar}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Final_Model_Main_Metrics_Bar}
 	\caption{عملکرد مدل ماشین بردار پشتیبان آموزش داده شده با ۱۳ مؤلفه اصلی در فعالیت ایستادن}
 	\label{fig:finalmodelmainmetricsbar}
 \end{figure}
@@ -203,25 +202,28 @@
 \autoref{tab:stand_selected_setup}
 آمده است، با روش اعتبارسنجی طبقه‌بندی متقاطع مورد آزمایش قرار گرفت. توزیع مؤلفه‌های اصلی انتخاب شده در
 \autoref{fig:pcaexplainedvariance}
-آمده است. بدین ترتیب مؤلفه‌های اصلی منتخب حدود ۷۰ درصد واریانس داده‌های اصلی را دارا هستند. از آنجایی که در این آزمایش هر بار داده‌ها به ۲ قسمت تقسیم شدند و ۵ بار آزمایش تکرار شده است، نتایج ۵ مرتبه آزمایش در
-\autoref{fig:cvfoldmetrics}
-آمده‌اند. بررسی نتایج تقسیم‌بندی‌های مختلف امکان ارزیابی میزان ثبات مدل و وابستگی عملکرد آن به نحوه انتخاب داده‌های آموزش و آزمون را فراهم می‌کند. برای بررسی دقیق‌تر خطا در پژوهش‌های بعدی نیز ماتریس درهم‌ریختگی نیز در 
-\autoref{fig:normalizedconfusionmatrix}
-آورده شده است.
+آمده است. بدین ترتیب مؤلفه‌های اصلی منتخب حدود ۷۰ درصد واریانس داده‌های اصلی را دارا هستند. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/PCA_Explained_Variance}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/PCA_Explained_Variance}
 	\caption{توزیع مؤلفه‌های اصلی منتخب برای فعالیت ایستادن}
 	\label{fig:pcaexplainedvariance}
 \end{figure}
 
+از آنجایی که در این آزمایش هر بار داده‌ها به ۲ قسمت تقسیم شدند و ۵ بار آزمایش تکرار شده است، نتایج ۵ مرتبه آزمایش در
+\autoref{fig:cvfoldmetrics}
+آمده‌اند. بررسی نتایج تقسیم‌بندی‌های مختلف امکان ارزیابی میزان ثبات مدل و وابستگی عملکرد آن به نحوه انتخاب داده‌های آموزش و آزمون را فراهم می‌کند.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/CV_Fold_Metrics}
+	\includegraphics[width=0.7\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/CV_Fold_Metrics}
 	\caption{نتایج ۵ آزمایش مدل منتخب برای فعالیت ایستادن}
 	\label{fig:cvfoldmetrics}
 \end{figure}
 
+برای بررسی دقیق‌تر خطا در پژوهش‌های بعدی نیز ماتریس درهم‌ریختگی نیز در 
+\autoref{fig:normalizedconfusionmatrix}
+آورده شده است. در این فعالیت همان‌طور که از قبل پیش‌بینی می‌شد تشخیص نمره ۲ راحت بوده و مشکل اصلی در تشخیص نمره ۱ است. البته ممکت است مشکل از داده‌های موجود نیز باشد و با تعداد بالاتر داده‌‌ها بتوان این مشکل را نیز برطرف کرد.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\linewidth]{../Results/Stand/Final/Final_Model_SVM_PCA13/Figures/Normalized_Confusion_Matrix}

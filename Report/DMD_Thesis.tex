@@ -31,8 +31,8 @@
 \usepackage{transparent}
 \usepackage{titlesec}
 
-\usepackage{indentfirst}
-\setlength{\parindent}{1cm}
+%\usepackage{indentfirst}
+%\setlength{\parindent}{0cm}
 
 
 % ==================================================
@@ -190,8 +190,10 @@ eprint=false
 	{\theparagraph}
 	{1em}
 	{}
-	
-	
+	\titlespacing*{\paragraph}
+	{0pt}       % تورفتگی عنوان
+	{2.5ex}     % فاصله قبل از عنوان
+	{1.2ex} 	% فاصله بعد از عنوان
 	% ==================================================
 	% Title page
 	% ==================================================

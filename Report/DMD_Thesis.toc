@@ -12,79 +12,79 @@
 \contentsline {subsection}{\numberline {2.5}استخراج ویژگی}{7}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}کاهش بعد داده‌ها}{8}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}یادگیری ماشین}{8}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}معیارهای ارزیابی مدل}{9}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.8}معیارهای ارزیابی مدل}{8}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}ماشین بردار پشتیبان}{9}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}نزدیک‌ترین همسایه}{10}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}جنگل تصادفی}{11}{subsection.2.11}%
-\contentsline {section}{\numberline {3}طراحی و پیاده‌سازی سامانه پیشنهادی}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}مقدمه}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}روند تصمیم‌گیری }{12}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}مقیاس \lr {NSAA} به عنوان معیار ارزیابی}{14}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}حسگرهای اینرسیایی برای ثبت حرکات}{14}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}طراحی سامانه پیشنهادی}{15}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}پیاده‌سازی سامانه داده‌برداری}{16}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}انتخاب حسگر}{16}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}چیدمان حسگرها}{17}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}نرم‌افزار تعبیه‌شده روی بردهای حسگر}{18}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}نرم‌افزار توسعه‌یافته در محیط متلب}{19}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.5}فرآیند انجام آزمون‌ها و ثبت داده‌ها}{21}{subsubsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.5}پیش‌پردازش داده‌ها در نرم‌افزار متلب}{22}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}دریافت فایل‌های خام}{22}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}فیلترگذاری سیگنال‌ها}{22}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}جداسازی فعالیت‌ها}{24}{subsubsection.3.5.3}%
-\contentsline {subsubsection}{\numberline {3.5.4}آماده‌سازی داده‌ها}{25}{subsubsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.6}استخراج ویژگی‌ها}{25}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}ویژگی‌های استخراج‌شده}{26}{subsubsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.7}کاهش بعد ویژگی‌ها}{26}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}آموزش مدل‌های یادگیری ماشین}{28}{subsection.3.8}%
-\contentsline {subsubsection}{\numberline {3.8.1}تقسیم‌بندی تصادفی با تعداد نمونه ثابت}{28}{subsubsection.3.8.1}%
-\contentsline {subsubsection}{\numberline {3.8.2}اعتبارسنجی طبقه‌بندی متقاطع}{28}{subsubsection.3.8.2}%
-\contentsline {subsubsection}{\numberline {3.8.3}مدل‌های مورد استفاده}{29}{subsubsection.3.8.3}%
-\contentsline {subsubsection}{\numberline {3.8.4}\lr {Pipeline} پردازش داده}{29}{subsubsection.3.8.4}%
-\contentsline {subsection}{\numberline {3.9}معیارهای ارزیابی}{29}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}بررسی تعداد ویژگی‌های مؤثر}{30}{subsection.3.10}%
-\contentsline {subsection}{\numberline {3.11}مقایسه مدل‌ها در بازه تعداد مؤلفه‌های اصلی مؤثر}{31}{subsection.3.11}%
-\contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{32}{subsection.3.12}%
-\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{32}{subsection.3.13}%
-\contentsline {subsection}{\numberline {3.14}جمع‌بندی}{33}{subsection.3.14}%
-\contentsline {section}{\numberline {4}نتایج و بحث}{34}{section.4}%
-\contentsline {subsection}{\numberline {4.1}کیفیت داده‌برداری}{34}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}کیفیت پیش‌پردازش داده‌ها}{34}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{35}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}فعالیت ایستادن}{35}{subsubsection.4.3.1}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{35}{paragraph*.24}%
-\contentsline {paragraph}{ساختار ویژگی‌ها}{36}{paragraph*.26}%
-\contentsline {paragraph}{کاهش بعد ویژگی‌ها}{36}{paragraph*.28}%
-\contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{38}{paragraph*.31}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{40}{paragraph*.36}%
-\contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{42}{paragraph*.43}%
-\contentsline {subsubsection}{\numberline {4.3.2}فعالیت برخاستن از صندلی}{44}{subsubsection.4.3.2}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{44}{paragraph*.47}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{45}{paragraph*.50}%
-\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{47}{paragraph*.54}%
-\contentsline {subsubsection}{\numberline {4.3.3}فعالیت پریدن}{47}{subsubsection.4.3.3}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{47}{paragraph*.56}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{48}{paragraph*.59}%
-\contentsline {paragraph}{جمع‌بندی فعالیت پریدن}{50}{paragraph*.63}%
-\contentsline {subsubsection}{\numberline {4.3.4}فعالیت بالا آوردن سر}{50}{subsubsection.4.3.4}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{51}{paragraph*.65}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{52}{paragraph*.68}%
-\contentsline {paragraph}{جمع‌بندی فعالیت بالا آوردن سر}{53}{paragraph*.72}%
-\contentsline {subsubsection}{\numberline {4.3.5}فعالیت بالا رفتن از جعبه}{54}{subsubsection.4.3.5}%
-\contentsline {paragraph}{گزارش کلی فعالیت}{54}{paragraph*.74}%
-\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{55}{paragraph*.77}%
-\contentsline {paragraph}{جمع‌بندی فعالیت بالا رفتن از جعبه با پای راست}{57}{paragraph*.81}%
-\contentsline {subsection}{\numberline {4.4}مقایسه کلی فعالیت‌ها}{58}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}محدودیت‌های نتایج}{58}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}جمع‌بندی فصل}{58}{subsection.4.6}%
-\contentsline {section}{\numberline {5}جمع‌بندی و پیشنهادها}{59}{section.5}%
-\contentsline {subsection}{\numberline {5.1}دستاوردهای اصلی}{59}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}جمع‌بندی نتایج فعالیت‌ها}{59}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}محدودیت‌های پژوهش}{61}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}پیشنهادها برای کارهای آینده}{61}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}نتیجه‌گیری نهایی}{62}{subsection.5.5}%
-\contentsline {section}{\numberline {6}پیوست}{63}{section.6}%
-\contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{63}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}ویژگی‌های استخراج‌شده از هر سیگنال}{66}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}نمونه سیگنال}{69}{subsection.6.3}%
-\contentsline {section}{\numberline {7}مراجع}{75}{section.7}%
+\contentsline {subsection}{\numberline {2.10}نزدیک‌ترین همسایه}{9}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}جنگل تصادفی}{10}{subsection.2.11}%
+\contentsline {section}{\numberline {3}طراحی و پیاده‌سازی سامانه پیشنهادی}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}مقدمه}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}روند تصمیم‌گیری }{11}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}مقیاس \lr {NSAA} به عنوان معیار ارزیابی}{13}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}حسگرهای اینرسیایی برای ثبت حرکات}{13}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}طراحی سامانه پیشنهادی}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}پیاده‌سازی سامانه داده‌برداری}{15}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}انتخاب حسگر}{15}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}چیدمان حسگرها}{16}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}نرم‌افزار تعبیه‌شده روی بردهای حسگر}{17}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}نرم‌افزار توسعه‌یافته در محیط متلب}{18}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}فرآیند انجام آزمون‌ها و ثبت داده‌ها}{19}{subsubsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.5}پیش‌پردازش داده‌ها در نرم‌افزار متلب}{20}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}دریافت فایل‌های خام}{20}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}فیلترگذاری سیگنال‌ها}{21}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}جداسازی فعالیت‌ها}{21}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}آماده‌سازی داده‌ها}{22}{subsubsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.6}استخراج ویژگی‌ها}{22}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}ویژگی‌های استخراج‌شده}{22}{subsubsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.7}کاهش بعد ویژگی‌ها}{23}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}آموزش مدل‌های یادگیری ماشین}{24}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}تقسیم‌بندی تصادفی با تعداد نمونه ثابت}{25}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}اعتبارسنجی طبقه‌بندی متقاطع}{25}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.3}مدل‌های مورد استفاده}{25}{subsubsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.4}\lr {Pipeline} پردازش داده}{26}{subsubsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.9}معیارهای ارزیابی}{26}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}بررسی تعداد ویژگی‌های مؤثر}{27}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}مقایسه مدل‌ها در بازه تعداد مؤلفه‌های اصلی مؤثر}{27}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}روند اجرای آزمایش‌ها}{28}{subsection.3.12}%
+\contentsline {subsection}{\numberline {3.13}ابزارهای نرم‌افزاری مورد استفاده}{29}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}جمع‌بندی}{29}{subsection.3.14}%
+\contentsline {section}{\numberline {4}نتایج و بحث}{30}{section.4}%
+\contentsline {subsection}{\numberline {4.1}کیفیت داده‌برداری}{30}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}کیفیت پیش‌پردازش داده‌ها}{30}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}نتایج فعالیت‌ها}{31}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}فعالیت ایستادن}{31}{subsubsection.4.3.1}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{31}{paragraph*.20}%
+\contentsline {paragraph}{ساختار ویژگی‌ها}{32}{paragraph*.22}%
+\contentsline {paragraph}{کاهش بعد ویژگی‌ها}{32}{paragraph*.24}%
+\contentsline {paragraph}{عملکرد طبقه‌بند‌ها}{34}{paragraph*.27}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{35}{paragraph*.32}%
+\contentsline {paragraph}{جمع‌بندی فعالیت ایستادن}{38}{paragraph*.39}%
+\contentsline {subsubsection}{\numberline {4.3.2}فعالیت برخاستن از صندلی}{39}{subsubsection.4.3.2}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{40}{paragraph*.43}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{41}{paragraph*.46}%
+\contentsline {paragraph}{جمع‌بندی فعالیت برخاستن از صندلی}{42}{paragraph*.50}%
+\contentsline {subsubsection}{\numberline {4.3.3}فعالیت پریدن}{42}{subsubsection.4.3.3}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{42}{paragraph*.52}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{43}{paragraph*.55}%
+\contentsline {paragraph}{جمع‌بندی فعالیت پریدن}{44}{paragraph*.59}%
+\contentsline {subsubsection}{\numberline {4.3.4}فعالیت بالا آوردن سر}{45}{subsubsection.4.3.4}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{45}{paragraph*.61}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{46}{paragraph*.64}%
+\contentsline {paragraph}{جمع‌بندی فعالیت بالا آوردن سر}{48}{paragraph*.68}%
+\contentsline {subsubsection}{\numberline {4.3.5}فعالیت بالا رفتن از جعبه}{48}{subsubsection.4.3.5}%
+\contentsline {paragraph}{گزارش کلی فعالیت}{49}{paragraph*.70}%
+\contentsline {paragraph}{اهمیت ویژگی‌ها و انتخاب مؤلفه‌ها}{50}{paragraph*.73}%
+\contentsline {paragraph}{جمع‌بندی فعالیت بالا رفتن از جعبه با پای راست}{51}{paragraph*.77}%
+\contentsline {subsection}{\numberline {4.4}مقایسه کلی فعالیت‌ها}{52}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}محدودیت‌های نتایج}{52}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}جمع‌بندی فصل}{52}{subsection.4.6}%
+\contentsline {section}{\numberline {5}جمع‌بندی و پیشنهادها}{53}{section.5}%
+\contentsline {subsection}{\numberline {5.1}دستاوردهای اصلی}{53}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}جمع‌بندی نتایج فعالیت‌ها}{53}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}محدودیت‌های پژوهش}{55}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}پیشنهادها برای کارهای آینده}{55}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}نتیجه‌گیری نهایی}{56}{subsection.5.5}%
+\contentsline {section}{\numberline {6}پیوست}{57}{section.6}%
+\contentsline {subsection}{\numberline {6.1}شرح فعالیت‌های \lr {NSAA} و پروتکل شبیه‌سازی درجات عملکردی}{57}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}نمونه سیگنال}{60}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}ویژگی‌های استخراج‌شده از هر سیگنال}{66}{subsection.6.3}%
+\contentsline {section}{\numberline {7}مراجع}{69}{section.7}%
