@@ -25,7 +25,7 @@ from sklearn.model_selection import StratifiedKFold
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_Foot
-TASK = "Climb_Box_Right_Foot"
+TASK = "Sit_To_Stand"
 
 # 2. Did you use action detector on your data or not
 DETECTED = False

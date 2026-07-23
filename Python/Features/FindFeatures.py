@@ -8,10 +8,10 @@ import pandas as pd
 # =====================================================
 
 # 1. Choose task : Stand / Sit_To_Stand / Jump / Rise_Head / Climb_Box_Right_Foot
-TASK = "Climb_Box_Right_Foot" 
+TASK = "Sit_To_Stand" 
 
 # 2. Did you use action detector on your data or not
-DETECTED = True
+DETECTED = False
 
 # 3. Choose range of indexes for above task (Example for range 2 to 26))
 INDEX_RANGE_MIN = 2
