@@ -19,7 +19,8 @@ plotFolder = ...
 base = "Filtered.Sit_To_Stand_2";
 fileNumber = 2;
 
-% Two signals to compare
+% Signals to plot
+timeVariable = "RightFootTime";
 accVariable  = "RightFootAx";
 gyroVariable = "RightFootGx";
 
@@ -28,11 +29,11 @@ fs = 100;  % Hz
 
 % Detection parameters
 baselineDuration = 0.5;   % Baseline duration in seconds
-thresholdRatio   = 0.03;  % 3% difference from baseline
+thresholdRatio   = 0.015;  % 3% difference from baseline
 
-% Plot range in samples
+% Plot range in seconds
 % Use [] to display the complete recording.
-displaySampleRange = [0 500];
+displayTimeRange = [0 5];
 
 % Save settings
 saveDetectedData = true;
@@ -58,11 +59,15 @@ if numberOfSamples == 0
 end
 
 % Sample numbers starting from zero
-sample = (0:numberOfSamples-1)';
+sample = (0:numberOfSamples - 1)';
 
 %% ================= CHECK SELECTED SIGNALS =================
 
 variableNames = data.Properties.VariableNames;
+
+if ~ismember(char(timeVariable), variableNames)
+    error('Time variable "%s" was not found.', timeVariable);
+end
 
 if ~ismember(char(accVariable), variableNames)
     error('Accelerometer variable "%s" was not found.', accVariable);
@@ -72,13 +77,20 @@ if ~ismember(char(gyroVariable), variableNames)
     error('Gyroscope variable "%s" was not found.', gyroVariable);
 end
 
-%% ================= EXTRACT TWO SIGNALS =================
+%% ================= EXTRACT TIME AND SIGNALS =================
 
-accSignal = data.(char(accVariable));
-gyroSignal = data.(char(gyroVariable));
+% Convert time from milliseconds to seconds and make it start from zero
+time = double(data.(char(timeVariable)));
+time = time(:);
 
-accSignal = double(accSignal(:));
-gyroSignal = double(gyroSignal(:));
+time = time / 1000;
+time = time - time(1);
+
+accSignal = double(data.(char(accVariable)));
+gyroSignal = double(data.(char(gyroVariable)));
+
+accSignal = accSignal(:);
+gyroSignal = gyroSignal(:);
 
 % The input file is already filtered and its gyroscope bias was already
 % removed in the filtering code. Therefore, do not subtract the bias again.
@@ -178,6 +190,10 @@ if motionDetected
     globalStart = min(validStartIdxs);
     globalEnd = max(validEndIdxs);
 
+    % Corresponding detection times
+    startTime = time(globalStart);
+    endTime = time(globalEnd);
+
     cutData = data(globalStart:globalEnd, :);
 
     fprintf('\nAction detected successfully.\n');
@@ -185,6 +201,9 @@ if motionDetected
     fprintf('MATLAB end index:   %d\n', globalEnd);
     fprintf('Start sample:       %d\n', globalStart - 1);
     fprintf('End sample:         %d\n', globalEnd - 1);
+    fprintf('Start time:         %.3f seconds\n', startTime);
+    fprintf('End time:           %.3f seconds\n', endTime);
+    fprintf('Action duration:    %.3f seconds\n', endTime - startTime);
     fprintf('Detected length:    %d samples\n', ...
         globalEnd - globalStart + 1);
 
@@ -194,6 +213,9 @@ else
 
     globalStart = NaN;
     globalEnd = NaN;
+
+    startTime = NaN;
+    endTime = NaN;
 
     % Preserve complete data if no action is detected
     cutData = data;
@@ -222,19 +244,19 @@ end
 
 fig = figure( ...
     'Color', 'white', ...
-    'Position', [100 100 1100 750]);
+    'Name', 'Action Detection');
 
 tiledlayout( ...
     2, 1, ...
     'TileSpacing', 'compact', ...
     'Padding', 'compact');
 
-%% Accelerometer plot
+%% ================= ACCELEROMETER PLOT =================
 
 nexttile;
 
 plot( ...
-    sample, ...
+    time, ...
     accSignal, ...
     'LineWidth', 0.9, ...
     'DisplayName', 'Complete signal');
@@ -243,41 +265,52 @@ hold on;
 
 if motionDetected
 
-    detectedSamples = globalStart:globalEnd;
+    detectedIndices = globalStart:globalEnd;
 
     plot( ...
-        sample(detectedSamples), ...
-        accSignal(detectedSamples), ...
+        time(detectedIndices), ...
+        accSignal(detectedIndices), ...
         'LineWidth', 2, ...
         'DisplayName', 'Detected action');
 
+    % Start line based on time, not sample index
     xline( ...
-        globalStart - 1, ...
+        startTime, ...
         '--', ...
-        'Start', ...
+        sprintf('Start: %.2f s', startTime), ...
+        'LineWidth', 1.2, ...
+        'LabelVerticalAlignment', 'bottom', ...
         'HandleVisibility', 'off');
 
+    % End line based on time, not sample index
     xline( ...
-        globalEnd - 1, ...
+        endTime, ...
         '--', ...
-        'End', ...
+        sprintf('End: %.2f s', endTime), ...
+        'LineWidth', 1.2, ...
+        'LabelVerticalAlignment', 'bottom', ...
         'HandleVisibility', 'off');
 end
 
 grid on;
-xlabel('Sample');
-ylabel('Acceleration');
-title(accVariable + " — Complete and Detected Action");
-legend('Location', 'best');
 
-applySampleLimits(displaySampleRange, numberOfSamples);
+xlabel('Time (s)');
+ylabel('Acceleration (g)');
 
-%% Gyroscope plot
+title( ...
+    accVariable + " — Complete and Detected Action", ...
+    'Interpreter', 'none');
+
+legend('Location', 'northeast');
+
+applyTimeLimits(displayTimeRange, time);
+
+%% ================= GYROSCOPE PLOT =================
 
 nexttile;
 
 plot( ...
-    sample, ...
+    time, ...
     gyroSignal, ...
     'LineWidth', 0.9, ...
     'DisplayName', 'Complete signal');
@@ -286,42 +319,59 @@ hold on;
 
 if motionDetected
 
-    detectedSamples = globalStart:globalEnd;
+    detectedIndices = globalStart:globalEnd;
 
     plot( ...
-        sample(detectedSamples), ...
-        gyroSignal(detectedSamples), ...
+        time(detectedIndices), ...
+        gyroSignal(detectedIndices), ...
         'LineWidth', 2, ...
         'DisplayName', 'Detected action');
 
+    % Start line based on time, not sample index
     xline( ...
-        globalStart - 1, ...
+        startTime, ...
         '--', ...
-        'Start', ...
+        sprintf('Start: %.2f s', startTime), ...
+        'LineWidth', 1.2, ...
+        'LabelVerticalAlignment', 'bottom', ...
         'HandleVisibility', 'off');
 
+    % End line based on time, not sample index
     xline( ...
-        globalEnd - 1, ...
+        endTime, ...
         '--', ...
-        'End', ...
+        sprintf('End: %.2f s', endTime), ...
+        'LineWidth', 1.2, ...
+        'LabelVerticalAlignment', 'bottom', ...
         'HandleVisibility', 'off');
 end
 
 grid on;
-xlabel('Sample');
-ylabel('Angular velocity');
-title(gyroVariable + " — Complete and Detected Action");
-legend('Location', 'best');
 
-applySampleLimits(displaySampleRange, numberOfSamples);
+xlabel('Time (s)');
+ylabel('Angular velocity (deg/s)');
+
+title( ...
+    gyroVariable + " — Complete and Detected Action", ...
+    'Interpreter', 'none');
+
+legend('Location', 'northeast');
+
+applyTimeLimits(displayTimeRange, time);
+
+%% ================= FIGURE TITLE =================
 
 if motionDetected
+
     figureTitle = sprintf( ...
-        '%s | Detected samples: %d to %d', ...
+        '%s | Detected time: %.2f to %.2f s | Duration: %.2f s', ...
         FileName, ...
-        globalStart - 1, ...
-        globalEnd - 1);
+        startTime, ...
+        endTime, ...
+        endTime - startTime);
+
 else
+
     figureTitle = sprintf( ...
         '%s | No action detected', ...
         FileName);
@@ -388,23 +438,57 @@ end
 
 %% ================= LOCAL FUNCTION =================
 
-function applySampleLimits(displayRange, numberOfSamples)
+function applyTimeLimits(displayRange, time)
 
-    if isempty(displayRange)
-        xlim([0, max(1, numberOfSamples - 1)]);
+    % Remove invalid time values when determining the valid range
+    validTime = time(isfinite(time));
+
+    if isempty(validTime)
+        warning('No valid time values were found.');
         return;
     end
 
-    minimumSample = max(0, displayRange(1));
-    maximumSample = min( ...
-        displayRange(2), ...
-        numberOfSamples - 1);
+    recordingStartTime = validTime(1);
+    recordingEndTime = validTime(end);
 
-    if maximumSample <= minimumSample
-        maximumSample = max( ...
-            minimumSample + 1, ...
-            numberOfSamples - 1);
+    % Display the complete recording
+    if isempty(displayRange)
+
+        if recordingEndTime > recordingStartTime
+            xlim([recordingStartTime, recordingEndTime]);
+        end
+
+        return;
     end
 
-    xlim([minimumSample maximumSample]);
+    % Make sure the display range contains two values
+    if numel(displayRange) ~= 2
+        warning( ...
+            ['displayTimeRange must contain two values. ', ...
+             'The complete recording will be displayed.']);
+
+        if recordingEndTime > recordingStartTime
+            xlim([recordingStartTime, recordingEndTime]);
+        end
+
+        return;
+    end
+
+    minimumTime = max(recordingStartTime, displayRange(1));
+    maximumTime = min(recordingEndTime, displayRange(2));
+
+    if maximumTime <= minimumTime
+
+        warning( ...
+            ['The selected display time range is invalid. ', ...
+             'The complete recording will be displayed.']);
+
+        if recordingEndTime > recordingStartTime
+            xlim([recordingStartTime, recordingEndTime]);
+        end
+
+        return;
+    end
+
+    xlim([minimumTime, maximumTime]);
 end
