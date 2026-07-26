@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project presents an end-to-end pipeline for automatic assessment of motor function in children with Duchenne Muscular Dystrophy (DMD) using wearable Inertial Measurement Units (IMUs) and machine learning.
+This project presents an end-to-end pipeline for automatic assessment of motor function in children with Duchenne Muscular Dystrophy (DMD) using wearable Inertial Measurement Units (IMUs) and Machine Learning models.
 
 The proposed system records motion data from five wearable IMU sensors during functional tasks derived from the North Star Ambulatory Assessment (NSAA). The collected signals are processed, transformed into statistical features, reduced using Principal Component Analysis (PCA), and finally used to train machine learning classifiers for predicting patients' functional performance.
 
