@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  19 JUL 2026 01:56
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 JUL 2026 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2188,10 +2188,10 @@ Package logreq Info: Writing requests to 'DMD_Thesis.run.xml'.
 Here is how much of TeX's memory you used:
  27168 strings out of 473832
  608444 string characters out of 5729482
- 1424113 words of memory out of 5000000
+ 1424104 words of memory out of 5000000
  49647 multiletter control sequences out of 15000+600000
  566133 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,13n,95p,2772b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,95p,2407b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DMD_Thesis.pdf (81 pages).
